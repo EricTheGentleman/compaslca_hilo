@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "734607c530",
+  "name": "Floor-3-Schichplatte-19mm-715156",
+  "total_steps": 2,
+  "total_tokens": 2741,
+  "total_prompt_tokens": 2589,
+  "total_completion_tokens": 152,
+  "total_processing_time": 3.3120000000000003,
+  "total_cost_usd": 0.015225,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 995,
+      "completion_tokens": 63,
+      "processing_time": 1.565,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00592
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1594,
+      "completion_tokens": 89,
+      "processing_time": 1.747,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009305
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', thickness 19mm, categorized under 'Floors'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichplatte 19mm, Type: IfcSlab, Material Name: 3-Schicht-Platte, Thickness: 0.019m, Structural: False",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "CompilationGroupID": "f9691ec733",
+  "Name": "Basic-Wall-Wärmedämmung_Mineralwolle_130-1839774",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Steinwolle",
+      "ID": "10.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.816",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.757",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0592",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "1360",
+      "UBP (Manufacturing)": "1240",
+      "UBP (Disposal)": "116",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1.65",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1.64",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0107",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "3.23",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "3.1",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.133"
+    },
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.617",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.558",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0592",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "1100",
+      "UBP (Manufacturing)": "982",
+      "UBP (Disposal)": "116",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2.01",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0107",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "2.55",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2.41",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.133"
+    }
+  ]
+}

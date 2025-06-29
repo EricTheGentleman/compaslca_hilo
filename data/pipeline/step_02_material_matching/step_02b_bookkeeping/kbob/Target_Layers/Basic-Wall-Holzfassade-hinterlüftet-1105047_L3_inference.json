@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "78593db8a4_L3",
+  "name": "Basic-Wall-Holzfassade-hinterlüftet-1105047_L3",
+  "total_steps": 2,
+  "total_tokens": 2872,
+  "total_prompt_tokens": 2731,
+  "total_completion_tokens": 141,
+  "total_processing_time": 4.925,
+  "total_cost_usd": 0.01577,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1066,
+      "completion_tokens": 76,
+      "processing_time": 1.547,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00647
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1665,
+      "completion_tokens": 65,
+      "processing_time": 3.378,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0093
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "IfcWall with material layers including 'Holzschalung Vertikal, Nadelholz, schwarz gestrichen' and 'Luft'. The primary material of interest is 'Holz'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a non-structural, ventilated wooden facade wall with a layer of air. The relevant material layer is 'Luft' with a thickness of 0.04 meters.",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

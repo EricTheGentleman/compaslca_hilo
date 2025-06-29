@@ -1,0 +1,44 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Floor:Bodenaufbau Hauptgeschoss, Type: IfcSlab, Category: Floors, Thickness: 581.0",
+    "Preliminary Selection": [
+      "CALCIUM SULPHATE FLOWING SCREED AND CONVENTIONAL CALCIUM SULPHATE SCREED",
+      "Calcium sulfate screed",
+      "Screed Mortar - Calcium Sulphate Screed"
+    ],
+    "Matched Materials": [
+      "Calcium sulfate screed",
+      "Screed Mortar - Calcium Sulphate Screed"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Estrich_trocken",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Mörtel und Beton",
+      "Estrich trocken"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 916,
+      "total_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.215,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00698
+  }
+}

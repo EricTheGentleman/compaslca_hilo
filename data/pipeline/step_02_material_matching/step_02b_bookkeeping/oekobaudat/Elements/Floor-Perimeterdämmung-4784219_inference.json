@@ -1,0 +1,109 @@
+{
+  "CompilationGroupID": "01982f91ae",
+  "name": "Floor-Perimeterdämmung-4784219",
+  "total_steps": 4,
+  "total_tokens": 4251,
+  "total_prompt_tokens": 3838,
+  "total_completion_tokens": 413,
+  "total_processing_time": 6.269,
+  "total_cost_usd": 0.025384999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 914,
+      "completion_tokens": 55,
+      "processing_time": 1.069,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005395
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Extrudiertes Polystyrol (XPS)",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1045,
+      "completion_tokens": 79,
+      "processing_time": 1.347,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00641
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "XPS weiß",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Extrudiertes_Polystyrol_(XPS)",
+      "message": "Match successful",
+      "prompt_tokens": 846,
+      "completion_tokens": 59,
+      "processing_time": 1.214,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005115
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Bachl ReXPS - Extruded Polystyrene (XPS) foam board",
+        "Extruded polystyrene (XPS)",
+        "RAVATHERM XPS (X) PLUS/ULTRA",
+        "RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Extrudiertes_Polystyrol_(XPS)/XPS_weiß",
+      "message": "Match successful",
+      "prompt_tokens": 1033,
+      "completion_tokens": 220,
+      "processing_time": 2.639,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008465
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Wärmedämmung XPS', which is a type of insulation material.",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Perimeterdämmung' with material 'Wärmedämmung XPS' and thickness 0.08m.",
+        "Preliminary Selection": "Extrudiertes Polystyrol (XPS)",
+        "Matched Category": "Extrudiertes Polystyrol (XPS)"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Wärmedämmung XPS' and type 'Floor:Perimeterdämmung'.",
+        "Preliminary Selection": "XPS weiß",
+        "Matched Category": "XPS weiß"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcSlab named 'Floor:Perimeterdämmung:4784219' with a material layer of 'Wärmedämmung XPS' and a thickness of 0.08 meters. It is related to perimeter insulation and categorized under floors.",
+        "Preliminary Selection": [
+          "Bachl ReXPS - Extruded Polystyrene (XPS) foam board",
+          "Extruded polystyrene (XPS)",
+          "RAVATHERM XPS (X) PLUS/ULTRA",
+          "RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents"
+        ],
+        "Matched Materials": [
+          "Bachl ReXPS - Extruded Polystyrene (XPS) foam board",
+          "Extruded polystyrene (XPS)",
+          "RAVATHERM XPS (X) PLUS/ULTRA",
+          "RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents"
+        ]
+      }
+    }
+  ]
+}

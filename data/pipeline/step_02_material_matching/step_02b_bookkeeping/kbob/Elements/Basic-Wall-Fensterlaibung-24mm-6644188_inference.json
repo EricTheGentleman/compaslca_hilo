@@ -1,0 +1,76 @@
+{
+  "CompilationGroupID": "369c58d53c",
+  "name": "Basic-Wall-Fensterlaibung-24mm-6644188",
+  "total_steps": 2,
+  "total_tokens": 3033,
+  "total_prompt_tokens": 2603,
+  "total_completion_tokens": 430,
+  "total_processing_time": 6.247,
+  "total_cost_usd": 0.019465,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1002,
+      "completion_tokens": 62,
+      "processing_time": 1.116,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00594
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1601,
+      "completion_tokens": 368,
+      "processing_time": 5.131,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.013525
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert', type IfcWallStandardCase.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a non-structural basic wall with a material layer of 'Massivholz Fichte, schwarz lasiert'.",
+        "Preliminary Selection": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz",
+          "Massivholz Fichte / Tanne, kammergetr., Vollholzhaus holzpur"
+        ],
+        "Matched Materials": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "GlobalId": "3_kqkSEVjFfA5bkOsNwaii",
+  "name": "Basic-Wall-Brandschutzplatte-5251017",
+  "total_steps": 2,
+  "total_tokens": 2613,
+  "total_prompt_tokens": 2477,
+  "total_completion_tokens": 136,
+  "total_processing_time": 3.513,
+  "total_cost_usd": 0.014425,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 939,
+      "completion_tokens": 59,
+      "processing_time": 1.314,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00558
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1538,
+      "completion_tokens": 77,
+      "processing_time": 2.199,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008845
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material '3-Schicht-Platte', which is a type of wood panel.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Brandschutzplatte, Type: IfcWall, Material Name: 3-Schicht-Platte, Structural: False",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

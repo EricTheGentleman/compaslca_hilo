@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Rohranschluss_Technikschnttelle_Nest-Kaltwasser-6271984",
+  "GlobalId": "1Et2c94TXFAwSKPeylnBIk",
+  "Volume [m^3]": 0.0001,
+  "Largest Surface Area [m^2]": 0.0033,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

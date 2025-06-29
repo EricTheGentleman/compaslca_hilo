@@ -1,0 +1,112 @@
+{
+  "GlobalId": "3fl00qHO16BwCmbpQP9mlL",
+  "name": "Floor-Gitterrost-schwarz-354156",
+  "total_steps": 4,
+  "total_tokens": 3888,
+  "total_prompt_tokens": 3553,
+  "total_completion_tokens": 335,
+  "total_processing_time": 9.971,
+  "total_cost_usd": 0.02279,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 889,
+      "completion_tokens": 53,
+      "processing_time": 1.341,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00524
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Zink",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 50,
+      "processing_time": 3.982,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00506
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Zinkbleche",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Zink",
+      "message": "Match successful",
+      "prompt_tokens": 822,
+      "completion_tokens": 54,
+      "processing_time": 1.257,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00492
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Zinc sheet",
+        "NedZink NOVA, NedZink NEO, NedZink NOIR",
+        "NedZink Naturel",
+        "RHEINZINK-CLASSIC® bright-rolled",
+        "RHEINZINK-prePATINA® blue-grey and graphite-grey"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Zink/Zinkbleche",
+      "message": "Match successful",
+      "prompt_tokens": 980,
+      "completion_tokens": 178,
+      "processing_time": 3.391,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00757
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Gitterrost schwarz' with material 'Zink Gitter'.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Gitterrost schwarz' with material 'Zink Gitter'.",
+        "Preliminary Selection": "Zink",
+        "Matched Category": "Zink"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Gitterrost schwarz' with material 'Zink Gitter'.",
+        "Preliminary Selection": "Zinkbleche",
+        "Matched Category": "Zinkbleche"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Material: Zink Gitter, Thickness: 0.03m, Name: Floor:Gitterrost schwarz",
+        "Preliminary Selection": [
+          "Zinc sheet",
+          "NedZink NOVA, NedZink NEO, NedZink NOIR",
+          "NedZink Naturel",
+          "RHEINZINK-CLASSIC® bright-rolled",
+          "RHEINZINK-prePATINA® blue-grey and graphite-grey"
+        ],
+        "Matched Materials": [
+          "Zinc sheet",
+          "NedZink NOVA, NedZink NEO, NedZink NOIR",
+          "NedZink Naturel",
+          "RHEINZINK-CLASSIC® bright-rolled",
+          "RHEINZINK-prePATINA® blue-grey and graphite-grey"
+        ]
+      }
+    }
+  ]
+}

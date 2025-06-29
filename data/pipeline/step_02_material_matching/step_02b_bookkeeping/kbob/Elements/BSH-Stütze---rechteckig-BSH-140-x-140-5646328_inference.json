@@ -1,0 +1,57 @@
+{
+  "GlobalId": "3WNoAUw3v8hfBwz_zVQKXI",
+  "name": "BSH-Stütze---rechteckig-BSH-140-x-140-5646328",
+  "total_steps": 2,
+  "total_tokens": 2607,
+  "total_prompt_tokens": 2441,
+  "total_completion_tokens": 166,
+  "total_processing_time": 3.1710000000000003,
+  "total_cost_usd": 0.014695,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 921,
+      "completion_tokens": 74,
+      "processing_time": 1.322,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005715
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1520,
+      "completion_tokens": 92,
+      "processing_time": 1.849,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00898
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcColumn named 'BSH Stütze - rechteckig:BSH 140 x 140' with material 'Brettsperrholz'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: BSH Stütze - rechteckig:BSH 140 x 140:5646328, Type: IfcColumn, Material Name: Brettsperrholz, Category: Structural Columns, Workset: Tragwerk",
+        "Preliminary Selection": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

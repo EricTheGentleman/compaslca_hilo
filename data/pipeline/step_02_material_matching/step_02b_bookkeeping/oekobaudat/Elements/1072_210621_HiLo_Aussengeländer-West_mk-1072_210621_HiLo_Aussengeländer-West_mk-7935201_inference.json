@@ -1,0 +1,54 @@
+{
+  "GlobalId": "2P1Lw8yun3pBsrFxTc_j0l",
+  "name": "1072_210621_HiLo_Aussengeländer-West_mk-1072_210621_HiLo_Aussengeländer-West_mk-7935201",
+  "total_steps": 2,
+  "total_tokens": 1863,
+  "total_prompt_tokens": 1744,
+  "total_completion_tokens": 119,
+  "total_processing_time": 2.71,
+  "total_cost_usd": 0.010505,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 888,
+      "completion_tokens": 67,
+      "processing_time": 1.521,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005445
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 856,
+      "completion_tokens": 52,
+      "processing_time": 1.189,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00506
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named '1072_210621_HiLo_Aussengeländer West'. No material defined. Workset is Architecture, Category is Generic Models.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the architecture workset.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

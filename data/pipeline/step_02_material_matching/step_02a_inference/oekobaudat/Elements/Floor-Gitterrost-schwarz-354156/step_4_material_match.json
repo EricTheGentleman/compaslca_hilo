@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcSlab, Material: Zink Gitter, Thickness: 0.03m, Name: Floor:Gitterrost schwarz",
+    "Preliminary Selection": [
+      "Zinc sheet",
+      "NedZink NOVA, NedZink NEO, NedZink NOIR",
+      "NedZink Naturel",
+      "RHEINZINK-CLASSIC® bright-rolled",
+      "RHEINZINK-prePATINA® blue-grey and graphite-grey"
+    ],
+    "Matched Materials": [
+      "Zinc sheet",
+      "NedZink NOVA, NedZink NEO, NedZink NOIR",
+      "NedZink Naturel",
+      "RHEINZINK-CLASSIC® bright-rolled",
+      "RHEINZINK-prePATINA® blue-grey and graphite-grey"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Zink/Zinkbleche",
+    "trace": [
+      "Metalle",
+      "Zink",
+      "Zinkbleche"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 980,
+      "total_tokens": 1158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.391,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00846
+  }
+}

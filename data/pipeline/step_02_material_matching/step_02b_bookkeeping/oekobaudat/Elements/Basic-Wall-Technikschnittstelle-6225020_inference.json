@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+  "name": "Basic-Wall-Technikschnittstelle-6225020",
+  "total_steps": 2,
+  "total_tokens": 1817,
+  "total_prompt_tokens": 1716,
+  "total_completion_tokens": 101,
+  "total_processing_time": 2.364,
+  "total_cost_usd": 0.010095,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 879,
+      "completion_tokens": 57,
+      "processing_time": 1.167,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00525
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "No match found",
+      "prompt_tokens": 837,
+      "completion_tokens": 44,
+      "processing_time": 1.197,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004845
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material Gipsfaserplatte (gypsum fiberboard).",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material Gipsfaserplatte.",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿{
+  "CompilationGroupID": "f9691ec733",
+  "Name": "Basic-Wall-Wärmedämmung_Mineralwolle_130-1839774",
+  "Volume [m^3]": 0.6223,
+  "Largest Surface Area [m^2]": 4.996,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Steinwolle",
+      "ID": "10.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "43.6705",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "40.513",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.1683",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "72784.208",
+      "UBP (Manufacturing)": "66362.072",
+      "UBP (Disposal)": "6208.0648",
+      "Total Renewable Primary Energy [kWh oil-eq]": "88.3044",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "87.7692",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5726",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "172.8625",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "165.9052",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "7.1179"
+    },
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "33.0205",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "29.8629",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.1683",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "58869.58",
+      "UBP (Manufacturing)": "52554.4796",
+      "UBP (Disposal)": "6208.0648",
+      "Total Renewable Primary Energy [kWh oil-eq]": "107.5708",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "107.0356",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5726",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "136.4704",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "128.9779",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "7.1179"
+    }
+  ]
+}

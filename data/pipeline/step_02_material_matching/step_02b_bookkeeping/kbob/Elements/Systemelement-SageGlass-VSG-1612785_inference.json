@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "5e3171c413",
+  "name": "Systemelement-SageGlass-VSG-1612785",
+  "total_steps": 2,
+  "total_tokens": 2852,
+  "total_prompt_tokens": 2691,
+  "total_completion_tokens": 161,
+  "total_processing_time": 3.0780000000000003,
+  "total_cost_usd": 0.015870000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 958,
+      "completion_tokens": 84,
+      "processing_time": 1.397,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00605
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Fassade, Pfosten-Riegel, Alu/Glas"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1733,
+      "completion_tokens": 77,
+      "processing_time": 1.681,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00982
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Systemelement:SageGlass VSG:1612785, Type: IfcPlate, Material Name: Glas SageGlassClimatop, Decomposes: IfcCurtainWall",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcPlate, Material Name: Glas SageGlassClimatop, Part of: IfcCurtainWall",
+        "Preliminary Selection": [
+          "Fassade, Pfosten-Riegel, Alu/Glas"
+        ],
+        "Matched Materials": [
+          "Fassade, Pfosten-Riegel, Alu/Glas"
+        ]
+      }
+    }
+  ]
+}

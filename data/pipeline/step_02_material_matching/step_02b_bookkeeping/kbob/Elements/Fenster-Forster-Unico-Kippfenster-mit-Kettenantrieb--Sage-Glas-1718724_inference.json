@@ -1,0 +1,90 @@
+{
+  "CompilationGroupID": "448caec44f",
+  "name": "Fenster-Forster-Unico-Kippfenster-mit-Kettenantrieb--Sage-Glas-1718724",
+  "total_steps": 2,
+  "total_tokens": 3552,
+  "total_prompt_tokens": 2775,
+  "total_completion_tokens": 777,
+  "total_processing_time": 10.025,
+  "total_cost_usd": 0.02553,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1000,
+      "completion_tokens": 82,
+      "processing_time": 3.761,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00623
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+        "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+        "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+        "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1775,
+      "completion_tokens": 695,
+      "processing_time": 6.264,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0193
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas', part of a curtain wall, with no defined material.",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWindow, ObjectType: Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas, Material Data: Not defined, Focus on glazing options.",
+        "Preliminary Selection": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ],
+        "Matched Materials": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ]
+      }
+    }
+  ]
+}

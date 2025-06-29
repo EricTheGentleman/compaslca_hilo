@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "7b9763d32a_L2",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-687694_L2",
+  "total_steps": 2,
+  "total_tokens": 2821,
+  "total_prompt_tokens": 2679,
+  "total_completion_tokens": 142,
+  "total_processing_time": 2.776,
+  "total_cost_usd": 0.015525,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1040,
+      "completion_tokens": 68,
+      "processing_time": 1.367,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00622
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Mitteldichte Faserplatte (MDF), UF-gebunden"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1639,
+      "completion_tokens": 74,
+      "processing_time": 1.409,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009305
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic abnehmbar",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Structural: False, Non-bearing",
+        "Preliminary Selection": [
+          "Mitteldichte Faserplatte (MDF), UF-gebunden"
+        ],
+        "Matched Materials": [
+          "Mitteldichte Faserplatte (MDF), UF-gebunden"
+        ]
+      }
+    }
+  ]
+}

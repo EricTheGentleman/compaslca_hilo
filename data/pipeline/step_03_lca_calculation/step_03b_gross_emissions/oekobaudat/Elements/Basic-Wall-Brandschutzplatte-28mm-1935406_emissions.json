@@ -1,0 +1,39 @@
+﻿{
+  "CompilationGroupID": "cb2d94d550",
+  "Name": "Basic-Wall-Brandschutzplatte-28mm-1935406",
+  "Volume [m^3]": 0.2607,
+  "Largest Surface Area [m^2]": 9.3225,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "gypsum fibre board",
+      "ID": "2272105e-734d-491d-a36c-d4ba2d759900",
+      "Reference": "qm",
+      "Density (kg/m3)": "1180.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "0.0",
+      "GWPtotal (A2)": "0.0",
+      "GWPtotal (A3)": "0.0",
+      "GWPtotal (A1-A3)": "37.5446",
+      "GWPtotal (A4)": "1.2856",
+      "GWPtotal (A5)": "0.0141",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "0.8792",
+      "GWPtotal (C3)": "20.7801",
+      "GWPtotal (C4)": "0.0",
+      "GWPbiogenic": "-16.6766",
+      "GWPfossil": "131.0869",
+      "GWPtotal": "60.5035",
+      "Conformity": "'DIN EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Bundesverband der Gipsindustrie e.V.",
+      "Registrierungsnummer": "EPD-BVG-20220090-IAG1-DE"
+    }
+  ]
+}

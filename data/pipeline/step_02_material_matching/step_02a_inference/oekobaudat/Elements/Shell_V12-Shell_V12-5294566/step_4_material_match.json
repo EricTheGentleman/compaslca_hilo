@@ -1,0 +1,73 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material: Concrete, Lightweight, Category: Generic Models, Workset: Dachkonstruktion",
+    "Preliminary Selection": [
+      "Concrete C12/15",
+      "Concrete C16/20",
+      "Concrete C20/25",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Concrete C55/67",
+      "Concrete C60/75",
+      "Ready-mix concrete C20/25",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60"
+    ],
+    "Matched Materials": [
+      "Concrete C12/15",
+      "Concrete C16/20",
+      "Concrete C20/25",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Concrete C55/67",
+      "Concrete C60/75",
+      "Ready-mix concrete C20/25",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Mörtel und Beton",
+      "Beton"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 353,
+      "prompt_tokens": 1447,
+      "total_tokens": 1800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.785,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.014295
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "GlobalId": "2yJbbEqSPDc8j9KFU1qo7s",
+  "name": "2021-Hilo_ASF_Construction-v9_003-2021-Hilo_ASF_Construction-v9_003-6549949",
+  "total_steps": 1,
+  "total_tokens": 1044,
+  "total_prompt_tokens": 991,
+  "total_completion_tokens": 53,
+  "total_processing_time": 1.237,
+  "total_cost_usd": 0.00575,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 991,
+      "completion_tokens": 53,
+      "processing_time": 1.237,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00575
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no specific material name, categorized under 'Generic Models', associated with architecture workset.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

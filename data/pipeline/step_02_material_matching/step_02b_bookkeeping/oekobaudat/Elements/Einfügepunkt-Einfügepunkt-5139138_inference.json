@@ -1,0 +1,54 @@
+{
+  "GlobalId": "0nK9oFqBX9tfLI4$NtgMoA",
+  "name": "Einfügepunkt-Einfügepunkt-5139138",
+  "total_steps": 2,
+  "total_tokens": 1672,
+  "total_prompt_tokens": 1582,
+  "total_completion_tokens": 90,
+  "total_processing_time": 2.1559999999999997,
+  "total_cost_usd": 0.009260000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 807,
+      "completion_tokens": 46,
+      "processing_time": 1.051,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004725
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 775,
+      "completion_tokens": 44,
+      "processing_time": 1.105,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004535
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name 'Körpermodell'.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name 'Körpermodell'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

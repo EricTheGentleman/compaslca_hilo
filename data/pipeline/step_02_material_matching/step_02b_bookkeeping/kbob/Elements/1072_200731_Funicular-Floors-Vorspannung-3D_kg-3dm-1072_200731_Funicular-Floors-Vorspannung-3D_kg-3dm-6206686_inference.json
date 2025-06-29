@@ -1,0 +1,87 @@
+{
+  "GlobalId": "07OV_Qt_vCaPpDtuenC0bv",
+  "name": "1072_200731_Funicular-Floors-Vorspannung-3D_kg-3dm-1072_200731_Funicular-Floors-Vorspannung-3D_kg-3dm-6206686",
+  "total_steps": 2,
+  "total_tokens": 3407,
+  "total_prompt_tokens": 2682,
+  "total_completion_tokens": 725,
+  "total_processing_time": 11.446,
+  "total_cost_usd": 0.024285,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1025,
+      "completion_tokens": 70,
+      "processing_time": 2.01,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006175
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Beton Klark Sorte A, 280kg CEM II/B (ohne Bewehrung)",
+        "Beton Klark Sorte A, 300kg CEM II/B (ohne Bewehrung)",
+        "Hochbaubeton (ohne Bewehrung)",
+        "Hochbaubeton, Möckli Primärbeton, NPK A, 280 kg CEM II/B-LL (ohne Bewehrung)",
+        "Hochbaubeton, NovoCon C50/E25, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+        "Hochbaubeton, NovoCon C50/E25, NPK C, 300 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+        "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+        "Hochbaubeton, NovoCon RC-M10/E20, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+        "Hochbaubeton, zirkulit® NPK A, 280kg CEM II/B (ohne Bewehrung)",
+        "Hochbaubeton, zirkulit® NPK C, 300kg CEM II/B (ohne Bewehrung)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1657,
+      "completion_tokens": 655,
+      "processing_time": 9.436,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01811
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a 'IfcBuildingElementProxy' with no defined material. It is associated with 'Funicular Floors Vorspannung', which suggests a structural component, possibly related to concrete or similar materials.",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Workset: Tragwerk, Category: Generic Models, Function: Funicular Floors, Material Data: Not defined",
+        "Preliminary Selection": [
+          "Beton Klark Sorte A, 280kg CEM II/B (ohne Bewehrung)",
+          "Beton Klark Sorte A, 300kg CEM II/B (ohne Bewehrung)",
+          "Hochbaubeton (ohne Bewehrung)",
+          "Hochbaubeton, Möckli Primärbeton, NPK A, 280 kg CEM II/B-LL (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon C50/E25, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon C50/E25, NPK C, 300 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon RC-M10/E20, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, zirkulit® NPK A, 280kg CEM II/B (ohne Bewehrung)",
+          "Hochbaubeton, zirkulit® NPK C, 300kg CEM II/B (ohne Bewehrung)"
+        ],
+        "Matched Materials": [
+          "Beton Klark Sorte A, 280kg CEM II/B (ohne Bewehrung)",
+          "Beton Klark Sorte A, 300kg CEM II/B (ohne Bewehrung)",
+          "Hochbaubeton (ohne Bewehrung)",
+          "Hochbaubeton, Möckli Primärbeton, NPK A, 280 kg CEM II/B-LL (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon C50/E25, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon C50/E25, NPK C, 300 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, NovoCon RC-M10/E20, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+          "Hochbaubeton, zirkulit® NPK A, 280kg CEM II/B (ohne Bewehrung)",
+          "Hochbaubeton, zirkulit® NPK C, 300kg CEM II/B (ohne Bewehrung)"
+        ]
+      }
+    }
+  ]
+}

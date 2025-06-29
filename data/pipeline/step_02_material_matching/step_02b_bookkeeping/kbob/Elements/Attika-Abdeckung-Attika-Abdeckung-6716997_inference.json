@@ -1,0 +1,65 @@
+{
+  "GlobalId": "3R$9pJGeb6MgJpHJQymSjh",
+  "name": "Attika-Abdeckung-Attika-Abdeckung-6716997",
+  "total_steps": 2,
+  "total_tokens": 2055,
+  "total_prompt_tokens": 1865,
+  "total_completion_tokens": 190,
+  "total_processing_time": 3.9979999999999998,
+  "total_cost_usd": 0.012175,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 855,
+      "completion_tokens": 86,
+      "processing_time": 1.698,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005565
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Faserzementplatte gross",
+        "Glasfaserbeton Ecomur"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1010,
+      "completion_tokens": 104,
+      "processing_time": 2.3,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00661
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Attika Abdeckung' with no defined material, categorized under 'Floors' in the architecture workset.",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Attika Abdeckung, Type: IfcSlab, Category: Floors, Material Data: Not defined",
+        "Preliminary Selection": [
+          "Faserzement-Dachschindel",
+          "Faserzement-Wellplatte",
+          "Faserzementplatte gross",
+          "Glasfaserbeton Ecomur"
+        ],
+        "Matched Materials": [
+          "Faserzementplatte gross",
+          "Glasfaserbeton Ecomur"
+        ]
+      }
+    }
+  ]
+}

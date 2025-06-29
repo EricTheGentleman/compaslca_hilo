@@ -1,0 +1,72 @@
+{
+  "GlobalId": "17eMdncQP0cPM7MCmsTKi8",
+  "name": "Floor-Bodenaufbau-Hauptgeschoss-ohne-FBH-5900012",
+  "total_steps": 2,
+  "total_tokens": 2542,
+  "total_prompt_tokens": 2301,
+  "total_completion_tokens": 241,
+  "total_processing_time": 3.94,
+  "total_cost_usd": 0.01512,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Bodenbeläge",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 898,
+      "completion_tokens": 59,
+      "processing_time": 1.517,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005375
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gussasphalt, 27.5 mm",
+        "Hartbeton einschichtig, 27.5 mm",
+        "Hartbeton zweischichtig, 35 mm",
+        "Kunststeinplatte zementgebunden, 10 mm",
+        "Terrazzo versiegelt, 40 mm"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+      "message": "Match successful",
+      "prompt_tokens": 1403,
+      "completion_tokens": 182,
+      "processing_time": 2.423,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009745
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab (IfcSlab) with no defined material, related to architecture, categorized under 'Floors'.",
+        "Preliminary Selection": "Bodenbeläge",
+        "Matched Category": "Bodenbeläge"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Name: Floor:Bodenaufbau Hauptgeschoss ohne FBH:5900012, Thickness: 566.0 mm, Category: Floors",
+        "Preliminary Selection": [
+          "Gussasphalt, 27.5 mm",
+          "Hartbeton einschichtig, 27.5 mm",
+          "Hartbeton zweischichtig, 35 mm",
+          "Kunststeinplatte zementgebunden, 10 mm",
+          "Terrazzo versiegelt, 40 mm"
+        ],
+        "Matched Materials": [
+          "Gussasphalt, 27.5 mm",
+          "Hartbeton einschichtig, 27.5 mm",
+          "Hartbeton zweischichtig, 35 mm",
+          "Kunststeinplatte zementgebunden, 10 mm",
+          "Terrazzo versiegelt, 40 mm"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBMe",
+  "name": "Rohranschluss_Technikschnttelle_Nest-E-Grauwasser-schwer-6271734",
+  "total_steps": 2,
+  "total_tokens": 2149,
+  "total_prompt_tokens": 1933,
+  "total_completion_tokens": 216,
+  "total_processing_time": 4.856999999999999,
+  "total_cost_usd": 0.012905,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 961,
+      "completion_tokens": 71,
+      "processing_time": 2.433,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00587
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 972,
+      "completion_tokens": 145,
+      "processing_time": 2.424,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007035
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Grauwasser schwer, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Grauwasser schwer, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Rohranschluss_Technikschnttelle_Nest: E-Grauwasser schwer",
+        "Preliminary Selection": [
+          "Gusseisen",
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

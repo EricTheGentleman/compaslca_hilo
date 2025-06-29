@@ -1,0 +1,39 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Gipsfaserplatte-Vidiwall-15mm-5643525",
+  "CompilationGroupID": "031893e96a",
+  "Volume [m^3]": 0.2444,
+  "Largest Surface Area [m^2]": 16.2994,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "gypsum fibre board",
+      "ID": "2272105e-734d-491d-a36c-d4ba2d759900",
+      "Reference": "qm",
+      "Density (kg/m3)": "1180.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "0.0",
+      "GWPtotal (A2)": "0.0",
+      "GWPtotal (A3)": "0.0",
+      "GWPtotal (A1-A3)": "65.6427",
+      "GWPtotal (A4)": "2.2477",
+      "GWPtotal (A5)": "0.0247",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "1.5371",
+      "GWPtotal (C3)": "36.3318",
+      "GWPtotal (C4)": "0.0",
+      "GWPbiogenic": "-29.1573",
+      "GWPfossil": "229.1916",
+      "GWPtotal": "105.784",
+      "Conformity": "'DIN EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Bundesverband der Gipsindustrie e.V.",
+      "Registrierungsnummer": "EPD-BVG-20220090-IAG1-DE"
+    }
+  ]
+}

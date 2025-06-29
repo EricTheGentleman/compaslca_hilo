@@ -1,0 +1,113 @@
+{
+  "CompilationGroupID": "19942f0dfa",
+  "name": "BSH-Träger---rechteckig-Holz-140-x-240-1699118",
+  "total_steps": 4,
+  "total_tokens": 3951,
+  "total_prompt_tokens": 3554,
+  "total_completion_tokens": 397,
+  "total_processing_time": 7.0489999999999995,
+  "total_cost_usd": 0.023725000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 871,
+      "completion_tokens": 67,
+      "processing_time": 1.409,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00536
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 824,
+      "completion_tokens": 53,
+      "processing_time": 1.175,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004915
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Brettschichtholz (BSH)",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 855,
+      "completion_tokens": 81,
+      "processing_time": 1.714,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00549
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Glued laminated timber",
+        "Glued laminated timber - special shapes (German average)",
+        "Glued laminated timber - straight shapes (German average)",
+        "Schilliger Glued Laminated Timber according to EN 14080",
+        "best wood BSH"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+      "message": "Match successful",
+      "prompt_tokens": 1004,
+      "completion_tokens": 196,
+      "processing_time": 2.751,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00796
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'BSH Träger - rechteckig:Holz 140 x 240' with material 'Brettschichtholz C24'.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam made of Brettschichtholz C24, categorized under Structural Framing.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'BSH Träger - rechteckig:Holz 140 x 240' with material 'Brettschichtholz C24'.",
+        "Preliminary Selection": "Brettschichtholz (BSH)",
+        "Matched Category": "Brettschichtholz (BSH)"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'BSH Träger - rechteckig:Holz 140 x 240:1699118', made of 'Brettschichtholz C24', used in structural framing.",
+        "Preliminary Selection": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Glued laminated timber, glued solid timber, block glued glulam, special components",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ],
+        "Matched Materials": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ]
+      }
+    }
+  ]
+}

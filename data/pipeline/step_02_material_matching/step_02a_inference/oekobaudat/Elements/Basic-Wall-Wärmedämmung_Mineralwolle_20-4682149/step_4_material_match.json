@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWallStandardCase, Material: Wärmedämmung Mineralwolle, Thickness: 0.02m, Function: Non-bearing, Category: Walls",
+    "Preliminary Selection": [
+      "Mineral wool (facade insulation)",
+      "Mineral wool insulation (medium bulk density range)"
+    ],
+    "Matched Materials": [
+      "Mineral wool (facade insulation)",
+      "Mineral wool insulation (medium bulk density range)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Mineralwolle",
+    "trace": [
+      "Dämmstoffe",
+      "Mineralwolle",
+      "Mineralwolle"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 99,
+      "prompt_tokens": 1138,
+      "total_tokens": 1237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.674,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00767
+  }
+}

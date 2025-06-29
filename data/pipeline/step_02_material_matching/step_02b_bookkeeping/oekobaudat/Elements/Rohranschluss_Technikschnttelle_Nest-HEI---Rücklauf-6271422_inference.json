@@ -1,0 +1,74 @@
+{
+  "CompilationGroupID": "c658e6abba",
+  "name": "Rohranschluss_Technikschnttelle_Nest-HEI---Rücklauf-6271422",
+  "total_steps": 3,
+  "total_tokens": 2865,
+  "total_prompt_tokens": 2642,
+  "total_completion_tokens": 223,
+  "total_processing_time": 4.246,
+  "total_cost_usd": 0.016555,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 907,
+      "completion_tokens": 75,
+      "processing_time": 1.487,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00566
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Heizung",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 878,
+      "completion_tokens": 83,
+      "processing_time": 1.649,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005635
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Heizung",
+      "message": "No match found",
+      "prompt_tokens": 857,
+      "completion_tokens": 65,
+      "processing_time": 1.11,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00526
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "Heizung",
+        "Matched Category": "Heizung"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

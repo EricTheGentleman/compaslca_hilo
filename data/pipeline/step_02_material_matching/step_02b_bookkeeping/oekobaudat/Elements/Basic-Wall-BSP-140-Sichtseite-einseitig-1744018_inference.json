@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "a5c867b4fd",
+  "name": "Basic-Wall-BSP-140-Sichtseite-einseitig-1744018",
+  "total_steps": 4,
+  "total_tokens": 4130,
+  "total_prompt_tokens": 3784,
+  "total_completion_tokens": 346,
+  "total_processing_time": 6.644,
+  "total_cost_usd": 0.02411,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 943,
+      "completion_tokens": 61,
+      "processing_time": 1.5,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00563
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 896,
+      "completion_tokens": 62,
+      "processing_time": 1.459,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00541
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 933,
+      "completion_tokens": 73,
+      "processing_time": 1.376,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00576
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Five-layer laminated timber board (generic)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1012,
+      "completion_tokens": 150,
+      "processing_time": 2.309,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00731
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of Brettsperrholz with a thickness of 0.14 meters, categorized under Walls, and is structural and bearing.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of Brettsperrholz with a thickness of 0.14 meters. It is a structural, bearing wall.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of Brettsperrholz with a thickness of 0.14 meters, categorized under Walls, and is structural and bearing.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is a standard wall (IfcWallStandardCase) named 'Basic Wall:BSP 140 Sichtseite einseitig' with a material layer of 'Brettsperrholz' (cross-laminated timber) and a thickness of 0.14 meters. It is structural and used for bearing.",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Five-layer laminated timber board (generic)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Five-layer laminated timber board (generic)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

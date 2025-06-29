@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcDoor with no defined material, located at Level 00_Eingang, categorized under Doors.",
+    "Preliminary Selection": "None",
+    "Matched Category": "None"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Türen_und_Tore",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Türen und Tore"
+    ],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 880,
+      "total_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.577,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00542
+  }
+}

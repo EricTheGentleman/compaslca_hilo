@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is an IfcSlab named 'Floor:Perimeterdämmung:4784219' with a material layer of 'Wärmedämmung XPS' and a thickness of 0.08 meters. It is related to perimeter insulation and categorized under floors.",
+    "Preliminary Selection": [
+      "Bachl ReXPS - Extruded Polystyrene (XPS) foam board",
+      "Extruded polystyrene (XPS)",
+      "RAVATHERM XPS (X) PLUS/ULTRA",
+      "RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents"
+    ],
+    "Matched Materials": [
+      "Bachl ReXPS - Extruded Polystyrene (XPS) foam board",
+      "Extruded polystyrene (XPS)",
+      "RAVATHERM XPS (X) PLUS/ULTRA",
+      "RAVATHERM? XPS (X) extruded polystyrene foam insulation with non-halogenated blowing agents"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Extrudiertes_Polystyrol_(XPS)/XPS_weiß",
+    "trace": [
+      "Dämmstoffe",
+      "Extrudiertes Polystyrol (XPS)",
+      "XPS weiß"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 1033,
+      "total_tokens": 1253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.639,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.009565
+  }
+}

@@ -1,0 +1,37 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Purenit-Fusspunkt-6170051",
+  "CompilationGroupID": "6bc3c88965",
+  "Matched Materials with OEKOBAUDAT Indicators": [
+    {
+      "Name": "PUR rigid foam",
+      "ID": "b960f95d-466b-4014-9565-64e51407a364",
+      "Reference": "m3",
+      "Density (kg/m3)": "30.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": 0,
+      "GWPtotal (A2)": 0,
+      "GWPtotal (A3)": 0,
+      "GWPtotal (A1-A3)": "176.0481776",
+      "GWPtotal (A4)": 0,
+      "GWPtotal (A5)": 0,
+      "GWPtotal (B1)": 0,
+      "GWPtotal (B2)": 0,
+      "GWPtotal (B3)": 0,
+      "GWPtotal (B4)": 0,
+      "GWPtotal (B5)": 0,
+      "GWPtotal (B6)": 0,
+      "GWPtotal (B7)": 0,
+      "GWPtotal (C1)": 0,
+      "GWPtotal (C2)": "0.256988",
+      "GWPtotal (C3)": "88.3048679",
+      "GWPtotal (C4)": "0.0575205",
+      "GWPbiogenic": "0.6876866",
+      "GWPfossil": "263.9150884",
+      "GWPtotal": "264.667554",
+      "Conformity": "'EN 15804+A2 (EF 3.1)'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Sphera Solutions GmbH",
+      "Registrierungsnummer": 0
+    }
+  ]
+}

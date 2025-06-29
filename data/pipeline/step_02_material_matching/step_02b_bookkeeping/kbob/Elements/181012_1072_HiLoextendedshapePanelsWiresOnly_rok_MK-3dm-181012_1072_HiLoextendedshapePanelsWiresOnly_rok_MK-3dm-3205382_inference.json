@@ -1,0 +1,75 @@
+{
+  "GlobalId": "0JcKt5yGn6Lx0h6cIR0YC$",
+  "name": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK-3dm-181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK-3dm-3205382",
+  "total_steps": 2,
+  "total_tokens": 2470,
+  "total_prompt_tokens": 2253,
+  "total_completion_tokens": 217,
+  "total_processing_time": 5.78,
+  "total_cost_usd": 0.01452,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1049,
+      "completion_tokens": 79,
+      "processing_time": 1.431,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00643
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Faserzement-Dachschindel",
+        "Faserzement-Wellplatte",
+        "Faserzementplatte gross",
+        "Glasfaserbeton Ecomur",
+        "Betonziegel",
+        "Tonziegel"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1204,
+      "completion_tokens": 138,
+      "processing_time": 4.349,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00809
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcRoof with no specific material name provided, categorized under 'Roofs' in the property sets.",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcRoof, Category: Roofs, Material: Unnamed",
+        "Preliminary Selection": [
+          "Faserzement-Dachschindel",
+          "Faserzement-Wellplatte",
+          "Faserzementplatte gross",
+          "Glasfaserbeton Ecomur",
+          "Betonziegel",
+          "Tonziegel"
+        ],
+        "Matched Materials": [
+          "Faserzement-Dachschindel",
+          "Faserzement-Wellplatte",
+          "Faserzementplatte gross",
+          "Glasfaserbeton Ecomur",
+          "Betonziegel",
+          "Tonziegel"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "CompilationGroupID": "7f5669cfcb",
+  "name": "Floor-Fensterbank-40mm-7087153",
+  "total_steps": 2,
+  "total_tokens": 2983,
+  "total_prompt_tokens": 2577,
+  "total_completion_tokens": 406,
+  "total_processing_time": 5.6240000000000006,
+  "total_cost_usd": 0.018975,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 989,
+      "completion_tokens": 74,
+      "processing_time": 1.352,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006055
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1588,
+      "completion_tokens": 332,
+      "processing_time": 4.272,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01292
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Fensterbank 40mm' with material 'Holzschalung Horizontal, Nadelholz, schwarz gestrichen'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Material Name: Holzschalung Horizontal, Nadelholz, schwarz gestrichen, Structural: False",
+        "Preliminary Selection": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

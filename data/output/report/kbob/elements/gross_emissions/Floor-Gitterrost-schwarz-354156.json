@@ -1,0 +1,46 @@
+﻿{
+  "Name": "Floor-Gitterrost-schwarz-354156",
+  "GlobalId": "3fl00qHO16BwCmbpQP9mlL",
+  "Volume [m^3]": 0.042,
+  "Largest Surface Area [m^2]": 2.4244,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlblech, verzinkt",
+      "ID": "6.011",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "1480.353",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1477.056",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.2848",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "5011440.0",
+      "UBP (Manufacturing)": "5011440.0",
+      "UBP (Disposal)": "3659.67",
+      "Total Renewable Primary Energy [kWh oil-eq]": "461.58",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "461.58",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.1919",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "5143.32",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "5143.32",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "8.9678"
+    },
+    {
+      "Name": "Titanzinkblech",
+      "ID": "6.013",
+      "Reference": "kg",
+      "Density (kg/m3)": "7200",
+      "Global Warming Potential Total [kgCO2-eqv]": "1218.672",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1215.648",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.395",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "8406720.0",
+      "UBP (Manufacturing)": "8406720.0",
+      "UBP (Disposal)": "5987.52",
+      "Total Renewable Primary Energy [kWh oil-eq]": "789.264",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "789.264",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2383",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "5292.0",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "5261.76",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "9.4954"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is a non-structural, exterior wall with a core face exterior location line. The primary material is 'Stahl, 45-34, Pulverbeschichtung schwarz' with a thickness of 0.003 meters. The element is a 'Basic Wall: Blechverkleidung gedämmt'.",
+    "Preliminary Selection": [
+      "Stahlblech, blank",
+      "Stahlblech, verzinkt"
+    ],
+    "Matched Materials": [
+      "Stahlblech, verzinkt"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+    "trace": [
+      "Metallbaustoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 113,
+      "prompt_tokens": 1335,
+      "total_tokens": 1448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.319,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008935
+  }
+}

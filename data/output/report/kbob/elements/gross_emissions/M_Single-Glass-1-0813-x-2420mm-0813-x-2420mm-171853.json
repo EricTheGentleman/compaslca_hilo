@@ -1,0 +1,46 @@
+﻿{
+  "ObjectType Name": "M_Single-Glass-1-0813-x-2420mm-0813-x-2420mm-171853",
+  "CompilationGroupID": "a8c0aa7437",
+  "Volume [m^3]": 0.1242,
+  "Largest Surface Area [m^2]": 4.8,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Aussentüre, Aluminium, Glaseinsatz",
+      "ID": "12.005",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "1036.8",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "964.8",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "71.04",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "1891200.0",
+      "UBP (Manufacturing)": "1809600.0",
+      "UBP (Disposal)": "83040.0",
+      "Total Renewable Primary Energy [kWh oil-eq]": "566.4",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "561.6",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "2.352",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "4372.8",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4348.8",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "25.632"
+    },
+    {
+      "Name": "Aussentüre, Holz, Glaseinsatz",
+      "ID": "12.002",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "411.36",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "364.8",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "46.56",
+      "Biogenic Carbon [kg C]": "62.4",
+      "UBP (Total)": "772800.0",
+      "UBP (Manufacturing)": "710400.0",
+      "UBP (Disposal)": "58080.0",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1185.6",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1185.6",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.5408",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1723.2",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1689.6",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "30.288"
+    }
+  ]
+}

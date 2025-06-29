@@ -1,0 +1,51 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWall, Material: Brettschichtholz C24, Thickness: 0.14m, Structural Usage: Bearing",
+    "Preliminary Selection": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Glued laminated timber, glued solid timber, block glued glulam, special components",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ],
+    "Matched Materials": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Glued laminated timber, glued solid timber, block glued glulam, special components",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Brettschichtholz (BSH)"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 199,
+      "prompt_tokens": 1052,
+      "total_tokens": 1251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.313,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00924
+  }
+}

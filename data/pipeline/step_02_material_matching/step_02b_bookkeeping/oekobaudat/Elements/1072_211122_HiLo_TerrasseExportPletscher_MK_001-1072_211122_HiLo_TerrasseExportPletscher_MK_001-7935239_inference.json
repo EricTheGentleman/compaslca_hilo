@@ -1,0 +1,34 @@
+{
+  "GlobalId": "2P1Lw8yun3pBsrFxTc_j79",
+  "name": "1072_211122_HiLo_TerrasseExportPletscher_MK_001-1072_211122_HiLo_TerrasseExportPletscher_MK_001-7935239",
+  "total_steps": 1,
+  "total_tokens": 989,
+  "total_prompt_tokens": 936,
+  "total_completion_tokens": 53,
+  "total_processing_time": 1.186,
+  "total_cost_usd": 0.005475,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "No match found",
+      "prompt_tokens": 936,
+      "completion_tokens": 53,
+      "processing_time": 1.186,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005475
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the Architecture workset.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

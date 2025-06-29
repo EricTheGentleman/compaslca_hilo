@@ -1,0 +1,109 @@
+{
+  "CompilationGroupID": "81201c5ae7",
+  "name": "Fenster-Forster-Unico-Kippfenster-mit-Kettenantrieb--Sage-Glas-2684093",
+  "total_steps": 4,
+  "total_tokens": 4195,
+  "total_prompt_tokens": 3847,
+  "total_completion_tokens": 348,
+  "total_processing_time": 7.043,
+  "total_cost_usd": 0.024454999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 934,
+      "completion_tokens": 89,
+      "processing_time": 1.647,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006005
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 933,
+      "completion_tokens": 69,
+      "processing_time": 1.458,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0057
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Sonstige Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 898,
+      "completion_tokens": 66,
+      "processing_time": 1.536,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00548
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Float glass in construction: EUROFLOAT",
+        "Insulating glass",
+        "Laminated glass",
+        "Laminated safety glass EUROLAMEX"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 1082,
+      "completion_tokens": 124,
+      "processing_time": 2.402,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00727
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas' with no specific material name provided. It is part of a curtain wall system.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas' with no specific material name, part of a curtain wall.",
+        "Preliminary Selection": "Fenster",
+        "Matched Category": "Fenster"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas' with no specific material name provided.",
+        "Preliminary Selection": "Sonstige Fenster",
+        "Matched Category": "Sonstige Fenster"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas', part of a curtain wall, with no specific material name provided.",
+        "Preliminary Selection": [
+          "Float glass in construction: EUROFLOAT",
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ],
+        "Matched Materials": [
+          "Float glass in construction: EUROFLOAT",
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ]
+      }
+    }
+  ]
+}

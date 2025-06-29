@@ -1,0 +1,142 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Holzfassade-hinterlüftet-1105047",
+  "CompilationGroupID": "78593db8a4",
+  "Layer 1": {
+    "Volume [m^3]": 1.0979,
+    "Largest Surface Area [m^2]": 73.646,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "ID": "7.011",
+        "Reference": "kg",
+        "Density (kg/m3)": "465",
+        "Global Warming Potential Total [kgCO2-eqv]": "88.3206",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "68.4101",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "19.9104",
+        "Biogenic Carbon [kg C]": "230.2461",
+        "UBP (Total)": "243009.186",
+        "UBP (Manufacturing)": "210846.2055",
+        "UBP (Disposal)": "32111.9282",
+        "Total Renewable Primary Energy [kWh oil-eq]": "3088.6672",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "3083.5619",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.1244",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "396.6768",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "351.2402",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "45.3345"
+      },
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "ID": "07.011.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "465",
+        "Global Warming Potential Total [kgCO2-eqv]": "79.6417",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "59.7312",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "19.9104",
+        "Biogenic Carbon [kg C]": "230.2461",
+        "UBP (Total)": "234330.2865",
+        "UBP (Manufacturing)": "202167.306",
+        "UBP (Disposal)": "32111.9282",
+        "Total Renewable Primary Energy [kWh oil-eq]": "3027.4044",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "3027.4044",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.1244",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "374.2137",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "328.7771",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "45.3345"
+      },
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "ID": "7.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "485",
+        "Global Warming Potential Total [kgCO2-eqv]": "83.0671",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "62.3003",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "20.7668",
+        "Biogenic Carbon [kg C]": "219.9149",
+        "UBP (Total)": "213525.0815",
+        "UBP (Manufacturing)": "179978.747",
+        "UBP (Disposal)": "33493.0864",
+        "Total Renewable Primary Energy [kWh oil-eq]": "2774.2286",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2774.2286",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.2588",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "358.36",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "310.9692",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "47.2844"
+      },
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "ID": "07.010.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "485",
+        "Global Warming Potential Total [kgCO2-eqv]": "75.6124",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "54.8456",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "20.7668",
+        "Biogenic Carbon [kg C]": "219.9149",
+        "UBP (Total)": "205005.3775",
+        "UBP (Manufacturing)": "171459.043",
+        "UBP (Disposal)": "33493.0864",
+        "Total Renewable Primary Energy [kWh oil-eq]": "2720.9805",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2715.6557",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.2588",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "337.0608",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "289.6699",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "47.2844"
+      },
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "ID": "7.009",
+        "Reference": "kg",
+        "Density (kg/m3)": "485",
+        "Global Warming Potential Total [kgCO2-eqv]": "68.6901",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "48.1363",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "20.7668",
+        "Biogenic Carbon [kg C]": "219.9149",
+        "UBP (Total)": "168796.6355",
+        "UBP (Manufacturing)": "135250.301",
+        "UBP (Disposal)": "33493.0864",
+        "Total Renewable Primary Energy [kWh oil-eq]": "2651.7579",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2646.4331",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.2588",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "271.0331",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "224.1747",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "47.2844"
+      },
+      {
+        "Name": "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz",
+        "ID": "07.009.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "485",
+        "Global Warming Potential Total [kgCO2-eqv]": "63.8978",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "43.0778",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "20.7668",
+        "Biogenic Carbon [kg C]": "219.9149",
+        "UBP (Total)": "162939.339",
+        "UBP (Manufacturing)": "129393.0045",
+        "UBP (Disposal)": "33493.0864",
+        "Total Renewable Primary Energy [kWh oil-eq]": "2598.5097",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2593.1849",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.2588",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "254.5262",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "207.1353",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "47.2844"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 1.6468,
+    "Largest Surface Area [m^2]": 73.646,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "None"
+      }
+    ]
+  },
+  "Layer 3": {
+    "Volume [m^3]": 2.1957,
+    "Largest Surface Area [m^2]": 73.646,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "None"
+      }
+    ]
+  }
+}

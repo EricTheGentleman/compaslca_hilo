@@ -1,0 +1,109 @@
+{
+  "GlobalId": "1a1$QVmKz8nRXZVkIMOOBt",
+  "name": "Tür-Forster-Unico-Ausstattung-Sage-Glas-2668518",
+  "total_steps": 4,
+  "total_tokens": 3914,
+  "total_prompt_tokens": 3567,
+  "total_completion_tokens": 347,
+  "total_processing_time": 6.6,
+  "total_cost_usd": 0.02304,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 864,
+      "completion_tokens": 81,
+      "processing_time": 1.61,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005535
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 863,
+      "completion_tokens": 65,
+      "processing_time": 1.445,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00529
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Sonstige Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 828,
+      "completion_tokens": 54,
+      "processing_time": 1.222,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00495
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Float glass in construction: EUROFLOAT",
+        "Insulating glass",
+        "Laminated glass",
+        "Laminated safety glass EUROLAMEX"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 1012,
+      "completion_tokens": 147,
+      "processing_time": 2.323,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007265
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Tür Forster Unico:Ausstattung Sage Glas' with no defined material, part of a curtain wall, categorized under 'Windows'.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Tür Forster Unico:Ausstattung Sage Glas' with no defined material, part of a curtain wall, categorized as 'Windows'.",
+        "Preliminary Selection": "Fenster",
+        "Matched Category": "Fenster"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with no defined material, associated with a curtain wall, categorized under 'Windows'.",
+        "Preliminary Selection": "Sonstige Fenster",
+        "Matched Category": "Sonstige Fenster"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Tür Forster Unico:Ausstattung Sage Glas', part of a curtain wall, with no defined material data. Relevant properties include being located on Level 00_Eingang, with dimensions of 2220mm height and 1290mm width, and categorized under Windows.",
+        "Preliminary Selection": [
+          "Float glass in construction: EUROFLOAT",
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ],
+        "Matched Materials": [
+          "Float glass in construction: EUROFLOAT",
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ]
+      }
+    }
+  ]
+}

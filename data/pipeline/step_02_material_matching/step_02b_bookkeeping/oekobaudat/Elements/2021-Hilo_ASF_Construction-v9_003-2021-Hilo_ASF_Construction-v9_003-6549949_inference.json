@@ -1,0 +1,54 @@
+{
+  "GlobalId": "2yJbbEqSPDc8j9KFU1qo7s",
+  "name": "2021-Hilo_ASF_Construction-v9_003-2021-Hilo_ASF_Construction-v9_003-6549949",
+  "total_steps": 2,
+  "total_tokens": 1936,
+  "total_prompt_tokens": 1824,
+  "total_completion_tokens": 112,
+  "total_processing_time": 2.488,
+  "total_cost_usd": 0.0108,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 928,
+      "completion_tokens": 56,
+      "processing_time": 1.288,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00548
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 896,
+      "completion_tokens": 56,
+      "processing_time": 1.2,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00532
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no specific material name, categorized under 'Generic Models' and associated with architecture workset.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no specific material name, categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Material Name: Luft, Element Name: Basic Wall:Holzfassade hinterlüftet, Type: IfcWallStandardCase, Other Material Layers: Holzschalung Vertikal, Nadelholz, schwarz gestrichen",
+    "Preliminary Selection": "Bau-Schnittholz",
+    "Matched Category": "Bau-Schnittholz"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+    "trace": [
+      "Holz",
+      "Vollholz"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 85,
+      "prompt_tokens": 972,
+      "total_tokens": 1057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.329,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00656
+  }
+}

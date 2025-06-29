@@ -1,0 +1,103 @@
+{
+  "GlobalId": "2lKHuWZur3SwHp3ySgW6UM",
+  "name": "Blechabdeckung-Brüstung-Blechabdeckung-Brüstung-7933804",
+  "total_steps": 4,
+  "total_tokens": 3500,
+  "total_prompt_tokens": 3167,
+  "total_completion_tokens": 333,
+  "total_processing_time": 6.024,
+  "total_cost_usd": 0.02083,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 799,
+      "completion_tokens": 67,
+      "processing_time": 1.259,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Oberflächenbehandlung und Beschichtung von Metallen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 772,
+      "completion_tokens": 73,
+      "processing_time": 1.189,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004955
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "(Nass-) Lackieren von Metallen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Oberflächenbehandlung_und_Beschichtung_von_Metallen",
+      "message": "Match successful",
+      "prompt_tokens": 751,
+      "completion_tokens": 76,
+      "processing_time": 1.709,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004895
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Application top coat on metals (solvent based)",
+        "Application top coat on metals (water based)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Oberflächenbehandlung_und_Beschichtung_von_Metallen/(Nass-)_Lackieren_von_Metallen",
+      "message": "Match successful",
+      "prompt_tokens": 845,
+      "completion_tokens": 117,
+      "processing_time": 1.867,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00598
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Blechabdeckung Brüstung', with no defined material but likely related to metal due to 'Blech' (sheet metal) in the name.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Blechabdeckung Brüstung', with no defined material but likely related to metal coverings.",
+        "Preliminary Selection": "Oberflächenbehandlung und Beschichtung von Metallen",
+        "Matched Category": "Oberflächenbehandlung und Beschichtung von Metallen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Blechabdeckung Brüstung', with no defined material but likely related to metal due to the name 'Blechabdeckung'.",
+        "Preliminary Selection": "(Nass-) Lackieren von Metallen",
+        "Matched Category": "(Nass-) Lackieren von Metallen"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Blechabdeckung Brüstung, Type: IfcWall, ObjectType: Blechabdeckung Brüstung, Material Data: Not defined, Category: Walls, Family: Blechabdeckung Brüstung, Phase Created: Zu Bauen",
+        "Preliminary Selection": [
+          "Application top coat on metals (solvent based)",
+          "Application top coat on metals (water based)"
+        ],
+        "Matched Materials": [
+          "Application top coat on metals (solvent based)",
+          "Application top coat on metals (water based)"
+        ]
+      }
+    }
+  ]
+}

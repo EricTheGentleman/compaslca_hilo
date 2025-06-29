@@ -1,0 +1,44 @@
+{
+  "GlobalId": "1Tv0YGeiT2fAVW5nnqum0c",
+  "Name": "TU-DF-1---Rahmenstock-flächenbündig-variabel-DL---H---900-x-2130---EI-30-5464826",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Innentüre, Funktionstüre, Holz, Holzrahmen",
+      "ID": "12.009",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "44.3",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "37.4",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "6.86",
+      "Biogenic Carbon [kg C]": "17.3",
+      "UBP (Total)": "87800",
+      "UBP (Manufacturing)": "79300",
+      "UBP (Disposal)": "8530",
+      "Total Renewable Primary Energy [kWh oil-eq]": "280",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "280",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.181",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "190",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "185",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "4.87"
+    },
+    {
+      "Name": "Innentüre, Funktionstüre, Holz, Stahlzarge",
+      "ID": "12.012",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "96.8",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "90.4",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "6.46",
+      "Biogenic Carbon [kg C]": "13.7",
+      "UBP (Total)": "181000",
+      "UBP (Manufacturing)": "173000",
+      "UBP (Disposal)": "7920",
+      "Total Renewable Primary Energy [kWh oil-eq]": "232",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "232",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.173",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "357",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "352",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "4.35"
+    }
+  ]
+}

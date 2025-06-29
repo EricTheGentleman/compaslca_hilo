@@ -1,0 +1,79 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Blechverkleidung-gedämmt-1829613",
+  "CompilationGroupID": "ce0cc1e825",
+  "Layer 1": {
+    "Volume [m^3]": 0.0037,
+    "Largest Surface Area [m^2]": 1.2595,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Stahlblech, verzinkt",
+        "ID": "6.011",
+        "Reference": "kg",
+        "Density (kg/m3)": "7850",
+        "Global Warming Potential Total [kgCO2-eqv]": "130.4121",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "130.1216",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "0.2013",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "441484.0",
+        "UBP (Manufacturing)": "441484.0",
+        "UBP (Disposal)": "322.3995",
+        "Total Renewable Primary Energy [kWh oil-eq]": "40.663",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "40.663",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0169",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "453.102",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "453.102",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.79"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 0.0571,
+    "Largest Surface Area [m^2]": 1.2595,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Aerogel-Vlies",
+        "ID": "10.014",
+        "Reference": "kg",
+        "Density (kg/m3)": "150",
+        "Global Warming Potential Total [kgCO2-eqv]": "417.1155",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "414.546",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "2.4753",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "630384.0",
+        "UBP (Manufacturing)": "626958.0",
+        "UBP (Disposal)": "3494.52",
+        "Total Renewable Primary Energy [kWh oil-eq]": "107.919",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "107.0625",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.1028",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "1969.95",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1961.385",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1.4903"
+      }
+    ]
+  },
+  "Layer 3": {
+    "Volume [m^3]": 0.0037,
+    "Largest Surface Area [m^2]": 1.2595,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Stahlblech, verzinkt",
+        "ID": "6.011",
+        "Reference": "kg",
+        "Density (kg/m3)": "7850",
+        "Global Warming Potential Total [kgCO2-eqv]": "130.4121",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "130.1216",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "0.2013",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "441484.0",
+        "UBP (Manufacturing)": "441484.0",
+        "UBP (Disposal)": "322.3995",
+        "Total Renewable Primary Energy [kWh oil-eq]": "40.663",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "40.663",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0169",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "453.102",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "453.102",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.79"
+      }
+    ]
+  }
+}

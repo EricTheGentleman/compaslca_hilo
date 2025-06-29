@@ -1,0 +1,59 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWindow, No specific glazing or U-value information provided.",
+    "Preliminary Selection": [
+      "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+      "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+      "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+      "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+      "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+    ],
+    "Matched Materials": [
+      "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+      "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+      "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+      "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+      "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+      "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+      "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+    "trace": [
+      "Fenster, Sonnenschutz, Fassadenplatten"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 671,
+      "prompt_tokens": 1704,
+      "total_tokens": 2375,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 8.504,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.02194
+  }
+}

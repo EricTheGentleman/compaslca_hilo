@@ -1,0 +1,66 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBC2",
+  "name": "Rohranschluss_Technikschnttelle_Nest-Regenwasser-Trinkwasser-6272092",
+  "total_steps": 2,
+  "total_tokens": 2112,
+  "total_prompt_tokens": 1917,
+  "total_completion_tokens": 195,
+  "total_processing_time": 3.841,
+  "total_cost_usd": 0.01251,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 953,
+      "completion_tokens": 71,
+      "processing_time": 1.55,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00583
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 964,
+      "completion_tokens": 124,
+      "processing_time": 2.291,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00668
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with water systems.",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

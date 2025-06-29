@@ -1,0 +1,37 @@
+﻿{
+  "Name": "Floor-Massivholz-24mm-6301249",
+  "GlobalId": "3ZnJlnBePBXQGgUrEPS3c7",
+  "Matched Materials with OEKOBAUDAT Indicators": [
+    {
+      "Name": "Solid wood parquet (German average)",
+      "ID": "bbbae8e3-3023-42b1-a58b-3cae9d482e10",
+      "Reference": "qm",
+      "Density (kg/m3)": "665.34",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "-18.7463382",
+      "GWPtotal (A2)": "0.0002169",
+      "GWPtotal (A3)": "5.1106245",
+      "GWPtotal (A1-A3)": "-13.6354968",
+      "GWPtotal (A4)": 0,
+      "GWPtotal (A5)": "0.128361",
+      "GWPtotal (B1)": 0,
+      "GWPtotal (B2)": 0,
+      "GWPtotal (B3)": 0,
+      "GWPtotal (B4)": 0,
+      "GWPtotal (B5)": 0,
+      "GWPtotal (B6)": 0,
+      "GWPtotal (B7)": 0,
+      "GWPtotal (C1)": 0,
+      "GWPtotal (C2)": "0.0157888",
+      "GWPtotal (C3)": "20.0464518",
+      "GWPtotal (C4)": 0,
+      "GWPbiogenic": "-19.8907813",
+      "GWPfossil": "12.8103894",
+      "GWPtotal": "6.5551049",
+      "Conformity": "'EN 15804+A2' / 'EN 16485'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Thünen-Institut für Holzforschung",
+      "Registrierungsnummer": 0
+    }
+  ]
+}

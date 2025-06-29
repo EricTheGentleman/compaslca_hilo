@@ -1,0 +1,112 @@
+{
+  "CompilationGroupID": "ff0919332f",
+  "name": "Basic-Wall-Holzfassade_Hinterlüftet_Laibung-2906806",
+  "total_steps": 4,
+  "total_tokens": 4519,
+  "total_prompt_tokens": 4081,
+  "total_completion_tokens": 438,
+  "total_processing_time": 7.792999999999999,
+  "total_cost_usd": 0.026975,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 973,
+      "completion_tokens": 65,
+      "processing_time": 1.907,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00584
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 926,
+      "completion_tokens": 67,
+      "processing_time": 1.551,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005635
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 957,
+      "completion_tokens": 75,
+      "processing_time": 1.313,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00591
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - fresh (German average)",
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Timber spruce (generic, 12% moisture / 10.7% H2O content)",
+        "Timber pine (generic, 12% moisture / 10.7% H2O content)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1225,
+      "completion_tokens": 231,
+      "processing_time": 3.022,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00959
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Holzschalung Vertikal, Nadelholz, schwarz gestrichen', type 'IfcWallStandardCase', and category 'Walls'.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Holzschalung Vertikal, Nadelholz, schwarz gestrichen', type 'IfcWallStandardCase', and category 'Walls'.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Holzschalung Vertikal, Nadelholz, schwarz gestrichen', type 'IfcWallStandardCase', and category 'Walls'.",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Holzfassade_Hinterlüftet_Laibung, Type: IfcWallStandardCase, Material: Holzschalung Vertikal, Nadelholz, schwarz gestrichen, Thickness: 0.02m",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)",
+          "Timber pine (generic, 12% moisture / 10.7% H2O content)"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)",
+          "Timber pine (generic, 12% moisture / 10.7% H2O content)"
+        ]
+      }
+    }
+  ]
+}

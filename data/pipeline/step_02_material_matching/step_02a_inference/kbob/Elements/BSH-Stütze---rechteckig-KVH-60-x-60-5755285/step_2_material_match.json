@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcColumn, Material Name: Holz Brettschicht - C24 Cl.1, ObjectType: BSH Stütze - rechteckig:KVH 60 x 60, Category: Structural Columns",
+    "Preliminary Selection": [
+      "Brettschichtholz",
+      "Brettschichtholz, Produktion Schweiz"
+    ],
+    "Matched Materials": [
+      "Brettschichtholz",
+      "Brettschichtholz, Produktion Schweiz"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 106,
+      "prompt_tokens": 1538,
+      "total_tokens": 1644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.93,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00981
+  }
+}

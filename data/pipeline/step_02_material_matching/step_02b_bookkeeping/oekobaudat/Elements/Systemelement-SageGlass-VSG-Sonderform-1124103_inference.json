@@ -1,0 +1,94 @@
+{
+  "CompilationGroupID": "2fc8bbc0c1",
+  "name": "Systemelement-SageGlass-VSG-Sonderform-1124103",
+  "total_steps": 4,
+  "total_tokens": 3832,
+  "total_prompt_tokens": 3566,
+  "total_completion_tokens": 266,
+  "total_processing_time": 6.635999999999999,
+  "total_cost_usd": 0.02182,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 887,
+      "completion_tokens": 80,
+      "processing_time": 1.512,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005635
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 886,
+      "completion_tokens": 66,
+      "processing_time": 1.376,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00542
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Vorhangfassade - Element-Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden",
+      "message": "Match successful",
+      "prompt_tokens": 847,
+      "completion_tokens": 64,
+      "processing_time": 1.598,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005195
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden/Vorhangfassade_-_Element-Fassaden",
+      "message": "No match found",
+      "prompt_tokens": 946,
+      "completion_tokens": 56,
+      "processing_time": 2.15,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00557
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate named 'Systemelement:SageGlass VSG Sonderform' with material 'Glas SageGlassClimatop', part of a curtain wall.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate named 'Systemelement:SageGlass VSG Sonderform' with material 'Glas SageGlassClimatop', part of a curtain wall.",
+        "Preliminary Selection": "Fassaden",
+        "Matched Category": "Fassaden"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall, with material Glas SageGlassClimatop.",
+        "Preliminary Selection": "Vorhangfassade - Element-Fassaden",
+        "Matched Category": "Vorhangfassade - Element-Fassaden"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall system, specifically a SageGlass VSG Sonderform with material 'Glas SageGlassClimatop'.",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

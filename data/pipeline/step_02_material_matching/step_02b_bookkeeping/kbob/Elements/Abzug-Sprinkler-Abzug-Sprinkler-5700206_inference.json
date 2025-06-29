@@ -1,0 +1,34 @@
+{
+  "GlobalId": "3CfkjHPHr7huZjPEhmDFd6",
+  "name": "Abzug-Sprinkler-Abzug-Sprinkler-5700206",
+  "total_steps": 1,
+  "total_tokens": 929,
+  "total_prompt_tokens": 879,
+  "total_completion_tokens": 50,
+  "total_processing_time": 1.149,
+  "total_cost_usd": 0.005145,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 879,
+      "completion_tokens": 50,
+      "processing_time": 1.149,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005145
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Abzug Sprinkler, Type: IfcBuildingElementProxy, Material Name: Körpermodell",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

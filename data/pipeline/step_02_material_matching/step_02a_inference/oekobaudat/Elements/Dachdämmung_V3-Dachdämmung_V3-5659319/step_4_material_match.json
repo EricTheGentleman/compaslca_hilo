@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Dachdämmung_V3, Type: IfcBuildingElementProxy, Material Name: Material 2, Category: Generic Models, Family: Dachdämmung_V3, Workset: Dachkonstruktion",
+    "Preliminary Selection": [
+      "2.25.01. Load-bearing thermal insulation elements"
+    ],
+    "Matched Materials": [
+      "2.25.01. Load-bearing thermal insulation elements"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Dämmelemente/Tragende_Wärmedämmelemente",
+    "trace": [
+      "Dämmstoffe",
+      "Dämmelemente",
+      "Tragende Wärmedämmelemente"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 94,
+      "prompt_tokens": 884,
+      "total_tokens": 978,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.239,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.0063
+  }
+}

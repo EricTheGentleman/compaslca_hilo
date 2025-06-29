@@ -1,0 +1,50 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcBeam named 'BSH Träger - rechteckig:Holz 140 x 240:1699118', made of 'Brettschichtholz C24', used in structural framing.",
+    "Preliminary Selection": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Glued laminated timber, glued solid timber, block glued glulam, special components",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ],
+    "Matched Materials": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Brettschichtholz (BSH)"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 196,
+      "prompt_tokens": 1004,
+      "total_tokens": 1200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.751,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00894
+  }
+}

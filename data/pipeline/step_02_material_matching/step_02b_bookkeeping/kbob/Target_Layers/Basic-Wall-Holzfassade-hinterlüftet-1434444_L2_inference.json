@@ -1,0 +1,54 @@
+{
+  "GlobalId": "0XxTIRndPDswCFuTTPaYEK_L2",
+  "name": "Basic-Wall-Holzfassade-hinterlüftet-1434444_L2",
+  "total_steps": 2,
+  "total_tokens": 2850,
+  "total_prompt_tokens": 2701,
+  "total_completion_tokens": 149,
+  "total_processing_time": 3.0810000000000004,
+  "total_cost_usd": 0.01574,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1051,
+      "completion_tokens": 82,
+      "processing_time": 1.356,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006485
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1650,
+      "completion_tokens": 67,
+      "processing_time": 1.725,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009255
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Luft, Element Name: Basic Wall:Holzfassade hinterlüftet, Type: IfcWallStandardCase, Other Material: Holzschalung Vertikal, Nadelholz, schwarz gestrichen",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a non-structural, ventilated wooden facade wall with a layer of air. The relevant material is 'Luft' (air) with a thickness of 0.03 meters.",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

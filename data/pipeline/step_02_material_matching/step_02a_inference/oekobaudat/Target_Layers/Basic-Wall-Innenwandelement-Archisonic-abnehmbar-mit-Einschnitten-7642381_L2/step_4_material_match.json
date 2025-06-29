@@ -1,0 +1,45 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The building element is a non-structural interior wall (IfcWallStandardCase) with a layer of MDF material, 0.012 meters thick, used in an interior fit-out context.",
+    "Preliminary Selection": [
+      "Medium Density Fibreboard (MDF)",
+      "Medium density fibreboard (German average)",
+      "Unilin Medium Density Fiberboard"
+    ],
+    "Matched Materials": [
+      "Medium Density Fibreboard (MDF)",
+      "Medium density fibreboard (German average)",
+      "Unilin Medium Density Fiberboard"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Holzfaserplatten",
+    "trace": [
+      "Holz",
+      "Holzwerkstoffe",
+      "Holzfaserplatten"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 112,
+      "prompt_tokens": 1111,
+      "total_tokens": 1223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.324,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007795
+  }
+}

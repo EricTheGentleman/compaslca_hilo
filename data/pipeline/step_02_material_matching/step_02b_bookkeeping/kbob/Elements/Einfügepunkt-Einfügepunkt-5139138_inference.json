@@ -1,0 +1,34 @@
+{
+  "GlobalId": "0nK9oFqBX9tfLI4$NtgMoA",
+  "name": "Einfügepunkt-Einfügepunkt-5139138",
+  "total_steps": 1,
+  "total_tokens": 916,
+  "total_prompt_tokens": 870,
+  "total_completion_tokens": 46,
+  "total_processing_time": 1.208,
+  "total_cost_usd": 0.00504,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 870,
+      "completion_tokens": 46,
+      "processing_time": 1.208,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00504
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material Name: Körpermodell, Category: Mass",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

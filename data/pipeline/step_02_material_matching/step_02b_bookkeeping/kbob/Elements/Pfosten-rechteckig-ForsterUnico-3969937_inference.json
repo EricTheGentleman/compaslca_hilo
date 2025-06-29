@@ -1,0 +1,62 @@
+{
+  "CompilationGroupID": "75762e6adc",
+  "name": "Pfosten-rechteckig-ForsterUnico-3969937",
+  "total_steps": 2,
+  "total_tokens": 2354,
+  "total_prompt_tokens": 2193,
+  "total_completion_tokens": 161,
+  "total_processing_time": 3.6,
+  "total_cost_usd": 0.01338,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 973,
+      "completion_tokens": 80,
+      "processing_time": 1.671,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006065
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlprofil, blank"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1220,
+      "completion_tokens": 81,
+      "processing_time": 1.929,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007315
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:ForsterUnico' used in a curtain wall, with material 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a rectangular post made of 'Stahl, 45-34, Pulverbeschichtung schwarz', part of a curtain wall system.",
+        "Preliminary Selection": [
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Stahlprofil, blank"
+        ],
+        "Matched Materials": [
+          "Stahlprofil, blank"
+        ]
+      }
+    }
+  ]
+}

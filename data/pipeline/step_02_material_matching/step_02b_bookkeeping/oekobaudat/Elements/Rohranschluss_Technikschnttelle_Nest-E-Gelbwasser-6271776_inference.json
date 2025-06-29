@@ -1,0 +1,74 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBH_",
+  "name": "Rohranschluss_Technikschnttelle_Nest-E-Gelbwasser-6271776",
+  "total_steps": 3,
+  "total_tokens": 2810,
+  "total_prompt_tokens": 2575,
+  "total_completion_tokens": 235,
+  "total_processing_time": 4.325,
+  "total_cost_usd": 0.0164,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 885,
+      "completion_tokens": 87,
+      "processing_time": 1.713,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00573
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Sanitär",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 856,
+      "completion_tokens": 83,
+      "processing_time": 1.519,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005525
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Sanitär",
+      "message": "No match found",
+      "prompt_tokens": 834,
+      "completion_tokens": 65,
+      "processing_time": 1.093,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005145
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Gelbwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Gelbwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "Sanitär",
+        "Matched Category": "Sanitär"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Gelbwasser, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

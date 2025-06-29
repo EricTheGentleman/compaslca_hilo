@@ -1,0 +1,105 @@
+{
+  "GlobalId": "0XxTIRndPDswCFuTTPaYEK_L1",
+  "name": "Basic-Wall-Holzfassade-hinterlüftet-1434444_L1",
+  "total_steps": 4,
+  "total_tokens": 4490,
+  "total_prompt_tokens": 4141,
+  "total_completion_tokens": 349,
+  "total_processing_time": 7.3100000000000005,
+  "total_cost_usd": 0.025939999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 988,
+      "completion_tokens": 60,
+      "processing_time": 1.705,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00584
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 941,
+      "completion_tokens": 62,
+      "processing_time": 1.447,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005635
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 972,
+      "completion_tokens": 80,
+      "processing_time": 1.489,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00606
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1240,
+      "completion_tokens": 147,
+      "processing_time": 2.669,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008405
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Holzschalung Vertikal, Nadelholz, schwarz gestrichen; Element Type: IfcWallStandardCase; Category: Walls",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Holzschalung Vertikal, Nadelholz, schwarz gestrichen; Element Type: IfcWallStandardCase; Category: Walls",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Holzschalung Vertikal, Nadelholz, schwarz gestrichen; Element Type: IfcWallStandardCase; Element Name: Basic Wall:Holzfassade hinterlüftet",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The target material is a vertical wood cladding made of coniferous wood, painted black, with a thickness of 0.02 meters. The building element is a non-structural, ventilated wooden facade wall.",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Rubner Sawn Timber, Rubner Sawn Timber kiln dried, Rubner Sawn Timber machine graded"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)"
+        ]
+      }
+    }
+  ]
+}

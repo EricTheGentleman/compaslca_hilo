@@ -1,0 +1,61 @@
+{
+  "CompilationGroupID": "ce0cc1e825_L1",
+  "name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L1",
+  "total_steps": 2,
+  "total_tokens": 2611,
+  "total_prompt_tokens": 2423,
+  "total_completion_tokens": 188,
+  "total_processing_time": 3.657,
+  "total_cost_usd": 0.014935,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1088,
+      "completion_tokens": 75,
+      "processing_time": 1.338,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006565
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlblech, verzinkt"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1335,
+      "completion_tokens": 113,
+      "processing_time": 2.319,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00837
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Other Material: Wärmedämmung Slentex Aerogel",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The element is a non-structural, exterior wall with a core face exterior location line. The primary material is 'Stahl, 45-34, Pulverbeschichtung schwarz' with a thickness of 0.003 meters. The element is a 'Basic Wall: Blechverkleidung gedämmt'.",
+        "Preliminary Selection": [
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt"
+        ],
+        "Matched Materials": [
+          "Stahlblech, verzinkt"
+        ]
+      }
+    }
+  ]
+}

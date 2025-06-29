@@ -1,0 +1,62 @@
+{
+  "CompilationGroupID": "33340139eb",
+  "name": "Pfosten-rechteckig-Forster-60-x-130---Nur-Pfosten-1756080",
+  "total_steps": 2,
+  "total_tokens": 2464,
+  "total_prompt_tokens": 2273,
+  "total_completion_tokens": 191,
+  "total_processing_time": 3.9130000000000003,
+  "total_cost_usd": 0.01423,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1013,
+      "completion_tokens": 87,
+      "processing_time": 2.115,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00637
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlprofil, blank"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1260,
+      "completion_tokens": 104,
+      "processing_time": 1.798,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00786
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:Forster 60 x 130 - Nur Pfosten', part of a curtain wall, made of 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Pfosten rechteckig:Forster 60 x 130 - Nur Pfosten, Type: IfcMember, Material Name: Stahl, 45-34, Pulverbeschichtung schwarz, Part of: IfcCurtainWall",
+        "Preliminary Selection": [
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Stahlprofil, blank"
+        ],
+        "Matched Materials": [
+          "Stahlprofil, blank"
+        ]
+      }
+    }
+  ]
+}

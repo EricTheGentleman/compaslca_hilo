@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "Stair-Residential---200mm-Max-Riser-250mm-Tread-198878-1_1",
+  "CompilationGroupID": "07fe93310a",
+  "Volume [m^3]": 0.417,
+  "Largest Surface Area [m^2]": 8.8088,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

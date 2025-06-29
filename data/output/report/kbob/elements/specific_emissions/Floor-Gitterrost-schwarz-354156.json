@@ -1,0 +1,44 @@
+﻿{
+  "Name": "Floor-Gitterrost-schwarz-354156",
+  "GlobalId": "3fl00qHO16BwCmbpQP9mlL",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Stahlblech, verzinkt",
+      "ID": "6.011",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.49",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "4.48",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00693",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "15200",
+      "UBP (Manufacturing)": "15200",
+      "UBP (Disposal)": "11.1",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1.4",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1.4",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000582",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "15.6",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "15.6",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0272"
+    },
+    {
+      "Name": "Titanzinkblech",
+      "ID": "6.013",
+      "Reference": "kg",
+      "Density (kg/m3)": "7200",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.03",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "4.02",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00792",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "27800",
+      "UBP (Manufacturing)": "27800",
+      "UBP (Disposal)": "19.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2.61",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2.61",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000788",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "17.5",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "17.4",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0314"
+    }
+  ]
+}

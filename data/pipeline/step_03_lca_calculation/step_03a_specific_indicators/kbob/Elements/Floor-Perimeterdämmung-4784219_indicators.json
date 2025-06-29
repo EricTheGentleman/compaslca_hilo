@@ -1,0 +1,44 @@
+{
+  "CompilationGroupID": "01982f91ae",
+  "Name": "Floor-Perimeterdämmung-4784219",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Polystyrol extrudiert (XPS)",
+      "ID": "10.005",
+      "Reference": "kg",
+      "Density (kg/m3)": "32",
+      "Global Warming Potential Total [kgCO2-eqv]": "14.4",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "11.3",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.09",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "19700",
+      "UBP (Manufacturing)": "16500",
+      "UBP (Disposal)": "3280",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.671",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.659",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0117",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "29.4",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "29.2",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.202"
+    },
+    {
+      "Name": "Polystyrol extrudiert, SwissporXPS",
+      "ID": "10.005.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "34.3",
+      "Global Warming Potential Total [kgCO2-eqv]": "6.96",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "3.87",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.09",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "8880",
+      "UBP (Manufacturing)": "5600",
+      "UBP (Disposal)": "3280",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1.37",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1.36",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0117",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "25.5",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "25.3",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.202"
+    }
+  ]
+}

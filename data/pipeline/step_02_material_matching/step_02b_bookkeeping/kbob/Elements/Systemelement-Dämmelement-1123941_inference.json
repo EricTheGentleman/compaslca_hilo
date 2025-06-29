@@ -1,0 +1,85 @@
+{
+  "CompilationGroupID": "e3b11c95ba",
+  "name": "Systemelement-Dämmelement-1123941",
+  "total_steps": 2,
+  "total_tokens": 2501,
+  "total_prompt_tokens": 2166,
+  "total_completion_tokens": 335,
+  "total_processing_time": 4.802,
+  "total_cost_usd": 0.015855,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 950,
+      "completion_tokens": 65,
+      "processing_time": 1.484,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005725
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polystyrol expandiert (EPS)",
+        "Polystyrol expandiert, SwissporEPS",
+        "Polystyrol extrudiert (XPS)",
+        "Polystyrol extrudiert, SwissporXPS",
+        "Polyurethan (PUR/PIR)",
+        "Polyurethan, SwissporPIR",
+        "Steinwolle",
+        "Steinwolle, Flumroc"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1216,
+      "completion_tokens": 270,
+      "processing_time": 3.318,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01013
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall, with material 'Wärmedämmung druckfest', indicating a focus on insulation.",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The element is an IfcPlate used as a thermal insulation component in a curtain wall system. The material is described as 'Wärmedämmung druckfest', indicating a rigid thermal insulation material.",
+        "Preliminary Selection": [
+          "Glaswolle",
+          "Glaswolle, Isover, pflanzliches Bindemittel",
+          "Glaswolle, Isover, phenolbasiertes Bindemittel",
+          "Glaswolle, SUPAFIL",
+          "Polystyrol expandiert (EPS)",
+          "Polystyrol expandiert, SwissporEPS",
+          "Polystyrol extrudiert (XPS)",
+          "Polystyrol extrudiert, SwissporXPS",
+          "Polyurethan (PUR/PIR)",
+          "Polyurethan, SwissporPIR",
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ],
+        "Matched Materials": [
+          "Polystyrol expandiert (EPS)",
+          "Polystyrol expandiert, SwissporEPS",
+          "Polystyrol extrudiert (XPS)",
+          "Polystyrol extrudiert, SwissporXPS",
+          "Polyurethan (PUR/PIR)",
+          "Polyurethan, SwissporPIR",
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBH_",
+  "Name": "Rohranschluss_Technikschnttelle_Nest-E-Gelbwasser-6271776",
+  "Volume [m^3]": 0.0004,
+  "Largest Surface Area [m^2]": 0.0072,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

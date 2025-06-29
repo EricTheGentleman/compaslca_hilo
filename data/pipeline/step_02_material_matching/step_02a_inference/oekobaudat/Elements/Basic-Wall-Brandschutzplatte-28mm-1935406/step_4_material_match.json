@@ -1,0 +1,42 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is a basic wall with a fire protection board of 28mm thickness, specifically a gypsum fibre board.",
+    "Preliminary Selection": [
+      "Gypsum fibre board (10 mm)",
+      "gypsum fibre board"
+    ],
+    "Matched Materials": [
+      "gypsum fibre board"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Gipsplatten",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Steine und Elemente",
+      "Gipsplatten"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 65,
+      "prompt_tokens": 1164,
+      "total_tokens": 1229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.744,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00712
+  }
+}

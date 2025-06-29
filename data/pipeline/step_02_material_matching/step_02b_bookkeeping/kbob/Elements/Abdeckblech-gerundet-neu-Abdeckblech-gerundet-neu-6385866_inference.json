@@ -1,0 +1,81 @@
+{
+  "CompilationGroupID": "aebc0975e3",
+  "name": "Abdeckblech-gerundet-neu-Abdeckblech-gerundet-neu-6385866",
+  "total_steps": 2,
+  "total_tokens": 2413,
+  "total_prompt_tokens": 2137,
+  "total_completion_tokens": 276,
+  "total_processing_time": 5.567,
+  "total_cost_usd": 0.014825,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 945,
+      "completion_tokens": 76,
+      "processing_time": 1.81,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005865
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Aluminiumblech, blank",
+        "Chromnickelstahlblech 18/8 blank",
+        "Chromnickelstahlblech 18/8 verzinnt",
+        "Chromstahlblech blank",
+        "Chromstahlblech verzinnt",
+        "Stahlblech, blank",
+        "Stahlblech, verzinkt",
+        "Titanzinkblech"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1192,
+      "completion_tokens": 200,
+      "processing_time": 3.757,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00896
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named 'Abdeckblech gerundet-neu' with no specific material name provided. It is categorized under 'Generic Models' and associated with architecture.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Abdeckblech gerundet-neu, Type: IfcBuildingElementProxy, Material Name: <Unnamed>, Category: Generic Models",
+        "Preliminary Selection": [
+          "Aluminiumblech, blank",
+          "Chromnickelstahlblech 18/8 blank",
+          "Chromnickelstahlblech 18/8 verzinnt",
+          "Chromstahlblech blank",
+          "Chromstahlblech verzinnt",
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ],
+        "Matched Materials": [
+          "Aluminiumblech, blank",
+          "Chromnickelstahlblech 18/8 blank",
+          "Chromnickelstahlblech 18/8 verzinnt",
+          "Chromstahlblech blank",
+          "Chromstahlblech verzinnt",
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ]
+      }
+    }
+  ]
+}

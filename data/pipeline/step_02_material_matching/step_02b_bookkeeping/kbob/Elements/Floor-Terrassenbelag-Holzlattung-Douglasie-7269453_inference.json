@@ -1,0 +1,75 @@
+{
+  "GlobalId": "3dHkNX9eXDKekm9KvP4T_n",
+  "name": "Floor-Terrassenbelag-Holzlattung-Douglasie-7269453",
+  "total_steps": 2,
+  "total_tokens": 2996,
+  "total_prompt_tokens": 2589,
+  "total_completion_tokens": 407,
+  "total_processing_time": 6.399000000000001,
+  "total_cost_usd": 0.019049999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 995,
+      "completion_tokens": 69,
+      "processing_time": 1.552,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00601
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1594,
+      "completion_tokens": 338,
+      "processing_time": 4.847,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01304
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of wood, specifically 'Terrassenbelag Holzlattung Douglasie', with material name 'Terrassenbelag Holz'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:Terrassenbelag Holzlattung Douglasie, Type: IfcSlab, Material Name: Terrassenbelag Holz, Structural: False",
+        "Preliminary Selection": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

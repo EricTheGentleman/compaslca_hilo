@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Abzug-Sprinkler-Abzug-Sprinkler-5700206",
+  "GlobalId": "3CfkjHPHr7huZjPEhmDFd6",
+  "Volume [m^3]": 0.0004,
+  "Largest Surface Area [m^2]": 0.0095,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

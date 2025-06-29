@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcBuildingElementProxy named '1072_210621_HiLo_Aussengeländer West'. No material defined. Workset is Architecture, Category is Generic Models.",
+    "Preliminary Selection": "Metallbaustoffe",
+    "Matched Category": "None"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/KBOB",
+    "trace": [],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 70,
+      "prompt_tokens": 951,
+      "total_tokens": 1021,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.608,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006155
+  }
+}

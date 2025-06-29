@@ -1,0 +1,101 @@
+{
+  "GlobalId": "2b2$zMtOD2SQL3ltF3MWGZ",
+  "name": "Basic-Wall-3-Schichtplatte-27mm-C--C-3384320",
+  "total_steps": 4,
+  "total_tokens": 3985,
+  "total_prompt_tokens": 3704,
+  "total_completion_tokens": 281,
+  "total_processing_time": 8.386000000000001,
+  "total_cost_usd": 0.022735,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 923,
+      "completion_tokens": 64,
+      "processing_time": 1.602,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005575
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 876,
+      "completion_tokens": 56,
+      "processing_time": 3.099,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00522
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 913,
+      "completion_tokens": 62,
+      "processing_time": 1.477,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005495
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 992,
+      "completion_tokens": 99,
+      "processing_time": 2.208,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006445
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 3-Schicht-Platte with a thickness of 27mm, categorized under Walls, non-structural, material name indicates wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a basic wall with material '3-Schicht-Platte', which is a type of wood-based panel.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material '3-Schicht-Platte' and type 'IfcWall'.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:3-Schichtplatte 27mm C+/C, Type: IfcWall, Material: 3-Schicht-Platte, Thickness: 0.027m, Non-bearing structure",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "CompilationGroupID": "32bb5170ae",
+  "name": "Einlauf-Contec-Tube-DN75-6761910",
+  "total_steps": 2,
+  "total_tokens": 2005,
+  "total_prompt_tokens": 1817,
+  "total_completion_tokens": 188,
+  "total_processing_time": 4.521,
+  "total_cost_usd": 0.011904999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 903,
+      "completion_tokens": 65,
+      "processing_time": 1.243,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00549
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 914,
+      "completion_tokens": 123,
+      "processing_time": 3.278,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006415
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN75:6761910, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN75:6761910, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Einlauf Contec Tube: DN75",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

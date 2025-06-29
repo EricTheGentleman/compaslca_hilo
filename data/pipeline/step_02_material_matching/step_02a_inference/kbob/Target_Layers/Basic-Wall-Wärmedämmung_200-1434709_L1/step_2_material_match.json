@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The IfcBuildingElement is a wall with mineral wool insulation, 0.035 W/mK, 0.1m thick, non-structural, located at Level 01_Galerie.",
+    "Preliminary Selection": [
+      "Glaswolle",
+      "Glaswolle, Isover, pflanzliches Bindemittel",
+      "Glaswolle, Isover, phenolbasiertes Bindemittel",
+      "Glaswolle, SUPAFIL",
+      "Steinwolle",
+      "Steinwolle, Flumroc"
+    ],
+    "Matched Materials": [
+      "Glaswolle",
+      "Glaswolle, Isover, pflanzliches Bindemittel",
+      "Glaswolle, Isover, phenolbasiertes Bindemittel",
+      "Glaswolle, SUPAFIL",
+      "Steinwolle",
+      "Steinwolle, Flumroc"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+    "trace": [
+      "Wärmedämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 195,
+      "prompt_tokens": 1307,
+      "total_tokens": 1502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 4.322,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.010435
+  }
+}

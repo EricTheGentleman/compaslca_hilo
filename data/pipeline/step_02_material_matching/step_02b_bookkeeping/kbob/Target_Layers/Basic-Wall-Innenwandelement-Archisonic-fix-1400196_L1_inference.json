@@ -1,0 +1,56 @@
+{
+  "CompilationGroupID": "75d64ea952_L1",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-fix-1400196_L1",
+  "total_steps": 2,
+  "total_tokens": 2782,
+  "total_prompt_tokens": 2655,
+  "total_completion_tokens": 127,
+  "total_processing_time": 2.791,
+  "total_cost_usd": 0.01518,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1028,
+      "completion_tokens": 60,
+      "processing_time": 1.367,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00604
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1627,
+      "completion_tokens": 67,
+      "processing_time": 1.424,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00914
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Type: IfcWallStandardCase, Structural: False, Non-bearing, Other Material: MDF",
+        "Preliminary Selection": [
+          "Mitteldichte Faserplatte (MDF), UF-gebunden"
+        ],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

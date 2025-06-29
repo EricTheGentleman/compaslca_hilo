@@ -1,0 +1,39 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The IfcBuildingElement is a wall with a specific focus on the insulation layer made of 'Wärmedämmung Slentex Aerogel' with a thickness of 0.046 meters. The wall is described as 'Basic Wall:Blechverkleidung gedämmt' and is non-structural, room bounding, and located at the exterior core face.",
+    "Preliminary Selection": [
+      "Aerogel-Vlies"
+    ],
+    "Matched Materials": [
+      "Aerogel-Vlies"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+    "trace": [
+      "Wärmedämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 108,
+      "prompt_tokens": 1354,
+      "total_tokens": 1462,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.179,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00893
+  }
+}

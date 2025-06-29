@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "75d64ea952_L2",
+  "Name": "Basic-Wall-Innenwandelement-Archisonic-fix-1400196_L2",
+  "Volume [m^3]": 0.0788,
+  "Largest Surface Area [m^2]": 7.6364,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Mitteldichte Faserplatte (MDF), UF-gebunden",
+      "ID": "7.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "685",
+      "Global Warming Potential Total [kgCO2-eqv]": "51.495",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "46.0972",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "5.3978",
+      "Biogenic Carbon [kg C]": "21.3753",
+      "UBP (Total)": "83665.9",
+      "UBP (Manufacturing)": "76648.76",
+      "UBP (Disposal)": "6909.184",
+      "Total Renewable Primary Energy [kWh oil-eq]": "315.7713",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "315.7713",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3401",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "241.2817",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "235.8839",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "5.5058"
+    }
+  ]
+}

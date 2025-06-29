@@ -1,0 +1,27 @@
+﻿{
+  "Name": "Floor-3-Schichtplatte-27mm-B-C-4895632",
+  "GlobalId": "2HRNy9Dlv5uw9UESvb_JkV",
+  "Volume [m^3]": 0.1159,
+  "Largest Surface Area [m^2]": 77.2548,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "24.6238",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "21.7361",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.9034",
+      "Biogenic Carbon [kg C]": "22.7337",
+      "UBP (Total)": "53027.727",
+      "UBP (Manufacturing)": "48932.5164",
+      "UBP (Disposal)": "4215.9668",
+      "Total Renewable Primary Energy [kWh oil-eq]": "698.2859",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "698.2859",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3239",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "114.4559",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "109.7306",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "4.846"
+    }
+  ]
+}

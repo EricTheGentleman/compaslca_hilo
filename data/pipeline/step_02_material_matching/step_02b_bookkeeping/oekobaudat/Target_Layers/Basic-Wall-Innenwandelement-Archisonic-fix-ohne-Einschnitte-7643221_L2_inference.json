@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "6621a241af_L2",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-fix-ohne-Einschnitte-7643221_L2",
+  "total_steps": 4,
+  "total_tokens": 4319,
+  "total_prompt_tokens": 4013,
+  "total_completion_tokens": 306,
+  "total_processing_time": 6.896,
+  "total_cost_usd": 0.024655000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 988,
+      "completion_tokens": 62,
+      "processing_time": 1.259,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00587
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 941,
+      "completion_tokens": 66,
+      "processing_time": 1.52,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005695
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Holzfaserplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 978,
+      "completion_tokens": 66,
+      "processing_time": 1.362,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00588
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Medium Density Fibreboard (MDF)",
+        "Medium density fibreboard (German average)",
+        "Unilin Medium Density Fiberboard"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Holzfaserplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1106,
+      "completion_tokens": 112,
+      "processing_time": 2.755,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00721
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte",
+        "Preliminary Selection": "Holzfaserplatten",
+        "Matched Category": "Holzfaserplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The building element is a non-structural interior wall (IfcWallStandardCase) with a layer of MDF material, 0.012 meters thick, used in an interior fit-out context.",
+        "Preliminary Selection": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ],
+        "Matched Materials": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ]
+      }
+    }
+  ]
+}

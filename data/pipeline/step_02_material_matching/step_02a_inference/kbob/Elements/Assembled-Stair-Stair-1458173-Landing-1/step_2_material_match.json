@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a non-monolithic landing made of steel, part of an assembled stair, categorized under architecture.",
+    "Preliminary Selection": [
+      "Stahlblech, blank",
+      "Stahlblech, verzinkt",
+      "Stahlprofil, blank"
+    ],
+    "Matched Materials": [
+      "Stahlprofil, blank"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+    "trace": [
+      "Metallbaustoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 1151,
+      "total_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.577,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007215
+  }
+}

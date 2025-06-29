@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "5e3171c413",
+  "Name": "Systemelement-SageGlass-VSG-1612785",
+  "Volume [m^3]": 1.5586,
+  "Largest Surface Area [m^2]": 29.991,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Fassade, Pfosten-Riegel, Alu/Glas",
+      "ID": "5.008",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "5458.362",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "5068.479",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "392.8821",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "9867039.0",
+      "UBP (Manufacturing)": "9387183.0",
+      "UBP (Disposal)": "464860.5",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2195.3412",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2183.3448",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "14.6956",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "21083.673",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "20933.718",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "156.8529"
+    }
+  ]
+}

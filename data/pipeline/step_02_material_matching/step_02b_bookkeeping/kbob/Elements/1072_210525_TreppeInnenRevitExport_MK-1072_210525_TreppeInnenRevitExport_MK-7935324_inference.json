@@ -1,0 +1,34 @@
+{
+  "GlobalId": "3F0C$S43P1ZRg2TjWrCk52",
+  "name": "1072_210525_TreppeInnenRevitExport_MK-1072_210525_TreppeInnenRevitExport_MK-7935324",
+  "total_steps": 1,
+  "total_tokens": 1003,
+  "total_prompt_tokens": 939,
+  "total_completion_tokens": 64,
+  "total_processing_time": 1.421,
+  "total_cost_usd": 0.005655,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 939,
+      "completion_tokens": 64,
+      "processing_time": 1.421,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005655
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the 'Architecture' workset, related to a staircase (Treppe).",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

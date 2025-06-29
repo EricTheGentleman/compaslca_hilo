@@ -1,0 +1,101 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L4",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L4",
+  "total_steps": 4,
+  "total_tokens": 4589,
+  "total_prompt_tokens": 4273,
+  "total_completion_tokens": 316,
+  "total_processing_time": 6.686999999999999,
+  "total_cost_usd": 0.026105000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1031,
+      "completion_tokens": 58,
+      "processing_time": 1.268,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006025
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1162,
+      "completion_tokens": 68,
+      "processing_time": 1.383,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00683
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Steinwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 978,
+      "completion_tokens": 60,
+      "processing_time": 1.217,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00579
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "ROCKWOOL Mineral-wool insulation (medium bulk density range)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Steinwolle",
+      "message": "Match successful",
+      "prompt_tokens": 1102,
+      "completion_tokens": 130,
+      "processing_time": 2.819,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00746
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Trittschalldämmung Flumroc 341, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Trittschalldämmung Flumroc 341, Element Type: IfcSlab, Element Name: Floor:Galerie Fussbodenaufbau",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Trittschalldämmung Flumroc 341, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Steinwolle",
+        "Matched Category": "Steinwolle"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The target material is 'Trittschalldämmung Flumroc 341', a sound insulation layer with a thickness of 0.03 meters, used in a floor slab (IfcSlab) context. The element is part of a floor construction named 'Galerie Fussbodenaufbau'.",
+        "Preliminary Selection": [
+          "ROCKWOOL Mineral-wool insulation (high bulk density range)",
+          "ROCKWOOL Mineral-wool insulation (medium bulk density range)"
+        ],
+        "Matched Materials": [
+          "ROCKWOOL Mineral-wool insulation (medium bulk density range)"
+        ]
+      }
+    }
+  ]
+}

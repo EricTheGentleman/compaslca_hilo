@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "6621a241af_L1",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-fix-ohne-Einschnitte-7643221_L1",
+  "total_steps": 2,
+  "total_tokens": 2221,
+  "total_prompt_tokens": 2107,
+  "total_completion_tokens": 114,
+  "total_processing_time": 2.942,
+  "total_cost_usd": 0.012244999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 988,
+      "completion_tokens": 64,
+      "processing_time": 1.519,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0059
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1119,
+      "completion_tokens": 50,
+      "processing_time": 1.423,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006345
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF, Category: Walls, Structural Usage: Non-bearing",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "GlobalId": "1GYJkCWSXDPAizLcwxbAKl",
+  "name": "Bleche-Fassade_V6-Bleche-Fassade_V6-4910201",
+  "total_steps": 2,
+  "total_tokens": 2789,
+  "total_prompt_tokens": 2619,
+  "total_completion_tokens": 170,
+  "total_processing_time": 3.597,
+  "total_cost_usd": 0.015645,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 922,
+      "completion_tokens": 90,
+      "processing_time": 1.742,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00596
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Fassadenplatte, Aluverbund, 4 mm"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1697,
+      "completion_tokens": 80,
+      "processing_time": 1.855,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009685
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Bleche Fassade_V6, Type: IfcBuildingElementProxy, Material Name: Material 4, Category: Generic Models, Family: Bleche Fassade_V6, Workset: Dachkonstruktion",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Name: Bleche Fassade_V6, Material: Material 4, Category: Generic Models",
+        "Preliminary Selection": [
+          "Fassadenplatte, Aluverbund, 4 mm"
+        ],
+        "Matched Materials": [
+          "Fassadenplatte, Aluverbund, 4 mm"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "d648f1c1c4",
+  "name": "Floor-3-Schichtplatte-27mm-B-C-Rinnen-6153423",
+  "total_steps": 2,
+  "total_tokens": 2776,
+  "total_prompt_tokens": 2623,
+  "total_completion_tokens": 153,
+  "total_processing_time": 3.308,
+  "total_cost_usd": 0.01541,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1012,
+      "completion_tokens": 56,
+      "processing_time": 1.354,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0059
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1611,
+      "completion_tokens": 97,
+      "processing_time": 1.954,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00951
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', thickness 27mm.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:3-Schichtplatte 27mm B/C Rinnen' with a material layer named '3-Schicht-Platte' and a thickness of 0.027 meters. It is not structural.",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

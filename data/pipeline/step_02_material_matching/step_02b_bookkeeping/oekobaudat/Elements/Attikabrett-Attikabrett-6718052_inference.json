@@ -1,0 +1,100 @@
+{
+  "GlobalId": "3R$9pJGeb6MgJpHJQymJTA",
+  "name": "Attikabrett-Attikabrett-6718052",
+  "total_steps": 4,
+  "total_tokens": 4345,
+  "total_prompt_tokens": 4028,
+  "total_completion_tokens": 317,
+  "total_processing_time": 7.011,
+  "total_cost_usd": 0.024895,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 792,
+      "completion_tokens": 72,
+      "processing_time": 1.45,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00504
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 750,
+      "completion_tokens": 76,
+      "processing_time": 1.585,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00489
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Betonfertigteile und Betonwaren",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 846,
+      "completion_tokens": 75,
+      "processing_time": 1.396,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005355
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Concrete paving stones/slabs"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Betonfertigteile_und_Betonwaren",
+      "message": "Match successful",
+      "prompt_tokens": 1640,
+      "completion_tokens": 94,
+      "processing_time": 2.58,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00961
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Attikabrett:Attikabrett:6718052', with no defined material, categorized under 'Floors'.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Attikabrett:Attikabrett:6718052' with no defined material. It is categorized under 'Floors' and associated with 'Architecture'.",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Attikabrett:Attikabrett:6718052', categorized under 'Floors', with no defined material.",
+        "Preliminary Selection": "Betonfertigteile und Betonwaren",
+        "Matched Category": "Betonfertigteile und Betonwaren"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Attikabrett:Attikabrett:6718052, Type: IfcSlab, ObjectType: Attikabrett:Attikabrett, Material Data: Not defined, Category: Floors, Family: Attikabrett: Attikabrett",
+        "Preliminary Selection": [
+          "Concrete paving stones/slabs"
+        ],
+        "Matched Materials": [
+          "Concrete paving stones/slabs"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "325c6f48a0",
+  "name": "Basic-Wall-BSP-140-Sichtseite-einseitig-1687929",
+  "total_steps": 2,
+  "total_tokens": 2708,
+  "total_prompt_tokens": 2565,
+  "total_completion_tokens": 143,
+  "total_processing_time": 3.167,
+  "total_cost_usd": 0.01497,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 983,
+      "completion_tokens": 75,
+      "processing_time": 1.693,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00604
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1582,
+      "completion_tokens": 68,
+      "processing_time": 1.474,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00893
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Basic Wall:BSP 140 Sichtseite einseitig' with material 'Brettsperrholz' (cross-laminated timber).",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material Name: Brettsperrholz, Structural Usage: Bearing",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L4",
+  "Name": "Floor-Galerie-Fussbodenaufbau-1353081_L4",
+  "Volume [m^3]": 2.0039,
+  "Largest Surface Area [m^2]": 107.712,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "106.3309",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "96.1632",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "10.2023",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "189568.94",
+      "UBP (Manufacturing)": "169233.3628",
+      "UBP (Disposal)": "19990.9064",
+      "Total Renewable Primary Energy [kWh oil-eq]": "346.3942",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "344.6708",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.844",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "439.4553",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "415.3283",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "22.9206"
+    }
+  ]
+}

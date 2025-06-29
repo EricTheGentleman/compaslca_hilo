@@ -1,0 +1,63 @@
+{
+  "GlobalId": "2OOgpQZObEZwXdl1UXorlb",
+  "name": "Basic-Wall-Wärmedämmung_Mineralwolle_80-5774682",
+  "total_steps": 2,
+  "total_tokens": 2435,
+  "total_prompt_tokens": 2262,
+  "total_completion_tokens": 173,
+  "total_processing_time": 4.031,
+  "total_cost_usd": 0.013905,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 998,
+      "completion_tokens": 69,
+      "processing_time": 1.575,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006025
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Steinwolle",
+        "Steinwolle, Flumroc"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1264,
+      "completion_tokens": 104,
+      "processing_time": 2.456,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00788
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material 'Wärmedämmung Mineralwolle, 0.035 W/mK', indicating it is a mineral wool insulation.",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Wärmedämmung_Mineralwolle_80, Type: IfcWall, Material: Wärmedämmung Mineralwolle, 0.035 W/mK, Thickness: 0.08m",
+        "Preliminary Selection": [
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ],
+        "Matched Materials": [
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "CompilationGroupID": "cc9b440faa",
+  "name": "Pfosten-rechteckig-Forster-60-x-90-1123949",
+  "total_steps": 4,
+  "total_tokens": 4741,
+  "total_prompt_tokens": 4357,
+  "total_completion_tokens": 384,
+  "total_processing_time": 7.42,
+  "total_cost_usd": 0.027545,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 927,
+      "completion_tokens": 75,
+      "processing_time": 1.259,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00576
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Stahl und Eisen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 900,
+      "completion_tokens": 81,
+      "processing_time": 1.549,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005715
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Stahlprofile",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen",
+      "message": "Match successful",
+      "prompt_tokens": 905,
+      "completion_tokens": 79,
+      "processing_time": 1.912,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00571
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Painted Structural Steel",
+        "Painted steel structures",
+        "Welded and painted steel structures - beams and box beams",
+        "Welded and painted steel structures - other steel structures"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlprofile",
+      "message": "Match successful",
+      "prompt_tokens": 1625,
+      "completion_tokens": 149,
+      "processing_time": 2.7,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01036
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember used in a curtain wall, named 'Pfosten rechteckig:Forster 60 x 90', made of 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:Forster 60 x 90' with material 'Stahl, 45-34, Pulverbeschichtung schwarz'. It is part of a curtain wall system.",
+        "Preliminary Selection": "Stahl und Eisen",
+        "Matched Category": "Stahl und Eisen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:Forster 60 x 90' with material 'Stahl, 45-34, Pulverbeschichtung schwarz'. It is part of a curtain wall system.",
+        "Preliminary Selection": "Stahlprofile",
+        "Matched Category": "Stahlprofile"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:Forster 60 x 90:1123949', part of a curtain wall, made of 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+        "Preliminary Selection": [
+          "Painted Structural Steel",
+          "Painted steel structures",
+          "Welded and painted steel structures - beams and box beams",
+          "Welded and painted steel structures - other steel structures"
+        ],
+        "Matched Materials": [
+          "Painted Structural Steel",
+          "Painted steel structures",
+          "Welded and painted steel structures - beams and box beams",
+          "Welded and painted steel structures - other steel structures"
+        ]
+      }
+    }
+  ]
+}

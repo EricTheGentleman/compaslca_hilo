@@ -1,0 +1,37 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L4",
+  "Name": "Floor-Galerie-Fussbodenaufbau-1353081_L4",
+  "Matched Materials with OEKOBAUDAT Indicators": [
+    {
+      "Name": "ROCKWOOL Mineral-wool insulation (medium bulk density range)",
+      "ID": "732dcc2d-1131-4a75-a669-e871675b5ba4",
+      "Reference": "m3",
+      "Density (kg/m3)": "24.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": 0,
+      "GWPtotal (A2)": 0,
+      "GWPtotal (A3)": 0,
+      "GWPtotal (A1-A3)": "115.4064319",
+      "GWPtotal (A4)": "2.4897528",
+      "GWPtotal (A5)": "6.824867",
+      "GWPtotal (B1)": 0,
+      "GWPtotal (B2)": 0,
+      "GWPtotal (B3)": 0,
+      "GWPtotal (B4)": 0,
+      "GWPtotal (B5)": 0,
+      "GWPtotal (B6)": 0,
+      "GWPtotal (B7)": 0,
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "0.355679",
+      "GWPtotal (C3)": "0.0",
+      "GWPtotal (C4)": "3.234747",
+      "GWPbiogenic": "1.9385038",
+      "GWPfossil": "126.3003715",
+      "GWPtotal": "128.3114777",
+      "Conformity": "'DIN EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Deutsche Rockwool Mineralwoll GmbH & Co. OHG",
+      "Registrierungsnummer": "EPD-DRW-20240317-IBC2-DE"
+    }
+  ]
+}

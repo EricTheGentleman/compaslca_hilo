@@ -1,0 +1,66 @@
+{
+  "CompilationGroupID": "c658e6abba",
+  "name": "Rohranschluss_Technikschnttelle_Nest-HEI---Rücklauf-6271422",
+  "total_steps": 2,
+  "total_tokens": 2134,
+  "total_prompt_tokens": 1951,
+  "total_completion_tokens": 183,
+  "total_processing_time": 3.276,
+  "total_cost_usd": 0.0125,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 970,
+      "completion_tokens": 69,
+      "processing_time": 1.391,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005885
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 981,
+      "completion_tokens": 114,
+      "processing_time": 1.885,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006615
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, ObjectType: Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-BSP-140---5s-1686981",
+  "CompilationGroupID": "65d0e0c8a6",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Brettschichtholz",
+      "ID": "7.003",
+      "Reference": "kg",
+      "Density (kg/m3)": "439",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.335",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.286",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0492",
+      "Biogenic Carbon [kg C]": "0.446",
+      "UBP (Total)": "769",
+      "UBP (Manufacturing)": "696",
+      "UBP (Disposal)": "73.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "8.14",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "8.14",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00615",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1.53",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1.44",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.091"
+    },
+    {
+      "Name": "Brettschichtholz, Produktion Schweiz",
+      "ID": "07.003.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "439",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.253",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.204",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0492",
+      "Biogenic Carbon [kg C]": "0.447",
+      "UBP (Total)": "681",
+      "UBP (Manufacturing)": "607",
+      "UBP (Disposal)": "73.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "8.01",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "8",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00615",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1.2",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1.11",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.091"
+    }
+  ]
+}

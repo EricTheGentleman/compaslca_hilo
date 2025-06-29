@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "M_Single-Glass-1-0813-x-2420mm-0813-x-2420mm-171853",
+  "CompilationGroupID": "a8c0aa7437",
+  "Volume [m^3]": 0.1242,
+  "Largest Surface Area [m^2]": 4.8,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

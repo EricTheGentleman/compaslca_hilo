@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcDoor, Location: Level 00_Eingang, No specific material data provided, Category: Doors, Family: TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+    "Preliminary Selection": [
+      "Innentüre, Aluminium, Glaseinsatz",
+      "Innentüre, Funktionstüre, Holz, Holzrahmen",
+      "Innentüre, Funktionstüre, Holz, Stahlzarge",
+      "Innentüre, Zimmertüre, Holz, Glaseinsatz, Holzrahmen",
+      "Innentüre, Zimmertüre, Holz, Glaseinsatz, Stahlzarge",
+      "Innentüre, Zimmertüre, Holz, Holzrahmen",
+      "Innentüre, Zimmertüre, Holz, Stahlzarge"
+    ],
+    "Matched Materials": [
+      "Innentüre, Aluminium, Glaseinsatz",
+      "Innentüre, Zimmertüre, Holz, Glaseinsatz, Holzrahmen",
+      "Innentüre, Zimmertüre, Holz, Glaseinsatz, Stahlzarge",
+      "Innentüre, Zimmertüre, Holz, Holzrahmen",
+      "Innentüre, Zimmertüre, Holz, Stahlzarge"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Türen",
+    "trace": [
+      "Türen"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 1200,
+      "total_tokens": 1466,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.175,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01132
+  }
+}

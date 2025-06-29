@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcWindow named 'Tür Forster Unico:Ausstattung Sage Glas', part of a curtain wall, with no defined material data. Relevant properties include being located on Level 00_Eingang, with dimensions of 2220mm height and 1290mm width, and categorized under Windows.",
+    "Preliminary Selection": [
+      "Float glass in construction: EUROFLOAT",
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ],
+    "Matched Materials": [
+      "Float glass in construction: EUROFLOAT",
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fenster",
+      "Sonstige Fenster"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 1012,
+      "total_tokens": 1159,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.323,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008
+  }
+}

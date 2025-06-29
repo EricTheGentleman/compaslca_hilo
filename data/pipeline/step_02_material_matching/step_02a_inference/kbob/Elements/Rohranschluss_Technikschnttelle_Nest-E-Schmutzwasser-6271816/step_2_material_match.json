@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Rohranschluss_Technikschnttelle_Nest: E-Schmutzwasser",
+    "Preliminary Selection": [
+      "Polyethylen (PE)",
+      "Polypropylen (PP)",
+      "Polyvinylchlorid (PVC)"
+    ],
+    "Matched Materials": [
+      "Polyethylen (PE)",
+      "Polypropylen (PP)",
+      "Polyvinylchlorid (PVC)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Rohre",
+    "trace": [
+      "Rohre"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 138,
+      "prompt_tokens": 965,
+      "total_tokens": 1103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.436,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007585
+  }
+}

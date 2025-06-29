@@ -1,0 +1,62 @@
+{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NOk",
+  "name": "Assembled-Stair-Stair-1458173-Landing-1",
+  "total_steps": 2,
+  "total_tokens": 2192,
+  "total_prompt_tokens": 2055,
+  "total_completion_tokens": 137,
+  "total_processing_time": 3.988,
+  "total_cost_usd": 0.01233,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 904,
+      "completion_tokens": 64,
+      "processing_time": 1.411,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00548
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlprofil, blank"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1151,
+      "completion_tokens": 73,
+      "processing_time": 2.577,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00685
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab used as a landing in an assembled stair, made of material 'Stahl' (steel).",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a non-monolithic landing made of steel, part of an assembled stair, categorized under architecture.",
+        "Preliminary Selection": [
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Stahlprofil, blank"
+        ],
+        "Matched Materials": [
+          "Stahlprofil, blank"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Innenwandelement-Archisonic-fix-ohne-Einschnitte-7643221",
+  "CompilationGroupID": "6621a241af",
+  "Layer 1": {
+    "Volume [m^3]": 0.125,
+    "Largest Surface Area [m^2]": 10.4326,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "None"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 0.125,
+    "Largest Surface Area [m^2]": 10.4326,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Mitteldichte Faserplatte (MDF), UF-gebunden",
+        "ID": "7.012",
+        "Reference": "kg",
+        "Density (kg/m3)": "685",
+        "Global Warming Potential Total [kgCO2-eqv]": "81.6863",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "73.1238",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "8.5625",
+        "Biogenic Carbon [kg C]": "33.9075",
+        "UBP (Total)": "132718.75",
+        "UBP (Manufacturing)": "121587.5",
+        "UBP (Disposal)": "10960.0",
+        "Total Renewable Primary Energy [kWh oil-eq]": "500.9062",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "500.9062",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5394",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "382.7437",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "374.1813",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "8.7337"
+      }
+    ]
+  }
+}

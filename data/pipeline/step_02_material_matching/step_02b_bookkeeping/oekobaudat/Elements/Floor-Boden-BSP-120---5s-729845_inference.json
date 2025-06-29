@@ -1,0 +1,103 @@
+{
+  "GlobalId": "2ro6NVukjA0hxWwZJgTpIl",
+  "name": "Floor-Boden-BSP-120---5s-729845",
+  "total_steps": 4,
+  "total_tokens": 4033,
+  "total_prompt_tokens": 3704,
+  "total_completion_tokens": 329,
+  "total_processing_time": 6.352,
+  "total_cost_usd": 0.023455,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 923,
+      "completion_tokens": 58,
+      "processing_time": 1.256,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005485
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 876,
+      "completion_tokens": 56,
+      "processing_time": 1.247,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00522
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 913,
+      "completion_tokens": 63,
+      "processing_time": 1.229,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00551
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Five-layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 992,
+      "completion_tokens": 152,
+      "processing_time": 2.62,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00724
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of Brettsperrholz (cross-laminated timber) with a thickness of 0.12 meters.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Brettsperrholz', which is a type of wood product.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of Brettsperrholz with a thickness of 0.12 meters.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcSlab named 'Floor:Boden BSP 120 - 5s:729845', with a material layer set named 'Floor:Boden BSP 120 - 5s' consisting of 'Brettsperrholz' with a thickness of 0.12 meters. It is categorized as a floor, structural, and related to the workset 'Tragwerk'.",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Five-layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Five-layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

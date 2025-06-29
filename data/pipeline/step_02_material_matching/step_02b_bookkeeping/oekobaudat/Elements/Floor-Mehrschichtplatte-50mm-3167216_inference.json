@@ -1,0 +1,103 @@
+{
+  "GlobalId": "0plsFTxFrAH8fTRVJG6Lb8",
+  "name": "Floor-Mehrschichtplatte-50mm-3167216",
+  "total_steps": 4,
+  "total_tokens": 3942,
+  "total_prompt_tokens": 3664,
+  "total_completion_tokens": 278,
+  "total_processing_time": 6.11,
+  "total_cost_usd": 0.02249,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 913,
+      "completion_tokens": 51,
+      "processing_time": 1.182,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00533
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 866,
+      "completion_tokens": 56,
+      "processing_time": 1.382,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00517
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 903,
+      "completion_tokens": 63,
+      "processing_time": 1.193,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00546
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 982,
+      "completion_tokens": 108,
+      "processing_time": 2.353,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00653
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', which is a type of wood panel.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', which is a type of wood-based panel.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte' and thickness 0.04m.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Floor:Mehrschichtplatte 50mm' with a material layer of '3-Schicht-Platte' and a thickness of 0.04 meters.",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBGM",
+  "name": "Rohranschluss_Technikschnttelle_Nest-E-Schmutzwasser-6271816",
+  "total_steps": 3,
+  "total_tokens": 2825,
+  "total_prompt_tokens": 2593,
+  "total_completion_tokens": 232,
+  "total_processing_time": 4.521,
+  "total_cost_usd": 0.016445,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 891,
+      "completion_tokens": 72,
+      "processing_time": 1.317,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005535
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Sanitär",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 96,
+      "processing_time": 1.666,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00575
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Sanitär",
+      "message": "No match found",
+      "prompt_tokens": 840,
+      "completion_tokens": 64,
+      "processing_time": 1.538,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00516
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Rohranschluss_Technikschnttelle_Nest: E-Schmutzwasser",
+        "Preliminary Selection": "Sanitär",
+        "Matched Category": "Sanitär"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

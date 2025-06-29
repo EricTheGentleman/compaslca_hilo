@@ -1,0 +1,139 @@
+{
+  "CompilationGroupID": "bea71849e1",
+  "name": "Floor-Betonauflager-3981555",
+  "total_steps": 4,
+  "total_tokens": 4759,
+  "total_prompt_tokens": 4158,
+  "total_completion_tokens": 601,
+  "total_processing_time": 9.989,
+  "total_cost_usd": 0.029804999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 900,
+      "completion_tokens": 62,
+      "processing_time": 1.638,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00543
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 858,
+      "completion_tokens": 58,
+      "processing_time": 1.31,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00516
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+      "message": "Match successful",
+      "prompt_tokens": 875,
+      "completion_tokens": 55,
+      "processing_time": 1.097,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0052
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+        "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+        "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+        "Concrete C25/30",
+        "Concrete C30/37",
+        "Concrete C35/45",
+        "Concrete C40/50, Type number 988429091",
+        "Concrete C40/50, Type number 988429096",
+        "Concrete C40/50, Type number 988429196",
+        "Concrete C45/55",
+        "Concrete C50/60",
+        "Ready-mix concrete C25/30",
+        "Ready-mix concrete C30/37",
+        "Ready-mix concrete C50/60"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1525,
+      "completion_tokens": 426,
+      "processing_time": 5.944,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.014015
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Floor:Betonauflager' with material 'Beton' (concrete).",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Betonauflager' with material 'Beton' (concrete).",
+        "Preliminary Selection": "Mörtel und Beton",
+        "Matched Category": "Mörtel und Beton"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab named 'Betonauflager' with material 'Beton' and thickness 0.29m.",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:Betonauflager:3981555, Type: IfcSlab, Material: Beton, Thickness: 0.29m, Structural: True",
+        "Preliminary Selection": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C25/30",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C25/30",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ],
+        "Matched Materials": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C25/30",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C25/30",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ]
+      }
+    }
+  ]
+}

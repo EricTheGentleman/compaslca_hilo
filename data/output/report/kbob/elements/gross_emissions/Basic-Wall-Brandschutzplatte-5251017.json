@@ -1,0 +1,27 @@
+﻿{
+  "Name": "Basic-Wall-Brandschutzplatte-5251017",
+  "GlobalId": "3_kqkSEVjFfA5bkOsNwaii",
+  "Volume [m^3]": 0.052,
+  "Largest Surface Area [m^2]": 2.4072,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "11.0478",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "9.7522",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "1.3026",
+      "Biogenic Carbon [kg C]": "10.1997",
+      "UBP (Total)": "23791.56",
+      "UBP (Manufacturing)": "21954.192",
+      "UBP (Disposal)": "1891.5468",
+      "Total Renewable Primary Energy [kWh oil-eq]": "313.2948",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "313.2948",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.1453",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "51.3521",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "49.232",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "2.1742"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "GlobalId": "3PSzbSor5DzehfFtR_jjmV",
+  "name": "Floor-Bodenaufbau-Hauptgeschoss-687594",
+  "total_steps": 2,
+  "total_tokens": 2509,
+  "total_prompt_tokens": 2263,
+  "total_completion_tokens": 246,
+  "total_processing_time": 4.569,
+  "total_cost_usd": 0.015005,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Bodenbeläge",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 879,
+      "completion_tokens": 71,
+      "processing_time": 1.495,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00546
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gussasphalt, 27.5 mm",
+        "Hartbeton einschichtig, 27.5 mm",
+        "Hartbeton zweischichtig, 35 mm",
+        "Kunststeinplatte zementgebunden, 10 mm",
+        "Terrazzo versiegelt, 40 mm"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+      "message": "Match successful",
+      "prompt_tokens": 1384,
+      "completion_tokens": 175,
+      "processing_time": 3.074,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009545
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Bodenaufbau Hauptgeschoss' with no defined material. It is categorized as a floor with a thickness of 581.0 mm.",
+        "Preliminary Selection": "Bodenbeläge",
+        "Matched Category": "Bodenbeläge"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Name: Floor:Bodenaufbau Hauptgeschoss, Thickness: 581.0 mm, Category: Floors",
+        "Preliminary Selection": [
+          "Gussasphalt, 27.5 mm",
+          "Hartbeton einschichtig, 27.5 mm",
+          "Hartbeton zweischichtig, 35 mm",
+          "Kunststeinplatte zementgebunden, 10 mm",
+          "Terrazzo versiegelt, 40 mm"
+        ],
+        "Matched Materials": [
+          "Gussasphalt, 27.5 mm",
+          "Hartbeton einschichtig, 27.5 mm",
+          "Hartbeton zweischichtig, 35 mm",
+          "Kunststeinplatte zementgebunden, 10 mm",
+          "Terrazzo versiegelt, 40 mm"
+        ]
+      }
+    }
+  ]
+}

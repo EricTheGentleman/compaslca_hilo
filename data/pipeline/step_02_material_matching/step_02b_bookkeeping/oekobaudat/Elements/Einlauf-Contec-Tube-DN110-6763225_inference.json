@@ -1,0 +1,74 @@
+{
+  "GlobalId": "2CLn4ZUSr8B8TuzLO7ROP3",
+  "name": "Einlauf-Contec-Tube-DN110-6763225",
+  "total_steps": 3,
+  "total_tokens": 2580,
+  "total_prompt_tokens": 2401,
+  "total_completion_tokens": 179,
+  "total_processing_time": 3.534,
+  "total_cost_usd": 0.014690000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 825,
+      "completion_tokens": 61,
+      "processing_time": 1.167,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00504
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Kunststoffe",
+      "message": "Match successful",
+      "prompt_tokens": 799,
+      "completion_tokens": 61,
+      "processing_time": 1.157,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00491
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Kunststoffe/Rohre",
+      "message": "No match found",
+      "prompt_tokens": 777,
+      "completion_tokens": 57,
+      "processing_time": 1.21,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00474
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN110, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN110, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN110, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

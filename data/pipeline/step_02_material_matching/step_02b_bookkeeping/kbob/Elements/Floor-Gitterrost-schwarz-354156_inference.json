@@ -1,0 +1,63 @@
+{
+  "GlobalId": "3fl00qHO16BwCmbpQP9mlL",
+  "name": "Floor-Gitterrost-schwarz-354156",
+  "total_steps": 2,
+  "total_tokens": 2301,
+  "total_prompt_tokens": 2151,
+  "total_completion_tokens": 150,
+  "total_processing_time": 3.5869999999999997,
+  "total_cost_usd": 0.013005,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 952,
+      "completion_tokens": 61,
+      "processing_time": 1.881,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005675
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlblech, verzinkt",
+        "Titanzinkblech"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1199,
+      "completion_tokens": 89,
+      "processing_time": 1.706,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00733
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Gitterrost schwarz' with material 'Zink Gitter'.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:Gitterrost schwarz, Type: IfcSlab, Material Name: Zink Gitter, Thickness: 0.03m, Structural: False",
+        "Preliminary Selection": [
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ],
+        "Matched Materials": [
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "GlobalId": "3F0C$S43P1ZRg2TjWrCk52",
+  "name": "1072_210525_TreppeInnenRevitExport_MK-1072_210525_TreppeInnenRevitExport_MK-7935324",
+  "total_steps": 2,
+  "total_tokens": 1830,
+  "total_prompt_tokens": 1720,
+  "total_completion_tokens": 110,
+  "total_processing_time": 2.447,
+  "total_cost_usd": 0.010249999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 876,
+      "completion_tokens": 56,
+      "processing_time": 1.158,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00522
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 844,
+      "completion_tokens": 54,
+      "processing_time": 1.289,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00503
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the 'Architecture' workset.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the 'Architecture' workset.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

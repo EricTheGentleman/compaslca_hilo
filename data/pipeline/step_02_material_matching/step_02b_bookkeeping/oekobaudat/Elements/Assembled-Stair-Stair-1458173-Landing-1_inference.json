@@ -1,0 +1,115 @@
+{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NOk",
+  "name": "Assembled-Stair-Stair-1458173-Landing-1",
+  "total_steps": 4,
+  "total_tokens": 4334,
+  "total_prompt_tokens": 4013,
+  "total_completion_tokens": 321,
+  "total_processing_time": 6.197,
+  "total_cost_usd": 0.02488,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 841,
+      "completion_tokens": 57,
+      "processing_time": 1.259,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00506
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Stahl und Eisen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 814,
+      "completion_tokens": 56,
+      "processing_time": 1.417,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00491
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Stahlprofile",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen",
+      "message": "Match successful",
+      "prompt_tokens": 819,
+      "completion_tokens": 55,
+      "processing_time": 1.261,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00492
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Galvanized Structural Steel",
+        "Painted Structural Steel",
+        "Painted steel structures",
+        "Welded and painted steel structures - beams and box beams",
+        "Welded and painted steel structures - other steel structures",
+        "Welded and zinc coated steel structures"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlprofile",
+      "message": "Match successful",
+      "prompt_tokens": 1539,
+      "completion_tokens": 153,
+      "processing_time": 2.26,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00999
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a non-monolithic landing made of 'Stahl' (steel), part of an assembled stair, type IfcSlab.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab used as a landing in an assembled stair, with material 'Stahl'.",
+        "Preliminary Selection": "Stahl und Eisen",
+        "Matched Category": "Stahl und Eisen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab used as a landing in a stair assembly, made of material 'Stahl'.",
+        "Preliminary Selection": "Stahlprofile",
+        "Matched Category": "Stahlprofile"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a non-monolithic landing slab made of steel, part of an assembled stair structure.",
+        "Preliminary Selection": [
+          "Galvanized Structural Steel",
+          "Painted Structural Steel",
+          "Painted steel structures",
+          "Welded and painted steel structures - beams and box beams",
+          "Welded and painted steel structures - other steel structures",
+          "Welded and zinc coated steel structures"
+        ],
+        "Matched Materials": [
+          "Galvanized Structural Steel",
+          "Painted Structural Steel",
+          "Painted steel structures",
+          "Welded and painted steel structures - beams and box beams",
+          "Welded and painted steel structures - other steel structures",
+          "Welded and zinc coated steel structures"
+        ]
+      }
+    }
+  ]
+}

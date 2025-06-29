@@ -1,0 +1,39 @@
+﻿{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L4",
+  "Name": "Floor-Galerie-Fussbodenaufbau-1353081_L4",
+  "Volume [m^3]": 2.0039,
+  "Largest Surface Area [m^2]": 107.712,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "ROCKWOOL Mineral-wool insulation (medium bulk density range)",
+      "ID": "732dcc2d-1131-4a75-a669-e871675b5ba4",
+      "Reference": "m3",
+      "Density (kg/m3)": "24.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "0.0",
+      "GWPtotal (A2)": "0.0",
+      "GWPtotal (A3)": "0.0",
+      "GWPtotal (A1-A3)": "231.2629",
+      "GWPtotal (A4)": "4.9892",
+      "GWPtotal (A5)": "13.6764",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "0.7127",
+      "GWPtotal (C3)": "0.0",
+      "GWPtotal (C4)": "6.4821",
+      "GWPbiogenic": "3.8846",
+      "GWPfossil": "253.0933",
+      "GWPtotal": "257.1234",
+      "Conformity": "'DIN EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Deutsche Rockwool Mineralwoll GmbH & Co. OHG",
+      "Registrierungsnummer": "EPD-DRW-20240317-IBC2-DE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a building element proxy with no defined material, associated with ventilation and categorized as a generic model.",
+    "Preliminary Selection": "Sonstige",
+    "Matched Category": "Sonstige"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 913,
+      "total_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.216,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.005565
+  }
+}

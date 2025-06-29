@@ -1,0 +1,63 @@
+﻿{
+  "ObjectType Name": "M_Single-Flush-1250mm-x-2010mm-1250mm-x-2010mm-146678",
+  "CompilationGroupID": "1240b071e7",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Aussentüre, Aluminium, Paneelfüllung",
+      "ID": "12.006",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "192",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "182",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "10",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "385000",
+      "UBP (Manufacturing)": "374000",
+      "UBP (Disposal)": "10500",
+      "Total Renewable Primary Energy [kWh oil-eq]": "143",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "142",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0263",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "837",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "836",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.792"
+    },
+    {
+      "Name": "Aussentüre, Holz",
+      "ID": "12.008",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "62.2",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "54.6",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "7.64",
+      "Biogenic Carbon [kg C]": "15.5",
+      "UBP (Total)": "125000",
+      "UBP (Manufacturing)": "116000",
+      "UBP (Disposal)": "9270",
+      "Total Renewable Primary Energy [kWh oil-eq]": "283",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "283",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.14",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "265",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "261",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "4.17"
+    },
+    {
+      "Name": "Aussentüre, Holz, Glaseinsatz",
+      "ID": "12.002",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "85.7",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "76",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "9.7",
+      "Biogenic Carbon [kg C]": "13",
+      "UBP (Total)": "161000",
+      "UBP (Manufacturing)": "148000",
+      "UBP (Disposal)": "12100",
+      "Total Renewable Primary Energy [kWh oil-eq]": "247",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "247",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.321",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "359",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "352",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "6.31"
+    }
+  ]
+}

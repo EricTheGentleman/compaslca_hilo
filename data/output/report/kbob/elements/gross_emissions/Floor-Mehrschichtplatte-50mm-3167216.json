@@ -1,0 +1,27 @@
+﻿{
+  "Name": "Floor-Mehrschichtplatte-50mm-3167216",
+  "GlobalId": "0plsFTxFrAH8fTRVJG6Lb8",
+  "Volume [m^3]": 0.1494,
+  "Largest Surface Area [m^2]": 3.795,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "31.7411",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "28.0188",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.7426",
+      "Biogenic Carbon [kg C]": "29.3047",
+      "UBP (Total)": "68354.982",
+      "UBP (Manufacturing)": "63076.0824",
+      "UBP (Disposal)": "5434.5595",
+      "Total Renewable Primary Energy [kWh oil-eq]": "900.1201",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "900.1201",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.4176",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "147.5385",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "141.4474",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "6.2467"
+    }
+  ]
+}

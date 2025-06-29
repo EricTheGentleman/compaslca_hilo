@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "4d32a54e8e",
+  "name": "Holz-Träger---rechteckig-Holz-60-x-200-6746028",
+  "total_steps": 4,
+  "total_tokens": 3872,
+  "total_prompt_tokens": 3530,
+  "total_completion_tokens": 342,
+  "total_processing_time": 6.15,
+  "total_cost_usd": 0.02278,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 872,
+      "completion_tokens": 68,
+      "processing_time": 1.38,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00538
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 825,
+      "completion_tokens": 60,
+      "processing_time": 1.371,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005025
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Konstruktionsvollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 856,
+      "completion_tokens": 77,
+      "processing_time": 1.409,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005435
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "KVH structural timber (German average)",
+        "Solid construction timber (generic, 15% moisture / 13% H2O content)",
+        "Structural finger jointed solid timber"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Konstruktionsvollholz",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 137,
+      "processing_time": 1.99,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00694
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'Holz Träger - rechteckig:Holz 60 x 200' with material 'Holz - C 24 Cl.1'.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a beam made of wood, specifically 'Holz - C 24 Cl.1', used in structural framing as a joist.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a beam made of Holz - C 24 Cl.1, categorized as Structural Framing, with a type of Holz Träger - rechteckig: Holz 60 x 200.",
+        "Preliminary Selection": "Konstruktionsvollholz",
+        "Matched Category": "Konstruktionsvollholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Holz Träger - rechteckig:Holz 60 x 200, Type: IfcBeam, Material: Holz - C 24 Cl.1, Structural Usage: Joist",
+        "Preliminary Selection": [
+          "KVH structural timber (German average)",
+          "Solid construction timber (generic, 15% moisture / 13% H2O content)",
+          "Structural finger jointed solid timber"
+        ],
+        "Matched Materials": [
+          "KVH structural timber (German average)",
+          "Solid construction timber (generic, 15% moisture / 13% H2O content)",
+          "Structural finger jointed solid timber"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿{
+  "Name": "Attikabrett-Attikabrett-6718052",
+  "GlobalId": "3R$9pJGeb6MgJpHJQymJTA",
+  "Volume [m^3]": 0.0367,
+  "Largest Surface Area [m^2]": 3.3,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "Concrete paving stones/slabs",
+      "ID": "32d81066-a845-43d0-bd69-c63897f1496f",
+      "Reference": "qm",
+      "Density (kg/m3)": 0,
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "56.1",
+      "GWPtotal (A2)": "4.587",
+      "GWPtotal (A3)": "8.448",
+      "GWPtotal (A1-A3)": "68.97",
+      "GWPtotal (A4)": "5.478",
+      "GWPtotal (A5)": "0.0",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "11.517",
+      "GWPtotal (C2)": "3.399",
+      "GWPtotal (C3)": "0.99",
+      "GWPtotal (C4)": "0.0323",
+      "GWPbiogenic": "1.8873",
+      "GWPfossil": "157.2739",
+      "GWPtotal": "90.3863",
+      "Conformity": "'EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "H. Klostermann GmbH & Co. KG Betonwerke",
+      "Registrierungsnummer": "EPD-Klostermann-319-DE, EPD-Klostermann-319-NL"
+    }
+  ]
+}

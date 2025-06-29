@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "f17ad5cce9_L1",
+  "Name": "Basic-Wall-Holzbau_Archisonic_Vorbauschale-2146702_L1",
+  "Volume [m^3]": 0.31,
+  "Largest Surface Area [m^2]": 25.8666,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Mitteldichte Faserplatte (MDF), UF-gebunden",
+      "ID": "7.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "685",
+      "Global Warming Potential Total [kgCO2-eqv]": "202.5819",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "181.3469",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "21.235",
+      "Biogenic Carbon [kg C]": "84.0906",
+      "UBP (Total)": "329142.5",
+      "UBP (Manufacturing)": "301537.0",
+      "UBP (Disposal)": "27180.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1242.2475",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1242.2475",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.3378",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "949.2045",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "927.9695",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "21.6597"
+    }
+  ]
+}

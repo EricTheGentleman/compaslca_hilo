@@ -1,0 +1,34 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-687694",
+  "CompilationGroupID": "7b9763d32a",
+  "Layer 1": {
+    "Matched Materials with KBOB Indicators": [
+      {
+        "Name": "None"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Matched Materials with KBOB Indicators": [
+      {
+        "Name": "Mitteldichte Faserplatte (MDF), UF-gebunden",
+        "ID": "7.012",
+        "Reference": "kg",
+        "Density (kg/m3)": "685",
+        "Global Warming Potential Total [kgCO2-eqv]": "0.954",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.854",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "0.1",
+        "Biogenic Carbon [kg C]": "0.396",
+        "UBP (Total)": "1550",
+        "UBP (Manufacturing)": "1420",
+        "UBP (Disposal)": "128",
+        "Total Renewable Primary Energy [kWh oil-eq]": "5.85",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "5.85",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0063",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "4.47",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4.37",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.102"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The building element is a ventilated wooden facade wall (IfcWallStandardCase) with a specific layer of air (0.04m thick) and other layers including vertical coniferous wood cladding (0.02m thick).",
+    "Preliminary Selection": [
+      "Coniferous lumber - fresh (German average)",
+      "Coniferous lumber - kiln dried (German average)",
+      "Planed coniferous lumber (German average)",
+      "Timber pine (generic, 12% moisture / 10.7% H2O content)",
+      "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+    ],
+    "Matched Materials": [
+      "Coniferous lumber - fresh (German average)",
+      "Coniferous lumber - kiln dried (German average)",
+      "Planed coniferous lumber (German average)",
+      "Timber pine (generic, 12% moisture / 10.7% H2O content)",
+      "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Bau-Schnittholz"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 227,
+      "prompt_tokens": 1240,
+      "total_tokens": 1467,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.33,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01074
+  }
+}

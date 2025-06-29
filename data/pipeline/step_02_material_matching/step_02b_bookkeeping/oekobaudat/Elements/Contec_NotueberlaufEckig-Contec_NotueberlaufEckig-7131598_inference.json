@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1s7hF4kkb7XRX_dK$UQExS",
+  "name": "Contec_NotueberlaufEckig-Contec_NotueberlaufEckig-7131598",
+  "total_steps": 2,
+  "total_tokens": 1870,
+  "total_prompt_tokens": 1758,
+  "total_completion_tokens": 112,
+  "total_processing_time": 2.783,
+  "total_cost_usd": 0.01047,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 895,
+      "completion_tokens": 57,
+      "processing_time": 1.424,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00533
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 863,
+      "completion_tokens": 55,
+      "processing_time": 1.359,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00514
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Contec_NotueberlaufEckig' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Contec_NotueberlaufEckig' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcPlate used as a curtain wall component with material 'Wärmedämmung druckfest', indicating a thermal insulation function.",
+    "Preliminary Selection": "Dämmelemente",
+    "Matched Category": "Dämmelemente"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+    "trace": [
+      "Dämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 1018,
+      "total_tokens": 1081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.272,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00635
+  }
+}

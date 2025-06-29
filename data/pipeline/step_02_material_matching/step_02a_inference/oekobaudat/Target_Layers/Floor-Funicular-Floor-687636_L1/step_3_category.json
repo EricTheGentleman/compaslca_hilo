@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Category: Floors",
+    "Preliminary Selection": "None",
+    "Matched Category": "None"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Beschichtungen/Innenbeschichtungen",
+    "trace": [
+      "Beschichtungen",
+      "Innenbeschichtungen"
+    ],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 892,
+      "total_tokens": 941,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.188,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00544
+  }
+}

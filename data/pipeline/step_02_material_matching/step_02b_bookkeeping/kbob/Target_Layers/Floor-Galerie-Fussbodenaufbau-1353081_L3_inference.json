@@ -1,0 +1,63 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L3",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L3",
+  "total_steps": 2,
+  "total_tokens": 2553,
+  "total_prompt_tokens": 2343,
+  "total_completion_tokens": 210,
+  "total_processing_time": 3.846,
+  "total_cost_usd": 0.014865,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1094,
+      "completion_tokens": 80,
+      "processing_time": 1.73,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00667
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gipsfaserplatte",
+        "Gipsfaserplatte Fermacell"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1249,
+      "completion_tokens": 130,
+      "processing_time": 2.116,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008195
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Brio Heizboden 25, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The target material is 'Knauf - Brio Heizboden 25' with a thickness of 0.025 meters, used in a floor slab (IfcSlab) context. Other layers include 'PU Bodenbelag - Sika PS23', 'Knauf - Vidiwall', and 'Trittschalldämmung Flumroc 341'.",
+        "Preliminary Selection": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ],
+        "Matched Materials": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "GlobalId": "3ZnJlnBePBXQGgUrEPS3c7",
+  "name": "Floor-Massivholz-24mm-6301249",
+  "total_steps": 4,
+  "total_tokens": 3873,
+  "total_prompt_tokens": 3619,
+  "total_completion_tokens": 254,
+  "total_processing_time": 5.022,
+  "total_cost_usd": 0.021905,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 909,
+      "completion_tokens": 51,
+      "processing_time": 1.12,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00531
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzböden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 55,
+      "processing_time": 0.995,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005135
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Parkett",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 51,
+      "processing_time": 0.956,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005075
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Solid wood parquet (German average)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden/Parkett",
+      "message": "Match successful",
+      "prompt_tokens": 986,
+      "completion_tokens": 97,
+      "processing_time": 1.951,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006385
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 'Massivholz Fichte' with a thickness of 24mm.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 'Massivholz Fichte' with a thickness of 24mm.",
+        "Preliminary Selection": "Holzböden",
+        "Matched Category": "Holzböden"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 'Massivholz Fichte' with a thickness of 24mm.",
+        "Preliminary Selection": "Parkett",
+        "Matched Category": "Parkett"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcSlab named 'Floor:Massivholz 24mm', with a material layer of 'Massivholz Fichte' and a thickness of 24mm. It is categorized as a floor and is part of the 'Innenausbau' workset.",
+        "Preliminary Selection": [
+          "Solid wood parquet (German average)"
+        ],
+        "Matched Materials": [
+          "Solid wood parquet (German average)"
+        ]
+      }
+    }
+  ]
+}

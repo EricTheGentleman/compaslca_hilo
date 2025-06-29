@@ -1,0 +1,62 @@
+{
+  "CompilationGroupID": "741d9c7f22",
+  "name": "Pfosten-rechteckig-Forster-60-x-130-1123986",
+  "total_steps": 2,
+  "total_tokens": 2404,
+  "total_prompt_tokens": 2233,
+  "total_completion_tokens": 171,
+  "total_processing_time": 3.724,
+  "total_cost_usd": 0.01373,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 993,
+      "completion_tokens": 83,
+      "processing_time": 1.518,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00621
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Stahlprofil, blank"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1240,
+      "completion_tokens": 88,
+      "processing_time": 2.206,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00752
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:Forster 60 x 130' used in a curtain wall. Material is 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a rectangular post (Pfosten rechteckig) made of steel with black powder coating, part of a curtain wall system.",
+        "Preliminary Selection": [
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Stahlprofil, blank"
+        ],
+        "Matched Materials": [
+          "Stahlprofil, blank"
+        ]
+      }
+    }
+  ]
+}

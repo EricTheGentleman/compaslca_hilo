@@ -1,0 +1,44 @@
+﻿{
+  "ObjectType Name": "Holz-Träger---rechteckig-Alu-Eurotec-40-x-60-7547868",
+  "CompilationGroupID": "0a91634d5e",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Aluminiumprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+      "ID": "06.002.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "2690",
+      "Global Warming Potential Total [kgCO2-eqv]": "2.67",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "2.66",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00792",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "12700",
+      "UBP (Manufacturing)": "12700",
+      "UBP (Disposal)": "19.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "4.26",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "4.26",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000788",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "8.88",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "8.85",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0314"
+    },
+    {
+      "Name": "Aluminiumprofil, blank",
+      "ID": "6.002",
+      "Reference": "kg",
+      "Density (kg/m3)": "2690",
+      "Global Warming Potential Total [kgCO2-eqv]": "5.7",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "5.69",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00792",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "11500",
+      "UBP (Manufacturing)": "11400",
+      "UBP (Disposal)": "19.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "5.27",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "5.26",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000788",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "25.6",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "25.6",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0314"
+    }
+  ]
+}

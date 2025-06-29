@@ -1,0 +1,25 @@
+﻿{
+  "Name": "Basic-Wall-Wärmedämmung_Slentex-70-687731",
+  "GlobalId": "3PSzbSor5DzehfFtR_jj_6",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Aerogel-Vlies",
+      "ID": "10.014",
+      "Reference": "kg",
+      "Density (kg/m3)": "150",
+      "Global Warming Potential Total [kgCO2-eqv]": "48.7",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "48.4",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.289",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "73600",
+      "UBP (Manufacturing)": "73200",
+      "UBP (Disposal)": "408",
+      "Total Renewable Primary Energy [kWh oil-eq]": "12.6",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "12.5",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.012",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "230",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "229",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.174"
+    }
+  ]
+}

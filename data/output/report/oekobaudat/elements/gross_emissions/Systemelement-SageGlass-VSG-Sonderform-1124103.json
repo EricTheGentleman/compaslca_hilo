@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "Systemelement-SageGlass-VSG-Sonderform-1124103",
+  "CompilationGroupID": "2fc8bbc0c1",
+  "Volume [m^3]": 1.7642,
+  "Largest Surface Area [m^2]": 43.7504,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

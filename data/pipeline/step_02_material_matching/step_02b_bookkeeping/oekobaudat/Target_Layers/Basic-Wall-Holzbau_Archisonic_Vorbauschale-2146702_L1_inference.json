@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "f17ad5cce9_L1",
+  "name": "Basic-Wall-Holzbau_Archisonic_Vorbauschale-2146702_L1",
+  "total_steps": 4,
+  "total_tokens": 4333,
+  "total_prompt_tokens": 4009,
+  "total_completion_tokens": 324,
+  "total_processing_time": 7.173,
+  "total_cost_usd": 0.024904999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 987,
+      "completion_tokens": 52,
+      "processing_time": 1.239,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005715
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 940,
+      "completion_tokens": 56,
+      "processing_time": 1.269,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00554
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Holzfaserplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 56,
+      "processing_time": 1.489,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005725
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Medium Density Fibreboard (MDF)",
+        "Medium density fibreboard (German average)",
+        "Unilin Medium Density Fiberboard"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Holzfaserplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1105,
+      "completion_tokens": 160,
+      "processing_time": 3.176,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007925
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Holzfaserplatten",
+        "Matched Category": "Holzfaserplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a non-structural, interior wall with the name 'Basic Wall:Holzbau_Archisonic_Vorbauschale'. It consists of two layers: 'Archisonic Charcoal' with a thickness of 0.012 meters and 'MDF' with the same thickness. The wall is categorized under 'Walls' and is part of the 'Innenausbau' workset.",
+        "Preliminary Selection": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ],
+        "Matched Materials": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ]
+      }
+    }
+  ]
+}

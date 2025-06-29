@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: BSH Stütze - rechteckig:BSH 140 x 140:5646328, Type: IfcColumn, Material: Brettsperrholz, Category: Structural Columns",
+    "Preliminary Selection": [
+      "best wood CLT",
+      "best wood CLT BOX"
+    ],
+    "Matched Materials": [
+      "best wood CLT",
+      "best wood CLT BOX"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Sperrholz",
+    "trace": [
+      "Holz",
+      "Holzwerkstoffe",
+      "Sperrholz"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 914,
+      "total_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.985,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00639
+  }
+}

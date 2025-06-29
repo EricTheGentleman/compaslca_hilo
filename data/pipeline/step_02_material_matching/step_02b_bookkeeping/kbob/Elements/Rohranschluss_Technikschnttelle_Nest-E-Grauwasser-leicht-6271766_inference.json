@@ -1,0 +1,66 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBH8",
+  "name": "Rohranschluss_Technikschnttelle_Nest-E-Grauwasser-leicht-6271766",
+  "total_steps": 2,
+  "total_tokens": 2122,
+  "total_prompt_tokens": 1933,
+  "total_completion_tokens": 189,
+  "total_processing_time": 3.477,
+  "total_cost_usd": 0.0125,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 961,
+      "completion_tokens": 71,
+      "processing_time": 1.501,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00587
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 972,
+      "completion_tokens": 118,
+      "processing_time": 1.976,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00663
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

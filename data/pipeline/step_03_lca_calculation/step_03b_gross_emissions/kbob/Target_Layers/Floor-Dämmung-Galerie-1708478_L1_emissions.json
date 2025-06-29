@@ -1,0 +1,46 @@
+﻿{
+  "CompilationGroupID": "d20d68a4b7_L1",
+  "Name": "Floor-Dämmung-Galerie-1708478_L1",
+  "Volume [m^3]": 0.6289,
+  "Largest Surface Area [m^2]": 7.2514,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Steinwolle",
+      "ID": "10.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "44.1337",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "40.9426",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.2019",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "73556.144",
+      "UBP (Manufacturing)": "67065.896",
+      "UBP (Disposal)": "6273.9064",
+      "Total Renewable Primary Energy [kWh oil-eq]": "89.2409",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "88.7001",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5787",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "174.6958",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "167.6647",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "7.1934"
+    },
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "33.3707",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "30.1797",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.2019",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "59493.94",
+      "UBP (Manufacturing)": "53111.8628",
+      "UBP (Disposal)": "6273.9064",
+      "Total Renewable Primary Energy [kWh oil-eq]": "108.7117",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "108.1708",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5787",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "137.9178",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "130.3458",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "7.1934"
+    }
+  ]
+}

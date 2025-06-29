@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcSlab, Name: Floor:Bodenaufbau Hauptgeschoss, Thickness: 581.0 mm, Category: Floors",
+    "Preliminary Selection": [
+      "Gussasphalt, 27.5 mm",
+      "Hartbeton einschichtig, 27.5 mm",
+      "Hartbeton zweischichtig, 35 mm",
+      "Kunststeinplatte zementgebunden, 10 mm",
+      "Terrazzo versiegelt, 40 mm"
+    ],
+    "Matched Materials": [
+      "Gussasphalt, 27.5 mm",
+      "Hartbeton einschichtig, 27.5 mm",
+      "Hartbeton zweischichtig, 35 mm",
+      "Kunststeinplatte zementgebunden, 10 mm",
+      "Terrazzo versiegelt, 40 mm"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+    "trace": [
+      "Bodenbeläge"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 175,
+      "prompt_tokens": 1384,
+      "total_tokens": 1559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.074,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01042
+  }
+}

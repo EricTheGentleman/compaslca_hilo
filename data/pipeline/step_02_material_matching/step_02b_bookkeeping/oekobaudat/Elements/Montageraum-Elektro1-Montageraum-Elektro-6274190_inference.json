@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBlG",
+  "name": "Montageraum-Elektro1-Montageraum-Elektro-6274190",
+  "total_steps": 2,
+  "total_tokens": 1666,
+  "total_prompt_tokens": 1572,
+  "total_completion_tokens": 94,
+  "total_processing_time": 2.226,
+  "total_cost_usd": 0.00927,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 802,
+      "completion_tokens": 48,
+      "processing_time": 1.062,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00473
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 770,
+      "completion_tokens": 46,
+      "processing_time": 1.164,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00454
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name '3D-Schnittmaterial'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "38ad939f44",
+  "Name": "Floor-3-Schichtplatte-27mm-B-C-Rinnen-6154433",
+  "Volume [m^3]": 0.1493,
+  "Largest Surface Area [m^2]": 5.742,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "31.7198",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "28.0",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.7401",
+      "Biogenic Carbon [kg C]": "29.285",
+      "UBP (Total)": "68309.229",
+      "UBP (Manufacturing)": "63033.8628",
+      "UBP (Disposal)": "5430.9219",
+      "Total Renewable Primary Energy [kWh oil-eq]": "899.5176",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "899.5176",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.4173",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "147.4397",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "141.3528",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "6.2425"
+    }
+  ]
+}

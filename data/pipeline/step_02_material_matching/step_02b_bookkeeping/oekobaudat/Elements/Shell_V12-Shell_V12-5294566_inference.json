@@ -1,0 +1,148 @@
+{
+  "GlobalId": "1YKyzAV3HA3hGaVYlxUqa8",
+  "name": "Shell_V12-Shell_V12-5294566",
+  "total_steps": 4,
+  "total_tokens": 4350,
+  "total_prompt_tokens": 3846,
+  "total_completion_tokens": 504,
+  "total_processing_time": 7.038,
+  "total_cost_usd": 0.02679,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 822,
+      "completion_tokens": 55,
+      "processing_time": 1.024,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004935
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 780,
+      "completion_tokens": 51,
+      "processing_time": 1.262,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004665
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+      "message": "Match successful",
+      "prompt_tokens": 797,
+      "completion_tokens": 45,
+      "processing_time": 0.967,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00466
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Concrete C12/15",
+        "Concrete C16/20",
+        "Concrete C20/25",
+        "Concrete C25/30",
+        "Concrete C30/37",
+        "Concrete C35/45",
+        "Concrete C40/50, Type number 988429091",
+        "Concrete C40/50, Type number 988429096",
+        "Concrete C40/50, Type number 988429196",
+        "Concrete C45/55",
+        "Concrete C50/60",
+        "Concrete C55/67",
+        "Concrete C60/75",
+        "Ready-mix concrete C20/25",
+        "Ready-mix concrete C25/30",
+        "Ready-mix concrete C30/37",
+        "Ready-mix concrete C50/60"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1447,
+      "completion_tokens": 353,
+      "processing_time": 3.785,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01253
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named Shell_V12 with material Concrete, Lightweight.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material 'Concrete, Lightweight'.",
+        "Preliminary Selection": "Mörtel und Beton",
+        "Matched Category": "Mörtel und Beton"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material 'Concrete, Lightweight'.",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material: Concrete, Lightweight, Category: Generic Models, Workset: Dachkonstruktion",
+        "Preliminary Selection": [
+          "Concrete C12/15",
+          "Concrete C16/20",
+          "Concrete C20/25",
+          "Concrete C25/30",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Concrete C55/67",
+          "Concrete C60/75",
+          "Ready-mix concrete C20/25",
+          "Ready-mix concrete C25/30",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ],
+        "Matched Materials": [
+          "Concrete C12/15",
+          "Concrete C16/20",
+          "Concrete C20/25",
+          "Concrete C25/30",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Concrete C55/67",
+          "Concrete C60/75",
+          "Ready-mix concrete C20/25",
+          "Ready-mix concrete C25/30",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿{
+  "CompilationGroupID": "d20d68a4b7_L2",
+  "Name": "Floor-Dämmung-Galerie-1708478_L2",
+  "Volume [m^3]": 0.6289,
+  "Largest Surface Area [m^2]": 7.2514,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "Mineral wool (floor insulation)",
+      "ID": "ac779922-219f-4730-9aef-a7da84d334c1",
+      "Reference": "m3",
+      "Density (kg/m3)": "85.0",
+      "Bezugsgroesse": "1",
+      "GWPtotal (A1)": "0.0",
+      "GWPtotal (A2)": "0.0",
+      "GWPtotal (A3)": "0.0",
+      "GWPtotal (A1-A3)": "81.6393",
+      "GWPtotal (A4)": "0.0",
+      "GWPtotal (A5)": "0.0",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "0.2277",
+      "GWPtotal (C3)": "1.6126",
+      "GWPtotal (C4)": "0.8992",
+      "GWPbiogenic": "0.7489",
+      "GWPfossil": "83.5756",
+      "GWPtotal": "84.3788",
+      "Conformity": "'EN 15804+A2 (EF 3.1)'",
+      "Laenderkennung": "DE",
+      "Declaration owner": "Sphera Solutions GmbH",
+      "Registrierungsnummer": 0
+    }
+  ]
+}

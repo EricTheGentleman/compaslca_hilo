@@ -1,0 +1,103 @@
+{
+  "CompilationGroupID": "1fde2b1291",
+  "name": "Basic-Wall-3-Schichtplatte-27mm---Schalplatte-3555236",
+  "total_steps": 4,
+  "total_tokens": 4168,
+  "total_prompt_tokens": 3868,
+  "total_completion_tokens": 300,
+  "total_processing_time": 8.198,
+  "total_cost_usd": 0.02384,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 964,
+      "completion_tokens": 59,
+      "processing_time": 2.957,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005705
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 917,
+      "completion_tokens": 63,
+      "processing_time": 1.308,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00553
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 954,
+      "completion_tokens": 63,
+      "processing_time": 1.6,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005715
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1033,
+      "completion_tokens": 115,
+      "processing_time": 2.333,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00689
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 3-Schicht-Platte with a thickness of 27mm, categorized under Walls, non-structural.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 3-Schicht-Platte with a thickness of 27mm, categorized under Walls, non-structural.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a wall with material '3-Schicht-Platte' and type 'IfcWallStandardCase'.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:3-Schichtplatte 27mm - Schalplatte, Type: IfcWallStandardCase, Material: 3-Schicht-Platte, Thickness: 0.027m, Non-bearing wall",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

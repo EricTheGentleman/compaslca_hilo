@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcDoor with no defined material, located on Level 00_Eingang, categorized under Doors, with a fire resistance rating EI 30.",
+    "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+    "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 78,
+      "prompt_tokens": 933,
+      "total_tokens": 1011,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.767,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006225
+  }
+}

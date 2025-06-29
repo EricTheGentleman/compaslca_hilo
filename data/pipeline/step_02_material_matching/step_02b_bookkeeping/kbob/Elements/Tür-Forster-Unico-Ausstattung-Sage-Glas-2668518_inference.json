@@ -1,0 +1,90 @@
+{
+  "GlobalId": "1a1$QVmKz8nRXZVkIMOOBt",
+  "name": "Tür-Forster-Unico-Ausstattung-Sage-Glas-2668518",
+  "total_steps": 2,
+  "total_tokens": 3393,
+  "total_prompt_tokens": 2629,
+  "total_completion_tokens": 764,
+  "total_processing_time": 8.82,
+  "total_cost_usd": 0.024605,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 927,
+      "completion_tokens": 79,
+      "processing_time": 2.104,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00582
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+        "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+        "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+        "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1702,
+      "completion_tokens": 685,
+      "processing_time": 6.716,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.018785
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow named 'Tür Forster Unico:Ausstattung Sage Glas' with no defined material, part of a curtain wall, categorized under 'Windows'.",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWindow, ObjectType: Tür Forster Unico:Ausstattung Sage Glas, No specific glazing or U-value information provided.",
+        "Preliminary Selection": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ],
+        "Matched Materials": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ]
+      }
+    }
+  ]
+}

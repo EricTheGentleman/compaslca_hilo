@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Einlauf Contec Tube:DN75:6761910, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Einlauf Contec Tube: DN75",
+    "Preliminary Selection": [
+      "Polyethylen (PE)",
+      "Polypropylen (PP)",
+      "Polyvinylchlorid (PVC)"
+    ],
+    "Matched Materials": [
+      "Polyethylen (PE)",
+      "Polypropylen (PP)",
+      "Polyvinylchlorid (PVC)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Rohre",
+    "trace": [
+      "Rohre"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 123,
+      "prompt_tokens": 914,
+      "total_tokens": 1037,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.278,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00703
+  }
+}

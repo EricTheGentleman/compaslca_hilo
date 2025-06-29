@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "1fde2b1291",
+  "name": "Basic-Wall-3-Schichtplatte-27mm---Schalplatte-3555236",
+  "total_steps": 2,
+  "total_tokens": 2808,
+  "total_prompt_tokens": 2653,
+  "total_completion_tokens": 155,
+  "total_processing_time": 3.1710000000000003,
+  "total_cost_usd": 0.01559,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1027,
+      "completion_tokens": 67,
+      "processing_time": 1.324,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00614
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1626,
+      "completion_tokens": 88,
+      "processing_time": 1.847,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00945
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 3-Schicht-Platte with a thickness of 27mm, categorized under Walls, non-structural.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:3-Schichtplatte 27mm - Schalplatte, Type: IfcWallStandardCase, Material Name: 3-Schicht-Platte, Structural Usage: Non-bearing",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

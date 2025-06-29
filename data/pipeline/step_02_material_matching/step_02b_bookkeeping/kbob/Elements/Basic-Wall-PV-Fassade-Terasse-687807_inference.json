@@ -1,0 +1,78 @@
+{
+  "CompilationGroupID": "c7d2a47639",
+  "name": "Basic-Wall-PV-Fassade-Terasse-687807",
+  "total_steps": 2,
+  "total_tokens": 3126,
+  "total_prompt_tokens": 2735,
+  "total_completion_tokens": 391,
+  "total_processing_time": 5.884,
+  "total_cost_usd": 0.019540000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 980,
+      "completion_tokens": 85,
+      "processing_time": 2.298,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006175
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Fassade, Pfosten-Riegel, Alu/Glas",
+        "Fassadenplatte, Aluverbund, 4 mm",
+        "Fassadenplatte, Glasfaserbeton Ecomur, 15mm",
+        "Fassadenplatte, Glasfaserbeton Ecomur, 18mm",
+        "Fassadenplatte, Hochdrucklaminatplatte (HPL), 8.1 mm",
+        "Fassadenplatte, Kalkstein, 30 mm",
+        "Fassadenplatte, Kunststoff glasfaserverstärkt (GFK), 1.6 mm"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1755,
+      "completion_tokens": 306,
+      "processing_time": 3.586,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.013365
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with the name 'PV Fassade Terasse', type 'IfcWallStandardCase', and material 'Körpermodell'. It is non-structural and used for exterior core face.",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWallStandardCase, Name: Basic Wall:PV Fassade Terasse, Material: Körpermodell, Thickness: 0.008m, Non-bearing wall.",
+        "Preliminary Selection": [
+          "Fassade, Pfosten-Riegel, Alu/Glas",
+          "Fassadenplatte, Aluverbund, 4 mm",
+          "Fassadenplatte, Glasfaserbeton Ecomur, 15mm",
+          "Fassadenplatte, Glasfaserbeton Ecomur, 18mm",
+          "Fassadenplatte, Hochdrucklaminatplatte (HPL), 8.1 mm",
+          "Fassadenplatte, Kalkstein, 30 mm",
+          "Fassadenplatte, Kunststoff glasfaserverstärkt (GFK), 1.6 mm"
+        ],
+        "Matched Materials": [
+          "Fassade, Pfosten-Riegel, Alu/Glas",
+          "Fassadenplatte, Aluverbund, 4 mm",
+          "Fassadenplatte, Glasfaserbeton Ecomur, 15mm",
+          "Fassadenplatte, Glasfaserbeton Ecomur, 18mm",
+          "Fassadenplatte, Hochdrucklaminatplatte (HPL), 8.1 mm",
+          "Fassadenplatte, Kalkstein, 30 mm",
+          "Fassadenplatte, Kunststoff glasfaserverstärkt (GFK), 1.6 mm"
+        ]
+      }
+    }
+  ]
+}

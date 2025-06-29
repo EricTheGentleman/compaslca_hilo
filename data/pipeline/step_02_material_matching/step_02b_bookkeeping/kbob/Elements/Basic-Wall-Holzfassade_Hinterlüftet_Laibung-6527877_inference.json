@@ -1,0 +1,75 @@
+{
+  "CompilationGroupID": "5376ff48b3",
+  "name": "Basic-Wall-Holzfassade_Hinterlüftet_Laibung-6527877",
+  "total_steps": 2,
+  "total_tokens": 3032,
+  "total_prompt_tokens": 2623,
+  "total_completion_tokens": 409,
+  "total_processing_time": 6.555,
+  "total_cost_usd": 0.01925,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1012,
+      "completion_tokens": 71,
+      "processing_time": 2.071,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006125
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1611,
+      "completion_tokens": 338,
+      "processing_time": 4.484,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.013125
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Holzschalung Vertikal, Nadelholz, schwarz gestrichen', type 'IfcWall', and category 'Walls'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material Name: Holzschalung Vertikal, Nadelholz, schwarz gestrichen, Structural: False, Structural Usage: Non-bearing",
+        "Preliminary Selection": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

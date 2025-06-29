@@ -1,0 +1,115 @@
+{
+  "GlobalId": "07OV_Qt_vCaPpDtuenC0bv",
+  "name": "1072_200731_Funicular-Floors-Vorspannung-3D_kg-3dm-1072_200731_Funicular-Floors-Vorspannung-3D_kg-3dm-6206686",
+  "total_steps": 4,
+  "total_tokens": 4846,
+  "total_prompt_tokens": 4406,
+  "total_completion_tokens": 440,
+  "total_processing_time": 8.635,
+  "total_cost_usd": 0.02863,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 962,
+      "completion_tokens": 65,
+      "processing_time": 1.569,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005785
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 920,
+      "completion_tokens": 63,
+      "processing_time": 1.384,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005545
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+      "message": "Match successful",
+      "prompt_tokens": 937,
+      "completion_tokens": 57,
+      "processing_time": 1.76,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00554
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+        "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+        "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+        "Concrete C45/55",
+        "Concrete C50/60",
+        "Ready-mix concrete C50/60"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1587,
+      "completion_tokens": 255,
+      "processing_time": 3.922,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01176
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a funicular floor with no defined material, categorized under 'Generic Models' and associated with 'Tragwerk' workset.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a funicular floor with no defined material, categorized under 'Generic Models' and related to structural work (Tragwerk).",
+        "Preliminary Selection": "Mörtel und Beton",
+        "Matched Category": "Mörtel und Beton"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a funicular floor with no defined material, categorized under 'Generic Models' and associated with structural work (Tragwerk).",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Workset: Tragwerk, Category: Generic Models, Function: Funicular Floors, Phase: Zu Bauen",
+        "Preliminary Selection": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C50/60"
+        ],
+        "Matched Materials": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C50/60"
+        ]
+      }
+    }
+  ]
+}

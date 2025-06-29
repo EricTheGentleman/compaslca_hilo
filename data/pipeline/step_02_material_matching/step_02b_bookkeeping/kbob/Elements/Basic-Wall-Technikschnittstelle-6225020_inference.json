@@ -1,0 +1,63 @@
+{
+  "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+  "name": "Basic-Wall-Technikschnittstelle-6225020",
+  "total_steps": 2,
+  "total_tokens": 2210,
+  "total_prompt_tokens": 2039,
+  "total_completion_tokens": 171,
+  "total_processing_time": 4.43,
+  "total_cost_usd": 0.01276,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 942,
+      "completion_tokens": 84,
+      "processing_time": 1.578,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00597
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gipsfaserplatte",
+        "Gipsfaserplatte Fermacell"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1097,
+      "completion_tokens": 87,
+      "processing_time": 2.852,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00679
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material 'Gipsfaserplatte' (gypsum fiberboard) and categorized as a non-bearing wall.",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material: Gipsfaserplatte, Thickness: 0.025m, Non-bearing wall, Room Bounding: True",
+        "Preliminary Selection": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ],
+        "Matched Materials": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ]
+      }
+    }
+  ]
+}

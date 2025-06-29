@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Rohranschluss_Technikschnttelle_Nest: E-Schmutzwasser",
+    "Preliminary Selection": "Sanitär",
+    "Matched Category": "Sanitär"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+    "trace": [
+      "Gebäudetechnik"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 862,
+      "total_tokens": 958,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.666,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00623
+  }
+}

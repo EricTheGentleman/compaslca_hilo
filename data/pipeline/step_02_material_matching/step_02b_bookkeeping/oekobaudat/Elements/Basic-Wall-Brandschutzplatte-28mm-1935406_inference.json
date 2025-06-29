@@ -1,0 +1,101 @@
+{
+  "CompilationGroupID": "cb2d94d550",
+  "name": "Basic-Wall-Brandschutzplatte-28mm-1935406",
+  "total_steps": 4,
+  "total_tokens": 4192,
+  "total_prompt_tokens": 3960,
+  "total_completion_tokens": 232,
+  "total_processing_time": 5.42,
+  "total_cost_usd": 0.02328,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 928,
+      "completion_tokens": 60,
+      "processing_time": 1.293,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00554
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 886,
+      "completion_tokens": 58,
+      "processing_time": 1.181,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0053
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Gipsplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 982,
+      "completion_tokens": 49,
+      "processing_time": 1.202,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005645
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "gypsum fibre board"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Gipsplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1164,
+      "completion_tokens": 65,
+      "processing_time": 1.744,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006795
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, thickness 28mm, used for fire protection.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, type IfcWallStandardCase, used for structural bearing.",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte and thickness 28mm.",
+        "Preliminary Selection": "Gipsplatten",
+        "Matched Category": "Gipsplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a basic wall with a fire protection board of 28mm thickness, specifically a gypsum fibre board.",
+        "Preliminary Selection": [
+          "Gypsum fibre board (10 mm)",
+          "gypsum fibre board"
+        ],
+        "Matched Materials": [
+          "gypsum fibre board"
+        ]
+      }
+    }
+  ]
+}

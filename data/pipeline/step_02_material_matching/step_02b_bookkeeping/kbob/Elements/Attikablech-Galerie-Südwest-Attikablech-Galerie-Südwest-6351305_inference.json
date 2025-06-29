@@ -1,0 +1,79 @@
+{
+  "GlobalId": "1lNlPQ7XT5RQ2wbJSTuGdX",
+  "name": "Attikablech-Galerie-Südwest-Attikablech-Galerie-Südwest-6351305",
+  "total_steps": 2,
+  "total_tokens": 2273,
+  "total_prompt_tokens": 1999,
+  "total_completion_tokens": 274,
+  "total_processing_time": 6.481,
+  "total_cost_usd": 0.014105,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 876,
+      "completion_tokens": 72,
+      "processing_time": 1.481,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00546
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Aluminiumblech, blank",
+        "Chromnickelstahlblech 18/8 blank",
+        "Chromnickelstahlblech 18/8 verzinnt",
+        "Chromstahlblech blank",
+        "Chromstahlblech verzinnt",
+        "Stahlblech, verzinkt",
+        "Titanzinkblech"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1123,
+      "completion_tokens": 202,
+      "processing_time": 5.0,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008645
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Attikablech Galerie Südwest' with no defined material. It is categorized under 'Walls' and associated with architecture workset.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Attikablech Galerie Südwest, Type: IfcWall, Material: Not defined, Category: Walls, Family: Attikablech Galerie Südwest, Room Bounding: True",
+        "Preliminary Selection": [
+          "Aluminiumblech, blank",
+          "Chromnickelstahlblech 18/8 blank",
+          "Chromnickelstahlblech 18/8 verzinnt",
+          "Chromstahlblech blank",
+          "Chromstahlblech verzinnt",
+          "Stahlblech, blank",
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ],
+        "Matched Materials": [
+          "Aluminiumblech, blank",
+          "Chromnickelstahlblech 18/8 blank",
+          "Chromnickelstahlblech 18/8 verzinnt",
+          "Chromstahlblech blank",
+          "Chromstahlblech verzinnt",
+          "Stahlblech, verzinkt",
+          "Titanzinkblech"
+        ]
+      }
+    }
+  ]
+}

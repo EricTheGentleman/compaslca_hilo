@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Einlauf Contec Tube:DN110:6763225, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+    "Preliminary Selection": [],
+    "Matched Materials": []
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+    "trace": [
+      "Kunststoffe"
+    ],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 944,
+      "total_tokens": 1001,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.485,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00586
+  }
+}

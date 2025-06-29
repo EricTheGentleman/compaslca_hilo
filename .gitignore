@@ -8,14 +8,6 @@ __pycache__/
 .venv/
 .vscode/
 
-# === Ignore all .json and .csv files inside /data, recursively ===
-data/pipeline/**/*.json
-data/pipeline/**/*.csv
-
-# === Ignore all .json and .csv files inside OUTPUT, recursively ===
-data/output/**/*.json
-data/output/**/*.csv
-
 # === Ignore master configuration file with sensitive data (api key) ===
 **/master_config_KEY.yaml
 config/master_config_KEY.yaml

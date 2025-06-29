@@ -1,0 +1,103 @@
+{
+  "CompilationGroupID": "c923413f81",
+  "name": "Basic-Wall-Wärmedämmung_Mineralwolle_90-5421574",
+  "total_steps": 4,
+  "total_tokens": 4426,
+  "total_prompt_tokens": 4129,
+  "total_completion_tokens": 297,
+  "total_processing_time": 5.9879999999999995,
+  "total_cost_usd": 0.025099999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 972,
+      "completion_tokens": 53,
+      "processing_time": 1.054,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005655
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1103,
+      "completion_tokens": 70,
+      "processing_time": 1.391,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006565
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 919,
+      "completion_tokens": 58,
+      "processing_time": 1.066,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005465
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Mineral wool (facade insulation)",
+        "Mineral wool insulation (medium bulk density range)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 1135,
+      "completion_tokens": 116,
+      "processing_time": 2.477,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007415
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with mineral wool insulation material, named 'Wärmedämmung Mineralwolle'.",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Wärmedämmung Mineralwolle, 0.035 W/mK', type 'IfcWallStandardCase', and category 'Walls'.",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Wärmedämmung Mineralwolle, 0.035 W/mK'.",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Wärmedämmung_Mineralwolle_90, Type: IfcWallStandardCase, Material: Wärmedämmung Mineralwolle, 0.035 W/mK, Thickness: 0.09m",
+        "Preliminary Selection": [
+          "Mineral wool (facade insulation)",
+          "Mineral wool insulation (medium bulk density range)"
+        ],
+        "Matched Materials": [
+          "Mineral wool (facade insulation)",
+          "Mineral wool insulation (medium bulk density range)"
+        ]
+      }
+    }
+  ]
+}

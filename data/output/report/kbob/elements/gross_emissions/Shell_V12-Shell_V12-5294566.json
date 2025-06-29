@@ -1,0 +1,27 @@
+﻿{
+  "Name": "Shell_V12-Shell_V12-5294566",
+  "GlobalId": "1YKyzAV3HA3hGaVYlxUqa8",
+  "Volume [m^3]": 11.5047,
+  "Largest Surface Area [m^2]": 281.8965,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)",
+      "ID": "01.002.08",
+      "Reference": "kg",
+      "Density (kg/m3)": "2311.4",
+      "Global Warming Potential Total [kgCO2-eqv]": "2223.0882",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1888.0294",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "335.0587",
+      "Biogenic Carbon [kg C]": "20.6885",
+      "UBP (Total)": "3563323.1197",
+      "UBP (Manufacturing)": "2637922.7871",
+      "UBP (Disposal)": "936037.118",
+      "Total Renewable Primary Energy [kWh oil-eq]": "388.2427",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "337.7179",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "50.7907",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "4706.7776",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "3350.5874",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1364.1677"
+    }
+  ]
+}

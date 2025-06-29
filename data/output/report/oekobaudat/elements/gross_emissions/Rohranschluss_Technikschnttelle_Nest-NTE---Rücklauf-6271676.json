@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Rohranschluss_Technikschnttelle_Nest-NTE---Rücklauf-6271676",
+  "GlobalId": "1Et2c94TXFAwSKPeylnBNY",
+  "Volume [m^3]": 0.0005,
+  "Largest Surface Area [m^2]": 0.0114,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

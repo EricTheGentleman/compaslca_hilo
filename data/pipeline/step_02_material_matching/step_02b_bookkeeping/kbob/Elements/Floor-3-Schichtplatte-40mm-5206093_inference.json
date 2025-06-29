@@ -1,0 +1,78 @@
+{
+  "GlobalId": "0mZKsgvRH1Mhc20hMTKOGe",
+  "name": "Floor-3-Schichtplatte-40mm-5206093",
+  "total_steps": 2,
+  "total_tokens": 2987,
+  "total_prompt_tokens": 2563,
+  "total_completion_tokens": 424,
+  "total_processing_time": 5.808,
+  "total_cost_usd": 0.019175,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 982,
+      "completion_tokens": 60,
+      "processing_time": 1.329,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00581
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+        "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1581,
+      "completion_tokens": 364,
+      "processing_time": 4.479,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.013365
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Massivholz' (solid wood) and thickness of 40mm.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichtplatte 40mm:5206093, Type: IfcSlab, Material Name: Massivholz, Structural: False",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+          "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

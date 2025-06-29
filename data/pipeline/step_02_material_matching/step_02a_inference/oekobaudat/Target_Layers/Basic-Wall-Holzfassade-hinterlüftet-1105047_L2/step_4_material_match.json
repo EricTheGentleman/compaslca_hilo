@@ -1,0 +1,37 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The IfcBuildingElement is a non-structural, ventilated wooden facade wall (IfcWall) with a layer of air (0.03m thick) as the target material. The wall is part of the 'Basic Wall: Holzfassade hinterlüftet' family, with other layers including vertical coniferous wood cladding.",
+    "Preliminary Selection": [],
+    "Matched Materials": []
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Bau-Schnittholz"
+    ],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 1255,
+      "total_tokens": 1347,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.605,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008115
+  }
+}

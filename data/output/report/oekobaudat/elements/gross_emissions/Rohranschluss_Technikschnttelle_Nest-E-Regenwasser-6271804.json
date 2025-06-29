@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Rohranschluss_Technikschnttelle_Nest-E-Regenwasser-6271804",
+  "GlobalId": "1Et2c94TXFAwSKPeylnBHY",
+  "Volume [m^3]": 0.0011,
+  "Largest Surface Area [m^2]": 0.0121,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

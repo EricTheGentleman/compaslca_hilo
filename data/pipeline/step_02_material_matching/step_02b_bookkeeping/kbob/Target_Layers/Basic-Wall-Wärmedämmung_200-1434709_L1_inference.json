@@ -1,0 +1,75 @@
+{
+  "CompilationGroupID": "23b6fd65cb_L1",
+  "name": "Basic-Wall-Wärmedämmung_200-1434709_L1",
+  "total_steps": 2,
+  "total_tokens": 2610,
+  "total_prompt_tokens": 2348,
+  "total_completion_tokens": 262,
+  "total_processing_time": 6.179,
+  "total_cost_usd": 0.01567,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1041,
+      "completion_tokens": 67,
+      "processing_time": 1.857,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00621
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Glaswolle",
+        "Glaswolle, Isover, pflanzliches Bindemittel",
+        "Glaswolle, Isover, phenolbasiertes Bindemittel",
+        "Glaswolle, SUPAFIL",
+        "Steinwolle",
+        "Steinwolle, Flumroc"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1307,
+      "completion_tokens": 195,
+      "processing_time": 4.322,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00946
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcWallStandardCase; Category: Walls",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a wall with mineral wool insulation, 0.035 W/mK, 0.1m thick, non-structural, located at Level 01_Galerie.",
+        "Preliminary Selection": [
+          "Glaswolle",
+          "Glaswolle, Isover, pflanzliches Bindemittel",
+          "Glaswolle, Isover, phenolbasiertes Bindemittel",
+          "Glaswolle, SUPAFIL",
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ],
+        "Matched Materials": [
+          "Glaswolle",
+          "Glaswolle, Isover, pflanzliches Bindemittel",
+          "Glaswolle, Isover, phenolbasiertes Bindemittel",
+          "Glaswolle, SUPAFIL",
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ]
+      }
+    }
+  ]
+}

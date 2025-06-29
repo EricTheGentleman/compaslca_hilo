@@ -1,0 +1,61 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L1",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L1",
+  "total_steps": 2,
+  "total_tokens": 2871,
+  "total_prompt_tokens": 2693,
+  "total_completion_tokens": 178,
+  "total_processing_time": 6.394,
+  "total_cost_usd": 0.016135,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Bodenbeläge",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1094,
+      "completion_tokens": 58,
+      "processing_time": 3.169,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00634
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+      "message": "Match successful",
+      "prompt_tokens": 1599,
+      "completion_tokens": 120,
+      "processing_time": 3.225,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009795
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Bodenbeläge",
+        "Matched Category": "Bodenbeläge"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Thickness: 0.004 m, Element Type: IfcSlab, Element Name: Floor:Galerie Fussbodenaufbau",
+        "Preliminary Selection": [
+          "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm",
+          "PVC homogen, 2 mm"
+        ],
+        "Matched Materials": [
+          "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm"
+        ]
+      }
+    }
+  ]
+}

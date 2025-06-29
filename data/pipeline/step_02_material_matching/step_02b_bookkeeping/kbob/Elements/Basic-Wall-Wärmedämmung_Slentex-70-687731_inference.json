@@ -1,0 +1,60 @@
+{
+  "GlobalId": "3PSzbSor5DzehfFtR_jj_6",
+  "name": "Basic-Wall-Wärmedämmung_Slentex-70-687731",
+  "total_steps": 2,
+  "total_tokens": 2414,
+  "total_prompt_tokens": 2270,
+  "total_completion_tokens": 144,
+  "total_processing_time": 4.205,
+  "total_cost_usd": 0.013510000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1002,
+      "completion_tokens": 66,
+      "processing_time": 1.63,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Aerogel-Vlies"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1268,
+      "completion_tokens": 78,
+      "processing_time": 2.575,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00751
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Wärmedämmung Slentex Aerogel', type 'IfcWallStandardCase', and category 'Walls'.",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Wärmedämmung_Slentex 70, Type: IfcWallStandardCase, Material: Wärmedämmung Slentex Aerogel, Thickness: 0.07m",
+        "Preliminary Selection": [
+          "Aerogel-Vlies"
+        ],
+        "Matched Materials": [
+          "Aerogel-Vlies"
+        ]
+      }
+    }
+  ]
+}

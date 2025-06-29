@@ -1,0 +1,27 @@
+﻿{
+  "ObjectType Name": "Floor-3-Schichplatte-19mm-715156",
+  "CompilationGroupID": "734607c530",
+  "Volume [m^3]": 0.1512,
+  "Largest Surface Area [m^2]": 8.3574,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "32.1235",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "28.3564",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.7877",
+      "Biogenic Carbon [kg C]": "29.6577",
+      "UBP (Total)": "69178.536",
+      "UBP (Manufacturing)": "63836.0352",
+      "UBP (Disposal)": "5500.0361",
+      "Total Renewable Primary Energy [kWh oil-eq]": "910.9649",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "910.9649",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.4226",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "149.316",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "143.1516",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "6.322"
+    }
+  ]
+}

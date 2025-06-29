@@ -1,0 +1,103 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L3",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L3",
+  "total_steps": 4,
+  "total_tokens": 4531,
+  "total_prompt_tokens": 4214,
+  "total_completion_tokens": 317,
+  "total_processing_time": 7.141,
+  "total_cost_usd": 0.025825,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1031,
+      "completion_tokens": 62,
+      "processing_time": 1.224,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006085
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 989,
+      "completion_tokens": 58,
+      "processing_time": 1.223,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005815
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Trockenestrich",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 1085,
+      "completion_tokens": 58,
+      "processing_time": 1.128,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006295
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Dry floor screed (gypsum fiber board, 25 mm)",
+        "Dry floor screed (gypsum plaster board, 25 mm)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Trockenestrich",
+      "message": "Match successful",
+      "prompt_tokens": 1109,
+      "completion_tokens": 139,
+      "processing_time": 3.566,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00763
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Brio Heizboden 25, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Brio Heizboden 25, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Brio Heizboden 25, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Trockenestrich",
+        "Matched Category": "Trockenestrich"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The target material is 'Knauf - Brio Heizboden 25', a 25 mm thick layer in a floor slab (IfcSlab) context, specifically a floor build-up in a gallery. The relevant material options should relate to dry floor screed or similar materials.",
+        "Preliminary Selection": [
+          "Dry floor screed (gypsum fiber board, 25 mm)",
+          "Dry floor screed (gypsum plaster board, 25 mm)"
+        ],
+        "Matched Materials": [
+          "Dry floor screed (gypsum fiber board, 25 mm)",
+          "Dry floor screed (gypsum plaster board, 25 mm)"
+        ]
+      }
+    }
+  ]
+}

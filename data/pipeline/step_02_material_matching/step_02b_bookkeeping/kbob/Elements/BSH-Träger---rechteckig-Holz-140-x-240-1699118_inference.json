@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "19942f0dfa",
+  "name": "BSH-Träger---rechteckig-Holz-140-x-240-1699118",
+  "total_steps": 2,
+  "total_tokens": 2653,
+  "total_prompt_tokens": 2467,
+  "total_completion_tokens": 186,
+  "total_processing_time": 3.585,
+  "total_cost_usd": 0.015125,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 934,
+      "completion_tokens": 75,
+      "processing_time": 1.4,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005795
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Brettschichtholz",
+        "Brettschichtholz, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1533,
+      "completion_tokens": 111,
+      "processing_time": 2.185,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00933
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'BSH Träger - rechteckig:Holz 140 x 240' with material 'Brettschichtholz C24'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: BSH Träger - rechteckig:Holz 140 x 240:1699118, Type: IfcBeam, Material Name: Brettschichtholz C24, Structural Usage: Other, Category: Structural Framing",
+        "Preliminary Selection": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

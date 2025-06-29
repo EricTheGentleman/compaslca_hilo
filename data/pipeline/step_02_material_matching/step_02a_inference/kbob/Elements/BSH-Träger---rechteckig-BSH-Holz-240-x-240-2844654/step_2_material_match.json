@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: BSH Träger - rechteckig:BSH Holz 240 x 240, Type: IfcBeam, Material Name: Brettschichtholz C24, Category: Structural Framing, Workset: Tragwerk",
+    "Preliminary Selection": [
+      "Brettschichtholz",
+      "Brettschichtholz, Produktion Schweiz"
+    ],
+    "Matched Materials": [
+      "Brettschichtholz",
+      "Brettschichtholz, Produktion Schweiz"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 1530,
+      "total_tokens": 1639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.922,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00983
+  }
+}

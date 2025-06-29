@@ -1,0 +1,27 @@
+﻿{
+  "GlobalId": "1GYJkCWSXDPAizLcwxbAKl",
+  "Name": "Bleche-Fassade_V6-Bleche-Fassade_V6-4910201",
+  "Volume [m^3]": 0.0646,
+  "Largest Surface Area [m^2]": 118.833,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Fassadenplatte, Aluverbund, 4 mm",
+      "ID": "5.022",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "5145.4689",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "4242.3381",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "909.0725",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "8900591.7",
+      "UBP (Manufacturing)": "7914277.8",
+      "UBP (Disposal)": "982748.91",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2851.992",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2851.992",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "6.0724",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "22815.936",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "22815.936",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "103.3847"
+    }
+  ]
+}

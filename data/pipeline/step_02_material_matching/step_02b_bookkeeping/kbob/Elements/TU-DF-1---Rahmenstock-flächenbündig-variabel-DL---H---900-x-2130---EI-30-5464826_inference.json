@@ -1,0 +1,63 @@
+{
+  "GlobalId": "1Tv0YGeiT2fAVW5nnqum0c",
+  "name": "TU-DF-1---Rahmenstock-flächenbündig-variabel-DL---H---900-x-2130---EI-30-5464826",
+  "total_steps": 2,
+  "total_tokens": 2446,
+  "total_prompt_tokens": 2246,
+  "total_completion_tokens": 200,
+  "total_processing_time": 3.6849999999999996,
+  "total_cost_usd": 0.01423,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Türen",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 996,
+      "completion_tokens": 55,
+      "processing_time": 1.365,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005805
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Innentüre, Funktionstüre, Holz, Holzrahmen",
+        "Innentüre, Funktionstüre, Holz, Stahlzarge"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Türen",
+      "message": "Match successful",
+      "prompt_tokens": 1250,
+      "completion_tokens": 145,
+      "processing_time": 2.32,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008425
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, located on Level 00_Eingang, categorized as 'Doors'.",
+        "Preliminary Selection": "Türen",
+        "Matched Category": "Türen"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcDoor, Name: TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30, Location: Level 00_Eingang, Fire Rating: EI 30, No specific material defined, Category: Doors",
+        "Preliminary Selection": [
+          "Innentüre, Funktionstüre, Holz, Holzrahmen",
+          "Innentüre, Funktionstüre, Holz, Stahlzarge"
+        ],
+        "Matched Materials": [
+          "Innentüre, Funktionstüre, Holz, Holzrahmen",
+          "Innentüre, Funktionstüre, Holz, Stahlzarge"
+        ]
+      }
+    }
+  ]
+}

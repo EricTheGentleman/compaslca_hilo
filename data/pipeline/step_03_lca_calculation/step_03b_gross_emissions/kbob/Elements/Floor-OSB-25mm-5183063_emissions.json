@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "763e457390",
+  "Name": "Floor-OSB-25mm-5183063",
+  "Volume [m^3]": 1.1662,
+  "Largest Surface Area [m^2]": 55.7034,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "OSB Platte, PF-gebunden, Feuchtbereich",
+      "ID": "7.013",
+      "Reference": "kg",
+      "Density (kg/m3)": "605",
+      "Global Warming Potential Total [kgCO2-eqv]": "397.2252",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "340.7811",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "56.303",
+      "Biogenic Carbon [kg C]": "313.2646",
+      "UBP (Total)": "726717.53",
+      "UBP (Manufacturing)": "650518.022",
+      "UBP (Disposal)": "74788.406",
+      "Total Renewable Primary Energy [kWh oil-eq]": "5827.8513",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "5820.7957",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "4.4026",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1912.0432",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1841.4881",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "68.9323"
+    }
+  ]
+}

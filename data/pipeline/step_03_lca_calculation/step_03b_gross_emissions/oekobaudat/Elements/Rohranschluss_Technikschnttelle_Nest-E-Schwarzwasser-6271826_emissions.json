@@ -1,0 +1,11 @@
+﻿{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBGC",
+  "Name": "Rohranschluss_Technikschnttelle_Nest-E-Schwarzwasser-6271826",
+  "Volume [m^3]": 0.0012,
+  "Largest Surface Area [m^2]": 0.0143,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

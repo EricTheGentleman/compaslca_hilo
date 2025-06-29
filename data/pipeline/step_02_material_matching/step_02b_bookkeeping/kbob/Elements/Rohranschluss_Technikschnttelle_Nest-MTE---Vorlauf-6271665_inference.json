@@ -1,0 +1,66 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBNl",
+  "name": "Rohranschluss_Technikschnttelle_Nest-MTE---Vorlauf-6271665",
+  "total_steps": 2,
+  "total_tokens": 2137,
+  "total_prompt_tokens": 1921,
+  "total_completion_tokens": 216,
+  "total_processing_time": 5.059,
+  "total_cost_usd": 0.012845,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 955,
+      "completion_tokens": 90,
+      "processing_time": 2.581,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006125
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 966,
+      "completion_tokens": 126,
+      "processing_time": 2.478,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00672
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:MTE - Vorlauf' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Rohranschluss' which suggests a pipe connection.",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:MTE - Vorlauf' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

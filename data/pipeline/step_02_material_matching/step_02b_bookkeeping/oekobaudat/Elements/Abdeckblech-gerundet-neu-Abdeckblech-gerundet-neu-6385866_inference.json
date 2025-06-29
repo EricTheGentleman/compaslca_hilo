@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "aebc0975e3",
+  "name": "Abdeckblech-gerundet-neu-Abdeckblech-gerundet-neu-6385866",
+  "total_steps": 2,
+  "total_tokens": 1845,
+  "total_prompt_tokens": 1737,
+  "total_completion_tokens": 108,
+  "total_processing_time": 2.2560000000000002,
+  "total_cost_usd": 0.010305,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 882,
+      "completion_tokens": 55,
+      "processing_time": 1.117,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005235
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "No match found",
+      "prompt_tokens": 855,
+      "completion_tokens": 53,
+      "processing_time": 1.139,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00507
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named 'Abdeckblech gerundet-neu' with no specific material name provided.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named 'Abdeckblech gerundet-neu' with no specific material name provided.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

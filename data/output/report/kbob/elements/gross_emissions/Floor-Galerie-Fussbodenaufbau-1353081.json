@@ -1,0 +1,142 @@
+﻿{
+  "ObjectType Name": "Floor-Galerie-Fussbodenaufbau-1353081",
+  "CompilationGroupID": "",
+  "Layer 1": {
+    "Volume [m^3]": 0.2672,
+    "Largest Surface Area [m^2]": 107.712,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm",
+        "ID": "11.002",
+        "Reference": "qm",
+        "Density (kg/m3)": null,
+        "Global Warming Potential Total [kgCO2-eqv]": "1497.1968",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "1077.12",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "416.8454",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "2778969.6",
+        "UBP (Manufacturing)": "2294265.6",
+        "UBP (Disposal)": "489012.48",
+        "Total Renewable Primary Energy [kWh oil-eq]": "222.9638",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "216.5011",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "6.6027",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "6678.144",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "6516.576",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "156.1824"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 1.0019,
+    "Largest Surface Area [m^2]": 107.712,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Gipsfaserplatte",
+        "ID": "3.007",
+        "Reference": "kg",
+        "Density (kg/m3)": "1200",
+        "Global Warming Potential Total [kgCO2-eqv]": "663.6586",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "640.8152",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "22.3624",
+        "Biogenic Carbon [kg C]": "53.9824",
+        "UBP (Total)": "1049590.44",
+        "UBP (Manufacturing)": "963026.28",
+        "UBP (Disposal)": "85963.02",
+        "Total Renewable Primary Energy [kWh oil-eq]": "117.8234",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "112.7739",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "5.0255",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "2969.6316",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2873.4492",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "93.8981"
+      },
+      {
+        "Name": "Gipsfaserplatte Fermacell",
+        "ID": "03.007.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "1180",
+        "Global Warming Potential Total [kgCO2-eqv]": "396.0511",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "374.7707",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "21.9897",
+        "Biogenic Carbon [kg C]": "72.9443",
+        "UBP (Total)": "704616.232",
+        "UBP (Manufacturing)": "619494.808",
+        "UBP (Disposal)": "84412.0788",
+        "Total Renewable Primary Energy [kWh oil-eq]": "815.747",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "811.018",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "4.8472",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "1737.8957",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1655.1388",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "92.3331"
+      }
+    ]
+  },
+  "Layer 3": {
+    "Volume [m^3]": 1.6699,
+    "Largest Surface Area [m^2]": 107.712,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Gipsfaserplatte",
+        "ID": "3.007",
+        "Reference": "kg",
+        "Density (kg/m3)": "1200",
+        "Global Warming Potential Total [kgCO2-eqv]": "1106.1418",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "1068.068",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "37.2722",
+        "Biogenic Carbon [kg C]": "89.9742",
+        "UBP (Total)": "1749387.24",
+        "UBP (Manufacturing)": "1605107.88",
+        "UBP (Disposal)": "143277.42",
+        "Total Renewable Primary Energy [kWh oil-eq]": "196.3802",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "187.9639",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "8.3762",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "4949.5836",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4789.2732",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "156.503"
+      },
+      {
+        "Name": "Gipsfaserplatte Fermacell",
+        "ID": "03.007.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "1180",
+        "Global Warming Potential Total [kgCO2-eqv]": "660.1115",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "624.6428",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "36.651",
+        "Biogenic Carbon [kg C]": "121.5787",
+        "UBP (Total)": "1174407.272",
+        "UBP (Manufacturing)": "1032532.568",
+        "UBP (Disposal)": "140692.4148",
+        "Total Renewable Primary Energy [kWh oil-eq]": "1359.6326",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1351.7507",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "8.079",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "2896.6085",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2758.6748",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "153.8946"
+      }
+    ]
+  },
+  "Layer 4": {
+    "Volume [m^3]": 2.0039,
+    "Largest Surface Area [m^2]": 107.712,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Steinwolle, Flumroc",
+        "ID": "10.008.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "86",
+        "Global Warming Potential Total [kgCO2-eqv]": "106.3309",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "96.1632",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "10.2023",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "189568.94",
+        "UBP (Manufacturing)": "169233.3628",
+        "UBP (Disposal)": "19990.9064",
+        "Total Renewable Primary Energy [kWh oil-eq]": "346.3942",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "344.6708",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "1.844",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "439.4553",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "415.3283",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "22.9206"
+      }
+    ]
+  }
+}

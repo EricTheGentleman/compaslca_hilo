@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcMember, Material: Stahl, 45-34, Pulverbeschichtung schwarz, Part of: IfcCurtainWall, Category: Curtain Wall Mullions",
+    "Preliminary Selection": [
+      "Painted Structural Steel",
+      "Painted steel structures",
+      "Welded and painted steel structures - beams and box beams",
+      "Welded and painted steel structures - other steel structures"
+    ],
+    "Matched Materials": [
+      "Painted Structural Steel",
+      "Painted steel structures",
+      "Welded and painted steel structures - beams and box beams",
+      "Welded and painted steel structures - other steel structures"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlprofile",
+    "trace": [
+      "Metalle",
+      "Stahl und Eisen",
+      "Stahlprofile"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 1628,
+      "total_tokens": 1765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.03,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01088
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBH8",
+  "Name": "Rohranschluss_Technikschnttelle_Nest-E-Grauwasser-leicht-6271766",
+  "Volume [m^3]": 0.0007,
+  "Largest Surface Area [m^2]": 0.0099,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

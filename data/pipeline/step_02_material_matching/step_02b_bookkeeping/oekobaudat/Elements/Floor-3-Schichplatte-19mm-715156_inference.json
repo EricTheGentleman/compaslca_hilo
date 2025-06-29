@@ -1,0 +1,103 @@
+{
+  "CompilationGroupID": "734607c530",
+  "name": "Floor-3-Schichplatte-19mm-715156",
+  "total_steps": 4,
+  "total_tokens": 4015,
+  "total_prompt_tokens": 3740,
+  "total_completion_tokens": 275,
+  "total_processing_time": 6.595,
+  "total_cost_usd": 0.022824999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 932,
+      "completion_tokens": 50,
+      "processing_time": 1.364,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00541
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 885,
+      "completion_tokens": 59,
+      "processing_time": 1.224,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00531
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 922,
+      "completion_tokens": 62,
+      "processing_time": 2.134,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00554
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1001,
+      "completion_tokens": 104,
+      "processing_time": 1.873,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006565
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', which is a type of wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', thickness 19mm, categorized under 'Floors'.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte' and thickness of 19mm.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichplatte 19mm, Type: IfcSlab, Material: 3-Schicht-Platte, Thickness: 19mm",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

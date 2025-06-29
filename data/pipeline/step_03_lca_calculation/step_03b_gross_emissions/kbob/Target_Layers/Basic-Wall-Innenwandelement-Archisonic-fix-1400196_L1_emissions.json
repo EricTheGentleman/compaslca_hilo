@@ -1,0 +1,11 @@
+﻿{
+  "CompilationGroupID": "75d64ea952_L1",
+  "Name": "Basic-Wall-Innenwandelement-Archisonic-fix-1400196_L1",
+  "Volume [m^3]": 0.0788,
+  "Largest Surface Area [m^2]": 7.6364,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

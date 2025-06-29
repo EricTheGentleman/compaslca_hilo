@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcPlate used in a curtain wall system, with material name 'Glas EI30'.",
+    "Preliminary Selection": "Vorhangfassade - Element-Fassaden",
+    "Matched Category": "Vorhangfassade - Element-Fassaden"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fassaden"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 66,
+      "prompt_tokens": 838,
+      "total_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.274,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00551
+  }
+}

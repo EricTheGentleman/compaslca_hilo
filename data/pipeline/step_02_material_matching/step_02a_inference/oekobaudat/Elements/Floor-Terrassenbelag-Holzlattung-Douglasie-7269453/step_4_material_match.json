@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is an IfcSlab named 'Floor:Terrassenbelag Holzlattung Douglasie' with a material layer named 'Terrassenbelag Holz' and a thickness of 0.026 meters. It is related to a floor category and is not structural.",
+    "Preliminary Selection": [
+      "Multi-layered engineered wood flooring",
+      "Solid wood parquet (German average)"
+    ],
+    "Matched Materials": [
+      "Multi-layered engineered wood flooring",
+      "Solid wood parquet (German average)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden/Parkett",
+    "trace": [
+      "Holz",
+      "Holzböden",
+      "Parkett"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 1009,
+      "total_tokens": 1120,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.011,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007265
+  }
+}

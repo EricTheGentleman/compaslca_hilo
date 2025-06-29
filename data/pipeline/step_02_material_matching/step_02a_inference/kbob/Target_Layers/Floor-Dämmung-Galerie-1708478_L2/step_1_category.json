@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Category: Floors",
+    "Preliminary Selection": "Wärmedämmstoffe",
+    "Matched Category": "Wärmedämmstoffe"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/KBOB",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 66,
+      "prompt_tokens": 1024,
+      "total_tokens": 1090,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.108,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00644
+  }
+}

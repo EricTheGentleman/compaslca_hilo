@@ -1,0 +1,37 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcPlate used in a curtain wall system, specifically a SageGlass VSG Sonderform with material 'Glas SageGlassClimatop'.",
+    "Preliminary Selection": [],
+    "Matched Materials": []
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden/Vorhangfassade_-_Element-Fassaden",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fassaden",
+      "Vorhangfassade - Element-Fassaden"
+    ],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 946,
+      "total_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.15,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00585
+  }
+}

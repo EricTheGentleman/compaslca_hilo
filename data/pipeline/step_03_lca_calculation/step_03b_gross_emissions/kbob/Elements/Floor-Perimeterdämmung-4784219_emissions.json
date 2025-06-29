@@ -1,0 +1,46 @@
+﻿{
+  "CompilationGroupID": "01982f91ae",
+  "Name": "Floor-Perimeterdämmung-4784219",
+  "Volume [m^3]": 0.555,
+  "Largest Surface Area [m^2]": 6.93,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Polystyrol extrudiert (XPS)",
+      "ID": "10.005",
+      "Reference": "kg",
+      "Density (kg/m3)": "32",
+      "Global Warming Potential Total [kgCO2-eqv]": "255.744",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "200.688",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "54.8784",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "349872.0",
+      "UBP (Manufacturing)": "293040.0",
+      "UBP (Disposal)": "58252.8",
+      "Total Renewable Primary Energy [kWh oil-eq]": "11.917",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "11.7038",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2078",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "522.144",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "518.592",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "3.5875"
+    },
+    {
+      "Name": "Polystyrol extrudiert, SwissporXPS",
+      "ID": "10.005.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "34.3",
+      "Global Warming Potential Total [kgCO2-eqv]": "132.494",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "73.6713",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "58.8228",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "169044.12",
+      "UBP (Manufacturing)": "106604.4",
+      "UBP (Disposal)": "62439.72",
+      "Total Renewable Primary Energy [kWh oil-eq]": "26.08",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "25.8896",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2227",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "485.4307",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "481.6234",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "3.8454"
+    }
+  ]
+}

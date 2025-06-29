@@ -1,0 +1,61 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcSlab, Name: Floor:Dachaufbau Brüstung Galerie, Material Data: Not defined, Thickness: 177.0 mm, Category: Floors",
+    "Preliminary Selection": [
+      "Gussasphalt, 27.5 mm",
+      "Hartbeton einschichtig, 27.5 mm",
+      "Hartbeton zweischichtig, 35 mm",
+      "Kunststeinplatte zementgebunden, 10 mm",
+      "Natursteinplatte geschliffen, 15 mm",
+      "Natursteinplatte geschliffen, Europa, 15 mm",
+      "Natursteinplatte geschliffen, Schweiz, 15 mm",
+      "Natursteinplatte geschliffen, Übersee, 15 mm",
+      "Natursteinplatte geschnitten, 15 mm",
+      "Natursteinplatte poliert, 15 mm",
+      "Steinholz versiegelt, 16.5 mm",
+      "Terrazzo versiegelt, 40 mm"
+    ],
+    "Matched Materials": [
+      "Gussasphalt, 27.5 mm",
+      "Hartbeton einschichtig, 27.5 mm",
+      "Hartbeton zweischichtig, 35 mm",
+      "Kunststeinplatte zementgebunden, 10 mm",
+      "Natursteinplatte geschliffen, 15 mm",
+      "Natursteinplatte geschliffen, Europa, 15 mm",
+      "Natursteinplatte geschliffen, Schweiz, 15 mm",
+      "Natursteinplatte geschliffen, Übersee, 15 mm",
+      "Natursteinplatte geschnitten, 15 mm",
+      "Natursteinplatte poliert, 15 mm",
+      "Steinholz versiegelt, 16.5 mm",
+      "Terrazzo versiegelt, 40 mm"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+    "trace": [
+      "Bodenbeläge"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 362,
+      "prompt_tokens": 1406,
+      "total_tokens": 1768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 4.121,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01427
+  }
+}

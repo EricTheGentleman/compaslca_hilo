@@ -1,0 +1,66 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBCG",
+  "name": "Rohranschluss_Technikschnttelle_Nest-Grauwasser-aufbereitet-6272078",
+  "total_steps": 2,
+  "total_tokens": 2150,
+  "total_prompt_tokens": 1939,
+  "total_completion_tokens": 211,
+  "total_processing_time": 4.13,
+  "total_cost_usd": 0.01286,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Rohre",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 964,
+      "completion_tokens": 70,
+      "processing_time": 1.493,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00587
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polyethylen (PE)",
+        "Polypropylen (PP)",
+        "Polyvinylchlorid (PVC)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Rohre",
+      "message": "Match successful",
+      "prompt_tokens": 975,
+      "completion_tokens": 141,
+      "processing_time": 2.637,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00699
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Grauwasser aufbereitet' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Rohre",
+        "Matched Category": "Rohre"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Rohranschluss_Technikschnttelle_Nest:Grauwasser aufbereitet, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Rohranschluss_Technikschnttelle_Nest: Grauwasser aufbereitet",
+        "Preliminary Selection": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ],
+        "Matched Materials": [
+          "Polyethylen (PE)",
+          "Polypropylen (PP)",
+          "Polyvinylchlorid (PVC)"
+        ]
+      }
+    }
+  ]
+}

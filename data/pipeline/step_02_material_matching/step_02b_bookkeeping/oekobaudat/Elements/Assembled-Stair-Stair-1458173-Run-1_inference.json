@@ -1,0 +1,124 @@
+{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NTs",
+  "name": "Assembled-Stair-Stair-1458173-Run-1",
+  "total_steps": 4,
+  "total_tokens": 4560,
+  "total_prompt_tokens": 4108,
+  "total_completion_tokens": 452,
+  "total_processing_time": 7.721,
+  "total_cost_usd": 0.027319999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 914,
+      "completion_tokens": 47,
+      "processing_time": 1.174,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005275
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Stahl und Eisen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 887,
+      "completion_tokens": 51,
+      "processing_time": 1.601,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0052
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Stahlbleche",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen",
+      "message": "Match successful",
+      "prompt_tokens": 892,
+      "completion_tokens": 63,
+      "processing_time": 1.366,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005405
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Cold-rolled sheet made from scrap-based electrical steel",
+        "Hot dip galvanized steel sheet",
+        "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+        "Hot-dip galvanised cold-rolled sheet incl. StronSal® made from scrap-based electrical steel",
+        "Steel sheet (0.3-30mm)",
+        "Steel sheet (20µm hot dip galvanized)",
+        "Steel sheet hot dip galvanized (2-20mm)",
+        "Structural Steel: Heavy Plates",
+        "Zinc coated and painted steel structures"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlbleche",
+      "message": "Match successful",
+      "prompt_tokens": 1415,
+      "completion_tokens": 291,
+      "processing_time": 3.58,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01144
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcStairFlight with material 'Stahl' (steel).",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcStairFlight with material 'Stahl' (steel).",
+        "Preliminary Selection": "Stahl und Eisen",
+        "Matched Category": "Stahl und Eisen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcStairFlight with material 'Stahl' and type 'Non-Monolithic Run: Stahlstufen gefaltet'.",
+        "Preliminary Selection": "Stahlbleche",
+        "Matched Category": "Stahlbleche"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcStairFlight named 'Assembled Stair:Stair:1458173 Run 1', with a non-monolithic run type made of folded steel steps. The material is specified as 'Stahl' (steel).",
+        "Preliminary Selection": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Hot dip galvanized steel sheet",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal® made from scrap-based electrical steel",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)",
+          "Structural Steel: Heavy Plates",
+          "Zinc coated and painted steel structures"
+        ],
+        "Matched Materials": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Hot dip galvanized steel sheet",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal® made from scrap-based electrical steel",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)",
+          "Structural Steel: Heavy Plates",
+          "Zinc coated and painted steel structures"
+        ]
+      }
+    }
+  ]
+}

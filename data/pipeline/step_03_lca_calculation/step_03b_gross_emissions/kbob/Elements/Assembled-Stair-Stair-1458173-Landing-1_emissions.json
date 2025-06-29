@@ -1,0 +1,27 @@
+﻿{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NOk",
+  "Name": "Assembled-Stair-Stair-1458173-Landing-1",
+  "Volume [m^3]": 0.0022,
+  "Largest Surface Area [m^2]": 0.2208,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "12.728",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "12.6071",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.1197",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "22278.3",
+      "UBP (Manufacturing)": "22105.6",
+      "UBP (Disposal)": "191.697",
+      "Total Renewable Primary Energy [kWh oil-eq]": "4.4039",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "4.3866",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0101",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "58.3726",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "57.8545",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.4697"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a floor slab made of OSB with a thickness of 22mm.",
+    "Preliminary Selection": "OSB-Platte",
+    "Matched Category": "OSB-Platte"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+    "trace": [
+      "Holz",
+      "Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 901,
+      "total_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.176,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.005505
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "CompilationGroupID": "0a91634d5e",
+  "name": "Holz-Träger---rechteckig-Alu-Eurotec-40-x-60-7547868",
+  "total_steps": 4,
+  "total_tokens": 4433,
+  "total_prompt_tokens": 3760,
+  "total_completion_tokens": 673,
+  "total_processing_time": 10.535,
+  "total_cost_usd": 0.028895,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 888,
+      "completion_tokens": 71,
+      "processing_time": 1.896,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005505
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Aluminium",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 861,
+      "completion_tokens": 71,
+      "processing_time": 1.963,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00537
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Aluminiumprofil",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Aluminium",
+      "message": "Match successful",
+      "prompt_tokens": 842,
+      "completion_tokens": 73,
+      "processing_time": 1.787,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005305
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Aluminium profiles",
+        "Aluminium section",
+        "Aluminum profile, mill finish",
+        "Schüco Aluminium Profile",
+        "Schüco Low Carbon Aluminium Profile",
+        "Schüco Ultra Low Carbon Aluminium Profile",
+        "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Anodized)",
+        "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated)",
+        "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (raw)",
+        "semi-finished products - EMERUS d.o.o. - aluminium profile (blank)",
+        "semi-finished products - EMERUS d.o.o. - anodized aluminium profile",
+        "semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Aluminium/Aluminiumprofil",
+      "message": "Match successful",
+      "prompt_tokens": 1169,
+      "completion_tokens": 458,
+      "processing_time": 4.889,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.012715
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with material 'Aluminum - Flat - Version 1.1'.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with material 'Aluminum - Flat - Version 1.1'.",
+        "Preliminary Selection": "Aluminium",
+        "Matched Category": "Aluminium"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with material 'Aluminum - Flat - Version 1.1'.",
+        "Preliminary Selection": "Aluminiumprofil",
+        "Matched Category": "Aluminiumprofil"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with a material identified as 'Aluminum - Flat - Version 1.1'. It is categorized under 'Structural Framing' and is intended for construction ('Phase Created': 'Zu Bauen').",
+        "Preliminary Selection": [
+          "Aluminium profiles",
+          "Aluminium section",
+          "Aluminum profile, mill finish",
+          "Schüco Aluminium Profile",
+          "Schüco Low Carbon Aluminium Profile",
+          "Schüco Ultra Low Carbon Aluminium Profile",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Anodized)",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated)",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (raw)",
+          "semi-finished products - EMERUS d.o.o. - aluminium profile (blank)",
+          "semi-finished products - EMERUS d.o.o. - anodized aluminium profile",
+          "semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile"
+        ],
+        "Matched Materials": [
+          "Aluminium profiles",
+          "Aluminium section",
+          "Aluminum profile, mill finish",
+          "Schüco Aluminium Profile",
+          "Schüco Low Carbon Aluminium Profile",
+          "Schüco Ultra Low Carbon Aluminium Profile",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Anodized)",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated)",
+          "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (raw)",
+          "semi-finished products - EMERUS d.o.o. - aluminium profile (blank)",
+          "semi-finished products - EMERUS d.o.o. - anodized aluminium profile",
+          "semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile"
+        ]
+      }
+    }
+  ]
+}

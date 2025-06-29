@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "3ece908374_L2",
+  "Name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-mit-Einschnitten-7642381_L2",
+  "Volume [m^3]": 0.1064,
+  "Largest Surface Area [m^2]": 8.9557,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Mitteldichte Faserplatte (MDF), UF-gebunden",
+      "ID": "7.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "685",
+      "Global Warming Potential Total [kgCO2-eqv]": "69.5313",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "62.2429",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "7.2884",
+      "Biogenic Carbon [kg C]": "28.8621",
+      "UBP (Total)": "112970.2",
+      "UBP (Manufacturing)": "103495.28",
+      "UBP (Disposal)": "9329.152",
+      "Total Renewable Primary Energy [kWh oil-eq]": "426.3714",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "426.3714",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.4592",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "325.7915",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "318.5031",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "7.4342"
+    }
+  ]
+}

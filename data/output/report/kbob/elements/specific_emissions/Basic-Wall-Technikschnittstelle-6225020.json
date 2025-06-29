@@ -1,0 +1,44 @@
+﻿{
+  "Name": "Basic-Wall-Technikschnittstelle-6225020",
+  "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Gipsfaserplatte",
+      "ID": "3.007",
+      "Reference": "kg",
+      "Density (kg/m3)": "1200",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.552",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.533",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0186",
+      "Biogenic Carbon [kg C]": "0.0449",
+      "UBP (Total)": "873",
+      "UBP (Manufacturing)": "801",
+      "UBP (Disposal)": "71.5",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.098",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.0938",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00418",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "2.47",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2.39",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0781"
+    },
+    {
+      "Name": "Gipsfaserplatte Fermacell",
+      "ID": "03.007.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "1180",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.335",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.317",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0186",
+      "Biogenic Carbon [kg C]": "0.0617",
+      "UBP (Total)": "596",
+      "UBP (Manufacturing)": "524",
+      "UBP (Disposal)": "71.4",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.69",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.686",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0041",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1.47",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1.4",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0781"
+    }
+  ]
+}

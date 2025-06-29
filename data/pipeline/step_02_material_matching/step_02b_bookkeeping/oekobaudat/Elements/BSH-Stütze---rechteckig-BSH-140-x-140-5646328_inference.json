@@ -1,0 +1,103 @@
+{
+  "GlobalId": "3WNoAUw3v8hfBwz_zVQKXI",
+  "name": "BSH-Stütze---rechteckig-BSH-140-x-140-5646328",
+  "total_steps": 4,
+  "total_tokens": 3669,
+  "total_prompt_tokens": 3431,
+  "total_completion_tokens": 238,
+  "total_processing_time": 5.248,
+  "total_cost_usd": 0.020725,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 858,
+      "completion_tokens": 48,
+      "processing_time": 1.136,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00501
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 811,
+      "completion_tokens": 52,
+      "processing_time": 1.045,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004835
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Sperrholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 848,
+      "completion_tokens": 47,
+      "processing_time": 1.082,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004945
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "best wood CLT",
+        "best wood CLT BOX"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Sperrholz",
+      "message": "Match successful",
+      "prompt_tokens": 914,
+      "completion_tokens": 91,
+      "processing_time": 1.985,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005935
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcColumn with material Brettsperrholz, categorized under Structural Columns.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcColumn made of Brettsperrholz, categorized under Structural Columns.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcColumn with material Brettsperrholz.",
+        "Preliminary Selection": "Sperrholz",
+        "Matched Category": "Sperrholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: BSH Stütze - rechteckig:BSH 140 x 140:5646328, Type: IfcColumn, Material: Brettsperrholz, Category: Structural Columns",
+        "Preliminary Selection": [
+          "best wood CLT",
+          "best wood CLT BOX"
+        ],
+        "Matched Materials": [
+          "best wood CLT",
+          "best wood CLT BOX"
+        ]
+      }
+    }
+  ]
+}

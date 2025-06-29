@@ -1,0 +1,107 @@
+{
+  "GlobalId": "0mZKsgvRH1Mhc20hMTKOGe",
+  "name": "Floor-3-Schichtplatte-40mm-5206093",
+  "total_steps": 4,
+  "total_tokens": 4181,
+  "total_prompt_tokens": 3865,
+  "total_completion_tokens": 316,
+  "total_processing_time": 6.097999999999999,
+  "total_cost_usd": 0.024065000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 919,
+      "completion_tokens": 52,
+      "processing_time": 1.309,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005375
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 872,
+      "completion_tokens": 50,
+      "processing_time": 1.134,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00511
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 903,
+      "completion_tokens": 57,
+      "processing_time": 1.194,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00537
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Rubner Sawn Timber, Rubner Sawn Timber kiln dried, Rubner Sawn Timber machine graded"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1171,
+      "completion_tokens": 157,
+      "processing_time": 2.461,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00821
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Massivholz' (solid wood) and thickness of 40mm.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Massivholz' and thickness of 40mm.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material 'Massivholz' and thickness 40mm.",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a floor slab named 'Floor:3-Schichtplatte 40mm' made of 'Massivholz' with a thickness of 40mm.",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Rubner Sawn Timber, Rubner Sawn Timber kiln dried, Rubner Sawn Timber machine graded"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Rubner Sawn Timber, Rubner Sawn Timber kiln dried, Rubner Sawn Timber machine graded"
+        ]
+      }
+    }
+  ]
+}

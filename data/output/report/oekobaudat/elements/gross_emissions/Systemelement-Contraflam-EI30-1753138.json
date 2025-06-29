@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "Systemelement-Contraflam-EI30-1753138",
+  "CompilationGroupID": "e610cae9a2",
+  "Volume [m^3]": 0.4554,
+  "Largest Surface Area [m^2]": 10.1643,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

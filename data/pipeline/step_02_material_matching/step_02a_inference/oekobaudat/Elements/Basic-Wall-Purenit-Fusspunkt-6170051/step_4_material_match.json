@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Basic Wall:Purenit Fusspunkt, Type: IfcWallStandardCase, Material: Purenit, Thickness: 0.025m",
+    "Preliminary Selection": [
+      "PUR rigid foam"
+    ],
+    "Matched Materials": [
+      "PUR rigid foam"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Polyurethan-Hartschaum_(PU)/PU_Blockschaum",
+    "trace": [
+      "Dämmstoffe",
+      "Polyurethan-Hartschaum (PU)",
+      "PU Blockschaum"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 972,
+      "total_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.459,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00614
+  }
+}

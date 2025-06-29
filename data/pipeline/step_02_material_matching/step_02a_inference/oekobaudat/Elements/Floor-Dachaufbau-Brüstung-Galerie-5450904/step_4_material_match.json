@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Floor:Dachaufbau Brüstung Galerie:5450904, Type: IfcSlab, ObjectType: Floor:Dachaufbau Brüstung Galerie, Level: 01_Brüsting, Area: 8.7591, Perimeter: 27520.3806, Thickness: 177.0, Volume: 0.8093, Category: Floors, Structural: False",
+    "Preliminary Selection": [
+      "Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH)",
+      "Concrete paving stones/slabs"
+    ],
+    "Matched Materials": [
+      "Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH)",
+      "Concrete paving stones/slabs"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Betonfertigteile_und_Betonwaren",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Steine und Elemente",
+      "Betonfertigteile und Betonwaren"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 170,
+      "prompt_tokens": 1686,
+      "total_tokens": 1856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.851,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01183
+  }
+}

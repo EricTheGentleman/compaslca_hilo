@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcBeam, Material Name: Holz - C 24 Cl.1, Structural Usage: Joist",
+    "Preliminary Selection": [
+      "Konstruktionsvollholz",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz"
+    ],
+    "Matched Materials": [
+      "Konstruktionsvollholz",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 254,
+      "prompt_tokens": 1534,
+      "total_tokens": 1788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 4.685,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01275
+  }
+}

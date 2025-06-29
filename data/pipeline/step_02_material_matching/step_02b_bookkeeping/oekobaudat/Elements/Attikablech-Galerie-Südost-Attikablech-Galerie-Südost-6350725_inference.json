@@ -1,0 +1,103 @@
+{
+  "GlobalId": "1lNlPQ7XT5RQ2wbJSTuGUj",
+  "name": "Attikablech-Galerie-Südost-Attikablech-Galerie-Südost-6350725",
+  "total_steps": 4,
+  "total_tokens": 3529,
+  "total_prompt_tokens": 3259,
+  "total_completion_tokens": 270,
+  "total_processing_time": 7.145,
+  "total_cost_usd": 0.020345,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 813,
+      "completion_tokens": 51,
+      "processing_time": 1.478,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00483
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Aluminium",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 786,
+      "completion_tokens": 66,
+      "processing_time": 1.956,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00492
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Aluminiumbleche",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Aluminium",
+      "message": "Match successful",
+      "prompt_tokens": 767,
+      "completion_tokens": 55,
+      "processing_time": 1.898,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00466
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Aluminium sheet",
+        "Profiled sheets made of aluminium for roof, wall and ceiling constructions"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Aluminium/Aluminiumbleche",
+      "message": "Match successful",
+      "prompt_tokens": 893,
+      "completion_tokens": 98,
+      "processing_time": 1.813,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005935
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with no defined material, named 'Attikablech Galerie Südost'.",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with the name 'Attikablech Galerie Südost'. Material is not defined, but 'Attikablech' suggests a metal, possibly aluminum.",
+        "Preliminary Selection": "Aluminium",
+        "Matched Category": "Aluminium"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with no defined material, named 'Attikablech Galerie Südost'.",
+        "Preliminary Selection": "Aluminiumbleche",
+        "Matched Category": "Aluminiumbleche"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Attikablech Galerie Südost, Type: IfcWall, Material Data: Not defined, Category: Walls, Family: Attikablech Galerie Südost",
+        "Preliminary Selection": [
+          "Aluminium sheet",
+          "Profiled sheets made of aluminium for roof, wall and ceiling constructions"
+        ],
+        "Matched Materials": [
+          "Aluminium sheet",
+          "Profiled sheets made of aluminium for roof, wall and ceiling constructions"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "ObjectType Name": "Pfosten-rechteckig-Forster-60-x-90---Nur-Pfosten-2355404",
+  "CompilationGroupID": "883fcab506",
+  "Volume [m^3]": 0.039,
+  "Largest Surface Area [m^2]": 0.6399,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "225.6325",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "223.4895",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.1216",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "394933.5",
+      "UBP (Manufacturing)": "391872.0",
+      "UBP (Disposal)": "3398.265",
+      "Total Renewable Primary Energy [kWh oil-eq]": "78.0682",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "77.7621",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.1782",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1034.787",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1025.6025",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "8.3273"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Material Name: Knauf - Vidiwall, Element Type: IfcSlab, Other Materials: PU Bodenbelag - Sika PS23, Knauf - Brio Heizboden 25, Trittschalldämmung Flumroc 341",
+    "Preliminary Selection": "Gipsplatten",
+    "Matched Category": "Gipsplatten"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Steine und Elemente"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 84,
+      "prompt_tokens": 1085,
+      "total_tokens": 1169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.659,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007105
+  }
+}

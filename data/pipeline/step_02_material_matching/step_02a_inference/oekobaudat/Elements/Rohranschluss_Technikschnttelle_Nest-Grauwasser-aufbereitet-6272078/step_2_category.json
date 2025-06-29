@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Grauwasser aufbereitet' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Grauwasser aufbereitet', indicating a connection to water systems.",
+    "Preliminary Selection": "Sanitär",
+    "Matched Category": "Sanitär"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+    "trace": [
+      "Gebäudetechnik"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 95,
+      "prompt_tokens": 872,
+      "total_tokens": 967,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.193,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00626
+  }
+}

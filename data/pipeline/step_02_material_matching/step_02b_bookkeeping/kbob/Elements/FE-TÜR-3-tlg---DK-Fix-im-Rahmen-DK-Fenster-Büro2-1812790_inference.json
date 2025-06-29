@@ -1,0 +1,90 @@
+{
+  "GlobalId": "2BG9j1Bgb2xOV69dnpdgeX",
+  "name": "FE-TÜR-3-tlg---DK-Fix-im-Rahmen-DK-Fenster-Büro2-1812790",
+  "total_steps": 2,
+  "total_tokens": 3367,
+  "total_prompt_tokens": 2633,
+  "total_completion_tokens": 734,
+  "total_processing_time": 8.433,
+  "total_cost_usd": 0.024175000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Fenster, Sonnenschutz, Fassadenplatten",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 929,
+      "completion_tokens": 63,
+      "processing_time": 1.399,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00559
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+        "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+        "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+        "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+        "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+        "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1704,
+      "completion_tokens": 671,
+      "processing_time": 7.034,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.018585
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with no defined material, categorized under 'Windows' in property sets.",
+        "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+        "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWindow, No specific glazing or U-value information provided.",
+        "Preliminary Selection": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ],
+        "Matched Materials": [
+          "Isolierverglasung 2-fach, ESG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, ESG/VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 18 mm",
+          "Isolierverglasung 2-fach, Ug-Wert 1.1 W/m2K, Dicke 24 mm",
+          "Isolierverglasung 2-fach, VSG, Ug-Wert 1.1 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/ESG/ESG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, ESG/VSG, Ug-Wert 0.6 W/m2K",
+          "Isolierverglasung 3-fach, Ug-Wert 0.5 W/m2K, Dicke 36 mm",
+          "Isolierverglasung 3-fach, Ug-Wert 0.6 W/m2K, Dicke 40 mm",
+          "Isolierverglasung 3-fach, VSG, Ug-Wert 0.6 W/m2K"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "GlobalId": "3R$9pJGeb6MgJpHJQymJTA",
+  "name": "Attikabrett-Attikabrett-6718052",
+  "total_steps": 1,
+  "total_tokens": 930,
+  "total_prompt_tokens": 855,
+  "total_completion_tokens": 75,
+  "total_processing_time": 1.604,
+  "total_cost_usd": 0.0054,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 855,
+      "completion_tokens": 75,
+      "processing_time": 1.604,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0054
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Attikabrett:Attikabrett:6718052' with no defined material. It is categorized under 'Floors' and associated with 'Architecture'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

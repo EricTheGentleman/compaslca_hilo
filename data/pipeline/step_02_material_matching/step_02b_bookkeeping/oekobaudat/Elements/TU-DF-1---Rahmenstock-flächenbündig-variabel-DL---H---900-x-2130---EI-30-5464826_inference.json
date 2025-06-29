@@ -1,0 +1,74 @@
+{
+  "GlobalId": "1Tv0YGeiT2fAVW5nnqum0c",
+  "name": "TU-DF-1---Rahmenstock-flächenbündig-variabel-DL---H---900-x-2130---EI-30-5464826",
+  "total_steps": 3,
+  "total_tokens": 2956,
+  "total_prompt_tokens": 2745,
+  "total_completion_tokens": 211,
+  "total_processing_time": 4.797,
+  "total_cost_usd": 0.01689,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 933,
+      "completion_tokens": 78,
+      "processing_time": 1.767,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005835
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Türen und Tore",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 932,
+      "completion_tokens": 82,
+      "processing_time": 1.453,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00589
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Türen_und_Tore",
+      "message": "No match found",
+      "prompt_tokens": 880,
+      "completion_tokens": 51,
+      "processing_time": 1.577,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005165
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, located on Level 00_Eingang, categorized under Doors, with a fire resistance rating EI 30.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, named 'TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30', categorized under 'Doors'.",
+        "Preliminary Selection": "Türen und Tore",
+        "Matched Category": "Türen und Tore"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, located at Level 00_Eingang, categorized under Doors.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

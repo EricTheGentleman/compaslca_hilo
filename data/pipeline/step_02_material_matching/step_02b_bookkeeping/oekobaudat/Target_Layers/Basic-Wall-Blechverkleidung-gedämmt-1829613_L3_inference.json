@@ -1,0 +1,111 @@
+{
+  "CompilationGroupID": "ce0cc1e825_L3",
+  "name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L3",
+  "total_steps": 4,
+  "total_tokens": 4955,
+  "total_prompt_tokens": 4552,
+  "total_completion_tokens": 403,
+  "total_processing_time": 8.754,
+  "total_cost_usd": 0.028804999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1025,
+      "completion_tokens": 67,
+      "processing_time": 1.415,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00613
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Stahl und Eisen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 998,
+      "completion_tokens": 71,
+      "processing_time": 1.52,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006055
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Stahlbleche",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen",
+      "message": "Match successful",
+      "prompt_tokens": 1003,
+      "completion_tokens": 72,
+      "processing_time": 1.553,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006095
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Cold-rolled sheet made from scrap-based electrical steel",
+        "Steel sheet (0.3-30mm)",
+        "Steel sheet (20µm hot dip galvanized)",
+        "Steel sheet hot dip galvanized (2-20mm)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlbleche",
+      "message": "Match successful",
+      "prompt_tokens": 1526,
+      "completion_tokens": 193,
+      "processing_time": 4.266,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.010525
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Other Material: Wärmedämmung Slentex Aerogel",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Other Material: Wärmedämmung Slentex Aerogel",
+        "Preliminary Selection": "Stahl und Eisen",
+        "Matched Category": "Stahl und Eisen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Element Name: Basic Wall:Blechverkleidung gedämmt",
+        "Preliminary Selection": "Stahlbleche",
+        "Matched Category": "Stahlbleche"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The building element is a 'Basic Wall' with a 'Blechverkleidung gedämmt' type, primarily composed of a steel layer with black powder coating and a thickness of 0.003 meters. It is a non-structural, non-bearing wall with a focus on exterior core face location.",
+        "Preliminary Selection": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Hot dip galvanized steel sheet",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)",
+          "Zinc coated and painted steel structures"
+        ],
+        "Matched Materials": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)"
+        ]
+      }
+    }
+  ]
+}

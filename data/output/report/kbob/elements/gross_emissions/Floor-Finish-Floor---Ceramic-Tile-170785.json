@@ -1,0 +1,38 @@
+﻿{
+  "ObjectType Name": "Floor-Finish-Floor---Ceramic-Tile-170785",
+  "CompilationGroupID": "69ecfce189",
+  "Layer 1": {
+    "Volume [m^3]": 0.4491,
+    "Largest Surface Area [m^2]": 44.8954,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Keramik-/Steinzeugplatte, 9 mm",
+        "ID": "11.008",
+        "Reference": "qm",
+        "Density (kg/m3)": null,
+        "Global Warming Potential Total [kgCO2-eqv]": "817.0963",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "628.5356",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "184.5201",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "3896920.72",
+        "UBP (Manufacturing)": "3281853.74",
+        "UBP (Disposal)": "619556.52",
+        "Total Renewable Primary Energy [kWh oil-eq]": "201.5803",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "169.2557",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "32.1002",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "3730.8077",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2963.0964",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "763.2218"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 0.1347,
+    "Largest Surface Area [m^2]": 44.8954,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "None"
+      }
+    ]
+  }
+}

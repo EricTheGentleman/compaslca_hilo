@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcSlab, Material: Holzschalung Horizontal, Nadelholz, schwarz gestrichen, Thickness: 0.04m, Category: Floors",
+    "Preliminary Selection": [
+      "Coniferous lumber - fresh (German average)",
+      "Coniferous lumber - kiln dried (German average)",
+      "Planed coniferous lumber (German average)",
+      "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+    ],
+    "Matched Materials": [
+      "Coniferous lumber - fresh (German average)",
+      "Coniferous lumber - kiln dried (German average)",
+      "Planed coniferous lumber (German average)",
+      "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Bau-Schnittholz"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 171,
+      "prompt_tokens": 1178,
+      "total_tokens": 1349,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.286,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00931
+  }
+}

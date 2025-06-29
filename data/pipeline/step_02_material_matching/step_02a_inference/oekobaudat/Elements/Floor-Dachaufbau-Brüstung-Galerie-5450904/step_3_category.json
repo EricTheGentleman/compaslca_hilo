@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcSlab named 'Floor:Dachaufbau Brüstung Galerie:5450904' with no defined material. It is categorized under 'Floors' and is not structural.",
+    "Preliminary Selection": "Betonfertigteile und Betonwaren",
+    "Matched Category": "Betonfertigteile und Betonwaren"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Steine und Elemente"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 81,
+      "prompt_tokens": 892,
+      "total_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.537,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00608
+  }
+}

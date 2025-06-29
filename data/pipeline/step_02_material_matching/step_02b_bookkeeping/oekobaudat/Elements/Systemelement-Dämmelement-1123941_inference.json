@@ -1,0 +1,100 @@
+{
+  "CompilationGroupID": "e3b11c95ba",
+  "name": "Systemelement-Dämmelement-1123941",
+  "total_steps": 4,
+  "total_tokens": 3946,
+  "total_prompt_tokens": 3660,
+  "total_completion_tokens": 286,
+  "total_processing_time": 6.025,
+  "total_cost_usd": 0.022590000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 887,
+      "completion_tokens": 65,
+      "processing_time": 1.617,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00541
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Dämmelemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1018,
+      "completion_tokens": 63,
+      "processing_time": 1.272,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006035
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Tragende Wärmedämmelemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Dämmelemente",
+      "message": "Match successful",
+      "prompt_tokens": 831,
+      "completion_tokens": 73,
+      "processing_time": 1.468,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00525
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "2.25.01. Load-bearing thermal insulation elements"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Dämmelemente/Tragende_Wärmedämmelemente",
+      "message": "Match successful",
+      "prompt_tokens": 924,
+      "completion_tokens": 85,
+      "processing_time": 1.668,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005895
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall, with material 'Wärmedämmung druckfest', categorized as a curtain panel and related to insulation.",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used as a curtain wall component with material 'Wärmedämmung druckfest', indicating a thermal insulation function.",
+        "Preliminary Selection": "Dämmelemente",
+        "Matched Category": "Dämmelemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall, with material 'Wärmedämmung druckfest', categorized under 'Curtain Panels'.",
+        "Preliminary Selection": "Tragende Wärmedämmelemente",
+        "Matched Category": "Tragende Wärmedämmelemente"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Systemelement:Dämmelement:1123941, Type: IfcPlate, Material: Wärmedämmung druckfest, Part of: IfcCurtainWall",
+        "Preliminary Selection": [
+          "2.25.01. Load-bearing thermal insulation elements"
+        ],
+        "Matched Materials": [
+          "2.25.01. Load-bearing thermal insulation elements"
+        ]
+      }
+    }
+  ]
+}

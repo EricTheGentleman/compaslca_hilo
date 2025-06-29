@@ -1,0 +1,57 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is an IfcPlate used as a thermal insulation component in a curtain wall system. The material is described as 'Wärmedämmung druckfest', indicating a rigid thermal insulation material.",
+    "Preliminary Selection": [
+      "Glaswolle",
+      "Glaswolle, Isover, pflanzliches Bindemittel",
+      "Glaswolle, Isover, phenolbasiertes Bindemittel",
+      "Glaswolle, SUPAFIL",
+      "Polystyrol expandiert (EPS)",
+      "Polystyrol expandiert, SwissporEPS",
+      "Polystyrol extrudiert (XPS)",
+      "Polystyrol extrudiert, SwissporXPS",
+      "Polyurethan (PUR/PIR)",
+      "Polyurethan, SwissporPIR",
+      "Steinwolle",
+      "Steinwolle, Flumroc"
+    ],
+    "Matched Materials": [
+      "Polystyrol expandiert (EPS)",
+      "Polystyrol expandiert, SwissporEPS",
+      "Polystyrol extrudiert (XPS)",
+      "Polystyrol extrudiert, SwissporXPS",
+      "Polyurethan (PUR/PIR)",
+      "Polyurethan, SwissporPIR",
+      "Steinwolle",
+      "Steinwolle, Flumroc"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+    "trace": [
+      "Wärmedämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 270,
+      "prompt_tokens": 1216,
+      "total_tokens": 1486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.318,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01148
+  }
+}

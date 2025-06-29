@@ -1,0 +1,66 @@
+{
+  "CompilationGroupID": "50141ec7a2_L1",
+  "name": "Floor-Funicular-Floor-687636_L1",
+  "total_steps": 2,
+  "total_tokens": 2442,
+  "total_prompt_tokens": 2224,
+  "total_completion_tokens": 218,
+  "total_processing_time": 3.499,
+  "total_cost_usd": 0.01439,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Putze",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1003,
+      "completion_tokens": 64,
+      "processing_time": 1.206,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005975
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Baukleber/Einbettmörtel mineralisch",
+        "Baukleber/Einbettmörtel mineralisch Leichtzuschlag",
+        "Baukleber/Einbettmörtel organisch"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mörtel_und_Putze",
+      "message": "Match successful",
+      "prompt_tokens": 1221,
+      "completion_tokens": 154,
+      "processing_time": 2.293,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008415
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Other Material: Beton, Ortbeton",
+        "Preliminary Selection": "Mörtel und Putze",
+        "Matched Category": "Mörtel und Putze"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Element Name: Floor:Funicular Floor, Structural: True, Level: 01_Galerie",
+        "Preliminary Selection": [
+          "Baukleber/Einbettmörtel mineralisch",
+          "Baukleber/Einbettmörtel mineralisch Leichtzuschlag",
+          "Baukleber/Einbettmörtel organisch"
+        ],
+        "Matched Materials": [
+          "Baukleber/Einbettmörtel mineralisch",
+          "Baukleber/Einbettmörtel mineralisch Leichtzuschlag",
+          "Baukleber/Einbettmörtel organisch"
+        ]
+      }
+    }
+  ]
+}

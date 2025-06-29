@@ -1,0 +1,103 @@
+{
+  "GlobalId": "3dHkNX9eXDKekm9KvP4T_n",
+  "name": "Floor-Terrassenbelag-Holzlattung-Douglasie-7269453",
+  "total_steps": 4,
+  "total_tokens": 4011,
+  "total_prompt_tokens": 3711,
+  "total_completion_tokens": 300,
+  "total_processing_time": 7.171,
+  "total_cost_usd": 0.023055,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 932,
+      "completion_tokens": 61,
+      "processing_time": 1.232,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005575
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzböden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 885,
+      "completion_tokens": 57,
+      "processing_time": 1.329,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00528
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Parkett",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden",
+      "message": "Match successful",
+      "prompt_tokens": 885,
+      "completion_tokens": 71,
+      "processing_time": 1.599,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00549
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Multi-layered engineered wood flooring",
+        "Solid wood parquet (German average)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden/Parkett",
+      "message": "Match successful",
+      "prompt_tokens": 1009,
+      "completion_tokens": 111,
+      "processing_time": 3.011,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00671
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of wood, specifically 'Terrassenbelag Holzlattung Douglasie', with material name 'Terrassenbelag Holz'.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 'Terrassenbelag Holz' with material name indicating wood, specifically Douglas fir.",
+        "Preliminary Selection": "Holzböden",
+        "Matched Category": "Holzböden"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 'Terrassenbelag Holz' (wood) with a thickness of 0.026 meters, named 'Floor:Terrassenbelag Holzlattung Douglasie'.",
+        "Preliminary Selection": "Parkett",
+        "Matched Category": "Parkett"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is an IfcSlab named 'Floor:Terrassenbelag Holzlattung Douglasie' with a material layer named 'Terrassenbelag Holz' and a thickness of 0.026 meters. It is related to a floor category and is not structural.",
+        "Preliminary Selection": [
+          "Multi-layered engineered wood flooring",
+          "Solid wood parquet (German average)"
+        ],
+        "Matched Materials": [
+          "Multi-layered engineered wood flooring",
+          "Solid wood parquet (German average)"
+        ]
+      }
+    }
+  ]
+}

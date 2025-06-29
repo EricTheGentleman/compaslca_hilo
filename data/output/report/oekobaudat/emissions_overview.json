@@ -1,0 +1,52 @@
+{
+  "GWPtotal (A1-A3) [kgCO2-eqv]": {
+    "min": -4975.978,
+    "mean": 19145.244,
+    "max": 43266.467
+  },
+  "GWPtotal (A4) [kgCO2-eqv]": {
+    "min": 294.594,
+    "mean": 1283.803,
+    "max": 2273.012
+  },
+  "GWPtotal (A5) [kgCO2-eqv]": {
+    "min": 339.188,
+    "mean": 542.681,
+    "max": 746.173
+  },
+  "GWPtotal (C1) [kgCO2-eqv]": {
+    "min": 217.47,
+    "mean": 697.586,
+    "max": 1177.702
+  },
+  "GWPtotal (C2) [kgCO2-eqv]": {
+    "min": 731.924,
+    "mean": 1121.109,
+    "max": 1510.294
+  },
+  "GWPtotal (C3) [kgCO2-eqv]": {
+    "min": 40093.361,
+    "mean": 39118.821,
+    "max": 38144.282
+  },
+  "GWPtotal (C4) [kgCO2-eqv]": {
+    "min": 1687.283,
+    "mean": 1786.771,
+    "max": 1886.26
+  },
+  "GWPtotal [kgCO2-eqv]": {
+    "min": 38226.628,
+    "mean": 63697.714,
+    "max": 89168.8
+  },
+  "GWPbiogenic [kgCO2-eqv]": {
+    "min": -5543.04,
+    "mean": -4981.705,
+    "max": -4420.37
+  },
+  "GWPfossil [kgCO2-eqv]": {
+    "min": 41308.93,
+    "mean": 66405.445,
+    "max": 91501.959
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcSlab, Material Name: Brettsperrholz, Structural: True",
+    "Preliminary Selection": [
+      "3- und 5-Schicht Massivholzplatte"
+    ],
+    "Matched Materials": [
+      "3- und 5-Schicht Massivholzplatte"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 1585,
+      "total_tokens": 1653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.555,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.009285
+  }
+}

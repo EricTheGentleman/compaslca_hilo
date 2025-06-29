@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "30abe42a62",
+  "Name": "Basic-Wall-3-Schichtplatte-40mm-3214661",
+  "Volume [m^3]": 0.0913,
+  "Largest Surface Area [m^2]": 2.2834,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "19.3973",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "17.1226",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.2871",
+      "Biogenic Carbon [kg C]": "17.9084",
+      "UBP (Total)": "41772.489",
+      "UBP (Manufacturing)": "38546.4948",
+      "UBP (Disposal)": "3321.1197",
+      "Total Renewable Primary Energy [kWh oil-eq]": "550.0734",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "550.0734",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2552",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "90.1624",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "86.4401",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "3.8174"
+    }
+  ]
+}

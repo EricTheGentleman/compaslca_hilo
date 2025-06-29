@@ -1,0 +1,107 @@
+{
+  "CompilationGroupID": "369c58d53c",
+  "name": "Basic-Wall-Fensterlaibung-24mm-6644188",
+  "total_steps": 4,
+  "total_tokens": 4274,
+  "total_prompt_tokens": 3945,
+  "total_completion_tokens": 329,
+  "total_processing_time": 5.659000000000001,
+  "total_cost_usd": 0.02466,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 939,
+      "completion_tokens": 54,
+      "processing_time": 1.214,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005505
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 892,
+      "completion_tokens": 50,
+      "processing_time": 0.979,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00521
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 923,
+      "completion_tokens": 58,
+      "processing_time": 0.988,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005485
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1191,
+      "completion_tokens": 167,
+      "processing_time": 2.478,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00846
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert', which is a type of wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert'.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert'.",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Fensterlaibung 24mm, Type: IfcWallStandardCase, Material: Massivholz Fichte, schwarz lasiert, Thickness: 0.024m",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ]
+      }
+    }
+  ]
+}

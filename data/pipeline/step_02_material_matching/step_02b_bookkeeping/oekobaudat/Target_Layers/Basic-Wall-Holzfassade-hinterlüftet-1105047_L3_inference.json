@@ -1,0 +1,109 @@
+{
+  "CompilationGroupID": "78593db8a4_L3",
+  "name": "Basic-Wall-Holzfassade-hinterlüftet-1105047_L3",
+  "total_steps": 4,
+  "total_tokens": 4587,
+  "total_prompt_tokens": 4201,
+  "total_completion_tokens": 386,
+  "total_processing_time": 8.187,
+  "total_cost_usd": 0.026795,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1003,
+      "completion_tokens": 56,
+      "processing_time": 1.22,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005855
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 956,
+      "completion_tokens": 62,
+      "processing_time": 1.243,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00571
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 987,
+      "completion_tokens": 70,
+      "processing_time": 1.731,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005985
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - fresh (German average)",
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1255,
+      "completion_tokens": 198,
+      "processing_time": 3.993,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009245
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Luft, Element Type: IfcWall, Other Material Layers: Holzschalung Vertikal, Nadelholz",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Luft, Element Type: IfcWall, Other Material Layers: Holzschalung Vertikal, Nadelholz, schwarz gestrichen",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Luft, Element Type: IfcWall, Other Material Layers: Holzschalung Vertikal, Nadelholz, schwarz gestrichen",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a non-structural, ventilated wooden facade wall with a layer of air (0.04m thick) as the target material. The wall includes vertical coniferous wood cladding (0.02m thick) and another air layer (0.03m thick).",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ]
+      }
+    }
+  ]
+}

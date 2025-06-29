@@ -1,0 +1,39 @@
+﻿{
+  "CompilationGroupID": "ce0cc1e825_L2",
+  "Name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L2",
+  "Volume [m^3]": 0.0571,
+  "Largest Surface Area [m^2]": 1.2595,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "MICROTHERM® Flexible panels range: (Semi-)Overstitched Panels, (Semi-)Quilted Panels, Slatted Panels, Aeroguard (>160 kg/m3) and Slimflex",
+      "ID": "0d1d1452-7492-4508-b634-5bd0cff7edd8",
+      "Reference": "kg",
+      "Density (kg/m3)": "220.0",
+      "Bezugsgroesse": "2.2",
+      "GWPtotal (A1)": "0.0",
+      "GWPtotal (A2)": "0.0",
+      "GWPtotal (A3)": "0.0",
+      "GWPtotal (A1-A3)": "45.6372",
+      "GWPtotal (A4)": "0.0",
+      "GWPtotal (A5)": "3.1856",
+      "GWPtotal (B1)": "0.0",
+      "GWPtotal (B2)": "0.0",
+      "GWPtotal (B3)": "0.0",
+      "GWPtotal (B4)": "0.0",
+      "GWPtotal (B5)": "0.0",
+      "GWPtotal (B6)": "0.0",
+      "GWPtotal (B7)": "0.0",
+      "GWPtotal (C1)": "0.0",
+      "GWPtotal (C2)": "0.1638",
+      "GWPtotal (C3)": "0.0",
+      "GWPtotal (C4)": "0.0764",
+      "GWPbiogenic": "0.5565",
+      "GWPfossil": "48.1921",
+      "GWPtotal": "49.063",
+      "Conformity": "'DIN EN 15804+A2' / 'ISO 14025'",
+      "Laenderkennung": "RER",
+      "Declaration owner": "Etex Building Performance International",
+      "Registrierungsnummer": "EPD-ETE-20230096-IBA1-EN"
+    }
+  ]
+}

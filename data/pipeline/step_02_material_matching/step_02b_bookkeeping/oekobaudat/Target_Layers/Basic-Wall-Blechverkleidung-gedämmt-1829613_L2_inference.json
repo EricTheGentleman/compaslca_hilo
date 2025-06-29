@@ -1,0 +1,100 @@
+{
+  "CompilationGroupID": "ce0cc1e825_L2",
+  "name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L2",
+  "total_steps": 4,
+  "total_tokens": 4626,
+  "total_prompt_tokens": 4242,
+  "total_completion_tokens": 384,
+  "total_processing_time": 16.283,
+  "total_cost_usd": 0.02697,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1025,
+      "completion_tokens": 69,
+      "processing_time": 10.509,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00616
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Siliziumdioxid-basiert",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1156,
+      "completion_tokens": 77,
+      "processing_time": 1.49,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006935
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Hydrophobe Platten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Siliziumdioxid-basiert",
+      "message": "Match successful",
+      "prompt_tokens": 969,
+      "completion_tokens": 73,
+      "processing_time": 1.432,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00594
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "MICROTHERM® Flexible panels range: (Semi-)Overstitched Panels, (Semi-)Quilted Panels, Slatted Panels, Aeroguard (>160 kg/m3) and Slimflex"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Siliziumdioxid-basiert/Hydrophobe_Platten",
+      "message": "Match successful",
+      "prompt_tokens": 1092,
+      "completion_tokens": 165,
+      "processing_time": 2.852,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007935
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Slentex Aerogel, Element Type: IfcWallStandardCase, Other Materials: Stahl, 45-34, Pulverbeschichtung schwarz",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Slentex Aerogel, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Blechverkleidung gedämmt",
+        "Preliminary Selection": "Siliziumdioxid-basiert",
+        "Matched Category": "Siliziumdioxid-basiert"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Slentex Aerogel, Element Type: IfcWallStandardCase, Other Material: Stahl, 45-34, Pulverbeschichtung schwarz",
+        "Preliminary Selection": "Hydrophobe Platten",
+        "Matched Category": "Hydrophobe Platten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The target material is 'Wärmedämmung Slentex Aerogel' with a thickness of 0.046 meters, used in a 'Basic Wall: Blechverkleidung gedämmt' which is a non-structural, room-bounding wall with steel layers.",
+        "Preliminary Selection": [
+          "MICROTHERM® Flexible panels range: (Semi-)Overstitched Panels, (Semi-)Quilted Panels, Slatted Panels, Aeroguard (>160 kg/m3) and Slimflex"
+        ],
+        "Matched Materials": [
+          "MICROTHERM® Flexible panels range: (Semi-)Overstitched Panels, (Semi-)Quilted Panels, Slatted Panels, Aeroguard (>160 kg/m3) and Slimflex"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is an IfcSlab named 'Floor:Massivholz 24mm', with a material layer of 'Massivholz Fichte' and a thickness of 24mm. It is categorized as a floor and is part of the 'Innenausbau' workset.",
+    "Preliminary Selection": [
+      "Solid wood parquet (German average)"
+    ],
+    "Matched Materials": [
+      "Solid wood parquet (German average)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzböden/Parkett",
+    "trace": [
+      "Holz",
+      "Holzböden",
+      "Parkett"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 97,
+      "prompt_tokens": 986,
+      "total_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.951,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00687
+  }
+}

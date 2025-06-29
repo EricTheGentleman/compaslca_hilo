@@ -1,0 +1,45 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcWindow with the name 'FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2:1812790', located on Level 00_Eingang, with an area of 9.8751, height of 2205.0, and volume of 0.5816. It belongs to the category 'Windows' and is part of the 'Architecture' workset.",
+    "Preliminary Selection": [
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ],
+    "Matched Materials": [
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fenster",
+      "Sonstige Fenster"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 1014,
+      "total_tokens": 1169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.501,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00817
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "CompilationGroupID": "029ca384e1",
+  "Name": "Rohranschluss_Technikschnttelle_Nest-HEI---Vorlauf-6271633",
+  "Volume [m^3]": 0.0005,
+  "Largest Surface Area [m^2]": 0.0128,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

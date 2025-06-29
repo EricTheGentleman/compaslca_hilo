@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcSlab used as a landing in an assembled stair, with material 'Stahl'.",
+    "Preliminary Selection": "Stahl und Eisen",
+    "Matched Category": "Stahl und Eisen"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+    "trace": [
+      "Metalle"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 56,
+      "prompt_tokens": 814,
+      "total_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.417,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00519
+  }
+}

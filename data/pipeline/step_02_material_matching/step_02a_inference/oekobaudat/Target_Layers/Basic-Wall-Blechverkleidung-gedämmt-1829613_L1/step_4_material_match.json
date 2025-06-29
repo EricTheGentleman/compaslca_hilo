@@ -1,0 +1,51 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The IfcBuildingElement is a 'Basic Wall' with a 'Blechverkleidung gedämmt' type, primarily composed of a steel layer with black powder coating and a thickness of 0.003 meters. It is a non-structural, non-bearing wall with a core face exterior location line.",
+    "Preliminary Selection": [
+      "Cold-rolled sheet made from scrap-based electrical steel",
+      "Hot dip galvanized steel sheet",
+      "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+      "Steel sheet (0.3-30mm)",
+      "Steel sheet (20µm hot dip galvanized)",
+      "Steel sheet hot dip galvanized (2-20mm)"
+    ],
+    "Matched Materials": [
+      "Cold-rolled sheet made from scrap-based electrical steel",
+      "Hot dip galvanized steel sheet",
+      "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+      "Steel sheet (0.3-30mm)",
+      "Steel sheet (20µm hot dip galvanized)",
+      "Steel sheet hot dip galvanized (2-20mm)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlbleche",
+    "trace": [
+      "Metalle",
+      "Stahl und Eisen",
+      "Stahlbleche"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 227,
+      "prompt_tokens": 1526,
+      "total_tokens": 1753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.986,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.01217
+  }
+}

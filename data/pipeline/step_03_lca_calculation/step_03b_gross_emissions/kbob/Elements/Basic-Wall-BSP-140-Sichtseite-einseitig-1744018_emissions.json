@@ -1,0 +1,27 @@
+﻿{
+  "CompilationGroupID": "a5c867b4fd",
+  "Name": "Basic-Wall-BSP-140-Sichtseite-einseitig-1744018",
+  "Volume [m^3]": 0.9909,
+  "Largest Surface Area [m^2]": 7.5063,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "210.5236",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "185.8354",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "24.8229",
+      "Biogenic Carbon [kg C]": "194.364",
+      "UBP (Total)": "453366.477",
+      "UBP (Manufacturing)": "418354.0164",
+      "UBP (Disposal)": "36044.8793",
+      "Total Renewable Primary Energy [kWh oil-eq]": "5970.0734",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "5970.0734",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "2.7696",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "978.5534",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "938.1544",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "41.4314"
+    }
+  ]
+}

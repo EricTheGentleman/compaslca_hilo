@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcWindow named 'Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas', part of a curtain wall, with no defined material.",
+    "Preliminary Selection": "Fenster",
+    "Matched Category": "Fenster"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 936,
+      "total_tokens": 1004,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.636,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00604
+  }
+}

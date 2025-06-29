@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "38ad939f44",
+  "name": "Floor-3-Schichtplatte-27mm-B-C-Rinnen-6154433",
+  "total_steps": 2,
+  "total_tokens": 2658,
+  "total_prompt_tokens": 2513,
+  "total_completion_tokens": 145,
+  "total_processing_time": 3.698,
+  "total_cost_usd": 0.01474,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 957,
+      "completion_tokens": 60,
+      "processing_time": 1.307,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005685
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1556,
+      "completion_tokens": 85,
+      "processing_time": 2.391,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009055
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', which is a type of wood-based panel.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichtplatte 27mm B/C Rinnen, Type: IfcSlab, Material Name: 3-Schicht-Platte, Structural: False",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "GlobalId": "3D$hiogd117g3okR4n43_p",
+  "name": "Basic-Wall-Brandschutzplatte-5421172",
+  "total_steps": 4,
+  "total_tokens": 3862,
+  "total_prompt_tokens": 3588,
+  "total_completion_tokens": 274,
+  "total_processing_time": 7.747,
+  "total_cost_usd": 0.02205,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 894,
+      "completion_tokens": 51,
+      "processing_time": 1.642,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005235
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 847,
+      "completion_tokens": 55,
+      "processing_time": 1.676,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00506
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 884,
+      "completion_tokens": 56,
+      "processing_time": 1.184,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00526
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 963,
+      "completion_tokens": 112,
+      "processing_time": 3.245,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006495
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material '3-Schicht-Platte', which is a type of wood panel.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a wall with material '3-Schicht-Platte', which is a type of wood-based panel.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material '3-Schicht-Platte'.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Brandschutzplatte, Type: IfcWallStandardCase, Material: 3-Schicht-Platte, Thickness: 0.028m, Non-bearing wall, Fire protection board",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Bleche Fassade_V6, Type: IfcBuildingElementProxy, Material Name: Material 4, Category: Generic Models, Family: Bleche Fassade_V6, Workset: Dachkonstruktion",
+    "Preliminary Selection": "Fenster, Sonnenschutz, Fassadenplatten",
+    "Matched Category": "Fenster, Sonnenschutz, Fassadenplatten"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/KBOB",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 90,
+      "prompt_tokens": 922,
+      "total_tokens": 1012,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.742,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00641
+  }
+}

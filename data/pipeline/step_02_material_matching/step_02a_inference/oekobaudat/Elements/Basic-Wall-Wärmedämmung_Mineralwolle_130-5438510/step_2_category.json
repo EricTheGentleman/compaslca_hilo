@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a wall with material 'Wärmedämmung Mineralwolle, 0.035 W/mK', type is IfcWallStandardCase, related to non-structural usage.",
+    "Preliminary Selection": "Mineralwolle",
+    "Matched Category": "Mineralwolle"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+    "trace": [
+      "Dämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 1105,
+      "total_tokens": 1178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.525,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006985
+  }
+}

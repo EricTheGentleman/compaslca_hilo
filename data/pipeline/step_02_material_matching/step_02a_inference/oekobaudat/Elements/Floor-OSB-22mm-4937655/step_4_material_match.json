@@ -1,0 +1,44 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcSlab named 'Floor:OSB 22mm' with a material layer of OSB, 22mm thick.",
+    "Preliminary Selection": [
+      "Oriented Strand Board",
+      "Oriented Strand Board (German average)",
+      "Oriented Strand Board (OSB)"
+    ],
+    "Matched Materials": [
+      "Oriented Strand Board",
+      "Oriented Strand Board (OSB)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/OSB-Platte",
+    "trace": [
+      "Holz",
+      "Holzwerkstoffe",
+      "OSB-Platte"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 961,
+      "total_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.891,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006645
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L4",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L4",
+  "total_steps": 2,
+  "total_tokens": 2618,
+  "total_prompt_tokens": 2454,
+  "total_completion_tokens": 164,
+  "total_processing_time": 3.2990000000000004,
+  "total_cost_usd": 0.01473,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1094,
+      "completion_tokens": 70,
+      "processing_time": 1.479,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00652
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Steinwolle, Flumroc"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1360,
+      "completion_tokens": 94,
+      "processing_time": 1.82,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00821
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Trittschalldämmung Flumroc 341, Element Type: IfcSlab, Element Name: Floor:Galerie Fussbodenaufbau",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The target material is 'Trittschalldämmung Flumroc 341' with a thickness of 0.03 meters, used in a floor slab (IfcSlab) context, specifically for a gallery floor construction.",
+        "Preliminary Selection": [
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ],
+        "Matched Materials": [
+          "Steinwolle, Flumroc"
+        ]
+      }
+    }
+  ]
+}

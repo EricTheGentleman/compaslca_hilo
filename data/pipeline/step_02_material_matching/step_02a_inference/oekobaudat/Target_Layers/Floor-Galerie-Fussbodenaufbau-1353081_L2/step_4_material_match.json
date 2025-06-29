@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The target material is 'Knauf - Vidiwall' with a thickness of 0.015 meters, used in a floor slab (IfcSlab) context, specifically for a gallery floor construction.",
+    "Preliminary Selection": [
+      "Gypsum fibre board (10 mm)",
+      "gypsum fibre board"
+    ],
+    "Matched Materials": [
+      "Gypsum fibre board (10 mm)",
+      "gypsum fibre board"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Gipsplatten",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Steine und Elemente",
+      "Gipsplatten"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 1267,
+      "total_tokens": 1359,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.427,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008175
+  }
+}

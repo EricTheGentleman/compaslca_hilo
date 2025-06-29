@@ -1,0 +1,107 @@
+{
+  "CompilationGroupID": "6125c4d99e",
+  "name": "Basic-Wall-Fensterlaibung-40mm-6514187",
+  "total_steps": 4,
+  "total_tokens": 4281,
+  "total_prompt_tokens": 3953,
+  "total_completion_tokens": 328,
+  "total_processing_time": 8.233,
+  "total_cost_usd": 0.024685,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 941,
+      "completion_tokens": 57,
+      "processing_time": 1.18,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00556
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 894,
+      "completion_tokens": 56,
+      "processing_time": 3.634,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00531
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 925,
+      "completion_tokens": 58,
+      "processing_time": 1.183,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005495
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1193,
+      "completion_tokens": 157,
+      "processing_time": 2.236,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00832
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 'Massivholz Fichte, schwarz lasiert' with a thickness of 0.04 meters.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert', type IfcWallStandardCase.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material 'Massivholz Fichte, schwarz lasiert'.",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWallStandardCase, Material: Massivholz Fichte, schwarz lasiert, Thickness: 0.04m, Non-bearing wall",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ]
+      }
+    }
+  ]
+}

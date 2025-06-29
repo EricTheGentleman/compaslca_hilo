@@ -1,0 +1,83 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Floor:Betonauflager 15cm, Type: IfcSlab, Material: Beton, Thickness: 0.15m, Structural: True",
+    "Preliminary Selection": [
+      "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+      "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+      "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 blast furnace cement",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 fly ash",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 ground granulated blast furnace slag",
+      "Concrete - 118 C25/30 XC4, XF1",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C30/37, Type number 988899192",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Ready-mix concrete C20/25",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60",
+      "Recycling ready- mix concrete C25/30"
+    ],
+    "Matched Materials": [
+      "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+      "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+      "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 blast furnace cement",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 fly ash",
+      "Building products made of concrete and concrete elements - Firmengruppe Max Bögl - Concrete C30/37 ground granulated blast furnace slag",
+      "Concrete - 118 C25/30 XC4, XF1",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C30/37, Type number 988899192",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Ready-mix concrete C20/25",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60",
+      "Recycling ready- mix concrete C25/30"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Mörtel und Beton",
+      "Beton"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 733,
+      "prompt_tokens": 1533,
+      "total_tokens": 2266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 6.871,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.022325
+  }
+}

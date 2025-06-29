@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "f3de7c9098",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-ohne-MDF-3995377",
+  "total_steps": 2,
+  "total_tokens": 2217,
+  "total_prompt_tokens": 2082,
+  "total_completion_tokens": 135,
+  "total_processing_time": 3.659,
+  "total_cost_usd": 0.012435,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1013,
+      "completion_tokens": 61,
+      "processing_time": 1.877,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00598
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+      "message": "No match found",
+      "prompt_tokens": 1069,
+      "completion_tokens": 74,
+      "processing_time": 1.782,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006455
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Archisonic Charcoal, type IfcWallStandardCase, non-structural, used in interior construction.",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Innenwandelement Archisonic ohne MDF, Type: IfcWallStandardCase, Material Name: Archisonic Charcoal, Thickness: 0.012m, Category: Walls, Structural Usage: Non-bearing",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

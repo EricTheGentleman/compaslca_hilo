@@ -1,0 +1,74 @@
+{
+  "CompilationGroupID": "50141ec7a2_L1",
+  "name": "Floor-Funicular-Floor-687636_L1",
+  "total_steps": 3,
+  "total_tokens": 2904,
+  "total_prompt_tokens": 2742,
+  "total_completion_tokens": 162,
+  "total_processing_time": 4.721,
+  "total_cost_usd": 0.01614,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Beschichtungen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 940,
+      "completion_tokens": 58,
+      "processing_time": 1.239,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00557
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Innenbeschichtungen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Beschichtungen",
+      "message": "Match successful",
+      "prompt_tokens": 910,
+      "completion_tokens": 55,
+      "processing_time": 2.294,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005375
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Beschichtungen/Innenbeschichtungen",
+      "message": "No match found",
+      "prompt_tokens": 892,
+      "completion_tokens": 49,
+      "processing_time": 1.188,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005195
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Other Material: Beton, Ortbeton",
+        "Preliminary Selection": "Beschichtungen",
+        "Matched Category": "Beschichtungen"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Innenbeschichtungen",
+        "Matched Category": "Innenbeschichtungen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Spachtelmasse Boden, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

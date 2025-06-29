@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBiH",
+  "name": "Montageraum-Elektro-Montageraum-Elektro-6274127",
+  "total_steps": 2,
+  "total_tokens": 1871,
+  "total_prompt_tokens": 1774,
+  "total_completion_tokens": 97,
+  "total_processing_time": 2.64,
+  "total_cost_usd": 0.010325,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 859,
+      "completion_tokens": 50,
+      "processing_time": 1.207,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005045
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+      "message": "No match found",
+      "prompt_tokens": 915,
+      "completion_tokens": 47,
+      "processing_time": 1.433,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00528
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "795c75da48",
+  "name": "Basic-Wall-Purenit-Fusspunkt-6169888",
+  "total_steps": 2,
+  "total_tokens": 2081,
+  "total_prompt_tokens": 1970,
+  "total_completion_tokens": 111,
+  "total_processing_time": 2.771,
+  "total_cost_usd": 0.011515000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 957,
+      "completion_tokens": 55,
+      "processing_time": 1.446,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00561
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+      "message": "No match found",
+      "prompt_tokens": 1013,
+      "completion_tokens": 56,
+      "processing_time": 1.325,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005905
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Basic Wall:Purenit Fusspunkt' with material 'Purenit'.",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material Name: Purenit, Thickness: 0.025m, Family: Basic Wall: Purenit Fusspunkt",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

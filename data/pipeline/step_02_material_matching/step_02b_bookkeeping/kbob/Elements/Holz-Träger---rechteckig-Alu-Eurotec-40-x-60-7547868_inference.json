@@ -1,0 +1,64 @@
+{
+  "CompilationGroupID": "0a91634d5e",
+  "name": "Holz-Träger---rechteckig-Alu-Eurotec-40-x-60-7547868",
+  "total_steps": 2,
+  "total_tokens": 2374,
+  "total_prompt_tokens": 2149,
+  "total_completion_tokens": 225,
+  "total_processing_time": 4.301,
+  "total_cost_usd": 0.01412,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metallbaustoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 951,
+      "completion_tokens": 79,
+      "processing_time": 1.971,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00594
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Aluminiumprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+        "Aluminiumprofil, blank"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Metallbaustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1198,
+      "completion_tokens": 146,
+      "processing_time": 2.33,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00818
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with material 'Aluminum - Flat - Version 1.1'.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "Metallbaustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBeam with the name 'Holz Träger - rechteckig:Alu Eurotec 40 x 60'. The material is 'Aluminum - Flat - Version 1.1'. The element is categorized under 'Structural Framing' with a structural usage of 'Other'.",
+        "Preliminary Selection": [
+          "Aluminiumblech, blank",
+          "Aluminiumprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+          "Aluminiumprofil, blank"
+        ],
+        "Matched Materials": [
+          "Aluminiumprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+          "Aluminiumprofil, blank"
+        ]
+      }
+    }
+  ]
+}

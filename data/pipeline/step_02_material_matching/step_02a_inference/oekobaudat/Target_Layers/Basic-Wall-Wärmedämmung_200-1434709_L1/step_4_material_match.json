@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The building element is a basic wall with mineral wool insulation, specifically 'Wärmedämmung Mineralwolle, 0.035 W/mK', with a thickness of 0.1 meters. It is a non-structural, non-bearing wall located at the exterior core face, associated with the 'Architecture' workset.",
+    "Preliminary Selection": [
+      "Mineral wool (facade insulation)",
+      "Mineral wool insulation (medium bulk density range)"
+    ],
+    "Matched Materials": [
+      "Mineral wool (facade insulation)",
+      "Mineral wool insulation (medium bulk density range)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Mineralwolle",
+    "trace": [
+      "Dämmstoffe",
+      "Mineralwolle",
+      "Mineralwolle"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 1141,
+      "total_tokens": 1272,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 4.08,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008325
+  }
+}

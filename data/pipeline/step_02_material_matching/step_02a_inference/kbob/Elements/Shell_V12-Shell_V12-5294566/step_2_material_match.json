@@ -1,0 +1,39 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material Name: Concrete, Lightweight, Category: Generic Models, Workset: Dachkonstruktion",
+    "Preliminary Selection": [
+      "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)"
+    ],
+    "Matched Materials": [
+      "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Beton",
+    "trace": [
+      "Beton"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 1517,
+      "total_tokens": 1645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.503,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.010145
+  }
+}

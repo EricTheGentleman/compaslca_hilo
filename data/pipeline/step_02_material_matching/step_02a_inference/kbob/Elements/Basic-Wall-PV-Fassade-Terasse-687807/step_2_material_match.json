@@ -1,0 +1,51 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWallStandardCase, Name: Basic Wall:PV Fassade Terasse, Material: Körpermodell, Thickness: 0.008m, Non-bearing wall.",
+    "Preliminary Selection": [
+      "Fassade, Pfosten-Riegel, Alu/Glas",
+      "Fassadenplatte, Aluverbund, 4 mm",
+      "Fassadenplatte, Glasfaserbeton Ecomur, 15mm",
+      "Fassadenplatte, Glasfaserbeton Ecomur, 18mm",
+      "Fassadenplatte, Hochdrucklaminatplatte (HPL), 8.1 mm",
+      "Fassadenplatte, Kalkstein, 30 mm",
+      "Fassadenplatte, Kunststoff glasfaserverstärkt (GFK), 1.6 mm"
+    ],
+    "Matched Materials": [
+      "Fassade, Pfosten-Riegel, Alu/Glas",
+      "Fassadenplatte, Aluverbund, 4 mm",
+      "Fassadenplatte, Glasfaserbeton Ecomur, 15mm",
+      "Fassadenplatte, Glasfaserbeton Ecomur, 18mm",
+      "Fassadenplatte, Hochdrucklaminatplatte (HPL), 8.1 mm",
+      "Fassadenplatte, Kalkstein, 30 mm",
+      "Fassadenplatte, Kunststoff glasfaserverstärkt (GFK), 1.6 mm"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Fenster_Sonnenschutz_Fassadenplatten",
+    "trace": [
+      "Fenster, Sonnenschutz, Fassadenplatten"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 306,
+      "prompt_tokens": 1755,
+      "total_tokens": 2061,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.586,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.014895
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Basic-Wall-Technikschnittstelle-6225020",
+  "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+  "Volume [m^3]": 0.1317,
+  "Largest Surface Area [m^2]": 5.2895,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

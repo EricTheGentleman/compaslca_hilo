@@ -1,0 +1,44 @@
+{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NTs",
+  "Name": "Assembled-Stair-Stair-1458173-Run-1",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Stahlblech, blank",
+      "ID": "6.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "2.8",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "2.79",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00693",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "5260",
+      "UBP (Manufacturing)": "5250",
+      "UBP (Disposal)": "11.1",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.628",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.628",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000582",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "7.8",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "7.77",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0272"
+    },
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.737",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.73",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00693",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "1290",
+      "UBP (Manufacturing)": "1280",
+      "UBP (Disposal)": "11.1",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.255",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.254",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000582",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "3.38",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "3.35",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0272"
+    }
+  ]
+}

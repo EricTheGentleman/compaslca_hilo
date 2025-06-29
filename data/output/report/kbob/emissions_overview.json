@@ -1,0 +1,37 @@
+{
+  "Global Warming Potential Manufacturing [kgCO2-eqv]": {
+    "min": 48948.093,
+    "mean": 57827.724,
+    "max": 66707.357
+  },
+  "Global Warming Potential Disposal [kgCO2-eqv]": {
+    "min": 4975.715,
+    "mean": 5708.095,
+    "max": 6440.474
+  },
+  "Global Warming Potential Total [kgCO2-eqv]": {
+    "min": 54808.739,
+    "mean": 63520.035,
+    "max": 72231.33
+  },
+  "Biogenic Carbon [kg C]": {
+    "min": 9481.608,
+    "mean": 10010.785,
+    "max": 10539.963
+  },
+  "UBP (Total)": {
+    "min": 106528714.351,
+    "mean": 122886047.746,
+    "max": 139243381.14
+  },
+  "Total Renewable Primary Energy [kWh oil-eq]": {
+    "min": 219281.092,
+    "mean": 237429.075,
+    "max": 255577.059
+  },
+  "Total Non-Renewable Primary Energy [kWh oil-eq]": {
+    "min": 221865.898,
+    "mean": 252943.435,
+    "max": 284020.973
+  }
+}

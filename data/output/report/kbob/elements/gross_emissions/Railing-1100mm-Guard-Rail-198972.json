@@ -1,0 +1,46 @@
+﻿{
+  "ObjectType Name": "Railing-1100mm-Guard-Rail-198972",
+  "CompilationGroupID": "6c9d549b29",
+  "Volume [m^3]": 0.1978,
+  "Largest Surface Area [m^2]": 30.0595,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Aluminiumprofil, blank",
+      "ID": "6.002",
+      "Reference": "kg",
+      "Density (kg/m3)": "2690",
+      "Global Warming Potential Total [kgCO2-eqv]": "3032.8674",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "3027.5466",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "4.2141",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "6118943.0",
+      "UBP (Manufacturing)": "6065734.8",
+      "UBP (Disposal)": "10535.2236",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2804.0721",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2798.7513",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.4193",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "13621.2992",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "13621.2992",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "16.7074"
+    },
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "1144.362",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1133.4929",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "10.7604",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "2003021.7",
+      "UBP (Manufacturing)": "1987494.4",
+      "UBP (Disposal)": "17235.303",
+      "Total Renewable Primary Energy [kWh oil-eq]": "395.9461",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "394.3934",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.9037",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "5248.2274",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "5201.6455",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "42.2343"
+    }
+  ]
+}

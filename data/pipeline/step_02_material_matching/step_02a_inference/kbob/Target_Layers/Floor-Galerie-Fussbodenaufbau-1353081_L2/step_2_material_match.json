@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The target material is 'Knauf - Vidiwall' with a thickness of 0.015 meters, used in a floor slab (IfcSlab) context. The element is part of a floor construction named 'Galerie Fussbodenaufbau'.",
+    "Preliminary Selection": [
+      "Gipsfaserplatte",
+      "Gipsfaserplatte Fermacell"
+    ],
+    "Matched Materials": [
+      "Gipsfaserplatte",
+      "Gipsfaserplatte Fermacell"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+    "trace": [
+      "Mineralische Platten, Schüttungen, Steine und Ziegel"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 107,
+      "prompt_tokens": 1249,
+      "total_tokens": 1356,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.984,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008385
+  }
+}

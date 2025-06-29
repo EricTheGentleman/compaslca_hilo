@@ -1,0 +1,54 @@
+{
+  "GlobalId": "34GTDrn6T9bPcoCQwImKAw",
+  "name": "Anschlussgeometrie_FunicularFloorLueftung-Anschlussgeometrie_FunicularFloorLueftung-6210148",
+  "total_steps": 2,
+  "total_tokens": 1897,
+  "total_prompt_tokens": 1794,
+  "total_completion_tokens": 103,
+  "total_processing_time": 2.5469999999999997,
+  "total_cost_usd": 0.010515,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 913,
+      "completion_tokens": 50,
+      "processing_time": 1.216,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005315
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 881,
+      "completion_tokens": 53,
+      "processing_time": 1.331,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0052
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy with no defined material, associated with ventilation and categorized as a generic model.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy with no defined material, categorized under 'Generic Models', related to ventilation in a funicular floor.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+﻿{
+  "ObjectType Name": "Floor-Dämmung-Galerie-1708478",
+  "CompilationGroupID": "d20d68a4b7",
+  "Layer 1": {
+    "Matched Materials with OEKOBAUDAT Indicators": [
+      {
+        "Name": "Mineral wool (floor insulation)",
+        "ID": "ac779922-219f-4730-9aef-a7da84d334c1",
+        "Reference": "m3",
+        "Density (kg/m3)": "85.0",
+        "Bezugsgroesse": "1",
+        "GWPtotal (A1)": 0,
+        "GWPtotal (A2)": 0,
+        "GWPtotal (A3)": 0,
+        "GWPtotal (A1-A3)": "129.8128352",
+        "GWPtotal (A4)": 0,
+        "GWPtotal (A5)": 0,
+        "GWPtotal (B1)": 0,
+        "GWPtotal (B2)": 0,
+        "GWPtotal (B3)": 0,
+        "GWPtotal (B4)": 0,
+        "GWPtotal (B5)": 0,
+        "GWPtotal (B6)": 0,
+        "GWPtotal (B7)": 0,
+        "GWPtotal (C1)": 0,
+        "GWPtotal (C2)": "0.3621077",
+        "GWPtotal (C3)": "2.5640836",
+        "GWPtotal (C4)": "1.4297648",
+        "GWPbiogenic": "1.1908526",
+        "GWPfossil": "132.8917271",
+        "GWPtotal": "134.1687913",
+        "Conformity": "'EN 15804+A2 (EF 3.1)'",
+        "Laenderkennung": "DE",
+        "Declaration owner": "Sphera Solutions GmbH",
+        "Registrierungsnummer": 0
+      }
+    ]
+  },
+  "Layer 2": {
+    "Matched Materials with OEKOBAUDAT Indicators": [
+      {
+        "Name": "Mineral wool (floor insulation)",
+        "ID": "ac779922-219f-4730-9aef-a7da84d334c1",
+        "Reference": "m3",
+        "Density (kg/m3)": "85.0",
+        "Bezugsgroesse": "1",
+        "GWPtotal (A1)": 0,
+        "GWPtotal (A2)": 0,
+        "GWPtotal (A3)": 0,
+        "GWPtotal (A1-A3)": "129.8128352",
+        "GWPtotal (A4)": 0,
+        "GWPtotal (A5)": 0,
+        "GWPtotal (B1)": 0,
+        "GWPtotal (B2)": 0,
+        "GWPtotal (B3)": 0,
+        "GWPtotal (B4)": 0,
+        "GWPtotal (B5)": 0,
+        "GWPtotal (B6)": 0,
+        "GWPtotal (B7)": 0,
+        "GWPtotal (C1)": 0,
+        "GWPtotal (C2)": "0.3621077",
+        "GWPtotal (C3)": "2.5640836",
+        "GWPtotal (C4)": "1.4297648",
+        "GWPbiogenic": "1.1908526",
+        "GWPfossil": "132.8917271",
+        "GWPtotal": "134.1687913",
+        "Conformity": "'EN 15804+A2 (EF 3.1)'",
+        "Laenderkennung": "DE",
+        "Declaration owner": "Sphera Solutions GmbH",
+        "Registrierungsnummer": 0
+      }
+    ]
+  }
+}

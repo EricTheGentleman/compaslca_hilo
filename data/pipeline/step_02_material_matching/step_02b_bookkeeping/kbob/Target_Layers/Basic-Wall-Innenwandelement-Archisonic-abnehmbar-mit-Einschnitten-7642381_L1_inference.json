@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "3ece908374_L1",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-mit-Einschnitten-7642381_L1",
+  "total_steps": 2,
+  "total_tokens": 2289,
+  "total_prompt_tokens": 2168,
+  "total_completion_tokens": 121,
+  "total_processing_time": 2.608,
+  "total_cost_usd": 0.012655,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1056,
+      "completion_tokens": 54,
+      "processing_time": 1.215,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00609
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+      "message": "No match found",
+      "prompt_tokens": 1112,
+      "completion_tokens": 67,
+      "processing_time": 1.393,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006565
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, ObjectType: Basic Wall: Innenwandelement Archisonic abnehmbar mit Einschnitten, Structural Usage: Non-bearing",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

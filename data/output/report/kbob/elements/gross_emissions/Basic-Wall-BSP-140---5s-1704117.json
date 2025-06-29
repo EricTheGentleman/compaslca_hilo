@@ -1,0 +1,46 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-BSP-140---5s-1704117",
+  "CompilationGroupID": "ff0022f92c",
+  "Volume [m^3]": 6.9166,
+  "Largest Surface Area [m^2]": 49.5285,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Brettschichtholz",
+      "ID": "7.003",
+      "Reference": "kg",
+      "Density (kg/m3)": "439",
+      "Global Warming Potential Total [kgCO2-eqv]": "1017.1898",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "868.4068",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "149.3903",
+      "Biogenic Carbon [kg C]": "1354.2288",
+      "UBP (Total)": "2334981.9106",
+      "UBP (Manufacturing)": "2113325.6304",
+      "UBP (Disposal)": "224085.3901",
+      "Total Renewable Primary Energy [kWh oil-eq]": "24716.1934",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "24716.1934",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "18.6738",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "4645.6727",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4372.3979",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "276.3113"
+    },
+    {
+      "Name": "Brettschichtholz, Produktion Schweiz",
+      "ID": "07.003.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "439",
+      "Global Warming Potential Total [kgCO2-eqv]": "768.206",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "619.423",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "149.3903",
+      "Biogenic Carbon [kg C]": "1357.2652",
+      "UBP (Total)": "2067779.8194",
+      "UBP (Manufacturing)": "1843087.1518",
+      "UBP (Disposal)": "224085.3901",
+      "Total Renewable Primary Energy [kWh oil-eq]": "24321.4631",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "24291.0992",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "18.6738",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "3643.6649",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "3370.39",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "276.3113"
+    }
+  ]
+}

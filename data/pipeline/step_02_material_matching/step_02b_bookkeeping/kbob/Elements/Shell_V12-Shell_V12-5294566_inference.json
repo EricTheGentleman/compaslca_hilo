@@ -1,0 +1,60 @@
+{
+  "GlobalId": "1YKyzAV3HA3hGaVYlxUqa8",
+  "name": "Shell_V12-Shell_V12-5294566",
+  "total_steps": 2,
+  "total_tokens": 2577,
+  "total_prompt_tokens": 2402,
+  "total_completion_tokens": 175,
+  "total_processing_time": 3.733,
+  "total_cost_usd": 0.014634999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 885,
+      "completion_tokens": 47,
+      "processing_time": 1.23,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00513
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1517,
+      "completion_tokens": 128,
+      "processing_time": 2.503,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009505
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named Shell_V12 with material Concrete, Lightweight.",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, Material Name: Concrete, Lightweight, Category: Generic Models, Workset: Dachkonstruktion",
+        "Preliminary Selection": [
+          "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)"
+        ],
+        "Matched Materials": [
+          "Hochbaubeton, NovoCon Light C25/E30, NPK A, 280 kg CEM II/C-M (F-T) (ohne Bewehrung)"
+        ]
+      }
+    }
+  ]
+}

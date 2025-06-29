@@ -1,0 +1,92 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Interior---Furring--152-mm-Stud--189074",
+  "CompilationGroupID": "74fa3268cd",
+  "Layer 1": {
+    "Volume [m^3]": 7.9638,
+    "Largest Surface Area [m^2]": 58.646,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Stahlblech, blank",
+        "ID": "6.01",
+        "Reference": "kg",
+        "Density (kg/m3)": "7850",
+        "Global Warming Potential Total [kgCO2-eqv]": "175044.324",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "174419.1657",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "433.2347",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "328833265.8",
+        "UBP (Manufacturing)": "328208107.5",
+        "UBP (Disposal)": "693925.713",
+        "Total Renewable Primary Energy [kWh oil-eq]": "39259.9412",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "39259.9412",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "36.3842",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "487623.474",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "485747.9991",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1700.4306"
+      },
+      {
+        "Name": "Stahlblech, verzinkt",
+        "ID": "6.011",
+        "Reference": "kg",
+        "Density (kg/m3)": "7850",
+        "Global Warming Potential Total [kgCO2-eqv]": "280696.0767",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "280070.9184",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "433.2347",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "950240616.0",
+        "UBP (Manufacturing)": "950240616.0",
+        "UBP (Disposal)": "693925.713",
+        "Total Renewable Primary Energy [kWh oil-eq]": "87522.162",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "87522.162",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "36.3842",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "975246.948",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "975246.948",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1700.4306"
+      },
+      {
+        "Name": "Stahlprofil, blank",
+        "ID": "6.012",
+        "Reference": "kg",
+        "Density (kg/m3)": "7850",
+        "Global Warming Potential Total [kgCO2-eqv]": "46074.1667",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "45636.5559",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "433.2347",
+        "Biogenic Carbon [kg C]": "0.0",
+        "UBP (Total)": "80645420.7",
+        "UBP (Manufacturing)": "80020262.4",
+        "UBP (Disposal)": "693925.713",
+        "Total Renewable Primary Energy [kWh oil-eq]": "15941.5367",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "15879.0208",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "36.3842",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "211303.5054",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "209428.0305",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1700.4306"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Volume [m^3]": 0.9369,
+    "Largest Surface Area [m^2]": 58.646,
+    "Matched Materials with Gross Emissions (KBOB)": [
+      {
+        "Name": "Gipskartonplatte",
+        "ID": "3.008",
+        "Reference": "kg",
+        "Density (kg/m3)": "850",
+        "Global Warming Potential Total [kgCO2-eqv]": "239.7059",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "225.3713",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "14.892",
+        "Biogenic Carbon [kg C]": "14.3346",
+        "UBP (Total)": "416498.895",
+        "UBP (Manufacturing)": "359956.98",
+        "UBP (Disposal)": "57099.3705",
+        "Total Renewable Primary Energy [kWh oil-eq]": "70.8765",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "67.5318",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "3.3208",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "1059.1654",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "995.4562",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "61.9572"
+      }
+    ]
+  }
+}

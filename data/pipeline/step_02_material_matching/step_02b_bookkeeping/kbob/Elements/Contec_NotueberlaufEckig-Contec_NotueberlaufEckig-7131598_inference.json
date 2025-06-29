@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1s7hF4kkb7XRX_dK$UQExS",
+  "name": "Contec_NotueberlaufEckig-Contec_NotueberlaufEckig-7131598",
+  "total_steps": 2,
+  "total_tokens": 2088,
+  "total_prompt_tokens": 1972,
+  "total_completion_tokens": 116,
+  "total_processing_time": 2.6719999999999997,
+  "total_cost_usd": 0.0116,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 958,
+      "completion_tokens": 62,
+      "processing_time": 1.407,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00572
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/KBOB/Kunststoffe",
+      "message": "No match found",
+      "prompt_tokens": 1014,
+      "completion_tokens": 54,
+      "processing_time": 1.265,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00588
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Contec_NotueberlaufEckig, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Contec_NotueberlaufEckig, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

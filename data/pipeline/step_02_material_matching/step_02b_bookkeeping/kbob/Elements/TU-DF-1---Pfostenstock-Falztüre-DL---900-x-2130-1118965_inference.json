@@ -1,0 +1,74 @@
+{
+  "CompilationGroupID": "f235024de1",
+  "name": "TU-DF-1---Pfostenstock-Falztüre-DL---900-x-2130-1118965",
+  "total_steps": 2,
+  "total_tokens": 2458,
+  "total_prompt_tokens": 2146,
+  "total_completion_tokens": 312,
+  "total_processing_time": 4.465999999999999,
+  "total_cost_usd": 0.01541,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Türen",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 946,
+      "completion_tokens": 46,
+      "processing_time": 1.291,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00542
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Innentüre, Aluminium, Glaseinsatz",
+        "Innentüre, Zimmertüre, Holz, Glaseinsatz, Holzrahmen",
+        "Innentüre, Zimmertüre, Holz, Glaseinsatz, Stahlzarge",
+        "Innentüre, Zimmertüre, Holz, Holzrahmen",
+        "Innentüre, Zimmertüre, Holz, Stahlzarge"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Türen",
+      "message": "Match successful",
+      "prompt_tokens": 1200,
+      "completion_tokens": 266,
+      "processing_time": 3.175,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00999
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, categorized under 'Doors'.",
+        "Preliminary Selection": "Türen",
+        "Matched Category": "Türen"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcDoor, Location: Level 00_Eingang, No specific material data provided, Category: Doors, Family: TU DF 1 - Pfostenstock Falztüre: DL - 900 x 2130",
+        "Preliminary Selection": [
+          "Innentüre, Aluminium, Glaseinsatz",
+          "Innentüre, Funktionstüre, Holz, Holzrahmen",
+          "Innentüre, Funktionstüre, Holz, Stahlzarge",
+          "Innentüre, Zimmertüre, Holz, Glaseinsatz, Holzrahmen",
+          "Innentüre, Zimmertüre, Holz, Glaseinsatz, Stahlzarge",
+          "Innentüre, Zimmertüre, Holz, Holzrahmen",
+          "Innentüre, Zimmertüre, Holz, Stahlzarge"
+        ],
+        "Matched Materials": [
+          "Innentüre, Aluminium, Glaseinsatz",
+          "Innentüre, Zimmertüre, Holz, Glaseinsatz, Holzrahmen",
+          "Innentüre, Zimmertüre, Holz, Glaseinsatz, Stahlzarge",
+          "Innentüre, Zimmertüre, Holz, Holzrahmen",
+          "Innentüre, Zimmertüre, Holz, Stahlzarge"
+        ]
+      }
+    }
+  ]
+}

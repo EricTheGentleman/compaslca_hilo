@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "30abe42a62",
+  "name": "Basic-Wall-3-Schichtplatte-40mm-3214661",
+  "total_steps": 2,
+  "total_tokens": 2740,
+  "total_prompt_tokens": 2599,
+  "total_completion_tokens": 141,
+  "total_processing_time": 5.601000000000001,
+  "total_cost_usd": 0.015110000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1000,
+      "completion_tokens": 65,
+      "processing_time": 1.427,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005975
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1599,
+      "completion_tokens": 76,
+      "processing_time": 4.174,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009135
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material '3-Schicht-Platte', a type of wood panel, with a thickness of 40mm.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a non-structural wall with a material named '3-Schicht-Platte' and a thickness of 0.04 meters.",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

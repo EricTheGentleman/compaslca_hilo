@@ -1,0 +1,74 @@
+{
+  "GlobalId": "3CfkjHPHr7huZjPEhmDFd6",
+  "name": "Abzug-Sprinkler-Abzug-Sprinkler-5700206",
+  "total_steps": 3,
+  "total_tokens": 2537,
+  "total_prompt_tokens": 2360,
+  "total_completion_tokens": 177,
+  "total_processing_time": 3.4400000000000004,
+  "total_cost_usd": 0.014455,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 816,
+      "completion_tokens": 58,
+      "processing_time": 1.162,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00495
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Brandschutz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 787,
+      "completion_tokens": 68,
+      "processing_time": 1.365,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004955
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Brandschutz",
+      "message": "No match found",
+      "prompt_tokens": 757,
+      "completion_tokens": 51,
+      "processing_time": 0.913,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00455
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Abzug Sprinkler, Type: IfcBuildingElementProxy, Material Name: Körpermodell",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named 'Abzug Sprinkler' with material 'Körpermodell'. It is associated with 'Voids' workset and 'Mass' category.",
+        "Preliminary Selection": "Brandschutz",
+        "Matched Category": "Brandschutz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named 'Abzug Sprinkler' with material 'Körpermodell'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

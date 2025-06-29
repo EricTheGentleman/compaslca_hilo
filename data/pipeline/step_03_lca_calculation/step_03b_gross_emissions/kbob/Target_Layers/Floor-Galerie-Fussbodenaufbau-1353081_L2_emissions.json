@@ -1,0 +1,46 @@
+﻿{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L2",
+  "Name": "Floor-Galerie-Fussbodenaufbau-1353081_L2",
+  "Volume [m^3]": 1.0019,
+  "Largest Surface Area [m^2]": 107.712,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Gipsfaserplatte",
+      "ID": "3.007",
+      "Reference": "kg",
+      "Density (kg/m3)": "1200",
+      "Global Warming Potential Total [kgCO2-eqv]": "663.6586",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "640.8152",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "22.3624",
+      "Biogenic Carbon [kg C]": "53.9824",
+      "UBP (Total)": "1049590.44",
+      "UBP (Manufacturing)": "963026.28",
+      "UBP (Disposal)": "85963.02",
+      "Total Renewable Primary Energy [kWh oil-eq]": "117.8234",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "112.7739",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "5.0255",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "2969.6316",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2873.4492",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "93.8981"
+    },
+    {
+      "Name": "Gipsfaserplatte Fermacell",
+      "ID": "03.007.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "1180",
+      "Global Warming Potential Total [kgCO2-eqv]": "396.0511",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "374.7707",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "21.9897",
+      "Biogenic Carbon [kg C]": "72.9443",
+      "UBP (Total)": "704616.232",
+      "UBP (Manufacturing)": "619494.808",
+      "UBP (Disposal)": "84412.0788",
+      "Total Renewable Primary Energy [kWh oil-eq]": "815.747",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "811.018",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "4.8472",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1737.8957",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1655.1388",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "92.3331"
+    }
+  ]
+}

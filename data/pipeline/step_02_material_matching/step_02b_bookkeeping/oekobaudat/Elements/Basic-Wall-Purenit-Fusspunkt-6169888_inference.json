@@ -1,0 +1,100 @@
+{
+  "CompilationGroupID": "795c75da48",
+  "name": "Basic-Wall-Purenit-Fusspunkt-6169888",
+  "total_steps": 4,
+  "total_tokens": 3955,
+  "total_prompt_tokens": 3721,
+  "total_completion_tokens": 234,
+  "total_processing_time": 5.718999999999999,
+  "total_cost_usd": 0.022115,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 894,
+      "completion_tokens": 53,
+      "processing_time": 1.855,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005265
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Polyurethan-Hartschaum (PU)",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1025,
+      "completion_tokens": 67,
+      "processing_time": 1.298,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00613
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "PU Blockschaum",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Polyurethan-Hartschaum_(PU)",
+      "message": "Match successful",
+      "prompt_tokens": 850,
+      "completion_tokens": 52,
+      "processing_time": 1.16,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00503
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "PUR rigid foam"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Polyurethan-Hartschaum_(PU)/PU_Blockschaum",
+      "message": "Match successful",
+      "prompt_tokens": 952,
+      "completion_tokens": 62,
+      "processing_time": 1.406,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00569
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with material Purenit, type IfcWall, and categorized under 'Walls'.",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Purenit Fusspunkt, Type: IfcWall, Material Name: Purenit",
+        "Preliminary Selection": "Polyurethan-Hartschaum (PU)",
+        "Matched Category": "Polyurethan-Hartschaum (PU)"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material Purenit, thickness 0.025m.",
+        "Preliminary Selection": "PU Blockschaum",
+        "Matched Category": "PU Blockschaum"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Purenit Fusspunkt, Type: IfcWall, Material: Purenit, Thickness: 0.025m",
+        "Preliminary Selection": [
+          "PUR rigid foam"
+        ],
+        "Matched Materials": [
+          "PUR rigid foam"
+        ]
+      }
+    }
+  ]
+}

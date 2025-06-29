@@ -1,0 +1,39 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcSlab named 'Floor:3-Schichtplatte 27mm B/C Rinnen' with a material layer named '3-Schicht-Platte' and a thickness of 0.027 meters. It is not structural.",
+    "Preliminary Selection": [
+      "3- und 5-Schicht Massivholzplatte"
+    ],
+    "Matched Materials": [
+      "3- und 5-Schicht Massivholzplatte"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 97,
+      "prompt_tokens": 1611,
+      "total_tokens": 1708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.954,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.009995
+  }
+}

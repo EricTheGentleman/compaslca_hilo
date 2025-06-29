@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "c28b42ec07",
+  "name": "BSH-Stütze---rechteckig-KVH-60-x-60-5755285",
+  "total_steps": 2,
+  "total_tokens": 2666,
+  "total_prompt_tokens": 2477,
+  "total_completion_tokens": 189,
+  "total_processing_time": 3.598,
+  "total_cost_usd": 0.015220000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 939,
+      "completion_tokens": 83,
+      "processing_time": 1.668,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00594
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Brettschichtholz",
+        "Brettschichtholz, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1538,
+      "completion_tokens": 106,
+      "processing_time": 1.93,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00928
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcColumn named 'BSH Stütze - rechteckig:KVH 60 x 60:5755285' with material 'Holz Brettschicht - C24 Cl.1'.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcColumn, Material Name: Holz Brettschicht - C24 Cl.1, ObjectType: BSH Stütze - rechteckig:KVH 60 x 60, Category: Structural Columns",
+        "Preliminary Selection": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L1",
+  "Name": "Floor-Galerie-Fussbodenaufbau-1353081_L1",
+  "Volume [m^3]": 0.2672,
+  "Largest Surface Area [m^2]": 107.712,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm",
+      "ID": "11.002",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "1497.1968",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1077.12",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "416.8454",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "2778969.6",
+      "UBP (Manufacturing)": "2294265.6",
+      "UBP (Disposal)": "489012.48",
+      "Total Renewable Primary Energy [kWh oil-eq]": "222.9638",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "216.5011",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "6.6027",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "6678.144",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "6516.576",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "156.1824"
+    }
+  ]
+}

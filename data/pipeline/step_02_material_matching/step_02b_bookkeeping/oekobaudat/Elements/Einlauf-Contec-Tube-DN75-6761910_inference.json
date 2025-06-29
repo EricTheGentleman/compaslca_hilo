@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "32bb5170ae",
+  "name": "Einlauf-Contec-Tube-DN75-6761910",
+  "total_steps": 2,
+  "total_tokens": 1772,
+  "total_prompt_tokens": 1648,
+  "total_completion_tokens": 124,
+  "total_processing_time": 2.247,
+  "total_cost_usd": 0.010100000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 840,
+      "completion_tokens": 63,
+      "processing_time": 1.197,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005145
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 808,
+      "completion_tokens": 61,
+      "processing_time": 1.05,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004955
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN75:6761910, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Einlauf Contec Tube:DN75:6761910, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

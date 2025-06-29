@@ -1,0 +1,67 @@
+{
+  "CompilationGroupID": "524838fce2",
+  "name": "Basic-Wall-Wärmedämmung_Mineralwolle_20-4682149",
+  "total_steps": 2,
+  "total_tokens": 2556,
+  "total_prompt_tokens": 2342,
+  "total_completion_tokens": 214,
+  "total_processing_time": 3.918,
+  "total_cost_usd": 0.01492,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1038,
+      "completion_tokens": 58,
+      "processing_time": 1.286,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00606
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Steinwolle",
+        "Steinwolle, Flumroc"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1304,
+      "completion_tokens": 156,
+      "processing_time": 2.632,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00886
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall with material 'Wärmedämmung Mineralwolle', which is a mineral wool insulation.",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Wärmedämmung_Mineralwolle_20, Type: IfcWallStandardCase, Material: Wärmedämmung Mineralwolle, 0.035 W/mK, Thickness: 0.02m",
+        "Preliminary Selection": [
+          "Glaswolle",
+          "Glaswolle, Isover, pflanzliches Bindemittel",
+          "Glaswolle, Isover, phenolbasiertes Bindemittel",
+          "Glaswolle, SUPAFIL",
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ],
+        "Matched Materials": [
+          "Steinwolle",
+          "Steinwolle, Flumroc"
+        ]
+      }
+    }
+  ]
+}

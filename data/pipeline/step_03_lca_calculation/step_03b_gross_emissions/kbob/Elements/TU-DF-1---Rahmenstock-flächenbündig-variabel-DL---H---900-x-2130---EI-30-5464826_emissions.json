@@ -1,0 +1,46 @@
+﻿{
+  "GlobalId": "1Tv0YGeiT2fAVW5nnqum0c",
+  "Name": "TU-DF-1---Rahmenstock-flächenbündig-variabel-DL---H---900-x-2130---EI-30-5464826",
+  "Volume [m^3]": 0.1,
+  "Largest Surface Area [m^2]": 2.1087,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Innentüre, Funktionstüre, Holz, Holzrahmen",
+      "ID": "12.009",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "93.4154",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "78.8654",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "14.4657",
+      "Biogenic Carbon [kg C]": "36.4805",
+      "UBP (Total)": "185143.86",
+      "UBP (Manufacturing)": "167219.91",
+      "UBP (Disposal)": "17987.211",
+      "Total Renewable Primary Energy [kWh oil-eq]": "590.436",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "590.436",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3817",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "400.653",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "390.1095",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "10.2694"
+    },
+    {
+      "Name": "Innentüre, Funktionstüre, Holz, Stahlzarge",
+      "ID": "12.012",
+      "Reference": "qm",
+      "Density (kg/m3)": null,
+      "Global Warming Potential Total [kgCO2-eqv]": "204.1222",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "190.6265",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "13.6222",
+      "Biogenic Carbon [kg C]": "28.8892",
+      "UBP (Total)": "381674.7",
+      "UBP (Manufacturing)": "364805.1",
+      "UBP (Disposal)": "16700.904",
+      "Total Renewable Primary Energy [kWh oil-eq]": "489.2184",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "489.2184",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3648",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "752.8059",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "742.2624",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "9.1728"
+    }
+  ]
+}

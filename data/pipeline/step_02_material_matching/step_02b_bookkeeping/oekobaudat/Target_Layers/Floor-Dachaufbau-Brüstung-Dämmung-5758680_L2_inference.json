@@ -1,0 +1,104 @@
+{
+  "CompilationGroupID": "09f7047f0a_L2",
+  "name": "Floor-Dachaufbau-Brüstung-Dämmung-5758680_L2",
+  "total_steps": 4,
+  "total_tokens": 4523,
+  "total_prompt_tokens": 4181,
+  "total_completion_tokens": 342,
+  "total_processing_time": 6.901,
+  "total_cost_usd": 0.026035000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 985,
+      "completion_tokens": 62,
+      "processing_time": 1.376,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005855
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1116,
+      "completion_tokens": 74,
+      "processing_time": 1.138,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00669
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 932,
+      "completion_tokens": 64,
+      "processing_time": 1.84,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00562
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Mineral wool (floor insulation)",
+        "Mineral wool insulation (medium bulk density range)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 1148,
+      "completion_tokens": 142,
+      "processing_time": 2.547,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00787
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Category: Floors",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Element Name: Floor:Dachaufbau Brüstung Dämmung",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Category: Floors",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is an IfcSlab named 'Floor:Dachaufbau Brüstung Dämmung:5758680', with a target material layer of mineral wool insulation with a thermal conductivity of 0.035 W/mK and a thickness of 0.1 meters. It is part of a floor construction for a parapet insulation.",
+        "Preliminary Selection": [
+          "Mineral wool (flat roof insulation)",
+          "Mineral wool (floor insulation)",
+          "Mineral wool insulation (medium bulk density range)"
+        ],
+        "Matched Materials": [
+          "Mineral wool (floor insulation)",
+          "Mineral wool insulation (medium bulk density range)"
+        ]
+      }
+    }
+  ]
+}

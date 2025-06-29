@@ -1,0 +1,51 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: BSH Träger - rechteckig:BSH Holz 240 x 240, Type: IfcBeam, Material: Brettschichtholz C24, Category: Structural Framing",
+    "Preliminary Selection": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Glued laminated timber, glued solid timber, block glued glulam, special components",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ],
+    "Matched Materials": [
+      "Glued laminated timber",
+      "Glued laminated timber - special shapes (German average)",
+      "Glued laminated timber - straight shapes (German average)",
+      "Glued laminated timber, glued solid timber, block glued glulam, special components",
+      "Schilliger Glued Laminated Timber according to EN 14080",
+      "best wood BSH"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+    "trace": [
+      "Holz",
+      "Vollholz",
+      "Brettschichtholz (BSH)"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 212,
+      "prompt_tokens": 1001,
+      "total_tokens": 1213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.382,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.009245
+  }
+}

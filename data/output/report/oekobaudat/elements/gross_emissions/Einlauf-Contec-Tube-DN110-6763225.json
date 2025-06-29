@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Einlauf-Contec-Tube-DN110-6763225",
+  "GlobalId": "2CLn4ZUSr8B8TuzLO7ROP3",
+  "Volume [m^3]": 0.0004,
+  "Largest Surface Area [m^2]": 0.072,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

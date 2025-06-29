@@ -1,0 +1,60 @@
+{
+  "GlobalId": "2HRNy9Dlv5uw9UESvb_JkV",
+  "name": "Floor-3-Schichtplatte-27mm-B-C-4895632",
+  "total_steps": 2,
+  "total_tokens": 2738,
+  "total_prompt_tokens": 2591,
+  "total_completion_tokens": 147,
+  "total_processing_time": 3.2590000000000003,
+  "total_cost_usd": 0.01516,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 996,
+      "completion_tokens": 56,
+      "processing_time": 1.417,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00582
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1595,
+      "completion_tokens": 91,
+      "processing_time": 1.842,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00934
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', thickness 27mm.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichtplatte 27mm B/C, Type: IfcSlab, Material Name: 3-Schicht-Platte, Thickness: 0.027m, Structural: False",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

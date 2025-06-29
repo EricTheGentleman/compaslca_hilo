@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "d43d337978",
+  "name": "Floor-OSB-22mm-4937655",
+  "total_steps": 2,
+  "total_tokens": 2691,
+  "total_prompt_tokens": 2547,
+  "total_completion_tokens": 144,
+  "total_processing_time": 3.248,
+  "total_cost_usd": 0.014894999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 974,
+      "completion_tokens": 60,
+      "processing_time": 1.371,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00577
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "OSB Platte, PF-gebunden, Feuchtbereich"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1573,
+      "completion_tokens": 84,
+      "processing_time": 1.877,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009125
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of OSB (Oriented Strand Board) with a thickness of 22mm.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:OSB 22mm' with a material layer of OSB, 22mm thick. It is not structural.",
+        "Preliminary Selection": [
+          "OSB Platte, PF-gebunden, Feuchtbereich"
+        ],
+        "Matched Materials": [
+          "OSB Platte, PF-gebunden, Feuchtbereich"
+        ]
+      }
+    }
+  ]
+}

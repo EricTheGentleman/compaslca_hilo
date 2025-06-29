@@ -1,0 +1,133 @@
+{
+  "CompilationGroupID": "50141ec7a2_L2",
+  "name": "Floor-Funicular-Floor-687636_L2",
+  "total_steps": 4,
+  "total_tokens": 4905,
+  "total_prompt_tokens": 4318,
+  "total_completion_tokens": 587,
+  "total_processing_time": 8.786,
+  "total_cost_usd": 0.030395,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 940,
+      "completion_tokens": 62,
+      "processing_time": 1.158,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00563
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 898,
+      "completion_tokens": 60,
+      "processing_time": 1.214,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00539
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+      "message": "Match successful",
+      "prompt_tokens": 915,
+      "completion_tokens": 54,
+      "processing_time": 1.114,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005385
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+        "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+        "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+        "Concrete C30/37",
+        "Concrete C35/45",
+        "Concrete C40/50, Type number 988429091",
+        "Concrete C40/50, Type number 988429096",
+        "Concrete C40/50, Type number 988429196",
+        "Concrete C45/55",
+        "Concrete C50/60",
+        "Ready-mix concrete C30/37",
+        "Ready-mix concrete C50/60"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+      "message": "Match successful",
+      "prompt_tokens": 1565,
+      "completion_tokens": 411,
+      "processing_time": 5.3,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01399
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Beton, Ortbeton; Element Type: IfcSlab; Category: Floors; Structural: True",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Beton, Ortbeton; Element Type: IfcSlab; Category: Floors; Structural: True",
+        "Preliminary Selection": "Mörtel und Beton",
+        "Matched Category": "Mörtel und Beton"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Beton, Ortbeton; Element Type: IfcSlab; Category: Floors; Structural: True",
+        "Preliminary Selection": "Beton",
+        "Matched Category": "Beton"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a structural floor slab (IfcSlab) with a primary material of in-situ concrete, located on Level 01_Galerie, with a thickness of 0.35 meters. It is part of the structural workset and is intended to be constructed.",
+        "Preliminary Selection": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ],
+        "Matched Materials": [
+          "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+          "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+          "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+          "Concrete C30/37",
+          "Concrete C35/45",
+          "Concrete C40/50, Type number 988429091",
+          "Concrete C40/50, Type number 988429096",
+          "Concrete C40/50, Type number 988429196",
+          "Concrete C45/55",
+          "Concrete C50/60",
+          "Ready-mix concrete C30/37",
+          "Ready-mix concrete C50/60"
+        ]
+      }
+    }
+  ]
+}

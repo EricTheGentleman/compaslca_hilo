@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, thickness 28mm, used for fire protection.",
+    "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+    "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/KBOB",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 78,
+      "prompt_tokens": 991,
+      "total_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.937,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006515
+  }
+}

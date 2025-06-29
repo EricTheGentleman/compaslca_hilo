@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcBuildingElementProxy with no defined material, categorized under 'Generic Models' in the Architecture workset.",
+    "Preliminary Selection": "Sonstige",
+    "Matched Category": "None"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+    "trace": [],
+    "message": "No match found",
+    "token_usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 936,
+      "total_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.186,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00574
+  }
+}

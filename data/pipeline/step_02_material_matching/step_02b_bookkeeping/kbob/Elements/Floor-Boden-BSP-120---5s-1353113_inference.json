@@ -1,0 +1,60 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_Uw",
+  "name": "Floor-Boden-BSP-120---5s-1353113",
+  "total_steps": 2,
+  "total_tokens": 2596,
+  "total_prompt_tokens": 2471,
+  "total_completion_tokens": 125,
+  "total_processing_time": 2.918,
+  "total_cost_usd": 0.01423,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 936,
+      "completion_tokens": 57,
+      "processing_time": 1.153,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005535
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1535,
+      "completion_tokens": 68,
+      "processing_time": 1.765,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008695
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of Brettsperrholz (cross-laminated timber).",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Material Name: Brettsperrholz, Structural: True",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

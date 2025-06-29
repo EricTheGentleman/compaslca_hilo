@@ -1,0 +1,101 @@
+{
+  "CompilationGroupID": "031893e96a",
+  "name": "Basic-Wall-Gipsfaserplatte-Vidiwall-15mm-5643525",
+  "total_steps": 4,
+  "total_tokens": 4342,
+  "total_prompt_tokens": 4080,
+  "total_completion_tokens": 262,
+  "total_processing_time": 5.9319999999999995,
+  "total_cost_usd": 0.024329999999999997,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 958,
+      "completion_tokens": 63,
+      "processing_time": 1.251,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005735
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 916,
+      "completion_tokens": 58,
+      "processing_time": 1.333,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00545
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Gipsplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 1012,
+      "completion_tokens": 56,
+      "processing_time": 1.39,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0059
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "gypsum fibre board"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Gipsplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1194,
+      "completion_tokens": 85,
+      "processing_time": 1.958,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007245
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte (gypsum fiberboard) and type IfcWallStandardCase.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, thickness 15mm, type IfcWallStandardCase.",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, thickness 15mm, type IfcWallStandardCase.",
+        "Preliminary Selection": "Gipsplatten",
+        "Matched Category": "Gipsplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a standard wall case named 'Basic Wall:Gipsfaserplatte Vidiwall 15mm' with a material layer of 'Gipsfaserplatte' having a thickness of 15mm.",
+        "Preliminary Selection": [
+          "Gypsum fibre board (10 mm)",
+          "gypsum fibre board"
+        ],
+        "Matched Materials": [
+          "gypsum fibre board"
+        ]
+      }
+    }
+  ]
+}

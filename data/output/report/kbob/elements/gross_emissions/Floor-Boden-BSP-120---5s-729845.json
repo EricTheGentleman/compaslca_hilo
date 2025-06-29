@@ -1,0 +1,27 @@
+﻿{
+  "Name": "Floor-Boden-BSP-120---5s-729845",
+  "GlobalId": "2ro6NVukjA0hxWwZJgTpIl",
+  "Volume [m^3]": 0.6181,
+  "Largest Surface Area [m^2]": 25.1852,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "131.3197",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "115.9197",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "15.484",
+      "Biogenic Carbon [kg C]": "121.2397",
+      "UBP (Total)": "282799.293",
+      "UBP (Manufacturing)": "260959.3476",
+      "UBP (Disposal)": "22483.9438",
+      "Total Renewable Primary Energy [kWh oil-eq]": "3723.9907",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "3723.9907",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.7276",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "610.3985",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "585.1985",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "25.8439"
+    }
+  ]
+}

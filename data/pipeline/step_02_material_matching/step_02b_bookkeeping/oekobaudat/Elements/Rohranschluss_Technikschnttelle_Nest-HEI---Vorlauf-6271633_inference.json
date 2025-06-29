@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "029ca384e1",
+  "name": "Rohranschluss_Technikschnttelle_Nest-HEI---Vorlauf-6271633",
+  "total_steps": 2,
+  "total_tokens": 1914,
+  "total_prompt_tokens": 1782,
+  "total_completion_tokens": 132,
+  "total_processing_time": 3.295,
+  "total_cost_usd": 0.01089,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 907,
+      "completion_tokens": 67,
+      "processing_time": 1.529,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00554
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 875,
+      "completion_tokens": 65,
+      "processing_time": 1.766,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00535
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:HEI - Vorlauf' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:HEI - Vorlauf' with material '3D-Schnittmaterial'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

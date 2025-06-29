@@ -1,0 +1,100 @@
+{
+  "GlobalId": "2TLYsKbtX0nh0z8PYscOBM",
+  "name": "Dachdämmung_V3-Dachdämmung_V3-5659319",
+  "total_steps": 4,
+  "total_tokens": 3808,
+  "total_prompt_tokens": 3500,
+  "total_completion_tokens": 308,
+  "total_processing_time": 6.6339999999999995,
+  "total_cost_usd": 0.02212,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 847,
+      "completion_tokens": 78,
+      "processing_time": 1.808,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005405
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Dämmelemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 978,
+      "completion_tokens": 66,
+      "processing_time": 1.266,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00588
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Tragende Wärmedämmelemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Dämmelemente",
+      "message": "Match successful",
+      "prompt_tokens": 791,
+      "completion_tokens": 70,
+      "processing_time": 1.321,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005005
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "2.25.01. Load-bearing thermal insulation elements"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Dämmelemente/Tragende_Wärmedämmelemente",
+      "message": "Match successful",
+      "prompt_tokens": 884,
+      "completion_tokens": 94,
+      "processing_time": 2.239,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00583
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Dachdämmung_V3, Type: IfcBuildingElementProxy, Material Name: Material 2, Workset: Dachkonstruktion, Category: Generic Models, Family: Dachdämmung_V3",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Dachdämmung_V3, Type: IfcBuildingElementProxy, Material Name: Material 2, Workset: Dachkonstruktion",
+        "Preliminary Selection": "Dämmelemente",
+        "Matched Category": "Dämmelemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Dachdämmung_V3', associated with roof insulation, with material name 'Material 2'.",
+        "Preliminary Selection": "Tragende Wärmedämmelemente",
+        "Matched Category": "Tragende Wärmedämmelemente"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Dachdämmung_V3, Type: IfcBuildingElementProxy, Material Name: Material 2, Category: Generic Models, Family: Dachdämmung_V3, Workset: Dachkonstruktion",
+        "Preliminary Selection": [
+          "2.25.01. Load-bearing thermal insulation elements"
+        ],
+        "Matched Materials": [
+          "2.25.01. Load-bearing thermal insulation elements"
+        ]
+      }
+    }
+  ]
+}

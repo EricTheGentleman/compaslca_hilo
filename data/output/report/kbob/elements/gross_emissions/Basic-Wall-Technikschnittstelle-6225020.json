@@ -1,0 +1,46 @@
+﻿{
+  "Name": "Basic-Wall-Technikschnittstelle-6225020",
+  "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+  "Volume [m^3]": 0.1317,
+  "Largest Surface Area [m^2]": 5.2895,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Gipsfaserplatte",
+      "ID": "3.007",
+      "Reference": "kg",
+      "Density (kg/m3)": "1200",
+      "Global Warming Potential Total [kgCO2-eqv]": "87.2381",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "84.2353",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.9395",
+      "Biogenic Carbon [kg C]": "7.096",
+      "UBP (Total)": "137968.92",
+      "UBP (Manufacturing)": "126590.04",
+      "UBP (Disposal)": "11299.86",
+      "Total Renewable Primary Energy [kWh oil-eq]": "15.4879",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "14.8242",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.6606",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "390.3588",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "377.7156",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "12.3429"
+    },
+    {
+      "Name": "Gipsfaserplatte Fermacell",
+      "ID": "03.007.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "1180",
+      "Global Warming Potential Total [kgCO2-eqv]": "52.061",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "49.2637",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.8906",
+      "Biogenic Carbon [kg C]": "9.5886",
+      "UBP (Total)": "92621.976",
+      "UBP (Manufacturing)": "81432.744",
+      "UBP (Disposal)": "11095.9884",
+      "Total Renewable Primary Energy [kWh oil-eq]": "107.2301",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "106.6085",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.6372",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "228.4468",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "217.5684",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "12.1372"
+    }
+  ]
+}

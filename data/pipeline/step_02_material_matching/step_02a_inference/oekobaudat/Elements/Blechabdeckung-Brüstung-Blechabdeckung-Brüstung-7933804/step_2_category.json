@@ -1,0 +1,35 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcWall named 'Blechabdeckung Brüstung', with no defined material but likely related to metal coverings.",
+    "Preliminary Selection": "Oberflächenbehandlung und Beschichtung von Metallen",
+    "Matched Category": "Oberflächenbehandlung und Beschichtung von Metallen"
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+    "trace": [
+      "Metalle"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 772,
+      "total_tokens": 845,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.189,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00532
+  }
+}

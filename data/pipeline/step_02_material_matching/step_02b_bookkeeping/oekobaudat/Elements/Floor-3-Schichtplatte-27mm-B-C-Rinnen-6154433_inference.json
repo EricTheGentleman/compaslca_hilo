@@ -1,0 +1,103 @@
+{
+  "CompilationGroupID": "38ad939f44",
+  "name": "Floor-3-Schichtplatte-27mm-B-C-Rinnen-6154433",
+  "total_steps": 4,
+  "total_tokens": 3864,
+  "total_prompt_tokens": 3588,
+  "total_completion_tokens": 276,
+  "total_processing_time": 5.792999999999999,
+  "total_cost_usd": 0.02208,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 894,
+      "completion_tokens": 50,
+      "processing_time": 1.322,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00522
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 847,
+      "completion_tokens": 53,
+      "processing_time": 1.408,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00503
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "3- und 5-Schichtplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 884,
+      "completion_tokens": 63,
+      "processing_time": 1.179,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005365
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "3- and 5-layer solid wood panel (German average)",
+        "Three layer laminated timber board (generic)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/3-_und_5-Schichtplatten",
+      "message": "Match successful",
+      "prompt_tokens": 963,
+      "completion_tokens": 110,
+      "processing_time": 1.884,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006465
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab with material '3-Schicht-Platte', which is a type of wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of 3-Schicht-Platte, a type of wood material.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of '3-Schicht-Platte' with a thickness of 27mm.",
+        "Preliminary Selection": "3- und 5-Schichtplatten",
+        "Matched Category": "3- und 5-Schichtplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:3-Schichtplatte 27mm B/C Rinnen, Type: IfcSlab, Material: 3-Schicht-Platte, Thickness: 27.0mm",
+        "Preliminary Selection": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ],
+        "Matched Materials": [
+          "3- and 5-layer solid wood panel (German average)",
+          "Three layer laminated timber board (generic)"
+        ]
+      }
+    }
+  ]
+}

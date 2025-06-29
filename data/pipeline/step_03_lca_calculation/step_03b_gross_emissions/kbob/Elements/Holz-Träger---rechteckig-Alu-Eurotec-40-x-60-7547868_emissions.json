@@ -1,0 +1,46 @@
+﻿{
+  "CompilationGroupID": "0a91634d5e",
+  "Name": "Holz-Träger---rechteckig-Alu-Eurotec-40-x-60-7547868",
+  "Volume [m^3]": 0.1088,
+  "Largest Surface Area [m^2]": 2.7258,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Aluminiumprofil blank, WICONA, hergestellt mit Hydro CIRCAL 75R",
+      "ID": "06.002.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "2690",
+      "Global Warming Potential Total [kgCO2-eqv]": "781.4342",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "778.5075",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.318",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "3716934.4",
+      "UBP (Manufacturing)": "3716934.4",
+      "UBP (Disposal)": "5794.9056",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1246.7827",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1246.7827",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2306",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "2598.9274",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "2590.1472",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "9.1899"
+    },
+    {
+      "Name": "Aluminiumprofil, blank",
+      "ID": "6.002",
+      "Reference": "kg",
+      "Density (kg/m3)": "2690",
+      "Global Warming Potential Total [kgCO2-eqv]": "1668.2304",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1665.3037",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.318",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "3365728.0",
+      "UBP (Manufacturing)": "3336460.8",
+      "UBP (Disposal)": "5794.9056",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1542.3814",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1539.4547",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2306",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "7492.4032",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "7492.4032",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "9.1899"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿{
+  "CompilationGroupID": "cb2d94d550",
+  "Name": "Basic-Wall-Brandschutzplatte-28mm-1935406",
+  "Volume [m^3]": 0.2607,
+  "Largest Surface Area [m^2]": 9.3225,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Gipsfaserplatte",
+      "ID": "3.007",
+      "Reference": "kg",
+      "Density (kg/m3)": "1200",
+      "Global Warming Potential Total [kgCO2-eqv]": "172.6877",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "166.7437",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "5.8188",
+      "Biogenic Carbon [kg C]": "14.0465",
+      "UBP (Total)": "273109.32",
+      "UBP (Manufacturing)": "250584.84",
+      "UBP (Disposal)": "22368.06",
+      "Total Renewable Primary Energy [kWh oil-eq]": "30.6583",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "29.3444",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.3077",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "772.7148",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "747.6876",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "24.4328"
+    },
+    {
+      "Name": "Gipsfaserplatte Fermacell",
+      "ID": "03.007.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "1180",
+      "Global Warming Potential Total [kgCO2-eqv]": "103.0547",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "97.5174",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "5.7218",
+      "Biogenic Carbon [kg C]": "18.9805",
+      "UBP (Total)": "183345.096",
+      "UBP (Manufacturing)": "161196.024",
+      "UBP (Disposal)": "21964.4964",
+      "Total Renewable Primary Energy [kWh oil-eq]": "212.2619",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "211.0314",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "1.2613",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "452.2102",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "430.6764",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "24.0256"
+    }
+  ]
+}

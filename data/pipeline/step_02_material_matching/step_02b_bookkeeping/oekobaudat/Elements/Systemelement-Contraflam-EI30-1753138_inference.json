@@ -1,0 +1,94 @@
+{
+  "CompilationGroupID": "e610cae9a2",
+  "name": "Systemelement-Contraflam-EI30-1753138",
+  "total_steps": 4,
+  "total_tokens": 3803,
+  "total_prompt_tokens": 3530,
+  "total_completion_tokens": 273,
+  "total_processing_time": 6.678999999999999,
+  "total_cost_usd": 0.021745,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 878,
+      "completion_tokens": 81,
+      "processing_time": 1.648,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005605
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 877,
+      "completion_tokens": 67,
+      "processing_time": 2.085,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00539
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Vorhangfassade - Element-Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden",
+      "message": "Match successful",
+      "prompt_tokens": 838,
+      "completion_tokens": 66,
+      "processing_time": 1.274,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00518
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden/Vorhangfassade_-_Element-Fassaden",
+      "message": "No match found",
+      "prompt_tokens": 937,
+      "completion_tokens": 59,
+      "processing_time": 1.672,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00557
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate named 'Systemelement:Contraflam EI30:1753138' with material 'Glas EI30', part of a curtain wall system.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate named 'Systemelement:Contraflam EI30:1753138' with material 'Glas EI30', part of a curtain wall system.",
+        "Preliminary Selection": "Fassaden",
+        "Matched Category": "Fassaden"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate used in a curtain wall system, with material name 'Glas EI30'.",
+        "Preliminary Selection": "Vorhangfassade - Element-Fassaden",
+        "Matched Category": "Vorhangfassade - Element-Fassaden"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcPlate named 'Systemelement:Contraflam EI30:1753138', part of a curtain wall, with material 'Glas EI30'.",
+        "Preliminary Selection": [],
+        "Matched Materials": []
+      }
+    }
+  ]
+}

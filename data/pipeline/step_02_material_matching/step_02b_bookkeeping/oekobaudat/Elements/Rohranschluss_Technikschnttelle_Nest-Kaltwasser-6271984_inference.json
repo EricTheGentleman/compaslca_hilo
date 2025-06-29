@@ -1,0 +1,74 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBIk",
+  "name": "Rohranschluss_Technikschnttelle_Nest-Kaltwasser-6271984",
+  "total_steps": 3,
+  "total_tokens": 2805,
+  "total_prompt_tokens": 2569,
+  "total_completion_tokens": 236,
+  "total_processing_time": 4.840999999999999,
+  "total_cost_usd": 0.016385,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 883,
+      "completion_tokens": 85,
+      "processing_time": 1.966,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00569
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Sanitär",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 854,
+      "completion_tokens": 74,
+      "processing_time": 1.323,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00538
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Sanitär",
+      "message": "No match found",
+      "prompt_tokens": 832,
+      "completion_tokens": 77,
+      "processing_time": 1.552,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005315
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Kaltwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with cold water connection.",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Kaltwasser' with material '3D-Schnittmaterial'. It is associated with cold water connection.",
+        "Preliminary Selection": "Sanitär",
+        "Matched Category": "Sanitär"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:Kaltwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with cold water connection.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

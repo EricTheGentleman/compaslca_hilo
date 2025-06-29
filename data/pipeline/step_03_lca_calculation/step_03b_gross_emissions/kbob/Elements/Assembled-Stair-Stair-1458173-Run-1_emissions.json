@@ -1,0 +1,46 @@
+﻿{
+  "GlobalId": "0AUqYOipD7ohrIsOnF3NTs",
+  "Name": "Assembled-Stair-Stair-1458173-Run-1",
+  "Volume [m^3]": 0.0656,
+  "Largest Surface Area [m^2]": 4.6944,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlblech, blank",
+      "ID": "6.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "1441.888",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1436.7384",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.5687",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "2708689.6",
+      "UBP (Manufacturing)": "2703540.0",
+      "UBP (Disposal)": "5716.056",
+      "Total Renewable Primary Energy [kWh oil-eq]": "323.3949",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "323.3949",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2997",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "4016.688",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4001.2392",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "14.0069"
+    },
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "379.5255",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "375.9208",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "3.5687",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "664298.4",
+      "UBP (Manufacturing)": "659148.8",
+      "UBP (Disposal)": "5716.056",
+      "Total Renewable Primary Energy [kWh oil-eq]": "131.3148",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "130.7998",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2997",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1740.5648",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1725.116",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "14.0069"
+    }
+  ]
+}

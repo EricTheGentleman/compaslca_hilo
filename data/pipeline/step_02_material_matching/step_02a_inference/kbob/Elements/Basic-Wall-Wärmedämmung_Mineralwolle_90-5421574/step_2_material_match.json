@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Basic Wall:Wärmedämmung_Mineralwolle_90, Type: IfcWallStandardCase, Material: Wärmedämmung Mineralwolle, 0.035 W/mK, Thickness: 0.09m",
+    "Preliminary Selection": [
+      "Steinwolle",
+      "Steinwolle, Flumroc",
+      "Glaswolle",
+      "Glaswolle, Isover, pflanzliches Bindemittel",
+      "Glaswolle, Isover, phenolbasiertes Bindemittel",
+      "Glaswolle, SUPAFIL"
+    ],
+    "Matched Materials": [
+      "Steinwolle",
+      "Steinwolle, Flumroc",
+      "Glaswolle",
+      "Glaswolle, Isover, pflanzliches Bindemittel",
+      "Glaswolle, Isover, phenolbasiertes Bindemittel",
+      "Glaswolle, SUPAFIL"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+    "trace": [
+      "Wärmedämmstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 1301,
+      "total_tokens": 1507,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.107,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.010625
+  }
+}

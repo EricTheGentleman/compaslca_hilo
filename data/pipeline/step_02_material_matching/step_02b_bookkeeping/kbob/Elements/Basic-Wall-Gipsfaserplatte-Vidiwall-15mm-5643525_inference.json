@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "031893e96a",
+  "name": "Basic-Wall-Gipsfaserplatte-Vidiwall-15mm-5643525",
+  "total_steps": 2,
+  "total_tokens": 2368,
+  "total_prompt_tokens": 2197,
+  "total_completion_tokens": 171,
+  "total_processing_time": 3.8420000000000005,
+  "total_cost_usd": 0.01355,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1021,
+      "completion_tokens": 75,
+      "processing_time": 1.747,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00623
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gipsfaserplatte",
+        "Gipsfaserplatte Fermacell"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1176,
+      "completion_tokens": 96,
+      "processing_time": 2.095,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00732
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of Gipsfaserplatte with a thickness of 15mm.",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:Gipsfaserplatte Vidiwall 15mm, Type: IfcWallStandardCase, Material: Gipsfaserplatte, Thickness: 0.015m",
+        "Preliminary Selection": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ],
+        "Matched Materials": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ]
+      }
+    }
+  ]
+}

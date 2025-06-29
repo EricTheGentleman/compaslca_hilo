@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1GYJkCWSXDPAizLcwxbAKl",
+  "name": "Bleche-Fassade_V6-Bleche-Fassade_V6-4910201",
+  "total_steps": 2,
+  "total_tokens": 1797,
+  "total_prompt_tokens": 1691,
+  "total_completion_tokens": 106,
+  "total_processing_time": 2.87,
+  "total_cost_usd": 0.010045,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 859,
+      "completion_tokens": 54,
+      "processing_time": 1.463,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005105
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "No match found",
+      "prompt_tokens": 832,
+      "completion_tokens": 52,
+      "processing_time": 1.407,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00494
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Bleche Fassade_V6, Type: IfcBuildingElementProxy, Material Name: Material 4",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Name: Bleche Fassade_V6, Type: IfcBuildingElementProxy, Material Name: Material 4",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

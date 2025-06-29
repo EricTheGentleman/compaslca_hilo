@@ -1,0 +1,27 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-3-Schichtplatte-27mm---Schalplatte-3555236",
+  "CompilationGroupID": "1fde2b1291",
+  "Volume [m^3]": 0.3576,
+  "Largest Surface Area [m^2]": 13.2503,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "3- und 5-Schicht Massivholzplatte",
+      "ID": "7.001",
+      "Reference": "kg",
+      "Density (kg/m3)": "453",
+      "Global Warming Potential Total [kgCO2-eqv]": "75.9746",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "67.065",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "8.9582",
+      "Biogenic Carbon [kg C]": "70.1429",
+      "UBP (Total)": "163612.728",
+      "UBP (Manufacturing)": "150977.2896",
+      "UBP (Disposal)": "13008.0218",
+      "Total Renewable Primary Energy [kWh oil-eq]": "2154.5042",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "2154.5042",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.9995",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "353.1443",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "338.565",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "14.9519"
+    }
+  ]
+}

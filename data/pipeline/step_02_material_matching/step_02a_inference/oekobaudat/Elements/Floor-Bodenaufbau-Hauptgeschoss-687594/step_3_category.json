@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a floor slab (IfcSlab) with no defined material, located on Level 00_Eingang, categorized under Floors.",
+    "Preliminary Selection": "Estrich trocken",
+    "Matched Category": "Estrich trocken"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Mörtel und Beton"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 791,
+      "total_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.441,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.005135
+  }
+}

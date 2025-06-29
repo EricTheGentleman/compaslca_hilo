@@ -1,0 +1,101 @@
+{
+  "CompilationGroupID": "d20d68a4b7_L1",
+  "name": "Floor-Dämmung-Galerie-1708478_L1",
+  "total_steps": 4,
+  "total_tokens": 4381,
+  "total_prompt_tokens": 4085,
+  "total_completion_tokens": 296,
+  "total_processing_time": 10.043,
+  "total_cost_usd": 0.024864999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 961,
+      "completion_tokens": 62,
+      "processing_time": 3.016,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005735
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1092,
+      "completion_tokens": 64,
+      "processing_time": 1.194,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00642
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Mineralwolle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 908,
+      "completion_tokens": 56,
+      "processing_time": 1.315,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00538
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Mineral wool (floor insulation)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe/Mineralwolle/Mineralwolle",
+      "message": "Match successful",
+      "prompt_tokens": 1124,
+      "completion_tokens": 114,
+      "processing_time": 4.518,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00733
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Category: Floors",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, 0.035 W/mK; Element Type: IfcSlab; Category: Floors",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Wärmedämmung Mineralwolle, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Mineralwolle",
+        "Matched Category": "Mineralwolle"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is an IfcSlab named 'Floor:Dämmung Galerie:1708478', with a material layer of mineral wool insulation with a thermal conductivity of 0.035 W/mK and a thickness of 0.1 meters. It is used as floor insulation in a gallery setting.",
+        "Preliminary Selection": [
+          "Mineral wool (floor insulation)",
+          "Mineral wool insulation (medium bulk density range)"
+        ],
+        "Matched Materials": [
+          "Mineral wool (floor insulation)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "CompilationGroupID": "6bc3c88965",
+  "Name": "Basic-Wall-Purenit-Fusspunkt-6170051",
+  "Volume [m^3]": 0.0235,
+  "Largest Surface Area [m^2]": 0.9442,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

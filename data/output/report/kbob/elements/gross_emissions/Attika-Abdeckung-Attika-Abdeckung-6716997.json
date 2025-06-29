@@ -1,0 +1,46 @@
+﻿{
+  "Name": "Attika-Abdeckung-Attika-Abdeckung-6716997",
+  "GlobalId": "3R$9pJGeb6MgJpHJQymSjh",
+  "Volume [m^3]": 0.0719,
+  "Largest Surface Area [m^2]": 34.6136,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Faserzementplatte gross",
+      "ID": "3.003",
+      "Reference": "kg",
+      "Density (kg/m3)": "1800",
+      "Global Warming Potential Total [kgCO2-eqv]": "133.3026",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "132.0084",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "1.7083",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "195424.2",
+      "UBP (Manufacturing)": "187659.0",
+      "UBP (Disposal)": "8774.676",
+      "Total Renewable Primary Energy [kWh oil-eq]": "80.2404",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "80.111",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.2071",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "377.9064",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "371.4354",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "6.8334"
+    },
+    {
+      "Name": "Glasfaserbeton Ecomur",
+      "ID": "03.023.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "2240",
+      "Global Warming Potential Total [kgCO2-eqv]": "142.6634",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "140.6019",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.0615",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "215154.7104",
+      "UBP (Manufacturing)": "209372.8",
+      "UBP (Disposal)": "5781.9104",
+      "Total Renewable Primary Energy [kWh oil-eq]": "82.2867",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "81.9775",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3092",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "354.6775",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "346.2704",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "8.4071"
+    }
+  ]
+}

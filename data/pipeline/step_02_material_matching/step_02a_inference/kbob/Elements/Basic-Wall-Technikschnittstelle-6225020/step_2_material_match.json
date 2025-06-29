@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWall, Material: Gipsfaserplatte, Thickness: 0.025m, Non-bearing wall, Room Bounding: True",
+    "Preliminary Selection": [
+      "Gipsfaserplatte",
+      "Gipsfaserplatte Fermacell"
+    ],
+    "Matched Materials": [
+      "Gipsfaserplatte",
+      "Gipsfaserplatte Fermacell"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+    "trace": [
+      "Mineralische Platten, Schüttungen, Steine und Ziegel"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 87,
+      "prompt_tokens": 1097,
+      "total_tokens": 1184,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.852,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.007225
+  }
+}

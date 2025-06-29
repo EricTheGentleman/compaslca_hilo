@@ -1,0 +1,106 @@
+{
+  "GlobalId": "2BG9j1Bgb2xOV69dnpdgeX",
+  "name": "FE-TÜR-3-tlg---DK-Fix-im-Rahmen-DK-Fenster-Büro2-1812790",
+  "total_steps": 4,
+  "total_tokens": 3886,
+  "total_prompt_tokens": 3575,
+  "total_completion_tokens": 311,
+  "total_processing_time": 7.915000000000001,
+  "total_cost_usd": 0.022539999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 866,
+      "completion_tokens": 62,
+      "processing_time": 1.383,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00526
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 865,
+      "completion_tokens": 46,
+      "processing_time": 1.352,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005015
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Sonstige Fenster",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 830,
+      "completion_tokens": 48,
+      "processing_time": 1.679,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00487
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Insulating glass",
+        "Laminated glass",
+        "Laminated safety glass EUROLAMEX"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+      "message": "Match successful",
+      "prompt_tokens": 1014,
+      "completion_tokens": 155,
+      "processing_time": 3.501,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007395
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with no defined material, categorized under 'Windows'.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with no defined material, categorized under 'Windows'.",
+        "Preliminary Selection": "Fenster",
+        "Matched Category": "Fenster"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with no defined material, categorized under 'Windows'.",
+        "Preliminary Selection": "Sonstige Fenster",
+        "Matched Category": "Sonstige Fenster"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcWindow with the name 'FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2:1812790', located on Level 00_Eingang, with an area of 9.8751, height of 2205.0, and volume of 0.5816. It belongs to the category 'Windows' and is part of the 'Architecture' workset.",
+        "Preliminary Selection": [
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ],
+        "Matched Materials": [
+          "Insulating glass",
+          "Laminated glass",
+          "Laminated safety glass EUROLAMEX"
+        ]
+      }
+    }
+  ]
+}

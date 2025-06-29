@@ -1,0 +1,60 @@
+{
+  "CompilationGroupID": "6d9cf675f7",
+  "name": "Basic-Wall-3-Schichtplatte-27mm-B-C-5306650",
+  "total_steps": 2,
+  "total_tokens": 2770,
+  "total_prompt_tokens": 2633,
+  "total_completion_tokens": 137,
+  "total_processing_time": 3.9370000000000003,
+  "total_cost_usd": 0.01522,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 1017,
+      "completion_tokens": 67,
+      "processing_time": 2.217,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00609
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "3- und 5-Schicht Massivholzplatte"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1616,
+      "completion_tokens": 70,
+      "processing_time": 1.72,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00913
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall made of 3-Schicht-Platte with a thickness of 27mm, categorized under Walls, non-structural.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a non-structural basic wall made of 3-layer board with a thickness of 27mm.",
+        "Preliminary Selection": [
+          "3- und 5-Schicht Massivholzplatte"
+        ],
+        "Matched Materials": [
+          "3- und 5-Schicht Massivholzplatte"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L1",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L1",
+  "total_steps": 3,
+  "total_tokens": 3209,
+  "total_prompt_tokens": 3043,
+  "total_completion_tokens": 166,
+  "total_processing_time": 3.586,
+  "total_cost_usd": 0.017705000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Kunststoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1031,
+      "completion_tokens": 56,
+      "processing_time": 1.268,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005995
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Bodenbeläge",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Kunststoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1005,
+      "completion_tokens": 58,
+      "processing_time": 1.21,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005895
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Kunststoffe/Bodenbeläge",
+      "message": "No match found",
+      "prompt_tokens": 1007,
+      "completion_tokens": 52,
+      "processing_time": 1.108,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005815
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Kunststoffe",
+        "Matched Category": "Kunststoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Bodenbeläge",
+        "Matched Category": "Bodenbeläge"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

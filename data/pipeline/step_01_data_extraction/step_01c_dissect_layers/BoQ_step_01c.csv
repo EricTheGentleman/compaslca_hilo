@@ -1,0 +1,153 @@
+﻿Id,Compiled,Elements Compiled,Name,Entity,ObjectType,Material Descriptor,Layer Number,Layer Thickness [m],Length [m],Largest Surface Area [m^2],Volume [m^3]
+aebc0975e3,True,2,Abdeckblech gerundet-neu:Abdeckblech gerundet-neu,IfcBuildingElementProxy,Abdeckblech gerundet-neu:Abdeckblech gerundet-neu,<Unnamed>,0,,33.18,309.2376,0.07
+1fde2b1291,True,8,Basic Wall:3-Schichtplatte 27mm - Schalplatte,IfcWallStandardCase,Basic Wall:3-Schichtplatte 27mm - Schalplatte,3-Schicht-Platte,0,0.027,37.3238,13.2503,0.3576
+6d9cf675f7,True,2,Basic Wall:3-Schichtplatte 27mm B/C,IfcWallStandardCase,Basic Wall:3-Schichtplatte 27mm B/C,3-Schicht-Platte,0,0.027,1.7031,3.7039,0.0999
+16380cc63d,True,2,Basic Wall:3-Schichtplatte 27mm C+/C,IfcWallStandardCase,Basic Wall:3-Schichtplatte 27mm C+/C,3-Schicht-Platte,0,0.027,7.7979,2.8073,0.0757
+30abe42a62,True,2,Basic Wall:3-Schichtplatte 40mm,IfcWallStandardCase,Basic Wall:3-Schichtplatte 40mm,3-Schicht-Platte,0,0.04,0.9,2.2834,0.0913
+ce0cc1e825_L1,True,6,Basic Wall:Blechverkleidung gedämmt (L1),IfcWallStandardCase,Basic Wall:Blechverkleidung gedämmt,"Stahl, 45-34, Pulverbeschichtung schwarz",1,0.003,0.6939,1.2595,0.0037
+ce0cc1e825_L2,True,6,Basic Wall:Blechverkleidung gedämmt (L2),IfcWallStandardCase,Basic Wall:Blechverkleidung gedämmt,Wärmedämmung Slentex Aerogel,2,0.046,0.6939,1.2595,0.0571
+ce0cc1e825_L3,True,6,Basic Wall:Blechverkleidung gedämmt (L3),IfcWallStandardCase,Basic Wall:Blechverkleidung gedämmt,"Stahl, 45-34, Pulverbeschichtung schwarz",3,0.003,0.6939,1.2595,0.0037
+cb2d94d550,True,3,Basic Wall:Brandschutzplatte 28mm,IfcWallStandardCase,Basic Wall:Brandschutzplatte 28mm,Gipsfaserplatte,0,0.028,4.9986,9.3225,0.2607
+65d0e0c8a6,True,10,Basic Wall:BSP 140 - 5s,IfcWall,Basic Wall:BSP 140 - 5s,Brettschichtholz C24,0,0.14,54.34,120.8568,13.9934
+ff0022f92c,True,16,Basic Wall:BSP 140 - 5s (2),IfcWallStandardCase,Basic Wall:BSP 140 - 5s,Brettschichtholz C24,0,0.14,24.1715,49.5285,6.9166
+325c6f48a0,True,9,Basic Wall:BSP 140 Sichtseite einseitig,IfcWall,Basic Wall:BSP 140 Sichtseite einseitig,Brettsperrholz,0,0.14,27.24,61.2555,7.3126
+a5c867b4fd,True,2,Basic Wall:BSP 140 Sichtseite einseitig (2),IfcWallStandardCase,Basic Wall:BSP 140 Sichtseite einseitig,Brettsperrholz,0,0.14,2.37,7.5063,0.9909
+369c58d53c,True,2,Basic Wall:Fensterlaibung 24mm,IfcWallStandardCase,Basic Wall:Fensterlaibung 24mm,"Massivholz Fichte, schwarz lasiert",0,0.024,0.44,0.9312,0.0224
+6125c4d99e,True,2,Basic Wall:Fensterlaibung 40mm,IfcWallStandardCase,Basic Wall:Fensterlaibung 40mm,"Massivholz Fichte, schwarz lasiert",0,0.04,0.392,0.8664,0.0346
+031893e96a,True,5,Basic Wall:Gipsfaserplatte Vidiwall 15mm,IfcWallStandardCase,Basic Wall:Gipsfaserplatte Vidiwall 15mm,Gipsfaserplatte,0,0.015,9.0553,16.2994,0.2444
+f17ad5cce9_L1,True,18,Basic Wall:Holzbau_Archisonic_Vorbauschale (L1),IfcWallStandardCase,Basic Wall:Holzbau_Archisonic_Vorbauschale,Archisonic Charcoal,1,0.012,10.7162,25.8666,0.31
+f17ad5cce9_L2,True,18,Basic Wall:Holzbau_Archisonic_Vorbauschale (L2),IfcWallStandardCase,Basic Wall:Holzbau_Archisonic_Vorbauschale,MDF,2,0.012,10.7162,25.8666,0.31
+78593db8a4_L1,True,3,Basic Wall:Holzfassade hinterlüftet (L1),IfcWall,Basic Wall:Holzfassade hinterlüftet,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",1,0.02,30.32,73.646,1.0979
+78593db8a4_L2,True,3,Basic Wall:Holzfassade hinterlüftet (L2),IfcWall,Basic Wall:Holzfassade hinterlüftet,Luft,2,0.03,30.32,73.646,1.6468
+78593db8a4_L3,True,3,Basic Wall:Holzfassade hinterlüftet (L3),IfcWall,Basic Wall:Holzfassade hinterlüftet,Luft,3,0.04,30.32,73.646,2.1957
+ff0919332f,True,5,Basic Wall:Holzfassade_Hinterlüftet_Laibung,IfcWallStandardCase,Basic Wall:Holzfassade_Hinterlüftet_Laibung,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",0,0.02,5.1492,16.3305,0.3234
+5376ff48b3,True,4,Basic Wall:Holzfassade_Hinterlüftet_Laibung (2),IfcWall,Basic Wall:Holzfassade_Hinterlüftet_Laibung,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",0,0.02,23.516,0.0476,0.242
+dfff60526d,True,3,Basic Wall:Holzfassade_Hinterlüftet_OhneUK,IfcWallStandardCase,Basic Wall:Holzfassade_Hinterlüftet_OhneUK,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",0,0.021,2.9335,6.1872,0.1295
+7b9763d32a_L1,True,30,Basic Wall:Innenwandelement Archisonic abnehmbar (L1),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic abnehmbar,Archisonic Charcoal,1,0.012,16.7907,33.5067,0.4016
+7b9763d32a_L2,True,30,Basic Wall:Innenwandelement Archisonic abnehmbar (L2),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic abnehmbar,MDF,2,0.012,16.7907,33.5067,0.4016
+3ece908374_L1,True,7,Basic Wall:Innenwandelement Archisonic abnehmbar mit Einschnitten (L1),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic abnehmbar mit Einschnitten,Archisonic Charcoal,1,0.012,4.6225,8.9557,0.1064
+3ece908374_L2,True,7,Basic Wall:Innenwandelement Archisonic abnehmbar mit Einschnitten (L2),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic abnehmbar mit Einschnitten,MDF,2,0.012,4.6225,8.9557,0.1064
+75d64ea952_L1,True,7,Basic Wall:Innenwandelement Archisonic fix (L1),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic fix,Archisonic Charcoal,1,0.012,3.7362,7.6364,0.0788
+75d64ea952_L2,True,7,Basic Wall:Innenwandelement Archisonic fix (L2),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic fix,MDF,2,0.012,3.7362,7.6364,0.0788
+6621a241af_L1,True,10,Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte (L1),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte,Archisonic Charcoal,1,0.012,5.5027,10.4326,0.125
+6621a241af_L2,True,10,Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte (L2),IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic fix ohne Einschnitte,MDF,2,0.012,5.5027,10.4326,0.125
+f3de7c9098,True,18,Basic Wall:Innenwandelement Archisonic ohne MDF,IfcWallStandardCase,Basic Wall:Innenwandelement Archisonic ohne MDF,Archisonic Charcoal,0,0.012,17.6819,11.7994,0.1417
+d372e74286,True,11,Basic Wall:KVH Balken 120mm,IfcWallStandardCase,Basic Wall:KVH Balken 120mm,Brettschichtholz C24,0,0.12,43.933,9.3071,1.1024
+6f5992e3c2,True,4,Basic Wall:Massivholz 24mm,IfcWallStandardCase,Basic Wall:Massivholz 24mm,Massivholz Fichte,0,0.024,0.3678,0.9548,0.0231
+795c75da48,True,5,Basic Wall:Purenit Fusspunkt,IfcWall,Basic Wall:Purenit Fusspunkt,Purenit,0,0.025,27.69,7.5912,0.1765
+6bc3c88965,True,4,Basic Wall:Purenit Fusspunkt (2),IfcWallStandardCase,Basic Wall:Purenit Fusspunkt,Purenit,0,0.025,2.6511,0.9442,0.0235
+c7d2a47639,True,5,Basic Wall:PV Fassade Terasse,IfcWallStandardCase,Basic Wall:PV Fassade Terasse,Körpermodell,0,0.008,6.1,18.3854,0.1471
+23b6fd65cb_L1,True,4,Basic Wall:Wärmedämmung_200 (L1),IfcWallStandardCase,Basic Wall:Wärmedämmung_200,"Wärmedämmung Mineralwolle, 0.035 W/mK",1,0.1,12.5475,19.415,1.925
+23b6fd65cb_L2,True,4,Basic Wall:Wärmedämmung_200 (L2),IfcWallStandardCase,Basic Wall:Wärmedämmung_200,"Wärmedämmung Mineralwolle, 0.035 W/mK",2,0.1,12.5475,19.415,1.925
+0087876720_L1,True,6,Basic Wall:Wärmedämmung_200 (2) (L1),IfcWall,Basic Wall:Wärmedämmung_200,"Wärmedämmung Mineralwolle, 0.035 W/mK",1,0.1,29.77,85.4521,6.6759
+0087876720_L2,True,6,Basic Wall:Wärmedämmung_200 (2) (L2),IfcWall,Basic Wall:Wärmedämmung_200,"Wärmedämmung Mineralwolle, 0.035 W/mK",2,0.1,29.77,85.4521,6.6759
+f9691ec733,True,3,Basic Wall:Wärmedämmung_Mineralwolle_130,IfcWall,Basic Wall:Wärmedämmung_Mineralwolle_130,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.13,10.8,4.996,0.6223
+f072382038,True,2,Basic Wall:Wärmedämmung_Mineralwolle_130 (2),IfcWallStandardCase,Basic Wall:Wärmedämmung_Mineralwolle_130,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.13,8.325,2.6788,0.3483
+524838fce2,True,2,Basic Wall:Wärmedämmung_Mineralwolle_20,IfcWallStandardCase,Basic Wall:Wärmedämmung_Mineralwolle_20,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.02,1.9515,5.4133,0.1081
+c923413f81,True,2,Basic Wall:Wärmedämmung_Mineralwolle_90,IfcWallStandardCase,Basic Wall:Wärmedämmung_Mineralwolle_90,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.09,20.986,10.228,0.92
+c28b42ec07,True,73,BSH Stütze - rechteckig:KVH 60 x 60,IfcColumn,BSH Stütze - rechteckig:KVH 60 x 60,Holz Brettschicht - C24 Cl.1,0,,153.27,9.1962,0.5536
+19942f0dfa,True,3,BSH Träger - rechteckig:Holz 140 x 240,IfcBeam,BSH Träger - rechteckig:Holz 140 x 240,Brettschichtholz C24,0,,15.357,3.6192,0.5053
+32bb5170ae,True,2,Einlauf Contec Tube:DN75,IfcBuildingElementProxy,Einlauf Contec Tube:DN75,3D-Schnittmaterial,0,,0.54,0.1296,0.0006
+448caec44f,True,7,"Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas",IfcWindow,"Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas",Unknown,0,,8.89,6.1341,0.363
+81201c5ae7,True,4,"Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas (2)",IfcWindow,"Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas",<Unnamed>,0,,0.0,0.0,0.0
+734607c530,True,5,Floor:3-Schichplatte 19mm,IfcSlab,Floor:3-Schichplatte 19mm,3-Schicht-Platte,0,0.019,13.18,8.3574,0.1512
+d648f1c1c4,True,2,Floor:3-Schichtplatte 27mm B/C Rinnen,IfcSlab,Floor:3-Schichtplatte 27mm B/C Rinnen,3-Schicht-Platte,0,0.027,5.21,1.9345,0.0521
+38ad939f44,True,2,Floor:3-Schichtplatte 27mm B/C Rinnen (2),IfcSlab,Floor:3-Schichtplatte 27mm B/C Rinnen,3-Schicht-Platte,0,,10.56,5.742,0.1493
+bea71849e1,True,3,Floor:Betonauflager,IfcSlab,Floor:Betonauflager,Beton,0,0.29,4.56,4.0436,1.1225
+09f7047f0a_L1,True,2,Floor:Dachaufbau Brüstung Dämmung (L1),IfcSlab,Floor:Dachaufbau Brüstung Dämmung,"Wärmedämmung Mineralwolle, 0.035 W/mK",1,0.1,23.15,18.5772,1.7711
+09f7047f0a_L2,True,2,Floor:Dachaufbau Brüstung Dämmung (L2),IfcSlab,Floor:Dachaufbau Brüstung Dämmung,"Wärmedämmung Mineralwolle, 0.035 W/mK",2,0.1,23.15,18.5772,1.7711
+c3b0cb3f28,True,3,Floor:Dachaufbau Brüstung Galerie,IfcSlab,Floor:Dachaufbau Brüstung Galerie,Unknown,0,,23.45,16.0204,1.2768
+d20d68a4b7_L1,True,3,Floor:Dämmung Galerie (L1),IfcSlab,Floor:Dämmung Galerie,"Wärmedämmung Mineralwolle, 0.035 W/mK",1,0.1,10.5,7.2514,0.6289
+d20d68a4b7_L2,True,3,Floor:Dämmung Galerie (L2),IfcSlab,Floor:Dämmung Galerie,"Wärmedämmung Mineralwolle, 0.035 W/mK",2,0.1,10.5,7.2514,0.6289
+7f5669cfcb,True,3,Floor:Fensterbank 40mm,IfcSlab,Floor:Fensterbank 40mm,"Holzschalung Horizontal, Nadelholz,  schwarz gestrichen",0,0.04,11.0,2.775,0.0986
+50141ec7a2_L1,True,2,Floor:Funicular Floor (L1),IfcSlab,Floor:Funicular Floor,Spachtelmasse Boden,1,0.01,10.43,51.2144,0.4214
+50141ec7a2_L2,True,2,Floor:Funicular Floor (L2),IfcSlab,Floor:Funicular Floor,"Beton, Ortbeton",2,0.35000000000000003,10.43,51.2144,14.7491
+d43d337978,True,2,Floor:OSB 22mm,IfcSlab,Floor:OSB 22mm,OSB,0,0.022,11.01,57.1101,1.0376
+763e457390,True,2,Floor:OSB 25mm,IfcSlab,Floor:OSB 25mm,OSB,0,0.025,10.77,55.7034,1.1662
+01982f91ae,True,2,Floor:Perimeterdämmung,IfcSlab,Floor:Perimeterdämmung,Wärmedämmung XPS,0,0.08,6.93,6.93,0.555
+0a91634d5e,True,10,Holz Träger - rechteckig:Alu Eurotec 40 x 60,IfcBeam,Holz Träger - rechteckig:Alu Eurotec 40 x 60,Aluminum - Flat - Version 1.1,0,,45.703,2.7258,0.1088
+4d32a54e8e,True,2,Holz Träger - rechteckig:Holz 60 x 200,IfcBeam,Holz Träger - rechteckig:Holz 60 x 200,Holz - C 24 Cl.1,0,,4.358,0.9592,0.0575
+33340139eb,True,15,Pfosten rechteckig:Forster 60 x 130 - Nur Pfosten,IfcMember,Pfosten rechteckig:Forster 60 x 130 - Nur Pfosten,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,5.5848,0.728,0.0435
+741d9c7f22,True,115,Pfosten rechteckig:Forster 60 x 130,IfcMember,Pfosten rechteckig:Forster 60 x 130,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,70.538,15.3604,0.7284
+883fcab506,True,14,Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten,IfcMember,Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,7.1134,0.6399,0.039
+cc9b440faa,True,62,Pfosten rechteckig:Forster 60 x 90,IfcMember,Pfosten rechteckig:Forster 60 x 90,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,66.5142,11.169,0.5121
+75762e6adc,True,85,Pfosten rechteckig:ForsterUnico,IfcMember,Pfosten rechteckig:ForsterUnico,"Stahl, 45-34, Pulverbeschichtung schwarz",0,,52.9938,4.2576,0.1922
+c658e6abba,True,2,Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf,3D-Schnittmaterial,0,,0.38,0.0152,0.0006
+029ca384e1,True,2,Rohranschluss_Technikschnttelle_Nest:HEI - Vorlauf,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:HEI - Vorlauf,3D-Schnittmaterial,0,,0.32,0.0128,0.0005
+e610cae9a2,True,7,Systemelement:Contraflam EI30,IfcPlate,Systemelement:Contraflam EI30,Glas EI30,0,,9.89,10.1643,0.4554
+e3b11c95ba,True,29,Systemelement:Dämmelement,IfcPlate,Systemelement:Dämmelement,Wärmedämmung druckfest,0,,36.11,16.6486,0.3329
+5e3171c413,True,12,Systemelement:SageGlass VSG,IfcPlate,Systemelement:SageGlass VSG,Glas SageGlassClimatop,0,,22.4,29.991,1.5586
+2fc8bbc0c1,True,26,Systemelement:SageGlass VSG Sonderform,IfcPlate,Systemelement:SageGlass VSG Sonderform,Glas SageGlassClimatop,0,,40.03,43.7504,1.7642
+f235024de1,True,2,TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130,IfcDoor,TU DF 1 - Pfostenstock Falztüre:DL - 900 x 2130,Unknown,0,,4.7,4.982,0.2155
+07OV_Qt_vCaPpDtuenC0bv,False,1,1072_200731_Funicular Floors Vorspannung 3D_kg.3dm:1072_200731_Funicular Floors Vorspannung 3D_kg.3dm:6206686,IfcBuildingElementProxy,1072_200731_Funicular Floors Vorspannung 3D_kg.3dm:1072_200731_Funicular Floors Vorspannung 3D_kg.3dm,Unknown,0,,15.83,83.7407,0.0122
+3F0C$S43P1ZRg2TjWrCk52,False,1,1072_210525_TreppeInnenRevitExport_MK:1072_210525_TreppeInnenRevitExport_MK:7935324,IfcBuildingElementProxy,1072_210525_TreppeInnenRevitExport_MK:1072_210525_TreppeInnenRevitExport_MK,Unknown,0,,0.0,0.0,0.0
+2P1Lw8yun3pBsrFxTc_j0l,False,1,1072_210621_HiLo_Aussengeländer West_mk:1072_210621_HiLo_Aussengeländer West_mk:7935201,IfcBuildingElementProxy,1072_210621_HiLo_Aussengeländer West_mk:1072_210621_HiLo_Aussengeländer West_mk,Unknown,0,,3.15,3.024,0.0091
+2P1Lw8yun3pBsrFxTc_j79,False,1,1072_211122_HiLo_TerrasseExportPletscher_MK_001:1072_211122_HiLo_TerrasseExportPletscher_MK_001:7935239,IfcBuildingElementProxy,1072_211122_HiLo_TerrasseExportPletscher_MK_001:1072_211122_HiLo_TerrasseExportPletscher_MK_001,Unknown,0,,13.23,166.4334,7.54
+0JcKt5yGn6Lx0h6cIR0YC$,False,1,181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:3205382,IfcRoof,181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm,<Unnamed>,0,,0.01,0.0001,0.0
+2yJbbEqSPDc8j9KFU1qo7s,False,1,2021-Hilo_ASF_Construction v9_003:2021-Hilo_ASF_Construction v9_003:6549949,IfcBuildingElementProxy,2021-Hilo_ASF_Construction v9_003:2021-Hilo_ASF_Construction v9_003,<Unnamed>,0,,0.0,9.256,0.0561
+3CfkjHPHr7huZjPEhmDFd6,False,1,Abzug Sprinkler:Abzug Sprinkler:5700206,IfcBuildingElementProxy,Abzug Sprinkler:Abzug Sprinkler,Körpermodell,0,,0.19,0.0095,0.0004
+34GTDrn6T9bPcoCQwImKAw,False,1,Anschlussgeometrie_FunicularFloorLueftung:Anschlussgeometrie_FunicularFloorLueftung:6210148,IfcBuildingElementProxy,Anschlussgeometrie_FunicularFloorLueftung:Anschlussgeometrie_FunicularFloorLueftung,Unknown,0,,2.12,0.1696,0.0016
+0AUqYOipD7ohrIsOnF3NOk,False,1,Assembled Stair:Stair:1458173 Landing 1,IfcSlab,Non-Monolithic Landing:Podest - nicht massiv,Stahl,0,,0.96,0.2208,0.0022
+0AUqYOipD7ohrIsOnF3NTs,False,1,Assembled Stair:Stair:1458173 Run 1,IfcStairFlight,Non-Monolithic Run:Stahlstufen gefaltet,Stahl,0,,3.915,4.6944,0.0656
+3R$9pJGeb6MgJpHJQymJSF,False,1,Atikkabrett:Atikkabrett:6717985,IfcSlab,Atikkabrett:Atikkabrett,Massivholz,0,,18.35,116.706,0.1636
+3R$9pJGeb6MgJpHJQymSjh,False,1,Attika Abdeckung:Attika Abdeckung:6716997,IfcSlab,Attika Abdeckung:Attika Abdeckung,Unknown,0,,8.83,34.6136,0.0719
+1lNlPQ7XT5RQ2wbJSTuGUj,False,1,Attikablech Galerie Südost:Attikablech Galerie Südost:6350725,IfcWall,Attikablech Galerie Südost:Attikablech Galerie Südost,Unknown,0,,5.51,3.1958,0.0049
+1lNlPQ7XT5RQ2wbJSTuGdX,False,1,Attikablech Galerie Südwest:Attikablech Galerie Südwest:6351305,IfcWall,Attikablech Galerie Südwest:Attikablech Galerie Südwest,Unknown,0,,8.85,35.8425,0.0097
+3R$9pJGeb6MgJpHJQymJTA,False,1,Attikabrett:Attikabrett:6718052,IfcSlab,Attikabrett:Attikabrett,Unknown,0,,5.5,3.3,0.0367
+2b2$zMtOD2SQL3ltF3MWGZ,False,1,Basic Wall:3-Schichtplatte 27mm C+/C:3384320,IfcWall,Basic Wall:3-Schichtplatte 27mm C+/C,3-Schicht-Platte,0,0.027,11.37,5.7987,0.1405
+3_kqkSEVjFfA5bkOsNwaii,False,1,Basic Wall:Brandschutzplatte:5251017,IfcWall,Basic Wall:Brandschutzplatte,3-Schicht-Platte,0,0.028,4.72,2.4072,0.052
+3D$hiogd117g3okR4n43_p,False,1,Basic Wall:Brandschutzplatte:5421172,IfcWallStandardCase,Basic Wall:Brandschutzplatte,3-Schicht-Platte,0,0.028,3.7,1.8981,0.0531
+0XxTIRndPDswCFuTTPaYEK_L1,False,1,Basic Wall:Holzfassade hinterlüftet:1434444 (L1),IfcWallStandardCase,Basic Wall:Holzfassade hinterlüftet,"Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",1,0.02,6.2899,11.9508,0.2384
+0XxTIRndPDswCFuTTPaYEK_L2,False,1,Basic Wall:Holzfassade hinterlüftet:1434444 (L2),IfcWallStandardCase,Basic Wall:Holzfassade hinterlüftet,Luft,2,0.03,6.2899,11.9508,0.3576
+0XxTIRndPDswCFuTTPaYEK_L3,False,1,Basic Wall:Holzfassade hinterlüftet:1434444 (L3),IfcWallStandardCase,Basic Wall:Holzfassade hinterlüftet,Luft,3,0.04,6.2899,11.9508,0.4768
+1dVujdEGf0jAkYJBqtyZ1W,False,1,Basic Wall:Technikschnittstelle:6225020,IfcWall,Basic Wall:Technikschnittstelle,Gipsfaserplatte,0,0.025,3.55,5.2895,0.1317
+08$9xERYLE6RtehkhfI5yK,False,1,Basic Wall:Wärmedämmung_Mineralwolle_80:2896771,IfcWallStandardCase,Basic Wall:Wärmedämmung_Mineralwolle_80,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.08,0.124,0.3255,0.0244
+2OOgpQZObEZwXdl1UXorlb,False,1,Basic Wall:Wärmedämmung_Mineralwolle_80:5774682,IfcWall,Basic Wall:Wärmedämmung_Mineralwolle_80,"Wärmedämmung Mineralwolle, 0.035 W/mK",0,0.08,11.77,13.5355,1.0728
+3PSzbSor5DzehfFtR_jj_6,False,1,Basic Wall:Wärmedämmung_Slentex 70:687731,IfcWallStandardCase,Basic Wall:Wärmedämmung_Slentex 70,Wärmedämmung Slentex Aerogel,0,0.07,0.7241,2.2605,0.1582
+2lKHuWZur3SwHp3ySgW6UM,False,1,Blechabdeckung Brüstung:Blechabdeckung Brüstung:7933804,IfcWall,Blechabdeckung Brüstung:Blechabdeckung Brüstung,Unknown,0,,18.38,117.2644,0.0221
+1GYJkCWSXDPAizLcwxbAKl,False,1,Bleche Fassade_V6:Bleche Fassade_V6:4910201,IfcBuildingElementProxy,Bleche Fassade_V6:Bleche Fassade_V6,Material 4,0,,16.62,118.833,0.0646
+3WNoAUw3v8hfBwz_zVQKXI,False,1,BSH Stütze - rechteckig:BSH 140 x 140:5646328,IfcColumn,BSH Stütze - rechteckig:BSH 140 x 140,Brettsperrholz,0,,2.74,0.3836,0.0538
+0OrKp320H5Yf_7RHyEphUy,False,1,BSH Träger - rechteckig:BSH Holz 240 x 240:2844654,IfcBeam,BSH Träger - rechteckig:BSH Holz 240 x 240,Brettschichtholz C24,0,,5.3,1.26,0.2938
+1s7hF4kkb7XRX_dK$UQExS,False,1,Contec_NotueberlaufEckig:Contec_NotueberlaufEckig:7131598,IfcBuildingElementProxy,Contec_NotueberlaufEckig:Contec_NotueberlaufEckig,3D-Schnittmaterial,0,,0.34,0.102,0.001
+2TLYsKbtX0nh0z8PYscOBM,False,1,Dachdämmung_V3:Dachdämmung_V3:5659319,IfcBuildingElementProxy,Dachdämmung_V3:Dachdämmung_V3,Material 2,0,,0.0,77.7005,7.77
+0nK9oFqBX9tfLI4$NtgMoA,False,1,Einfügepunkt:Einfügepunkt:5139138,IfcBuildingElementProxy,Einfügepunkt:Einfügepunkt,Körpermodell,0,,0.06,0.0036,0.0
+2CLn4ZUSr8B8TuzLO7ROP3,False,1,Einlauf Contec Tube:DN110:6763225,IfcBuildingElementProxy,Einlauf Contec Tube:DN110,3D-Schnittmaterial,0,,0.3,0.072,0.0004
+2BG9j1Bgb2xOV69dnpdgb9,False,1,FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro1:1813086,IfcWindow,FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro1,Unknown,0,,3.32,7.5364,0.3749
+2BG9j1Bgb2xOV69dnpdgeX,False,1,FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2:1812790,IfcWindow,FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2,Unknown,0,,3.99,9.0573,0.4446
+2HRNy9Dlv5uw9UESvb_JkV,False,1,Floor:3-Schichtplatte 27mm B/C:4895632,IfcSlab,Floor:3-Schichtplatte 27mm B/C,3-Schicht-Platte,0,0.027,16.23,77.2548,0.1159
+0mZKsgvRH1Mhc20hMTKOGe,False,1,Floor:3-Schichtplatte 40mm:5206093,IfcSlab,Floor:3-Schichtplatte 40mm,Massivholz,0,0.04,1.21,0.5445,0.0218
+0hwsZ_JYbDhgh3xE2hTxxt,False,1,Floor:Betonauflager 15cm:3980840,IfcSlab,Floor:Betonauflager 15cm,Beton,0,0.15,1.48,0.9324,0.1336
+1ToJR57Y16uvjKSTB4E_Uw,False,1,Floor:Boden BSP 120 - 5s:1353113,IfcSlab,Floor:Boden BSP 120 - 5s,Brettsperrholz,0,,16.66,88.298,2.4818
+2ro6NVukjA0hxWwZJgTpIl,False,1,Floor:Boden BSP 120 - 5s:729845,IfcSlab,Floor:Boden BSP 120 - 5s,Brettsperrholz,0,0.12,7.97,25.1852,0.6181
+3PSzbSor5DzehfFtR_jjmV,False,1,Floor:Bodenaufbau Hauptgeschoss:687594,IfcSlab,Floor:Bodenaufbau Hauptgeschoss,Unknown,0,,7.79,56.5554,17.0593
+17eMdncQP0cPM7MCmsTKi8,False,1,Floor:Bodenaufbau Hauptgeschoss ohne FBH:5900012,IfcSlab,Floor:Bodenaufbau Hauptgeschoss ohne FBH,Unknown,0,,17.43,115.3866,27.9729
+0XxTIRndPDswCFuTTPaYIN,False,1,Floor:BSP 160 - 5s:1434703,IfcSlab,Floor:BSP 160 - 5s,Brettsperrholz,0,0.16,16.94,94.6946,2.7814
+2uvY1DJi929x4ZbMR9rWjH,False,1,Floor:Fensterbank 24mm:6737713,IfcSlab,Floor:Fensterbank 24mm,"Holzschalung Horizontal, Nadelholz,  schwarz gestrichen",0,0.024,3.2,0.704,0.0169
+1ToJR57Y16uvjKSTB4E_TQ_L1,False,1,Floor:Galerie Fussbodenaufbau:1353081 (L1),IfcSlab,Floor:Galerie Fussbodenaufbau,PU Bodenbelag - Sika PS23,1,0.004,16.83,107.712,0.2672
+1ToJR57Y16uvjKSTB4E_TQ_L2,False,1,Floor:Galerie Fussbodenaufbau:1353081 (L2),IfcSlab,Floor:Galerie Fussbodenaufbau,Knauf - Vidiwall,2,0.015,16.83,107.712,1.0019
+1ToJR57Y16uvjKSTB4E_TQ_L3,False,1,Floor:Galerie Fussbodenaufbau:1353081 (L3),IfcSlab,Floor:Galerie Fussbodenaufbau,Knauf - Brio Heizboden 25,3,0.025,16.83,107.712,1.6699
+1ToJR57Y16uvjKSTB4E_TQ_L4,False,1,Floor:Galerie Fussbodenaufbau:1353081 (L4),IfcSlab,Floor:Galerie Fussbodenaufbau,Trittschalldämmung Flumroc 341,4,0.03,16.83,107.712,2.0039
+3fl00qHO16BwCmbpQP9mlL,False,1,Floor:Gitterrost schwarz:354156,IfcSlab,Floor:Gitterrost schwarz,Zink Gitter,0,0.03,4.18,2.4244,0.042
+3ZnJlnBePBXQGgUrEPS3c7,False,1,Floor:Massivholz 24mm:6301249,IfcSlab,Floor:Massivholz 24mm,Massivholz Fichte,0,0.024,2.05,0.287,0.0068
+0plsFTxFrAH8fTRVJG6Lb8,False,1,Floor:Mehrschichtplatte 50mm:3167216,IfcSlab,Floor:Mehrschichtplatte 50mm,3-Schicht-Platte,0,0.04,5.5,3.795,0.1494
+3dHkNX9eXDKekm9KvP4T_n,False,1,Floor:Terrassenbelag Holzlattung Douglasie:7269453,IfcSlab,Floor:Terrassenbelag Holzlattung Douglasie,Terrassenbelag Holz,0,0.026000000000000002,8.57,19.3682,0.3438
+3FWYQdBzL92vc$OVs8UAaq,False,1,Haustechnik_Platzhalter:Pury Ausseneinheit:6192195,IfcBuildingElementProxy,Haustechnik_Platzhalter:Pury Ausseneinheit,3D-Schnittmaterial,0,,1.5,1.38,1.0453
+1Et2c94TXFAwSKPeylnBiH,False,1,Montageraum Elektro:Montageraum Elektro:6274127,IfcBuildingElementProxy,Montageraum Elektro:Montageraum Elektro,3D-Schnittmaterial,0,,2.33,0.9087,0.1805
+1Et2c94TXFAwSKPeylnBlG,False,1,Montageraum Elektro1:Montageraum Elektro:6274190,IfcBuildingElementProxy,Montageraum Elektro1:Montageraum Elektro,3D-Schnittmaterial,0,,2.33,0.9087,0.1805
+1Et2c94TXFAwSKPeylnBH_,False,1,Rohranschluss_Technikschnttelle_Nest:E-Gelbwasser:6271776,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Gelbwasser,3D-Schnittmaterial,0,,0.12,0.0072,0.0004
+1Et2c94TXFAwSKPeylnBH8,False,1,Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht:6271766,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht,3D-Schnittmaterial,0,,0.11,0.0099,0.0007
+1Et2c94TXFAwSKPeylnBMe,False,1,Rohranschluss_Technikschnttelle_Nest:E-Grauwasser schwer:6271734,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Grauwasser schwer,3D-Schnittmaterial,0,,0.11,0.0099,0.0007
+1Et2c94TXFAwSKPeylnBHY,False,1,Rohranschluss_Technikschnttelle_Nest:E-Regenwasser:6271804,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Regenwasser,3D-Schnittmaterial,0,,0.11,0.0121,0.0011
+1Et2c94TXFAwSKPeylnBGM,False,1,Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser:6271816,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Schmutzwasser,3D-Schnittmaterial,0,,0.11,0.0121,0.001
+1Et2c94TXFAwSKPeylnBGC,False,1,Rohranschluss_Technikschnttelle_Nest:E-Schwarzwasser:6271826,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:E-Schwarzwasser,3D-Schnittmaterial,0,,0.13,0.0143,0.0012
+1Et2c94TXFAwSKPeylnBCG,False,1,Rohranschluss_Technikschnttelle_Nest:Grauwasser aufbereitet:6272078,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:Grauwasser aufbereitet,3D-Schnittmaterial,0,,0.11,0.0033,0.0001
+1Et2c94TXFAwSKPeylnBIk,False,1,Rohranschluss_Technikschnttelle_Nest:Kaltwasser:6271984,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:Kaltwasser,3D-Schnittmaterial,0,,0.11,0.0033,0.0001
+1Et2c94TXFAwSKPeylnBNx,False,1,Rohranschluss_Technikschnttelle_Nest:MTE - Rücklauf:6271653,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:MTE - Rücklauf,3D-Schnittmaterial,0,,0.19,0.0095,0.0004
+1Et2c94TXFAwSKPeylnBNl,False,1,Rohranschluss_Technikschnttelle_Nest:MTE - Vorlauf:6271665,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:MTE - Vorlauf,3D-Schnittmaterial,0,,0.19,0.0095,0.0003
+1Et2c94TXFAwSKPeylnBNY,False,1,Rohranschluss_Technikschnttelle_Nest:NTE - Rücklauf:6271676,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:NTE - Rücklauf,3D-Schnittmaterial,0,,0.19,0.0114,0.0005
+1Et2c94TXFAwSKPeylnBMR,False,1,Rohranschluss_Technikschnttelle_Nest:NTE - Vorlauf:6271685,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:NTE - Vorlauf,3D-Schnittmaterial,0,,0.19,0.0114,0.0005
+1Et2c94TXFAwSKPeylnBD2,False,1,Rohranschluss_Technikschnttelle_Nest:Regenwasser aufbereitet:6272028,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:Regenwasser aufbereitet,3D-Schnittmaterial,0,,0.11,0.0033,0.0001
+1Et2c94TXFAwSKPeylnBC2,False,1,Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser:6272092,IfcBuildingElementProxy,Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser,3D-Schnittmaterial,0,,0.11,0.0022,0.0
+1YKyzAV3HA3hGaVYlxUqa8,False,1,Shell_V12:Shell_V12:5294566,IfcBuildingElementProxy,Shell_V12:Shell_V12,"Concrete, Lightweight",0,,0.0,281.8965,11.5047
+1Tv0YGeiT2fAVW5nnqum0c,False,1,TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30:5464826,IfcDoor,TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30,Unknown,0,,2.13,2.1087,0.1
+1a1$QVmKz8nRXZVkIMOOBt,False,1,Tür Forster Unico:Ausstattung Sage Glas:2668518,IfcWindow,Tür Forster Unico:Ausstattung Sage Glas,Unknown,0,,2.17,2.6908,0.1289

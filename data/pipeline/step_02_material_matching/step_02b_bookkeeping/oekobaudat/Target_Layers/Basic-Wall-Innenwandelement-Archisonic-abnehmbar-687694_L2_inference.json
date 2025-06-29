@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "7b9763d32a_L2",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-687694_L2",
+  "total_steps": 4,
+  "total_tokens": 4268,
+  "total_prompt_tokens": 3969,
+  "total_completion_tokens": 299,
+  "total_processing_time": 7.034,
+  "total_cost_usd": 0.02433,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 60,
+      "processing_time": 1.152,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005785
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 930,
+      "completion_tokens": 64,
+      "processing_time": 1.61,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00561
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Holzfaserplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 967,
+      "completion_tokens": 64,
+      "processing_time": 1.163,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005795
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Medium Density Fibreboard (MDF)",
+        "Medium density fibreboard (German average)",
+        "Unilin Medium Density Fiberboard"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Holzfaserplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1095,
+      "completion_tokens": 111,
+      "processing_time": 3.109,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00714
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic abnehmbar",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic abnehmbar",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Innenwandelement Archisonic abnehmbar",
+        "Preliminary Selection": "Holzfaserplatten",
+        "Matched Category": "Holzfaserplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The building element is a non-structural, removable interior wall (IfcWallStandardCase) with a layer of MDF material, 0.012 meters thick, used in interior construction.",
+        "Preliminary Selection": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ],
+        "Matched Materials": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ]
+      }
+    }
+  ]
+}

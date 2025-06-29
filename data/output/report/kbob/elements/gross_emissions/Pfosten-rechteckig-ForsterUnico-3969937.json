@@ -1,0 +1,27 @@
+﻿{
+  "ObjectType Name": "Pfosten-rechteckig-ForsterUnico-3969937",
+  "CompilationGroupID": "75762e6adc",
+  "Volume [m^3]": 0.1922,
+  "Largest Surface Area [m^2]": 4.2576,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "1111.9635",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "1101.4021",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "10.4558",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "1946313.3",
+      "UBP (Manufacturing)": "1931225.6",
+      "UBP (Disposal)": "16747.347",
+      "Total Renewable Primary Energy [kWh oil-eq]": "384.7364",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "383.2276",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.8781",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "5099.6426",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "5054.3795",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "41.0385"
+    }
+  ]
+}

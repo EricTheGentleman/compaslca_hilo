@@ -1,0 +1,46 @@
+﻿{
+  "GlobalId": "2OOgpQZObEZwXdl1UXorlb",
+  "Name": "Basic-Wall-Wärmedämmung_Mineralwolle_80-5774682",
+  "Volume [m^3]": 1.0728,
+  "Largest Surface Area [m^2]": 13.5355,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Steinwolle",
+      "ID": "10.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "75.2848",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "69.8414",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "5.4618",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "125474.688",
+      "UBP (Manufacturing)": "114403.392",
+      "UBP (Disposal)": "10702.2528",
+      "Total Renewable Primary Energy [kWh oil-eq]": "152.2303",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "151.3077",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.9872",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "298.0024",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "286.0085",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "12.2707"
+    },
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "56.9249",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "51.4815",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "5.4618",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "101486.88",
+      "UBP (Manufacturing)": "90600.1056",
+      "UBP (Disposal)": "10702.2528",
+      "Total Renewable Primary Energy [kWh oil-eq]": "185.4442",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "184.5216",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.9872",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "235.265",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "222.3485",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "12.2707"
+    }
+  ]
+}

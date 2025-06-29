@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "01982f91ae",
+  "name": "Floor-Perimeterdämmung-4784219",
+  "total_steps": 2,
+  "total_tokens": 2408,
+  "total_prompt_tokens": 2220,
+  "total_completion_tokens": 188,
+  "total_processing_time": 3.668,
+  "total_cost_usd": 0.013920000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Wärmedämmstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 64,
+      "processing_time": 1.25,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005845
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Polystyrol extrudiert (XPS)",
+        "Polystyrol extrudiert, SwissporXPS"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Wärmedämmstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1243,
+      "completion_tokens": 124,
+      "processing_time": 2.418,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008075
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Perimeterdämmung' with material 'Wärmedämmung XPS'.",
+        "Preliminary Selection": "Wärmedämmstoffe",
+        "Matched Category": "Wärmedämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The element is an IfcSlab named 'Floor:Perimeterdämmung:4784219' with a material layer of 'Wärmedämmung XPS' and a thickness of 0.08 meters. It is categorized as a floor perimeter insulation.",
+        "Preliminary Selection": [
+          "Polystyrol extrudiert (XPS)",
+          "Polystyrol extrudiert, SwissporXPS"
+        ],
+        "Matched Materials": [
+          "Polystyrol extrudiert (XPS)",
+          "Polystyrol extrudiert, SwissporXPS"
+        ]
+      }
+    }
+  ]
+}

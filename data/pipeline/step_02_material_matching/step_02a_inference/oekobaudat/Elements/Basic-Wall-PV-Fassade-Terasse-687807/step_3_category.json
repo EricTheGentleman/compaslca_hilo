@@ -1,0 +1,36 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is a Basic Wall named 'PV Fassade Terasse' with material 'Körpermodell'. It is a non-bearing wall related to architecture, categorized under 'Walls'.",
+    "Preliminary Selection": "Sonstige Fassaden",
+    "Matched Category": "Sonstige Fassaden"
+  },
+  "llm_metadata": {
+    "step": 3,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fassaden"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 877,
+      "total_tokens": 946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.52,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.005765
+  }
+}

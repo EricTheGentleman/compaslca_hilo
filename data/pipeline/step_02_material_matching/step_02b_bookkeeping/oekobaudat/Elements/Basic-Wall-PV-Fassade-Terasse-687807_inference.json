@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "c7d2a47639",
+  "name": "Basic-Wall-PV-Fassade-Terasse-687807",
+  "total_steps": 4,
+  "total_tokens": 4100,
+  "total_prompt_tokens": 3725,
+  "total_completion_tokens": 375,
+  "total_processing_time": 7.606,
+  "total_cost_usd": 0.02425,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 917,
+      "completion_tokens": 80,
+      "processing_time": 1.418,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005785
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 916,
+      "completion_tokens": 62,
+      "processing_time": 1.507,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00551
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Sonstige Fassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden",
+      "message": "Match successful",
+      "prompt_tokens": 877,
+      "completion_tokens": 69,
+      "processing_time": 2.52,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00542
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Curtain walling - VFF - Curtain walling in aluminium profiles",
+        "Curtain walling - VFF - Curtain walling in steel profiles",
+        "Curtain walling - VFF - Curtain walling in wood-metall profiles"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fassaden/Sonstige_Fassaden",
+      "message": "Match successful",
+      "prompt_tokens": 1015,
+      "completion_tokens": 164,
+      "processing_time": 2.161,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007535
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a wall named 'Basic Wall:PV Fassade Terasse' with material 'Körpermodell'. It is non-structural and categorized under 'Walls'.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with the name 'PV Fassade Terasse', type 'IfcWallStandardCase', and material name 'Körpermodell'.",
+        "Preliminary Selection": "Fassaden",
+        "Matched Category": "Fassaden"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall named 'PV Fassade Terasse' with material 'Körpermodell'. It is a non-bearing wall related to architecture, categorized under 'Walls'.",
+        "Preliminary Selection": "Sonstige Fassaden",
+        "Matched Category": "Sonstige Fassaden"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Basic Wall:PV Fassade Terasse, Type: IfcWallStandardCase, Material: Körpermodell, Thickness: 0.008m, Category: Walls, Structural Usage: Non-bearing",
+        "Preliminary Selection": [
+          "Curtain walling - VFF - Curtain walling in aluminium profiles",
+          "Curtain walling - VFF - Curtain walling in steel profiles",
+          "Curtain walling - VFF - Curtain walling in wood-metall profiles"
+        ],
+        "Matched Materials": [
+          "Curtain walling - VFF - Curtain walling in aluminium profiles",
+          "Curtain walling - VFF - Curtain walling in steel profiles",
+          "Curtain walling - VFF - Curtain walling in wood-metall profiles"
+        ]
+      }
+    }
+  ]
+}

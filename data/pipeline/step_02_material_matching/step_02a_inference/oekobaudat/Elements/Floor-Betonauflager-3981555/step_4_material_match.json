@@ -1,0 +1,67 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Floor:Betonauflager:3981555, Type: IfcSlab, Material: Beton, Thickness: 0.29m, Structural: True",
+    "Preliminary Selection": [
+      "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+      "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+      "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60"
+    ],
+    "Matched Materials": [
+      "Betonrezeptur C45/55 selbstverdichtend (Concrete recipe C45/55 self-compacting)",
+      "Betonrezeptur C50/60 nicht selbstverdichtend (Concrete recipe C50/60 not self-compacting)",
+      "Betonrezeptur C50/60 selbstverdichtend (Concrete recipe C50/60 self-compacting)",
+      "Concrete C25/30",
+      "Concrete C30/37",
+      "Concrete C35/45",
+      "Concrete C40/50, Type number 988429091",
+      "Concrete C40/50, Type number 988429096",
+      "Concrete C40/50, Type number 988429196",
+      "Concrete C45/55",
+      "Concrete C50/60",
+      "Ready-mix concrete C25/30",
+      "Ready-mix concrete C30/37",
+      "Ready-mix concrete C50/60"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Beton",
+    "trace": [
+      "Mineralische Baustoffe",
+      "Mörtel und Beton",
+      "Beton"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 426,
+      "prompt_tokens": 1525,
+      "total_tokens": 1951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 5.944,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.016145
+  }
+}

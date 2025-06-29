@@ -1,0 +1,104 @@
+{
+  "GlobalId": "3PSzbSor5DzehfFtR_jjmV",
+  "name": "Floor-Bodenaufbau-Hauptgeschoss-687594",
+  "total_steps": 4,
+  "total_tokens": 3610,
+  "total_prompt_tokens": 3297,
+  "total_completion_tokens": 313,
+  "total_processing_time": 7.651,
+  "total_cost_usd": 0.02118,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 816,
+      "completion_tokens": 65,
+      "processing_time": 1.411,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005055
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Mörtel und Beton",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 774,
+      "completion_tokens": 69,
+      "processing_time": 1.584,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.004905
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Estrich trocken",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton",
+      "message": "Match successful",
+      "prompt_tokens": 791,
+      "completion_tokens": 59,
+      "processing_time": 1.441,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00484
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Calcium sulfate screed",
+        "Screed Mortar - Calcium Sulphate Screed"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Mörtel_und_Beton/Estrich_trocken",
+      "message": "Match successful",
+      "prompt_tokens": 916,
+      "completion_tokens": 120,
+      "processing_time": 3.215,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00638
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab (IfcSlab) with no defined material, located on Level 00_Eingang, categorized under Floors.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab with no defined material, related to floors, located at Level 00_Eingang, with a thickness of 581.0.",
+        "Preliminary Selection": "Mörtel und Beton",
+        "Matched Category": "Mörtel und Beton"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab (IfcSlab) with no defined material, located on Level 00_Eingang, categorized under Floors.",
+        "Preliminary Selection": "Estrich trocken",
+        "Matched Category": "Estrich trocken"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:Bodenaufbau Hauptgeschoss, Type: IfcSlab, Category: Floors, Thickness: 581.0",
+        "Preliminary Selection": [
+          "CALCIUM SULPHATE FLOWING SCREED AND CONVENTIONAL CALCIUM SULPHATE SCREED",
+          "Calcium sulfate screed",
+          "Screed Mortar - Calcium Sulphate Screed"
+        ],
+        "Matched Materials": [
+          "Calcium sulfate screed",
+          "Screed Mortar - Calcium Sulphate Screed"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas; Type: IfcWindow; Associated Curtain Wall: Fassade 90 - Sage; Material Data: Not defined; Relevant Properties: Area 0.9546, Height 740.0, Width 1290.0, Volume 0.0507",
+    "Preliminary Selection": [
+      "Float glass in construction: EUROFLOAT",
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ],
+    "Matched Materials": [
+      "Float glass in construction: EUROFLOAT",
+      "Insulating glass",
+      "Laminated glass",
+      "Laminated safety glass EUROLAMEX"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Fenster/Sonstige_Fenster",
+    "trace": [
+      "Komponenten von Fenstern und Vorhangfassaden",
+      "Fenster",
+      "Sonstige Fenster"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 1085,
+      "total_tokens": 1243,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.414,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.008585
+  }
+}

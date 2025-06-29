@@ -1,0 +1,63 @@
+{
+  "llm_response": {
+    "Key Information Summary": "The element is an IfcBeam named 'Holz Träger - rechteckig:Alu Eurotec 40 x 60' with a material identified as 'Aluminum - Flat - Version 1.1'. It is categorized under 'Structural Framing' and is intended for construction ('Phase Created': 'Zu Bauen').",
+    "Preliminary Selection": [
+      "Aluminium profiles",
+      "Aluminium section",
+      "Aluminum profile, mill finish",
+      "Schüco Aluminium Profile",
+      "Schüco Low Carbon Aluminium Profile",
+      "Schüco Ultra Low Carbon Aluminium Profile",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Anodized)",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated)",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (raw)",
+      "semi-finished products - EMERUS d.o.o. - aluminium profile (blank)",
+      "semi-finished products - EMERUS d.o.o. - anodized aluminium profile",
+      "semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile"
+    ],
+    "Matched Materials": [
+      "Aluminium profiles",
+      "Aluminium section",
+      "Aluminum profile, mill finish",
+      "Schüco Aluminium Profile",
+      "Schüco Low Carbon Aluminium Profile",
+      "Schüco Ultra Low Carbon Aluminium Profile",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Anodized)",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (Electrostatically powder-coated)",
+      "Semi-finished products - EMERUS d.o.o. - EMERUS ultra low-carbon aluminium profile (raw)",
+      "semi-finished products - EMERUS d.o.o. - aluminium profile (blank)",
+      "semi-finished products - EMERUS d.o.o. - anodized aluminium profile",
+      "semi-finished products - EMERUS d.o.o. - electrostatic powder-coated aluminium profile"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Aluminium/Aluminiumprofil",
+    "trace": [
+      "Metalle",
+      "Aluminium",
+      "Aluminiumprofil"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 458,
+      "prompt_tokens": 1169,
+      "total_tokens": 1627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 4.889,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.015005
+  }
+}

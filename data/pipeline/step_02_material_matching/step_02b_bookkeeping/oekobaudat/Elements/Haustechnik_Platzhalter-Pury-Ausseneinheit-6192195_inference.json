@@ -1,0 +1,100 @@
+{
+  "GlobalId": "3FWYQdBzL92vc$OVs8UAaq",
+  "name": "Haustechnik_Platzhalter-Pury-Ausseneinheit-6192195",
+  "total_steps": 4,
+  "total_tokens": 3822,
+  "total_prompt_tokens": 3443,
+  "total_completion_tokens": 379,
+  "total_processing_time": 7.3870000000000005,
+  "total_cost_usd": 0.0229,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Gebäudetechnik",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 96,
+      "processing_time": 1.648,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00575
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Klimatisierung und Lüftung",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik",
+      "message": "Match successful",
+      "prompt_tokens": 833,
+      "completion_tokens": 100,
+      "processing_time": 1.791,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005665
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Klimatisierung/Kältemaschinen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Klimatisierung_und_Lüftung",
+      "message": "Match successful",
+      "prompt_tokens": 820,
+      "completion_tokens": 80,
+      "processing_time": 1.719,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0053
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Air conditioning system (per 1 kW)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Gebäudetechnik/Klimatisierung_und_Lüftung/Klimatisierung_Kältemaschinen",
+      "message": "Match successful",
+      "prompt_tokens": 928,
+      "completion_tokens": 103,
+      "processing_time": 2.229,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006185
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element Name: Haustechnik_Platzhalter:Pury Ausseneinheit:6192195, Type: IfcBuildingElementProxy, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Haustechnik_Platzhalter: Pury Ausseneinheit",
+        "Preliminary Selection": "Gebäudetechnik",
+        "Matched Category": "Gebäudetechnik"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Haustechnik_Platzhalter:Pury Ausseneinheit' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Haustechnik_Platzhalter: Pury Ausseneinheit'.",
+        "Preliminary Selection": "Klimatisierung und Lüftung",
+        "Matched Category": "Klimatisierung und Lüftung"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy with material name '3D-Schnittmaterial' and object type 'Haustechnik_Platzhalter:Pury Ausseneinheit'.",
+        "Preliminary Selection": "Klimatisierung/Kältemaschinen",
+        "Matched Category": "Klimatisierung/Kältemaschinen"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBuildingElementProxy, ObjectType: Haustechnik_Platzhalter:Pury Ausseneinheit, Material Name: 3D-Schnittmaterial, Category: Generic Models, Family: Haustechnik_Platzhalter: Pury Ausseneinheit",
+        "Preliminary Selection": [
+          "Air conditioning system (per 1 kW)"
+        ],
+        "Matched Materials": [
+          "Air conditioning system (per 1 kW)"
+        ]
+      }
+    }
+  ]
+}

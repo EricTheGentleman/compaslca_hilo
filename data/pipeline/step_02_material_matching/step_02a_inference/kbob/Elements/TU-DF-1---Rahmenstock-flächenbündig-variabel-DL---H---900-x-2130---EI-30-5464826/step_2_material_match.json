@@ -1,0 +1,41 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcDoor, Name: TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30, Location: Level 00_Eingang, Fire Rating: EI 30, No specific material defined, Category: Doors",
+    "Preliminary Selection": [
+      "Innentüre, Funktionstüre, Holz, Holzrahmen",
+      "Innentüre, Funktionstüre, Holz, Stahlzarge"
+    ],
+    "Matched Materials": [
+      "Innentüre, Funktionstüre, Holz, Holzrahmen",
+      "Innentüre, Funktionstüre, Holz, Stahlzarge"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Türen",
+    "trace": [
+      "Türen"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 1250,
+      "total_tokens": 1395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 2.32,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00915
+  }
+}

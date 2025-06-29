@@ -1,0 +1,74 @@
+{
+  "CompilationGroupID": "f235024de1",
+  "name": "TU-DF-1---Pfostenstock-Falztüre-DL---900-x-2130-1118965",
+  "total_steps": 3,
+  "total_tokens": 2751,
+  "total_prompt_tokens": 2595,
+  "total_completion_tokens": 156,
+  "total_processing_time": 6.4350000000000005,
+  "total_cost_usd": 0.015315,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Komponenten von Fenstern und Vorhangfassaden",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 883,
+      "completion_tokens": 62,
+      "processing_time": 1.61,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005345
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Türen und Tore",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden",
+      "message": "Match successful",
+      "prompt_tokens": 882,
+      "completion_tokens": 50,
+      "processing_time": 1.074,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00516
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Komponenten_von_Fenstern_und_Vorhangfassaden/Türen_und_Tore",
+      "message": "No match found",
+      "prompt_tokens": 830,
+      "completion_tokens": 44,
+      "processing_time": 3.751,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00481
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, categorized under 'Doors'.",
+        "Preliminary Selection": "Komponenten von Fenstern und Vorhangfassaden",
+        "Matched Category": "Komponenten von Fenstern und Vorhangfassaden"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, categorized under 'Doors'.",
+        "Preliminary Selection": "Türen und Tore",
+        "Matched Category": "Türen und Tore"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcDoor with no defined material, categorized under 'Doors'.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

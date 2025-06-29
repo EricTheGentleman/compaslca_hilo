@@ -1,0 +1,27 @@
+﻿{
+  "ObjectType Name": "M_W-Wide-Flange-W310X60-W310X60-207325",
+  "CompilationGroupID": "45e3254100",
+  "Volume [m^3]": 0.1148,
+  "Largest Surface Area [m^2]": 4.452,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Stahlprofil, blank",
+      "ID": "6.012",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "664.1697",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "657.8614",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "6.2452",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "1162522.2",
+      "UBP (Manufacturing)": "1153510.4",
+      "UBP (Disposal)": "10003.098",
+      "Total Renewable Primary Energy [kWh oil-eq]": "229.8009",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "228.8997",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.5245",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "3045.9884",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "3018.953",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "24.5121"
+    }
+  ]
+}

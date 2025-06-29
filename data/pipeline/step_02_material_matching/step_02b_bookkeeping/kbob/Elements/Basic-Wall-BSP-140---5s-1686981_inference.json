@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "65d0e0c8a6",
+  "name": "Basic-Wall-BSP-140---5s-1686981",
+  "total_steps": 2,
+  "total_tokens": 2706,
+  "total_prompt_tokens": 2563,
+  "total_completion_tokens": 143,
+  "total_processing_time": 2.937,
+  "total_cost_usd": 0.014960000000000001,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 982,
+      "completion_tokens": 61,
+      "processing_time": 1.287,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005825
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Brettschichtholz",
+        "Brettschichtholz, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1581,
+      "completion_tokens": 82,
+      "processing_time": 1.65,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.009135
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "IfcWall with material Brettschichtholz C24, thickness 0.14m, structural and bearing usage.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material Name: Brettschichtholz C24, Structural Usage: Bearing",
+        "Preliminary Selection": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Brettschichtholz",
+          "Brettschichtholz, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

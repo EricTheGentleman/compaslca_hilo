@@ -1,0 +1,49 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Type: IfcWallStandardCase, Material Name: Holzschalung Vertikal, Nadelholz, schwarz gestrichen, Structural: False, Structural Usage: Non-bearing",
+    "Preliminary Selection": [
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+      "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+    ],
+    "Matched Materials": [
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+      "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz",
+      "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau",
+      "Massivholz Fichte / Tanne / Lärche, luftgetrocknet, rau, Produktion Schweiz"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+    "trace": [
+      "Holz und Holzwerkstoffe"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 340,
+      "prompt_tokens": 1635,
+      "total_tokens": 1975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 6.401,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.014975
+  }
+}

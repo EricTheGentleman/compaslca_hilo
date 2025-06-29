@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "M_Single-Flush-1250mm-x-2010mm-1250mm-x-2010mm-146678",
+  "CompilationGroupID": "1240b071e7",
+  "Volume [m^3]": 0.2974,
+  "Largest Surface Area [m^2]": 5.852,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

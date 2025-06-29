@@ -1,0 +1,103 @@
+{
+  "CompilationGroupID": "c3b0cb3f28",
+  "name": "Floor-Dachaufbau-Brüstung-Galerie-5450904",
+  "total_steps": 4,
+  "total_tokens": 4594,
+  "total_prompt_tokens": 4212,
+  "total_completion_tokens": 382,
+  "total_processing_time": 7.508,
+  "total_cost_usd": 0.02679,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 838,
+      "completion_tokens": 62,
+      "processing_time": 1.281,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00512
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 796,
+      "completion_tokens": 69,
+      "processing_time": 1.839,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005015
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Betonfertigteile und Betonwaren",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 892,
+      "completion_tokens": 81,
+      "processing_time": 1.537,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005675
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH)",
+        "Concrete paving stones/slabs"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Betonfertigteile_und_Betonwaren",
+      "message": "Match successful",
+      "prompt_tokens": 1686,
+      "completion_tokens": 170,
+      "processing_time": 2.851,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01098
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab with no defined material, categorized as a floor, related to architecture, and not structural.",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab with no defined material, categorized as a floor, located at Level 01_Brüsting, with a thickness of 177.0.",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Dachaufbau Brüstung Galerie:5450904' with no defined material. It is categorized under 'Floors' and is not structural.",
+        "Preliminary Selection": "Betonfertigteile und Betonwaren",
+        "Matched Category": "Betonfertigteile und Betonwaren"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Name: Floor:Dachaufbau Brüstung Galerie:5450904, Type: IfcSlab, ObjectType: Floor:Dachaufbau Brüstung Galerie, Level: 01_Brüsting, Area: 8.7591, Perimeter: 27520.3806, Thickness: 177.0, Volume: 0.8093, Category: Floors, Structural: False",
+        "Preliminary Selection": [
+          "Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH)",
+          "Concrete paving stones/slabs"
+        ],
+        "Matched Materials": [
+          "Concrete paving stones/ slabs (average product) (Baustoffwerk LIMEX-VENUSBERG GmbH)",
+          "Concrete paving stones/slabs"
+        ]
+      }
+    }
+  ]
+}

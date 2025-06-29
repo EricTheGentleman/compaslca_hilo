@@ -1,0 +1,63 @@
+﻿{
+  "Name": "Rohranschluss_Technikschnttelle_Nest-E-Schmutzwasser-6271816",
+  "GlobalId": "1Et2c94TXFAwSKPeylnBGM",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Polyethylen (PE)",
+      "ID": "13.002",
+      "Reference": "kg",
+      "Density (kg/m3)": "960",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.75",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "2.38",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.37",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "6020",
+      "UBP (Manufacturing)": "3570",
+      "UBP (Disposal)": "2450",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.544",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.53",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0143",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "23.2",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "23",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.209"
+    },
+    {
+      "Name": "Polypropylen (PP)",
+      "ID": "13.003",
+      "Reference": "kg",
+      "Density (kg/m3)": "910",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.78",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "2.4",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.37",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "6050",
+      "UBP (Manufacturing)": "3600",
+      "UBP (Disposal)": "2450",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.428",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.413",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.0143",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "22.7",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "22.5",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.209"
+    },
+    {
+      "Name": "Polyvinylchlorid (PVC)",
+      "ID": "13.004",
+      "Reference": "kg",
+      "Density (kg/m3)": "1390",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.49",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "2.38",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "2.1",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "6240",
+      "UBP (Manufacturing)": "3880",
+      "UBP (Disposal)": "2370",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.646",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.543",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.103",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "19.5",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "18.4",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "1.1"
+    }
+  ]
+}

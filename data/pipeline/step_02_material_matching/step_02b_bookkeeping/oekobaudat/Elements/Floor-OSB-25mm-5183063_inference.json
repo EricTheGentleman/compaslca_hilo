@@ -1,0 +1,104 @@
+{
+  "CompilationGroupID": "763e457390",
+  "name": "Floor-OSB-25mm-5183063",
+  "total_steps": 4,
+  "total_tokens": 3879,
+  "total_prompt_tokens": 3629,
+  "total_completion_tokens": 250,
+  "total_processing_time": 6.3149999999999995,
+  "total_cost_usd": 0.021894999999999998,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 909,
+      "completion_tokens": 52,
+      "processing_time": 1.633,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005325
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 862,
+      "completion_tokens": 56,
+      "processing_time": 1.034,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00515
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "OSB-Platte",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 899,
+      "completion_tokens": 50,
+      "processing_time": 1.221,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005245
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Oriented Strand Board",
+        "Oriented Strand Board (OSB)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/OSB-Platte",
+      "message": "Match successful",
+      "prompt_tokens": 959,
+      "completion_tokens": 92,
+      "processing_time": 2.427,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006175
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of OSB (Oriented Strand Board) with a thickness of 25mm.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of OSB (Oriented Strand Board) with a thickness of 25mm.",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a floor slab made of OSB with a thickness of 25mm.",
+        "Preliminary Selection": "OSB-Platte",
+        "Matched Category": "OSB-Platte"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:OSB 25mm' with a material layer of OSB, 25mm thick.",
+        "Preliminary Selection": [
+          "Oriented Strand Board",
+          "Oriented Strand Board (German average)",
+          "Oriented Strand Board (OSB)"
+        ],
+        "Matched Materials": [
+          "Oriented Strand Board",
+          "Oriented Strand Board (OSB)"
+        ]
+      }
+    }
+  ]
+}

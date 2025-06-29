@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "50141ec7a2_L1",
+  "Name": "Floor-Funicular-Floor-687636_L1",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Baukleber/Einbettmörtel mineralisch",
+      "ID": "4.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "1400",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.406",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.393",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0127",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "633",
+      "UBP (Manufacturing)": "590",
+      "UBP (Disposal)": "42.5",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.175",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.173",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00208",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1.53",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1.47",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0524"
+    },
+    {
+      "Name": "Baukleber/Einbettmörtel mineralisch Leichtzuschlag",
+      "ID": "4.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "1100",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.426",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.414",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0127",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "638",
+      "UBP (Manufacturing)": "595",
+      "UBP (Disposal)": "42.5",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.154",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.152",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00208",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "1.61",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "1.56",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0524"
+    },
+    {
+      "Name": "Baukleber/Einbettmörtel organisch",
+      "ID": "4.002",
+      "Reference": "kg",
+      "Density (kg/m3)": "1670",
+      "Global Warming Potential Total [kgCO2-eqv]": "0.777",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "0.764",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.0127",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "1390",
+      "UBP (Manufacturing)": "1350",
+      "UBP (Disposal)": "42.5",
+      "Total Renewable Primary Energy [kWh oil-eq]": "0.163",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "0.161",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.00208",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "4.15",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "4.1",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0524"
+    }
+  ]
+}

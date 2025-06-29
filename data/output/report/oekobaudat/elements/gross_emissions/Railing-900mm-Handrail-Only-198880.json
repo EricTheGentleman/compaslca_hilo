@@ -1,0 +1,11 @@
+﻿{
+  "ObjectType Name": "Railing-900mm-Handrail-Only-198880",
+  "CompilationGroupID": "fea1ed1559",
+  "Volume [m^3]": 0.0078,
+  "Largest Surface Area [m^2]": 0.3824,
+  "Matched Materials with Gross Emissions (OEKOBAUDAT)": [
+    {
+      "Name": "None"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "CompilationGroupID": "ce0cc1e825_L3",
+  "Name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L3",
+  "Matched Materials with KBOB Indicators": [
+    {
+      "Name": "Stahlblech, verzinkt",
+      "ID": "6.011",
+      "Reference": "kg",
+      "Density (kg/m3)": "7850",
+      "Global Warming Potential Total [kgCO2-eqv]": "4.49",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "4.48",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "0.00693",
+      "Biogenic Carbon [kg C]": "0",
+      "UBP (Total)": "15200",
+      "UBP (Manufacturing)": "15200",
+      "UBP (Disposal)": "11.1",
+      "Total Renewable Primary Energy [kWh oil-eq]": "1.4",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "1.4",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.000582",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "15.6",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "15.6",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "0.0272"
+    }
+  ]
+}

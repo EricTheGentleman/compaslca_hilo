@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "f3de7c9098",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-ohne-MDF-3995377",
+  "total_steps": 2,
+  "total_tokens": 2151,
+  "total_prompt_tokens": 2031,
+  "total_completion_tokens": 120,
+  "total_processing_time": 2.996,
+  "total_cost_usd": 0.011955,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 950,
+      "completion_tokens": 62,
+      "processing_time": 1.395,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00568
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1081,
+      "completion_tokens": 58,
+      "processing_time": 1.601,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006275
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a basic wall with material 'Archisonic Charcoal', type 'IfcWallStandardCase', non-structural, used in interior construction.",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a basic wall with material 'Archisonic Charcoal', type 'IfcWallStandardCase', non-structural, used in interior construction.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

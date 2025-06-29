@@ -1,0 +1,34 @@
+﻿{
+  "ObjectType Name": "Floor-Finish-Floor---Ceramic-Tile-170785",
+  "CompilationGroupID": "69ecfce189",
+  "Layer 1": {
+    "Matched Materials with KBOB Indicators": [
+      {
+        "Name": "Keramik-/Steinzeugplatte, 9 mm",
+        "ID": "11.008",
+        "Reference": "qm",
+        "Density (kg/m3)": null,
+        "Global Warming Potential Total [kgCO2-eqv]": "18.2",
+        "Global Warming Potential Manufacturing [kgCO2-eqv]": "14",
+        "Global Warming Potential Disposal [kgCO2-eqv]": "4.11",
+        "Biogenic Carbon [kg C]": "0",
+        "UBP (Total)": "86800",
+        "UBP (Manufacturing)": "73100",
+        "UBP (Disposal)": "13800",
+        "Total Renewable Primary Energy [kWh oil-eq]": "4.49",
+        "Manufacturing Renewable Primary Energy [kWh oil-eq]": "3.77",
+        "Disposal Renewable Primary Energy [kWh oil-eq]": "0.715",
+        "Total Non-Renewable Primary Energy [kWh oil-eq]": "83.1",
+        "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "66",
+        "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "17"
+      }
+    ]
+  },
+  "Layer 2": {
+    "Matched Materials with KBOB Indicators": [
+      {
+        "Name": "None"
+      }
+    ]
+  }
+}

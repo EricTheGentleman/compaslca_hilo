@@ -1,0 +1,107 @@
+{
+  "GlobalId": "2uvY1DJi929x4ZbMR9rWjH",
+  "name": "Floor-Fensterbank-24mm-6737713",
+  "total_steps": 4,
+  "total_tokens": 4203,
+  "total_prompt_tokens": 3837,
+  "total_completion_tokens": 366,
+  "total_processing_time": 6.836,
+  "total_cost_usd": 0.024675000000000002,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 912,
+      "completion_tokens": 66,
+      "processing_time": 1.611,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00555
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 865,
+      "completion_tokens": 68,
+      "processing_time": 1.462,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005345
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Bau-Schnittholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 896,
+      "completion_tokens": 76,
+      "processing_time": 1.474,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00562
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Coniferous lumber - kiln dried (German average)",
+        "Planed coniferous lumber (German average)",
+        "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Bau-Schnittholz",
+      "message": "Match successful",
+      "prompt_tokens": 1164,
+      "completion_tokens": 156,
+      "processing_time": 2.289,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00816
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Fensterbank 24mm' with material 'Holzschalung Horizontal, Nadelholz, schwarz gestrichen'.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Fensterbank 24mm' with material 'Holzschalung Horizontal, Nadelholz, schwarz gestrichen'.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcSlab named 'Floor:Fensterbank 24mm' with material 'Holzschalung Horizontal, Nadelholz, schwarz gestrichen'.",
+        "Preliminary Selection": "Bau-Schnittholz",
+        "Matched Category": "Bau-Schnittholz"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcSlab, Material: Holzschalung Horizontal, Nadelholz, schwarz gestrichen, Thickness: 0.024m",
+        "Preliminary Selection": [
+          "Coniferous lumber - fresh (German average)",
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ],
+        "Matched Materials": [
+          "Coniferous lumber - kiln dried (German average)",
+          "Planed coniferous lumber (German average)",
+          "Timber spruce (generic, 12% moisture / 10.7% H2O content)"
+        ]
+      }
+    }
+  ]
+}

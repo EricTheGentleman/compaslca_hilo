@@ -1,0 +1,106 @@
+{
+  "CompilationGroupID": "f17ad5cce9_L2",
+  "name": "Basic-Wall-Holzbau_Archisonic_Vorbauschale-2146702_L2",
+  "total_steps": 4,
+  "total_tokens": 4280,
+  "total_prompt_tokens": 4009,
+  "total_completion_tokens": 271,
+  "total_processing_time": 6.82,
+  "total_cost_usd": 0.024110000000000003,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 987,
+      "completion_tokens": 47,
+      "processing_time": 1.337,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00564
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 940,
+      "completion_tokens": 51,
+      "processing_time": 1.11,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005465
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Holzfaserplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 66,
+      "processing_time": 2.144,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005875
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Medium Density Fibreboard (MDF)",
+        "Medium density fibreboard (German average)",
+        "Unilin Medium Density Fiberboard"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Holzwerkstoffe/Holzfaserplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1105,
+      "completion_tokens": 107,
+      "processing_time": 2.229,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00713
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Category: Walls",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Category: Walls",
+        "Preliminary Selection": "Holzwerkstoffe",
+        "Matched Category": "Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: MDF, Element Type: IfcWallStandardCase, Element Name: Basic Wall:Holzbau_Archisonic_Vorbauschale",
+        "Preliminary Selection": "Holzfaserplatten",
+        "Matched Category": "Holzfaserplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The building element is a non-structural, room-bounding basic wall with a layer of MDF material, 0.012 meters thick, used in interior construction.",
+        "Preliminary Selection": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ],
+        "Matched Materials": [
+          "Medium Density Fibreboard (MDF)",
+          "Medium density fibreboard (German average)",
+          "Unilin Medium Density Fiberboard"
+        ]
+      }
+    }
+  ]
+}

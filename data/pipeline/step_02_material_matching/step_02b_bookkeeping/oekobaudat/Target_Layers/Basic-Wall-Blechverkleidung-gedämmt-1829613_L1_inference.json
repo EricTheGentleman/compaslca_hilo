@@ -1,0 +1,115 @@
+{
+  "CompilationGroupID": "ce0cc1e825_L1",
+  "name": "Basic-Wall-Blechverkleidung-gedämmt-1829613_L1",
+  "total_steps": 4,
+  "total_tokens": 5003,
+  "total_prompt_tokens": 4552,
+  "total_completion_tokens": 451,
+  "total_processing_time": 8.563,
+  "total_cost_usd": 0.029525,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Metalle",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1025,
+      "completion_tokens": 67,
+      "processing_time": 1.395,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00613
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Stahl und Eisen",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle",
+      "message": "Match successful",
+      "prompt_tokens": 998,
+      "completion_tokens": 85,
+      "processing_time": 1.508,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006265
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Stahlbleche",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen",
+      "message": "Match successful",
+      "prompt_tokens": 1003,
+      "completion_tokens": 72,
+      "processing_time": 1.674,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006095
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Cold-rolled sheet made from scrap-based electrical steel",
+        "Hot dip galvanized steel sheet",
+        "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+        "Steel sheet (0.3-30mm)",
+        "Steel sheet (20µm hot dip galvanized)",
+        "Steel sheet hot dip galvanized (2-20mm)"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Stahl_und_Eisen/Stahlbleche",
+      "message": "Match successful",
+      "prompt_tokens": 1526,
+      "completion_tokens": 227,
+      "processing_time": 3.986,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.011035
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Other Material: Wärmedämmung Slentex Aerogel",
+        "Preliminary Selection": "Metalle",
+        "Matched Category": "Metalle"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Other Material Layers: Wärmedämmung Slentex Aerogel, Stahl, 45-34, Pulverbeschichtung schwarz",
+        "Preliminary Selection": "Stahl und Eisen",
+        "Matched Category": "Stahl und Eisen"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Stahl, 45-34, Pulverbeschichtung schwarz; Element Type: IfcWallStandardCase; Element Name: Basic Wall:Blechverkleidung gedämmt",
+        "Preliminary Selection": "Stahlbleche",
+        "Matched Category": "Stahlbleche"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The IfcBuildingElement is a 'Basic Wall' with a 'Blechverkleidung gedämmt' type, primarily composed of a steel layer with black powder coating and a thickness of 0.003 meters. It is a non-structural, non-bearing wall with a core face exterior location line.",
+        "Preliminary Selection": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Hot dip galvanized steel sheet",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)"
+        ],
+        "Matched Materials": [
+          "Cold-rolled sheet made from scrap-based electrical steel",
+          "Hot dip galvanized steel sheet",
+          "Hot-dip galvanised cold-rolled sheet incl. StronSal®",
+          "Steel sheet (0.3-30mm)",
+          "Steel sheet (20µm hot dip galvanized)",
+          "Steel sheet hot dip galvanized (2-20mm)"
+        ]
+      }
+    }
+  ]
+}

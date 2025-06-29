@@ -1,0 +1,43 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element Name: Blechabdeckung Brüstung, Type: IfcWall, ObjectType: Blechabdeckung Brüstung, Material Data: Not defined, Category: Walls, Family: Blechabdeckung Brüstung, Phase Created: Zu Bauen",
+    "Preliminary Selection": [
+      "Application top coat on metals (solvent based)",
+      "Application top coat on metals (water based)"
+    ],
+    "Matched Materials": [
+      "Application top coat on metals (solvent based)",
+      "Application top coat on metals (water based)"
+    ]
+  },
+  "llm_metadata": {
+    "step": 4,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT/Metalle/Oberflächenbehandlung_und_Beschichtung_von_Metallen/(Nass-)_Lackieren_von_Metallen",
+    "trace": [
+      "Metalle",
+      "Oberflächenbehandlung und Beschichtung von Metallen",
+      "(Nass-) Lackieren von Metallen"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 117,
+      "prompt_tokens": 845,
+      "total_tokens": 962,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.867,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.006565
+  }
+}

@@ -1,0 +1,46 @@
+﻿{
+  "ObjectType Name": "Basic-Wall-Wärmedämmung_Mineralwolle_130-5438510",
+  "CompilationGroupID": "f072382038",
+  "Volume [m^3]": 0.3483,
+  "Largest Surface Area [m^2]": 2.6788,
+  "Matched Materials with Gross Emissions (KBOB)": [
+    {
+      "Name": "Steinwolle",
+      "ID": "10.008",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "24.4423",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "22.675",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "1.7733",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "40737.168",
+      "UBP (Manufacturing)": "37142.712",
+      "UBP (Disposal)": "3474.6408",
+      "Total Renewable Primary Energy [kWh oil-eq]": "49.4238",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "49.1242",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3205",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "96.7508",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "92.8568",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "3.9839"
+    },
+    {
+      "Name": "Steinwolle, Flumroc",
+      "ID": "10.008.01",
+      "Reference": "kg",
+      "Density (kg/m3)": "86",
+      "Global Warming Potential Total [kgCO2-eqv]": "18.4815",
+      "Global Warming Potential Manufacturing [kgCO2-eqv]": "16.7142",
+      "Global Warming Potential Disposal [kgCO2-eqv]": "1.7733",
+      "Biogenic Carbon [kg C]": "0.0",
+      "UBP (Total)": "32949.18",
+      "UBP (Manufacturing)": "29414.6316",
+      "UBP (Disposal)": "3474.6408",
+      "Total Renewable Primary Energy [kWh oil-eq]": "60.2071",
+      "Manufacturing Renewable Primary Energy [kWh oil-eq]": "59.9076",
+      "Disposal Renewable Primary Energy [kWh oil-eq]": "0.3205",
+      "Total Non-Renewable Primary Energy [kWh oil-eq]": "76.3822",
+      "Manufacturing Non-Renewable Primary Energy [kWh oil-eq]": "72.1887",
+      "Disposal Non-Renewable Primary Energy [kWh oil-eq]": "3.9839"
+    }
+  ]
+}

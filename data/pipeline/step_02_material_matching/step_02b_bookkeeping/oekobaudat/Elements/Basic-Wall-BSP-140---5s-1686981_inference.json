@@ -1,0 +1,115 @@
+{
+  "CompilationGroupID": "65d0e0c8a6",
+  "name": "Basic-Wall-BSP-140---5s-1686981",
+  "total_steps": 4,
+  "total_tokens": 4138,
+  "total_prompt_tokens": 3746,
+  "total_completion_tokens": 392,
+  "total_processing_time": 6.7780000000000005,
+  "total_cost_usd": 0.02461,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 919,
+      "completion_tokens": 67,
+      "processing_time": 1.091,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0056
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 872,
+      "completion_tokens": 55,
+      "processing_time": 1.145,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005185
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Brettschichtholz (BSH)",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 903,
+      "completion_tokens": 71,
+      "processing_time": 1.229,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00558
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Glued laminated timber",
+        "Glued laminated timber - special shapes (German average)",
+        "Glued laminated timber - straight shapes (German average)",
+        "Glued laminated timber, glued solid timber, block glued glulam, special components",
+        "Schilliger Glued Laminated Timber according to EN 14080",
+        "best wood BSH"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+      "message": "Match successful",
+      "prompt_tokens": 1052,
+      "completion_tokens": 199,
+      "processing_time": 3.313,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008245
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall named 'Basic Wall:BSP 140 - 5s' with material 'Brettschichtholz C24', which is a type of wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "IfcWall with material Brettschichtholz C24, thickness 0.14m, structural and bearing usage.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is an IfcWall with material Brettschichtholz C24, thickness 0.14m, structural and bearing usage.",
+        "Preliminary Selection": "Brettschichtholz (BSH)",
+        "Matched Category": "Brettschichtholz (BSH)"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "Element Type: IfcWall, Material: Brettschichtholz C24, Thickness: 0.14m, Structural Usage: Bearing",
+        "Preliminary Selection": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Glued laminated timber, glued solid timber, block glued glulam, special components",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ],
+        "Matched Materials": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Glued laminated timber, glued solid timber, block glued glulam, special components",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ]
+      }
+    }
+  ]
+}

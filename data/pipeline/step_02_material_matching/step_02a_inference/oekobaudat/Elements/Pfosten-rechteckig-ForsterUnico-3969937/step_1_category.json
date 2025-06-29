@@ -1,0 +1,33 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Element is an IfcMember named 'Pfosten rechteckig:ForsterUnico' used in a curtain wall, with material 'Stahl, 45-34, Pulverbeschichtung schwarz'.",
+    "Preliminary Selection": "Metalle",
+    "Matched Category": "Metalle"
+  },
+  "llm_metadata": {
+    "step": 1,
+    "matched_type": "category",
+    "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+    "trace": [],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 910,
+      "total_tokens": 982,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 1.775,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.00599
+  }
+}

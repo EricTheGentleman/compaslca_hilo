@@ -1,0 +1,40 @@
+{
+  "llm_response": {
+    "Key Information Summary": "Material Name: PU Bodenbelag - Sika PS23, Thickness: 0.004 m, Element Type: IfcSlab, Element Name: Floor:Galerie Fussbodenaufbau",
+    "Preliminary Selection": [
+      "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm",
+      "PVC homogen, 2 mm"
+    ],
+    "Matched Materials": [
+      "2K-Fliessbelag Wohnen/Verwaltung (Epoxidharz, PU), 2 mm"
+    ]
+  },
+  "llm_metadata": {
+    "step": 2,
+    "matched_type": "material",
+    "matched_path": "data/input/LCI_database/KBOB/Bodenbeläge",
+    "trace": [
+      "Bodenbeläge"
+    ],
+    "message": "Match successful",
+    "token_usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 1599,
+      "total_tokens": 1719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    },
+    "processing_time": 3.225,
+    "company": "OpenAI",
+    "model": "gpt-4o",
+    "inference_cost_usd": 0.010395
+  }
+}

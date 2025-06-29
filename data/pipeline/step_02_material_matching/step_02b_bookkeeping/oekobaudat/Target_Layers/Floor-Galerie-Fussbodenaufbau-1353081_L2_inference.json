@@ -1,0 +1,103 @@
+{
+  "GlobalId": "1ToJR57Y16uvjKSTB4E_TQ_L2",
+  "name": "Floor-Galerie-Fussbodenaufbau-1353081_L2",
+  "total_steps": 4,
+  "total_tokens": 4662,
+  "total_prompt_tokens": 4372,
+  "total_completion_tokens": 290,
+  "total_processing_time": 9.889,
+  "total_cost_usd": 0.02621,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Baustoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 1031,
+      "completion_tokens": 59,
+      "processing_time": 1.311,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00604
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Steine und Elemente",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe",
+      "message": "Match successful",
+      "prompt_tokens": 989,
+      "completion_tokens": 55,
+      "processing_time": 4.492,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00577
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Gipsplatten",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente",
+      "message": "Match successful",
+      "prompt_tokens": 1085,
+      "completion_tokens": 84,
+      "processing_time": 1.659,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006685
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Gypsum fibre board (10 mm)",
+        "gypsum fibre board"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Mineralische_Baustoffe/Steine_und_Elemente/Gipsplatten",
+      "message": "Match successful",
+      "prompt_tokens": 1267,
+      "completion_tokens": 92,
+      "processing_time": 2.427,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.007715
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Vidiwall, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Mineralische Baustoffe",
+        "Matched Category": "Mineralische Baustoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Vidiwall, Element Type: IfcSlab, Category: Floors",
+        "Preliminary Selection": "Steine und Elemente",
+        "Matched Category": "Steine und Elemente"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Material Name: Knauf - Vidiwall, Element Type: IfcSlab, Other Materials: PU Bodenbelag - Sika PS23, Knauf - Brio Heizboden 25, Trittschalldämmung Flumroc 341",
+        "Preliminary Selection": "Gipsplatten",
+        "Matched Category": "Gipsplatten"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The target material is 'Knauf - Vidiwall' with a thickness of 0.015 meters, used in a floor slab (IfcSlab) context, specifically for a gallery floor construction.",
+        "Preliminary Selection": [
+          "Gypsum fibre board (10 mm)",
+          "gypsum fibre board"
+        ],
+        "Matched Materials": [
+          "Gypsum fibre board (10 mm)",
+          "gypsum fibre board"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "CompilationGroupID": "4d32a54e8e",
+  "name": "Holz-Träger---rechteckig-Holz-60-x-200-6746028",
+  "total_steps": 2,
+  "total_tokens": 2785,
+  "total_prompt_tokens": 2469,
+  "total_completion_tokens": 316,
+  "total_processing_time": 5.989,
+  "total_cost_usd": 0.017085,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz und Holzwerkstoffe",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 935,
+      "completion_tokens": 62,
+      "processing_time": 1.304,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005605
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Konstruktionsvollholz",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+        "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Holz_und_Holzwerkstoffe",
+      "message": "Match successful",
+      "prompt_tokens": 1534,
+      "completion_tokens": 254,
+      "processing_time": 4.685,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.01148
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a beam made of wood, specifically 'Holz - C 24 Cl.1', used in structural framing.",
+        "Preliminary Selection": "Holz und Holzwerkstoffe",
+        "Matched Category": "Holz und Holzwerkstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element Type: IfcBeam, Material Name: Holz - C 24 Cl.1, Structural Usage: Joist",
+        "Preliminary Selection": [
+          "Konstruktionsvollholz",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz"
+        ],
+        "Matched Materials": [
+          "Konstruktionsvollholz",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, kammergetr., gehobelt, Produktion Schweiz",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt",
+          "Massivholz Fichte / Tanne / Lärche, luftgetr., gehobelt, Produktion Schweiz"
+        ]
+      }
+    }
+  ]
+}

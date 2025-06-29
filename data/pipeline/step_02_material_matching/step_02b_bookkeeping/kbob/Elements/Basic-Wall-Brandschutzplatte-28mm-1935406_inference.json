@@ -1,0 +1,63 @@
+{
+  "CompilationGroupID": "cb2d94d550",
+  "name": "Basic-Wall-Brandschutzplatte-28mm-1935406",
+  "total_steps": 2,
+  "total_tokens": 2301,
+  "total_prompt_tokens": 2137,
+  "total_completion_tokens": 164,
+  "total_processing_time": 6.167,
+  "total_cost_usd": 0.013145,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "Match successful",
+      "prompt_tokens": 991,
+      "completion_tokens": 78,
+      "processing_time": 3.937,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.006125
+    },
+    {
+      "step": 2,
+      "matched_type": "material",
+      "matched_name": [
+        "Gipsfaserplatte",
+        "Gipsfaserplatte Fermacell"
+      ],
+      "matched_path": "data/input/LCI_database/KBOB/Mineralische_Platten_Schüttungen_Steine_und_Ziegel",
+      "message": "Match successful",
+      "prompt_tokens": 1146,
+      "completion_tokens": 86,
+      "processing_time": 2.23,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00702
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Gipsfaserplatte, thickness 28mm, used for fire protection.",
+        "Preliminary Selection": "Mineralische Platten, Schüttungen, Steine und Ziegel",
+        "Matched Category": "Mineralische Platten, Schüttungen, Steine und Ziegel"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "The element is a basic wall with a fire protection board of 28mm thickness, made of gypsum fiberboard, used structurally as a bearing wall.",
+        "Preliminary Selection": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ],
+        "Matched Materials": [
+          "Gipsfaserplatte",
+          "Gipsfaserplatte Fermacell"
+        ]
+      }
+    }
+  ]
+}

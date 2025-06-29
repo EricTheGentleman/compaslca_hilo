@@ -1,0 +1,34 @@
+{
+  "GlobalId": "2P1Lw8yun3pBsrFxTc_j0l",
+  "name": "1072_210621_HiLo_Aussengeländer-West_mk-1072_210621_HiLo_Aussengeländer-West_mk-7935201",
+  "total_steps": 1,
+  "total_tokens": 1021,
+  "total_prompt_tokens": 951,
+  "total_completion_tokens": 70,
+  "total_processing_time": 1.608,
+  "total_cost_usd": 0.005805,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/KBOB",
+      "message": "No match found",
+      "prompt_tokens": 951,
+      "completion_tokens": 70,
+      "processing_time": 1.608,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005805
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is an IfcBuildingElementProxy named '1072_210621_HiLo_Aussengeländer West'. No material defined. Workset is Architecture, Category is Generic Models.",
+        "Preliminary Selection": "Metallbaustoffe",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

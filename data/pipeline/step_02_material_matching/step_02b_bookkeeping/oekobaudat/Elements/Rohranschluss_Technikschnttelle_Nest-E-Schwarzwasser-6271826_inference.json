@@ -1,0 +1,54 @@
+{
+  "GlobalId": "1Et2c94TXFAwSKPeylnBGC",
+  "name": "Rohranschluss_Technikschnttelle_Nest-E-Schwarzwasser-6271826",
+  "total_steps": 2,
+  "total_tokens": 1914,
+  "total_prompt_tokens": 1752,
+  "total_completion_tokens": 162,
+  "total_processing_time": 3.765,
+  "total_cost_usd": 0.011189999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Sonstige",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 892,
+      "completion_tokens": 82,
+      "processing_time": 2.1,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00569
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Sonstige",
+      "message": "No match found",
+      "prompt_tokens": 860,
+      "completion_tokens": 80,
+      "processing_time": 1.665,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.0055
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Schwarzwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "Sonstige",
+        "Matched Category": "Sonstige"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a building element proxy named 'Rohranschluss_Technikschnttelle_Nest:E-Schwarzwasser' with material '3D-Schnittmaterial'. It is categorized under 'Generic Models' and associated with 'Architecture' workset.",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}

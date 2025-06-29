@@ -1,0 +1,115 @@
+{
+  "CompilationGroupID": "ff0022f92c",
+  "name": "Basic-Wall-BSP-140---5s-1704117",
+  "total_steps": 4,
+  "total_tokens": 4235,
+  "total_prompt_tokens": 3822,
+  "total_completion_tokens": 413,
+  "total_processing_time": 8.786999999999999,
+  "total_cost_usd": 0.025305,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Holz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 938,
+      "completion_tokens": 58,
+      "processing_time": 1.044,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00556
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "Vollholz",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz",
+      "message": "Match successful",
+      "prompt_tokens": 891,
+      "completion_tokens": 57,
+      "processing_time": 1.241,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00531
+    },
+    {
+      "step": 3,
+      "matched_type": "category",
+      "matched_name": "Brettschichtholz (BSH)",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz",
+      "message": "Match successful",
+      "prompt_tokens": 922,
+      "completion_tokens": 70,
+      "processing_time": 1.909,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00566
+    },
+    {
+      "step": 4,
+      "matched_type": "material",
+      "matched_name": [
+        "Glued laminated timber",
+        "Glued laminated timber - special shapes (German average)",
+        "Glued laminated timber - straight shapes (German average)",
+        "Glued laminated timber, glued solid timber, block glued glulam, special components",
+        "Schilliger Glued Laminated Timber according to EN 14080",
+        "best wood BSH"
+      ],
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Holz/Vollholz/Brettschichtholz_(BSH)",
+      "message": "Match successful",
+      "prompt_tokens": 1071,
+      "completion_tokens": 228,
+      "processing_time": 4.593,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.008775
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall of type IfcWallStandardCase with material Brettschichtholz C24, which is a type of wood.",
+        "Preliminary Selection": "Holz",
+        "Matched Category": "Holz"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Brettschichtholz C24, type IfcWallStandardCase, structural and bearing.",
+        "Preliminary Selection": "Vollholz",
+        "Matched Category": "Vollholz"
+      }
+    },
+    {
+      "step": 3,
+      "response": {
+        "Key Information Summary": "Element is a Basic Wall with material Brettschichtholz C24, type IfcWallStandardCase, structural usage is bearing.",
+        "Preliminary Selection": "Brettschichtholz (BSH)",
+        "Matched Category": "Brettschichtholz (BSH)"
+      }
+    },
+    {
+      "step": 4,
+      "response": {
+        "Key Information Summary": "The element is a structural bearing wall of type IfcWallStandardCase, named 'Basic Wall:BSP 140 - 5s', with a material layer of 'Brettschichtholz C24' (glued laminated timber) and a thickness of 0.14 meters.",
+        "Preliminary Selection": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Glued laminated timber, glued solid timber, block glued glulam, special components",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ],
+        "Matched Materials": [
+          "Glued laminated timber",
+          "Glued laminated timber - special shapes (German average)",
+          "Glued laminated timber - straight shapes (German average)",
+          "Glued laminated timber, glued solid timber, block glued glulam, special components",
+          "Schilliger Glued Laminated Timber according to EN 14080",
+          "best wood BSH"
+        ]
+      }
+    }
+  ]
+}

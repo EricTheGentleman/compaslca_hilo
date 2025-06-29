@@ -1,0 +1,54 @@
+{
+  "CompilationGroupID": "7b9763d32a_L1",
+  "name": "Basic-Wall-Innenwandelement-Archisonic-abnehmbar-687694_L1",
+  "total_steps": 2,
+  "total_tokens": 2189,
+  "total_prompt_tokens": 2085,
+  "total_completion_tokens": 104,
+  "total_processing_time": 2.426,
+  "total_cost_usd": 0.011984999999999999,
+  "inference_steps": [
+    {
+      "step": 1,
+      "matched_type": "category",
+      "matched_name": "Dämmstoffe",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT",
+      "message": "Match successful",
+      "prompt_tokens": 977,
+      "completion_tokens": 54,
+      "processing_time": 1.033,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.005695
+    },
+    {
+      "step": 2,
+      "matched_type": "category",
+      "matched_name": "None",
+      "matched_path": "data/input/LCI_database/OEKOBAUDAT/Dämmstoffe",
+      "message": "No match found",
+      "prompt_tokens": 1108,
+      "completion_tokens": 50,
+      "processing_time": 1.393,
+      "llm_model": "gpt-4o",
+      "inference_cost_usd": 0.00629
+    }
+  ],
+  "llm_responses_raw": [
+    {
+      "step": 1,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "Dämmstoffe",
+        "Matched Category": "Dämmstoffe"
+      }
+    },
+    {
+      "step": 2,
+      "response": {
+        "Key Information Summary": "Material Name: Archisonic Charcoal, Element Type: IfcWallStandardCase, Other Material: MDF",
+        "Preliminary Selection": "None",
+        "Matched Category": "None"
+      }
+    }
+  ]
+}
